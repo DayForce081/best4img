@@ -109,7 +109,7 @@ export default function App() {
     setTranslationLocale(locale);
 
     document.documentElement.lang = getDocumentLang(locale);
-    document.documentElement.dir = locale === 'ar' ? 'rtl' : 'ltr';
+    document.documentElement.dir = 'ltr';
     document.title = pageCopy.seo.title;
     upsertMeta('description', pageCopy.seo.description);
 

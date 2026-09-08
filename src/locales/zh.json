@@ -260,10 +260,6 @@
           "label": "日本語"
         },
         {
-          "code": "ru",
-          "label": "Pусский"
-        },
-        {
           "code": "ko",
           "label": "한국어"
         },
@@ -274,66 +270,6 @@
         {
           "code": "zh-tw",
           "label": "繁體中文"
-        },
-        {
-          "code": "ar",
-          "label": "العربية"
-        },
-        {
-          "code": "bg",
-          "label": "Български"
-        },
-        {
-          "code": "ca",
-          "label": "Català"
-        },
-        {
-          "code": "nl",
-          "label": "Nederlands"
-        },
-        {
-          "code": "el",
-          "label": "Ελληνικά"
-        },
-        {
-          "code": "hi",
-          "label": "हिन्दी"
-        },
-        {
-          "code": "id",
-          "label": "Bahasa Indonesia"
-        },
-        {
-          "code": "ms",
-          "label": "Bahasa Melayu"
-        },
-        {
-          "code": "pl",
-          "label": "Polski"
-        },
-        {
-          "code": "sv",
-          "label": "Svenska"
-        },
-        {
-          "code": "th",
-          "label": "ภาษาไทย"
-        },
-        {
-          "code": "tr",
-          "label": "Türkçe"
-        },
-        {
-          "code": "uk",
-          "label": "Українська"
-        },
-        {
-          "code": "vi",
-          "label": "Tiếng Việt"
-        },
-        {
-          "code": "sw",
-          "label": "Kiswahili"
         }
       ],
       "tools": {

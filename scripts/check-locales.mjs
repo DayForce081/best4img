@@ -20,8 +20,8 @@ for (const file of files) {
   console.log(`${file.replace('.json', '').padEnd(6)} ${String(coverage).padStart(3)}%${missing.length ? ` (${missing.length} fallback keys)` : ''}`);
   if (!document || typeof document !== 'object') invalid = true;
 }
-if (files.length !== 26) {
-  console.error(`Expected 26 locale files, found ${files.length}.`);
+if (files.length !== 10) {
+  console.error(`Expected 10 locale files, found ${files.length}.`);
   invalid = true;
 }
 const sourceFiles = [];

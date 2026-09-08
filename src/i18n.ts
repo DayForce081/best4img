@@ -1,5 +1,5 @@
 const CONTENT_LOCALES = ['en', 'zh', 'zh-tw', 'ja', 'ko'] as const;
-export const SUPPORTED_LOCALES = ['en', 'es', 'fr', 'de', 'it', 'pt', 'ja', 'ru', 'ko', 'zh', 'zh-tw', 'ar', 'bg', 'ca', 'nl', 'el', 'hi', 'id', 'ms', 'pl', 'sv', 'th', 'tr', 'uk', 'vi', 'sw'] as const;
+export const SUPPORTED_LOCALES = ['en', 'es', 'fr', 'de', 'it', 'pt', 'ja', 'ko', 'zh', 'zh-tw'] as const;
 
 export type Locale = (typeof CONTENT_LOCALES)[number];
 export type SupportedLocale = (typeof SUPPORTED_LOCALES)[number];

@@ -121,7 +121,7 @@ export default function AppLayout({
                 <span className="font-medium">{currentLanguage}</span>
                 <span className="material-symbols-outlined text-[16px] transition-transform group-hover:rotate-180">keyboard_arrow_up</span>
               </div>
-              <div className="invisible absolute bottom-full left-0 z-50 grid w-[min(82rem,calc(100vw-3rem))] grid-cols-2 gap-1 rounded-lg border border-slate-200 bg-white p-3 text-left opacity-0 shadow-[0_12px_32px_rgba(15,23,42,0.10)] transition-[opacity,visibility] group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 sm:grid-cols-3 md:grid-cols-5 xl:grid-cols-10">
+              <div className="invisible absolute bottom-full left-0 z-50 grid w-[min(34rem,calc(100vw-3rem))] grid-cols-5 gap-1 rounded-lg border border-slate-200 bg-white p-2 text-left opacity-0 shadow-[0_12px_32px_rgba(15,23,42,0.10)] transition-[opacity,visibility] group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
                 {copy.nav.options.map((option) => (
                   <button
                     key={option.code}
@@ -130,7 +130,7 @@ export default function AppLayout({
                     onClick={() => {
                       if (option.code !== locale) onLocaleChange(option.code);
                     }}
-                    className={`flex min-h-11 cursor-pointer items-center gap-2 rounded-md px-2.5 py-2 text-xs transition-colors ${
+                    className={`flex min-h-9 cursor-pointer items-center rounded-md px-2 py-1.5 text-xs transition-colors ${
                       option.code === locale
                         ? 'bg-indigo-50 font-semibold text-indigo-700'
                         : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
