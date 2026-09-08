@@ -1,0 +1,1428 @@
+{
+  "info": {
+    "about": {
+      "title": "Om oss",
+      "intro": "BEST4IMG är en samling gratis bildverktyg som fokuserar på hastighet, integritet och användarvänlighet. Vi vill att vanliga bildbehandlingsuppgifter ska gå att utföra utan komplicerad programvara och utan att först ladda upp privata foton till en fjärrserver.",
+      "sections": [
+        {
+          "title": "Vad vi gör",
+          "paragraphs": [
+            "Webbplatsen erbjuder verktyg för komprimering, storleksändring, beskärning, formatkonvertering, vattenmärken, GIF och kreativa effekter. De flesta beräkningar sker direkt i webbläsaren med hjälp av Canvas, WebAssembly och Worker."
+          ]
+        },
+        {
+          "title": "Lokal först",
+          "paragraphs": [
+            "När du har valt en bild sker behandlingen vanligtvis i din nuvarande enhet. Bilderna laddas inte upp till våra servrar i syfte att utföra dessa verktygsåtgärder. När du stänger eller uppdaterar sidan försvinner också de tillfälliga förhandsvisningar som webbläsaren skapade för detta tillfälle."
+          ]
+        },
+        {
+          "title": "Våra principer",
+          "paragraphs": [
+            "Vi prioriterar tydliga kontroller, förutsägbara resultat och rimlig prestanda. Vi lägger bara till nya funktioner när de passar för lokal bearbetning och verkligen hjälper användaren."
+          ]
+        },
+        {
+          "title": "Gjort för vardagligt bildarbete",
+          "paragraphs": [
+            "En profilbild ska beskäras i en cirkel, en serie produktbilder ska ha enhetlig storlek, en skärmbild ska göras mindre, några foton ska bli en animerad bild. Sådant verkar enkelt, men kräver ofta att du öppnar olika program och letar efter exportalternativ om och om igen. BEST4IMG vill samla dessa vanliga åtgärder på ett och samma ställe.",
+            "Du kan välja verktyg efter din aktuella uppgift: komprimera och konvertera inför publicering, justera och beskär inför layout, lägg till vattenmärke inför delning – eller utforska olika visuella uttryck med pixelkonst och glitch-effekter. Varje verktyg kretsar kring ett tydligt resultat."
+          ]
+        },
+        {
+          "title": "Mellan kvalitet och effektivitet – du väljer",
+          "paragraphs": [
+            "En mindre fil innebär inte nödvändigtvis ett bättre resultat. Foton, skärmbilder, transparenta bilder och animationer har olika egenskaper och lämpar sig för olika utdataformat. Vi erbjuder lämpliga alternativ utifrån verktyget och låter dig kontrollera storlek, genomskinliga områden och visuella effekter innan du laddar ner.",
+            "Lokal bearbetning tar också upp enhetens minne och beräkningsresurser. Stora bilder, långa animationer eller många filer kan ta längre tid. Att bearbeta i omgångar, behålla originalen och ladda ner resultaten i tid gör det dagliga arbetet mer pålitligt."
+          ]
+        },
+        {
+          "title": "Ständiga förbättringar",
+          "paragraphs": [
+            "Olika webbläsare, bildformat och enhetsprestanda kan ge variationer. Vi förbättrar löpande kompatibilitet, komprimeringskvalitet och användarupplevelse, och fäster stor vikt vid detaljer i verkliga uppgifter: är det smidigt att mata in, är förhandsvisningen tydlig, stämmer resultatet med förväntningarna.",
+            "Vi använder öppen källkod för bildbehandling för att hantera en del av kodningen och avkodningen. De hjälper webbläsaren att ta över uppgifter som annars krävt skrivbordsprogram, men rättigheterna till varje komponent tillhör respektive upphovsman."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Användarvillkor",
+      "intro": "Genom att använda BEST4IMG godkänner du följande villkor. Spara en originalkopia av viktiga filer innan du bearbetar dem.",
+      "updated": "Senast uppdaterad: 5 september 2026",
+      "sections": [
+        {
+          "title": "Tjänstens omfattning",
+          "paragraphs": [
+            "BEST4IMG erbjuder webbläsarbaserade bildverktyg i befintligt skick. Funktioner, format som stöds och bearbetningsbegränsningar kan ändras i takt med att produkten utvecklas."
+          ]
+        },
+        {
+          "title": "Ditt ansvar",
+          "paragraphs": [
+            "Du ansvarar för att ha rätt att bearbeta och använda de bilder du väljer. Du får inte använda tjänsten för att kränka upphovsrätt, integritet eller andra rättigheter, och inte heller försöka störa webbplatsen eller andras användning."
+          ]
+        },
+        {
+          "title": "Bildrättigheter och bearbetningslicens",
+          "paragraphs": [
+            "De rättigheter du har till originalbilden överförs inte till BEST4IMG när du använder verktyget. Vi tar inte äganderätten till dina bilder bara för att du väljer dem, och vi kräver inte att du ger oss rätt att visa dem offentligt eller använda dem för modellträning.",
+            "Att lägga till vattenmärken, beskära eller konvertera format ger dig inga nya rättigheter till andras verk. När det gäller porträtt, varumärken, skyddade verk eller personuppgifter måste du själv inhämta nödvändiga tillstånd."
+          ]
+        },
+        {
+          "title": "Filer och enhet",
+          "paragraphs": [
+            "Verktyget bearbetar filer i din webbläsare. Hastigheten och hur många filer som går att hantera beror på enhetens minne, webbläsare och bildens komplexitet. Sidan kan ha gränser för antal, filstorlek eller dimensioner.",
+            "Att uppdatera sidan, stänga fliken eller att webbläsaren kraschar kan göra att resultat som inte hunnit laddas ner försvinner. Webbplatsen är ingen fillagrings- eller säkerhetskopia, så behåll originalfilerna och ladda ner de resultat du behöver till din egen enhet."
+          ]
+        },
+        {
+          "title": "Resultat och tillgänglighet",
+          "paragraphs": [
+            "Eftersom bildkodning, webbläsarimplementationer och enhetsresurser skiljer sig åt kan vi inte garantera att alla filer går att bearbeta, eller att utdata lämpar sig för ett visst tryck, arkiv eller professionellt ändamål. Kontrollera det nedladdade resultatet innan du tar bort originalet."
+          ]
+        },
+        {
+          "title": "Format, färg och specifika krav",
+          "paragraphs": [
+            "Förlustbetingad komprimering och omkodning kan förändra detaljer, färg, transparens eller metadata. Vid konvertering till JPG stöds inte genomskinlighet; en animerad bild kan också få palettavvikelser efter bearbetning. Kvalitetsbeskrivningarna på sidan innebär inte att all bearbetning är förlustfri.",
+            "Storleksförinställningar och hjälplinjer för porträtt och ID-foton är till för att underlätta layouten och utgör ingen certifiering från plattformen eller mottagande myndighet. Kontrollera storlek, bakgrund, komposition och filbegränsningar mot mottagarens aktuella krav innan du skickar in."
+          ]
+        },
+        {
+          "title": "Ansvarsbegränsning",
+          "paragraphs": [
+            "I den utsträckning lagen tillåter ansvarar vi inte för förlorade filer, avvikelser i utdata, avbrott eller indirekta förluster till följd av användningen av bearbetningsresultaten."
+          ]
+        },
+        {
+          "title": "Ändringar av villkoren",
+          "paragraphs": [
+            "Vi kan uppdatera dessa villkor på grund av funktions- eller lagkrav. Det uppdaterade innehållet publiceras på den här sidan tillsammans med ett nytt uppdateringsdatum."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Integritetspolicy",
+      "intro": "BEST4IMG använder en lokal-först-metod för bildbehandling. Här förklarar vi hur vi hanterar bilderna och nödvändig teknisk information när du använder verktygen.",
+      "updated": "Senast uppdaterad: 5 september 2026",
+      "sections": [
+        {
+          "title": "Så hanteras bilderna",
+          "paragraphs": [
+            "De bilder du väljer läses och bearbetas normalt bara i den aktuella webbläsarfliken. Vi laddar inte upp bildinnehållet till servrarna i syfte att köra komprimering, beskärning, konvertering eller andra åtgärder."
+          ]
+        },
+        {
+          "title": "Tillfällig data i webbläsaren",
+          "paragraphs": [
+            "Webbplatsen kan skapa förhandsvisningar, resultat och tillfälliga objektadresser i minnet, samt använda lokal lagring för att komma ihåg nödvändiga inställningar som språk. Denna data hanteras av din webbläsare och kan försvinna när du uppdaterar, stänger sidan eller rensar webbplatsdata."
+          ]
+        },
+        {
+          "title": "Språkinställningar och nedladdade filer",
+          "paragraphs": [
+            "När du byter språk sparar webbplatsen ditt val i webbläsarens lokala lagring så att det återställs vid nästa besök. Inställningen behöver inte innehålla ditt namn, e-postadress eller bildinnehåll, och du kan rensa den i webbläsarinställningarna.",
+            "Nedladdade bilder och ZIP-filer sparas av webbläsaren på den plats du anger. Att stänga sidan eller rensa webbplatsens data tar inte bort dessa nedladdade filer automatiskt, och tar inte heller bort de bilder du ursprungligen valde."
+          ]
+        },
+        {
+          "title": "Grundläggande teknisk information",
+          "paragraphs": [
+            "Vår webbhotellstjänst kan registrera åtkomsttider, begärda adresser, webbläsartyp, nätverksadress och felloggar för säkerhet, stabilitet och felsökning. Dessa loggar innehåller inte de bilder du bearbetar lokalt."
+          ]
+        },
+        {
+          "title": "Typsnitt, programresurser och externa länkar",
+          "paragraphs": [
+            "Den aktuella sidan använder typsnitt och ikoner från Google Fonts. När dessa resurser laddas skickar webbläsaren förfrågningar till tredjepartsdomäner, som kan ta emot teknisk data som behövs för anslutningen – till exempel nätverksadress och webbläsarinformation. Dessa typsnittsförfrågningar behöver inte skicka de bilder du har valt.",
+            "Programresurser som bildkodningskomponenter måste också laddas in i webbläsaren, och vissa verktyg läser in resurser först när de används. Lokal bildbehandling innebär alltså inte att webbplatsen helt undviker nätverksanrop. Externa webbplatser ansvarar för sin egen datahantering."
+          ]
+        },
+        {
+          "title": "Personuppgifter i bilderna",
+          "paragraphs": [
+            "Foton kan innehålla ansikten, adresser, ID-handlingar eller metadata som fototid och plats. Att bearbetningen sker lokalt betyder inte att det nedladdade resultatet är fritt från all känslig information. Kontrollera det synliga innehållet och filinformationen själv innan du delar.",
+            "När du använder verktygen på en delad enhet bör du också tänka på nedladdningsmappen, webbläsartillägg och enhetens egna åtkomstbehörigheter. Den här policyn beskriver hur vi hanterar saken och kan inte styra vad annan programvara på enheten gör."
+          ]
+        },
+        {
+          "title": "Policys omfattning och uppdateringar",
+          "paragraphs": [
+            "Den här policyn gäller bildverktygen som BEST4IMG erbjuder i dag. Hur länge serverns åtkomstloggar sparas beror på distribution och webbhotellskonfiguration, och den här sidan lovar ingen enhetlig sparperiod utan verifiering.",
+            "Om vi i framtiden lägger till konton, statistikanalys eller funktioner som kräver serverbearbetning ska motsvarande dataanvändning och valmöjligheter förklaras när funktionen lanseras. Viktiga förändringar syns i uppdateringsdatumet på den här sidan."
+          ]
+        },
+        {
+          "title": "Dina val",
+          "paragraphs": [
+            "Du kan när som helst avbryta bearbetningen, stänga sidan eller rensa den lokala data som webbplatsen sparat via webbläsarinställningarna. Lämna inte kvar nedladdade resultat med känsliga bilder på delade enheter du inte litar på."
+          ]
+        }
+      ]
+    },
+    "ui": {
+      "eyebrow": "Gratis bildverktyg",
+      "highlights": {
+        "about": [
+          [
+            "devices",
+            "Bearbetningen stannar i enheten",
+            "Webbläsaren utför bildbehandlingen"
+          ],
+          [
+            "photo_library",
+            "Täcker vanliga bilduppgifter",
+            "Från komprimering till kreativa effekter"
+          ],
+          [
+            "download",
+            "Resultatet sparas av dig",
+            "När det är klart laddar du ner det själv"
+          ]
+        ],
+        "privacy": [
+          [
+            "image",
+            "Bilderna bearbetas lokalt",
+            "Verktygen behöver inte ladda upp bilder"
+          ],
+          [
+            "language",
+            "Webbsidor laddas via nätverket",
+            "Inklusive program, typsnitt och ikoner"
+          ],
+          [
+            "tune",
+            "Du hanterar lokal data",
+            "Språkinställningar rensas i webbläsaren"
+          ]
+        ],
+        "terms": [
+          [
+            "copyright",
+            "Bildrättigheter tillhör originalägaren",
+            "Bekräfta användningsrätt före bearbetning"
+          ],
+          [
+            "verified",
+            "Kontrollera resultatet före nedladdning",
+            "Granska storlek, färg och användning"
+          ],
+          [
+            "save",
+            "Behåll originalfilerna",
+            "Verktygen erbjuder ingen säkerhetskopia"
+          ]
+        ]
+      },
+      "tagline": "Gör bildbehandlingen enkel.",
+      "explore": "Utforska bildverktygen"
+    }
+  },
+  "site": {
+    "siteName": "BEST4IMG",
+    "seo": {
+      "title": "BEST4IMG | Lokal bildkomprimering för JPG, PNG, WebP och SVG",
+      "description": "Komprimera JPG, PNG, WebP och SVG direkt i webbläsaren utan att ladda upp till servern. Passar för webbmaterial, skärmbilder, e-handelsbilder och vardagsdelning, med stöd för batchbearbetning."
+    },
+    "nav": {
+      "ariaLabel": "Välj språk",
+      "current": "Svenska",
+      "options": [
+        {
+          "code": "en",
+          "label": "English"
+        },
+        {
+          "code": "es",
+          "label": "Español"
+        },
+        {
+          "code": "fr",
+          "label": "Français"
+        },
+        {
+          "code": "de",
+          "label": "Deutsch"
+        },
+        {
+          "code": "it",
+          "label": "Italiano"
+        },
+        {
+          "code": "pt",
+          "label": "Português"
+        },
+        {
+          "code": "ja",
+          "label": "日本語"
+        },
+        {
+          "code": "ru",
+          "label": "Pусский"
+        },
+        {
+          "code": "ko",
+          "label": "한국어"
+        },
+        {
+          "code": "zh",
+          "label": "简体中文"
+        },
+        {
+          "code": "zh-tw",
+          "label": "繁體中文"
+        },
+        {
+          "code": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "bg",
+          "label": "Български"
+        },
+        {
+          "code": "ca",
+          "label": "Català"
+        },
+        {
+          "code": "nl",
+          "label": "Nederlands"
+        },
+        {
+          "code": "el",
+          "label": "Ελληνικά"
+        },
+        {
+          "code": "hi",
+          "label": "हिन्दी"
+        },
+        {
+          "code": "id",
+          "label": "Bahasa Indonesia"
+        },
+        {
+          "code": "ms",
+          "label": "Bahasa Melayu"
+        },
+        {
+          "code": "pl",
+          "label": "Polski"
+        },
+        {
+          "code": "sv",
+          "label": "Svenska"
+        },
+        {
+          "code": "th",
+          "label": "ภาษาไทย"
+        },
+        {
+          "code": "tr",
+          "label": "Türkçe"
+        },
+        {
+          "code": "uk",
+          "label": "Українська"
+        },
+        {
+          "code": "vi",
+          "label": "Tiếng Việt"
+        },
+        {
+          "code": "sw",
+          "label": "Kiswahili"
+        }
+      ],
+      "tools": {
+        "compressor": "Bildkomprimering",
+        "heicConverter": "HEIC till JPG"
+      }
+    },
+    "heicConverter": {
+      "heroTitle": "HEIC till JPG",
+      "heroSubtitle": "Konvertera Apples HEIC-foton lokalt i webbläsaren",
+      "dropTitle": "Släpp eller välj HEIC-bilder",
+      "dropHint": "Upp till 50 filer, max 50 MB var",
+      "downloadAll": "Ladda ner alla .ZIP",
+      "zipName": "BEST4IMG-converted.zip",
+      "formatJpg": "JPG",
+      "formatPng": "PNG",
+      "statuses": {
+        "converting": "Konverterar…",
+        "waiting": "Väntar…",
+        "completed": "Klar",
+        "error": "Fel"
+      },
+      "errors": {
+        "exceedsLimit": "Fel: Filen överskrider 50 MB",
+        "unsupportedFormat": "Fel: Formatet stöds inte",
+        "failedToProcess": "Kunde inte bearbeta filen"
+      },
+      "actions": {
+        "download": "Ladda ner"
+      },
+      "content": {
+        "hero": {
+          "title": "Konvertera HEIC till JPG\nLokalt, direkt och privat",
+          "subtitle": "Ingen registrering, ingen uppladdning till server, inga filstorleksgränser från något backend. Allt sker i din webbläsare med WebAssembly-baserad avkodning."
+        },
+        "featureCards": [
+          {
+            "icon": "lock",
+            "title": "Helt privat – filerna lämnar aldrig din enhet",
+            "body": "HEIC-avkodning och JPG-kodning sker helt i din webbläsarflik. Dina foton når aldrig en fjärrserver, så du kan tryggt bearbeta privata album, medicinska bilder eller känsliga filer."
+          },
+          {
+            "icon": "bolt",
+            "title": "Batchkonvertering med sekventiell kö",
+            "body": "Du kan släppa upp till 50 HEIC-filer på en gång och de bearbetas en i taget i ordning. En kontrollerad kö hindrar webbläsaren från att hänga sig även när den hanterar stora, högupplösta HEIC-foton tagna med iPhone eller iPad."
+          },
+          {
+            "icon": "image",
+            "title": "Utdata i originalupplösning",
+            "body": "Den konverterade JPG-bilden behåller originalets pixeldimensioner. Ingen nedskalning, ingen dold omprovning. Det du fotograferade är det du får – fast i ett format som alla appar, webbläsare och enheter kan öppna."
+          }
+        ],
+        "underHood": {
+          "eyebrow": "Tekniska detaljer",
+          "title": "Den tekniska grunden bakom HEIC-till-JPG-flödet.",
+          "cards": [
+            {
+              "title": "heic2any med WebAssembly-avkodning",
+              "body": "HEIC-filer använder Apples HEIF-behållare med HEVC (H.265)-kodning. Biblioteket heic2any kör en WebAssembly-kompilerad avkodare helt i webbläsaren för att omvandla det proprietära formatet till standardbilddata utan att anropa något systemgränssnitt."
+            },
+            {
+              "title": "Sekventiell bearbetning av en fil i taget",
+              "body": "HEIC-avkodning är betydligt mer processorkrävande än avkodning av PNG eller JPEG. Att bearbeta en fil i taget undviker att huvudtråden överbelastas och håller sidan responsiv medan batchen konverteras."
+            }
+          ]
+        }
+      },
+      "settings": {
+        "title": "Output settings",
+        "quality": "JPG quality",
+        "qualityHint": "Higher quality creates a larger JPG.",
+        "orientation": "Orientation",
+        "orientationAuto": "Correct automatically",
+        "orientationHint": "Uses the displayed shooting orientation.",
+        "metadata": "Metadata",
+        "metadataRemoved": "Removed automatically",
+        "metadataHint": "EXIF and GPS data are not copied to the JPG."
+      }
+    },
+    "compressor": {
+      "heroTitle": "Bildkomprimeringsverktyg",
+      "heroSubtitle": "Gratis stöd för JPG, PNG, WebP och SVG med bästa möjliga kvalitet varje gång",
+      "dropTitle": "Släpp bilder här, eller klicka för att välja",
+      "dropHint": "Upp till 50 bilder, max 10 MB var",
+      "downloadAll": "Ladda ner alla .ZIP",
+      "zipName": "BEST4IMG-compressed.zip",
+      "statuses": {
+        "compressing": "Komprimerar…",
+        "waiting": "Väntar…",
+        "completed": "Klar",
+        "error": "Fel"
+      },
+      "errors": {
+        "exceedsLimit": "Fel: Filen överskrider 10 MB",
+        "unsupportedFormat": "Fel: Formatet stöds inte",
+        "failedToProcess": "Kunde inte bearbeta filen"
+      },
+      "actions": {
+        "download": "Ladda ner"
+      }
+    },
+    "hero": {
+      "title": "Lokal bildkomprimering för\nJPG, PNG, WebP och SVG",
+      "subtitle": "Gör bilder mindre för webbplatser, dokument, e-handel och delning utan att de uppenbart ser sämre ut."
+    },
+    "featureCards": [
+      {
+        "type": "compare",
+        "title": "Skarpare detaljer och renare genomskinliga kanter",
+        "body": "Många komprimeringsverktyg gör små texter luddiga och skräpiga kanter av skärmbilder, gränssnitt och transparenta PNG:er. BEST4IMG tar hänsyn till just sådana detaljer och bevarar text och kanter så rena som möjligt samtidigt som filen blir tydligt mindre."
+      },
+      {
+        "type": "image",
+        "title": "100 % lokal behandling – tryggare",
+        "body": "All filbehandling och komprimering sker i din webbläsare och laddas aldrig upp till en fjärrserver. För internt material, privata filer och känsligt innehåll känns den lokala metoden mycket tryggare."
+      }
+    ],
+    "autopilot": {
+      "title": "Smart optimering utan gissningslek",
+      "body": "Du behöver inte dra i kvalitetsreglaget fram och tillbaka. BEST4IMG utvärderar automatiskt en lämplig komprimeringsväg och strävar efter en mindre fil samtidigt som bilden ser naturlig ut."
+    },
+    "underHood": {
+      "eyebrow": "Tekniska detaljer",
+      "title": "Den tekniska grunden bakom komprimeringsflödet.",
+      "cards": [
+        {
+          "title": "Kantmedveten PNG-kvantisering",
+          "body": "PNG-bilder går genom en anpassad libimagequant WebAssembly-väg som försöker bevara högfrekventa kanter bättre, så att ikoner, transparenta element och gränssnittsgrafik håller sig renare i mindre storlekar."
+        },
+        {
+          "title": "Försiktigare JPEG-hantering för gränssnittsbilder",
+          "body": "När en bild liknar gränssnittsgrafik eller blandad text-och-bild-innehåll väljs en försiktigare färgväg, så att små texter och skarpa kanter inte bryts ner av en vanlig fotokomprimeringsstrategi."
+        },
+        {
+          "title": "Avkodning i Worker med OffscreenCanvas",
+          "body": "Bildavkodning och pixelutvinning körs i en Web Worker via OffscreenCanvas, vilket minskar avbrott i huvudtråden när stora bilder bearbetas."
+        },
+        {
+          "title": "Storleksvakt och reservväg",
+          "body": "Om ett komprimerat resultat råkar bli större undviker BEST4IMG att blindt returnera det. Flödet faller tillbaka till en säkrare väg och kan vid behov returnera originalet."
+        }
+      ]
+    },
+    "footer": {
+      "left": [
+        "© 2026 BEST4IMG.COM",
+        "Endast lokal webbläsarbearbetning"
+      ],
+      "links": [
+        "Om oss",
+        "Användarvillkor",
+        "Integritetspolicy"
+      ]
+    },
+    "compare": {
+      "original": "Original",
+      "compressed": "BEST4IMG",
+      "before": "Före / Original",
+      "after": "Efter / BEST4IMG"
+    }
+  },
+  "crop": {
+    "title": "Beskär bild",
+    "subtitle": "Dra beskärningsramen eller ange exakta pixlar. All bearbetning sker lokalt i webbläsaren.",
+    "dropTitle": "Släpp en bild här, eller klicka för att välja",
+    "dropHint": "Stöder JPG, PNG, WebP, GIF, max 10 MB",
+    "settings": "Beskärningsinställningar",
+    "cropBox": "Beskärningsområde",
+    "width": "Bredd",
+    "height": "Höjd",
+    "ratios": {
+      "original": "Original"
+    },
+    "reset": "Återställ",
+    "crop": "Beskär bild",
+    "download": "Ladda ner",
+    "replace": "Välj en annan bild",
+    "ready": "Beskärningsresultatet är klart.",
+    "errors": {
+      "oversize": "Filen överskrider 10 MB",
+      "unsupported": "Formatet stöds inte",
+      "read": "Kunde inte läsa bilden",
+      "crop": "Kunde inte beskära bilden"
+    }
+  },
+  "crop-gif": {
+    "title": "Beskär GIF",
+    "subtitle": "Välj ett område med beskärningsramen samtidigt som du bevarar animeringsramar och uppspelningshastighet.",
+    "dropTitle": "Släpp en GIF här, eller klicka för att välja",
+    "dropHint": "Endast GIF, max 10 MB"
+  },
+  "glitch-gif": [
+    "Glitch-GIF-generator",
+    "Låt glitch-effekten variera i varje ram och skapa en oändligt loopande GIF.",
+    "Släpp en bild här, eller klicka för att välja",
+    "Stöder JPG, PNG, WebP, max 20 MB",
+    "Animerad förhandsvisning",
+    "Välj en annan bild",
+    "Animationsinställningar",
+    "Effekttyp",
+    "Intensitet",
+    "Animationshastighet",
+    "Varaktighet",
+    "Utdatastorlek",
+    "Skapa GIF",
+    "Skapar…",
+    "Ladda ner GIF",
+    "Det gick inte att skapa. Försök med en mindre storlek eller kortare varaktighet."
+  ],
+  "avatar-crop": {
+    "title": "Beskär profil- och ID-foton",
+    "subtitle": "Placera foton efter specifikationer för sociala profiler eller ID-foton och exportera lokalt som PNG.",
+    "dropTitle": "Släpp ett porträtt här, eller klicka för att välja",
+    "dropHint": "Stöder JPG, PNG, WebP, max 20 MB",
+    "preview": "Direktförhandsvisning",
+    "replace": "Välj en annan bild",
+    "presets": "Användning och storlek",
+    "guide": "Hjälplinje för porträttplacering",
+    "zoom": "Zoom av foto",
+    "reset": "Återställ",
+    "export": "Skapa PNG",
+    "download": "Ladda ner PNG",
+    "ready": "PNG är klar",
+    "dragHint": "Dra fotot för att flytta det",
+    "unsupported": "Bildformatet stöds inte",
+    "oversize": "Filen överskrider 20 MB",
+    "ui": {
+      "avatarTitle": "Cirkulär profilbeskärning",
+      "idTitle": "ID-fotobeskärning",
+      "avatarSubtitle": "Skapa en cirkulär PNG-profilbild med transparent bakgrund.",
+      "idSubtitle": "Justera porträttets storlek och placering efter ID-fotospecifikationer.",
+      "cropSettings": "Beskärningsinställningar",
+      "outputSize": "Utdatastorlek",
+      "preset": "Förinställning",
+      "createDownload": "Skapa och ladda ner PNG",
+      "avatarLabel": "Profilbild",
+      "transparentPng": "Transparent PNG",
+      "idPresets": [
+        {
+          "id": "standard-passport",
+          "label": "Passfoto",
+          "detail": "35 × 45 mm · 413 × 531 px",
+          "width": 413,
+          "height": 531,
+          "headTop": 0.08,
+          "chin": 0.8
+        },
+        {
+          "id": "us-passport",
+          "label": "U.S. passport",
+          "detail": "2 × 2 in · 600 × 600 px",
+          "width": 600,
+          "height": 600,
+          "headTop": 0.12,
+          "chin": 0.78
+        },
+        {
+          "id": "ca-passport",
+          "label": "Canada passport",
+          "detail": "50 × 70 mm · 591 × 827 px",
+          "width": 591,
+          "height": 827,
+          "headTop": 0.14,
+          "chin": 0.66
+        }
+      ],
+      "resizeCropArea": "Justera beskärningsområdet",
+      "avatarPresets": [
+        {
+          "size": 200,
+          "label": "Discord / Slack"
+        },
+        {
+          "size": 300,
+          "label": "Microsoft Teams"
+        },
+        {
+          "size": 400,
+          "label": "Instagram / Facebook / X / LinkedIn"
+        },
+        {
+          "size": 460,
+          "label": "GitHub"
+        },
+        {
+          "size": 480,
+          "label": "YouTube"
+        },
+        {
+          "size": 640,
+          "label": "High-resolution profile"
+        }
+      ],
+      "presetNote": "Sizes are cropping references. Check the latest requirements with the issuing authority before submitting."
+    }
+  },
+  "color-palette": {
+    "title": "Färgextrahering och palett",
+    "subtitle": "Extrahera återanvändbara huvudfärger från en bild, allt lokalt i webbläsaren.",
+    "dropTitle": "Släpp eller välj en bild",
+    "dropHint": "Stöder JPG, PNG, WebP, max 20 MB",
+    "preview": "Bildförhandsvisning",
+    "settings": "Palettinställningar",
+    "count": "Antal färger",
+    "colors": "Extraherade färger",
+    "clickToCopy": "Klicka på en färgruta för att kopiera HEX-värdet",
+    "copied": "Kopierat",
+    "output": "Kodutdata",
+    "css": "CSS-variabler",
+    "tailwind": "Tailwind",
+    "copyCode": "Kopiera kod",
+    "download": "Ladda ner palett-PNG",
+    "chooseAnother": "Välj en annan bild",
+    "invalid": "Bildformatet stöds inte",
+    "oversized": "Bilden överskrider 20 MB"
+  },
+  "format-converter": {
+    "title": "Konvertera bildformat",
+    "subtitle": "Konvertera mellan JPG, PNG och WebP, allt lokalt i webbläsaren.",
+    "dropTitle": "Släpp bilder här, eller klicka för att välja",
+    "dropHint": "Stöder JPG, PNG, WebP, upp till 50 filer, max 10 MB var",
+    "settings": "Konverteringsinställningar",
+    "targetFormat": "Målformat",
+    "jpgHelp": "Vid konvertering till JPG blir genomskinliga områden vita.",
+    "start": "Starta konvertering",
+    "downloadAll": "Ladda ner alla .ZIP",
+    "waiting": "Väntar",
+    "processing": "Konverterar",
+    "completed": "Klar",
+    "download": "Ladda ner",
+    "empty": "Lägg till bilder så kan du konvertera dem här i batch.",
+    "errors": {
+      "oversize": "Överskrider 10 MB",
+      "unsupported": "Formatet stöds inte",
+      "read": "Kunde inte läsa bildstorleken",
+      "process": "Kunde inte konvertera bilden"
+    },
+    "ui": {
+      "summary": "{{count}} bild(er) kommer att konverteras till {{format}}.",
+      "fixedTitle": "Konvertera bilder till {{format}}",
+      "fixedSubtitle": "Ladda upp JPG-, PNG- eller WebP-bilder och konvertera dem automatiskt till {{format}}."
+    }
+  },
+  "gif-compress": {
+    "title": "Komprimera GIF",
+    "subtitle": "Skala, ta bort ramar och minska antalet färger för att komprimera GIF lokalt i webbläsaren.",
+    "dropTitle": "Släpp en GIF här, eller klicka för att välja",
+    "dropHint": "Endast GIF, max 20 MB",
+    "preview": "Direktförhandsvisning",
+    "settings": "GIF-inställningar",
+    "scale": "Skala",
+    "frames": "Ramar",
+    "colors": "Färger",
+    "start": "Komprimera GIF",
+    "download": "Ladda ner",
+    "reset": "Välj en annan GIF",
+    "original": "Original",
+    "output": "Komprimerad",
+    "ready": "Den komprimerade GIF:en är klar.",
+    "pending": "Förhandsvisning av den komprimerade GIF:en visas här.",
+    "errors": {
+      "oversize": "Filen överskrider 20 MB",
+      "unsupported": "Ladda upp en GIF-fil",
+      "process": "Kunde inte komprimera GIF",
+      "tooManyFrames": "Den här GIF:en har för många ramar för den första versionen"
+    }
+  },
+  "gif-trim": [
+    "Beskär GIF-ramar",
+    "Klipp ut ett avsnitt av animationen mellan start- och slutram samtidigt som originaldimensionerna bevaras.",
+    "Släpp en GIF här, eller klicka för att välja",
+    "Endast GIF, max 20 MB",
+    "Ramförhandsvisning",
+    "Välj en annan GIF",
+    "Beskärningsinställningar",
+    "Startram",
+    "Slutram",
+    "Bevarade ramar",
+    "Skapa förhandsvisning",
+    "Ladda ner GIF",
+    "Bearbetar…",
+    "Välj en giltig GIF (max 20 MB) med högst 16 miljoner pixlar.",
+    "Bearbetningen misslyckades. Försök med en mindre GIF.",
+    "Efter beskärning",
+    "Aktuell ram",
+    "Speltid",
+    "Alla ramar",
+    "millisekunder",
+    "Ändra ramintervall i batch",
+    "Tillämpa på bevarade ramar"
+  ],
+  "glitch-image": {
+    "title": "Glitch-bildgenerator",
+    "subtitle": "Skapa färgseparering, bildförskjutning, brus och scanline-effekter.",
+    "dropTitle": "Släpp eller välj flera bilder",
+    "dropHint": "Stöder JPG, PNG, WebP, upp till 50 filer, max 20 MB var",
+    "preview": "Direktförhandsvisning",
+    "replace": "Lägg till bilder",
+    "settings": "Inställningar",
+    "effectType": "Effekttyp",
+    "intensity": "Intensitet",
+    "download": "Ladda ner aktuell bild",
+    "effects": {
+      "rgb": {
+        "title": "RGB-separering",
+        "body": "Separera färgkanaler"
+      },
+      "shift": {
+        "title": "Pixel förskjutning",
+        "body": "Slumpmässig radförskjutning"
+      },
+      "blocks": {
+        "title": "Förskjutna block",
+        "body": "Förskjutna fragmentområden"
+      },
+      "stripes": {
+        "title": "Digitala ränder",
+        "body": "Färgstörning i signalen"
+      },
+      "noise": {
+        "title": "Analogt brus",
+        "body": "Vintagesignal-brus"
+      },
+      "wave": {
+        "title": "Vågförvrängning",
+        "body": "Vågformad signalförskjutning"
+      },
+      "mirror": {
+        "title": "Spegling",
+        "body": "Symmetrisk reflektion"
+      },
+      "scanlines": {
+        "title": "Scanlines",
+        "body": "Retro CRT-effekt"
+      }
+    }
+  },
+  "home": {
+    "title": "Gratis lokala bildverktyg",
+    "subtitle": "Redigera, konvertera och exportera bilder i webbläsaren.",
+    "tools": [
+      {
+        "title": "Komprimera bilder",
+        "body": "Komprimera JPG, PNG, WebP och SVG lokalt samtidigt som bästa möjliga kvalitet bevaras.",
+        "icon": "compress",
+        "href": "compress",
+        "badge": "Tillgänglig"
+      },
+      {
+        "title": "Ändra storlek",
+        "body": "Ändra storlek på JPG, PNG, WebP och animerade GIF-filer tillsammans.",
+        "icon": "photo_size_select_large",
+        "href": "resize",
+        "badge": "Prioritet 1"
+      },
+      {
+        "title": "Beskär bild",
+        "body": "Beskär genom att dra en ram eller ange exakta pixlar.",
+        "icon": "crop",
+        "href": "crop",
+        "badge": "Prioritet 1"
+      },
+      {
+        "title": "Cirkulär profilbeskärning",
+        "body": "Skapa en cirkulär profilbild med transparent PNG och valfri utdatabredd.",
+        "icon": "account_circle",
+        "href": "avatar-crop",
+        "badge": "Ny"
+      },
+      {
+        "title": "ID-fotobeskärning",
+        "body": "Placera porträtt efter vanliga ID-fotostorlekar och hjälplinjer.",
+        "icon": "badge",
+        "href": "id-photo-crop",
+        "badge": "Ny"
+      },
+      {
+        "title": "Glitch-bild",
+        "body": "Slumpmässigt kombinerade färgblock, ränder, brus och förvrängningar – nytt varje gång.",
+        "icon": "blur_on",
+        "href": "glitch-image",
+        "badge": "Ny"
+      },
+      {
+        "title": "Glitch-GIF",
+        "body": "Låt skiftande färger, brus, ränder och förvrängningar variera som en loopande GIF.",
+        "icon": "movie_filter",
+        "href": "glitch-gif",
+        "badge": "Ny"
+      },
+      {
+        "title": "Rotera och vänd",
+        "body": "Rotera, spegla och exportera batchar utan att ladda upp filer.",
+        "icon": "rotate_right",
+        "href": "rotate",
+        "badge": "Prioritet 1"
+      },
+      {
+        "title": "Konvertera format",
+        "body": "Konvertera mellan JPG, PNG och WebP med delad lokal exportlogik.",
+        "icon": "sync_alt",
+        "href": "convert",
+        "badge": "Prioritet 1"
+      },
+      {
+        "title": "HEIC till JPG",
+        "body": "Konvertera iPhones HEIC-foton till JPG med lokal WebAssembly-avkodning.",
+        "icon": "image",
+        "href": "convert-heic",
+        "badge": "Tillgänglig"
+      },
+      {
+        "title": "Lägg till vattenmärke",
+        "body": "Lägg till text- eller bildvattenmärken med lokal Canvas-export.",
+        "icon": "branding_watermark",
+        "href": "watermark",
+        "badge": "Prioritet 2"
+      },
+      {
+        "title": "Sammanfoga bilder",
+        "body": "Lägg ett överläggsfoto ovanpå en bakgrund och exportera en lokal bild.",
+        "icon": "layers",
+        "href": "merge-images",
+        "badge": "Tillgänglig"
+      },
+      {
+        "title": "Bild och Base64",
+        "body": "Konvertera bilder och Base64 åt båda hållen lokalt.",
+        "icon": "code_blocks",
+        "href": "base64",
+        "badge": "Prioritet 2"
+      },
+      {
+        "title": "Pixelkonst",
+        "body": "Skapa pixelkonst med justerbara pixlar, färger och klassiska paletter.",
+        "icon": "grid_on",
+        "href": "pixel-art",
+        "badge": "Tillgänglig"
+      },
+      {
+        "title": "Färgpalett",
+        "body": "Extrahera dominerande färger och exportera HEX, CSS eller Tailwind.",
+        "icon": "palette",
+        "href": "color-palette",
+        "badge": "Tillgänglig"
+      },
+      {
+        "title": "Komprimera GIF",
+        "body": "Minska GIF-storleken genom att skala, ta bort ramar och sänka färger lokalt.",
+        "icon": "gif",
+        "href": "gif-compress",
+        "badge": "Tillgänglig"
+      },
+      {
+        "title": "Bilder till animation",
+        "body": "Kombinera flera bilder till en GIF lokalt.",
+        "icon": "burst_mode",
+        "href": "images-to-gif",
+        "badge": "Senare"
+      }
+    ],
+    "ui": {
+      "badges": {
+        "smartOptimize": "Smart optimering",
+        "newFeature": "Ny",
+        "supportsAnimation": "Stöder animation",
+        "freshIdea": "Ny idé"
+      },
+      "categories": [
+        [
+          "all",
+          "Alla verktyg"
+        ],
+        [
+          "optimize",
+          "Komprimering och optimering"
+        ],
+        [
+          "edit",
+          "Storlek och beskärning"
+        ],
+        [
+          "convert",
+          "Formatkonvertering"
+        ],
+        [
+          "gif",
+          "GIF"
+        ],
+        [
+          "create",
+          "Kreativt och praktiskt"
+        ]
+      ],
+      "gifTrim": {
+        "title": "Beskär GIF-ramar",
+        "body": "Klipp ut ett avsnitt av GIF-ramar utan att ändra bilddimensionerna.",
+        "icon": "content_cut",
+        "href": "gif-trim",
+        "badge": "Ny"
+      },
+      "commonTasks": [
+        [
+          "Minska filstorleken",
+          "Komprimera JPG, PNG, WebP, SVG eller GIF för webbplatser, e-post och lagring.",
+          "compress"
+        ],
+        [
+          "Anpassa till plattformsstorlek",
+          "Ändra storlek efter pixlar, procent eller längsta sida, och skapa cirkulära profilbilder eller vanliga ID-foton.",
+          "resize"
+        ],
+        [
+          "Hantera mobil- och webbformat",
+          "Konvertera bilder till JPG eller PNG, inklusive HEIC-foton från iPhone.",
+          "convert"
+        ],
+        [
+          "Skapa en animation",
+          "Komprimera eller beskär GIF:ar, kombinera bilder eller skapa en slumpmässig glitch-animation.",
+          "images-to-gif"
+        ]
+      ],
+      "content": {
+        "introTitle": "Öppna sidan och redigera bilder enkelt",
+        "introBody": "BEST4IMG samlar vanliga bilduppgifter: konvertera mobilfoton, förbered profilbilder, standardisera produktbilder, minska webbmaterial eller bygg animationer av flera bilder. Varje verktyg fokuserar på en åtgärd och visar resultatet i förhandsvisningen innan du laddar ner.",
+        "taskTitle": "Börja med det resultat du behöver",
+        "taskBody": "Komprimera för en mindre fil, ändra storlek för exakta pixelkrav, beskär för att behålla en del av bilden, eller konvertera HEIC-foton för bättre kompatibilitet.",
+        "directoryTitle": "Alla bildverktyg",
+        "directoryBody": "Här listas alla funktioner som finns tillgängliga, inklusive snabbvalssidor utbrutna ur huvudverktygen."
+      },
+      "benefits": [
+        [
+          "shield_lock",
+          "Filerna stannar i din enhet",
+          "Den bearbetning som stöds sker i webbläsaren, så privata foton och opublicerat material behöver inte laddas upp och ner igen."
+        ],
+        [
+          "stacks",
+          "Bearbeta flera bilder",
+          "Vanliga verktyg för komprimering, konvertering, rotation och vattenmärken tar emot upp till 50 filer."
+        ],
+        [
+          "visibility",
+          "Se resultatet först",
+          "Förhandsvisa beskärningsområden, dimensioner, vattenmärken, animationstajming och kreativa effekter innan export."
+        ]
+      ],
+      "categoriesAria": "Verktygskategorier",
+      "noResults": "Inga matchande verktyg",
+      "directory": [
+        {
+          "title": "Komprimering och optimering",
+          "links": [
+            [
+              "Komprimera bilder",
+              "compress"
+            ],
+            [
+              "SVG-komprimering",
+              "compress/svg"
+            ],
+            [
+              "Komprimera GIF",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "Ändra storlek",
+          "links": [
+            [
+              "Ändra bildstorlek",
+              "resize"
+            ],
+            [
+              "Ändra efter procent",
+              "resize/by-percentage"
+            ],
+            [
+              "Ändra efter längsta sida",
+              "resize/by-longest-side"
+            ],
+            [
+              "Ändra GIF-storlek",
+              "resize/gif"
+            ]
+          ]
+        },
+        {
+          "title": "Beskärning och riktning",
+          "links": [
+            [
+              "Beskär bild",
+              "crop"
+            ],
+            [
+              "Beskär GIF",
+              "crop/gif"
+            ],
+            [
+              "Cirkulär profilbeskärning",
+              "avatar-crop"
+            ],
+            [
+              "ID-fotobeskärning",
+              "id-photo-crop"
+            ],
+            [
+              "Rotera och vänd",
+              "rotate"
+            ]
+          ]
+        },
+        {
+          "title": "Formatkonvertering",
+          "links": [
+            [
+              "Konvertera bildformat",
+              "convert"
+            ],
+            [
+              "Bild till JPG",
+              "convert/image-to-jpg"
+            ],
+            [
+              "Bild till PNG",
+              "convert/image-to-png"
+            ],
+            [
+              "HEIC till JPG",
+              "convert-heic"
+            ],
+            [
+              "Bild och Base64",
+              "base64"
+            ]
+          ]
+        },
+        {
+          "title": "GIF och animation",
+          "links": [
+            [
+              "Bilder till GIF",
+              "images-to-gif"
+            ],
+            [
+              "Beskär GIF-ramar",
+              "gif-trim"
+            ],
+            [
+              "Glitch-GIF",
+              "glitch-gif"
+            ],
+            [
+              "Komprimera GIF",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "Kreativt och praktiskt",
+          "links": [
+            [
+              "Lägg till vattenmärke",
+              "watermark"
+            ],
+            [
+              "Sammanfoga bilder",
+              "merge-images"
+            ],
+            [
+              "Pixelkonst",
+              "pixel-art"
+            ],
+            [
+              "Färgpalett",
+              "color-palette"
+            ],
+            [
+              "Glitch-bild",
+              "glitch-image"
+            ],
+            [
+              "Glitch-GIF",
+              "glitch-gif"
+            ]
+          ]
+        }
+      ],
+      "splitRouteTitles": {
+        "resize/by-percentage": "Ändra efter procent",
+        "resize/by-longest-side": "Ändra efter längsta sida",
+        "resize/gif": "Ändra GIF-storlek",
+        "crop/gif": "Beskär GIF",
+        "convert/image-to-jpg": "Bild till JPG",
+        "convert/image-to-png": "Bild till PNG",
+        "compress/svg": "Komprimera SVG"
+      }
+    }
+  },
+  "image-base64": {
+    "title": "Konvertera bild och Base64",
+    "subtitle": "Konvertera bilder och Base64 åt båda hållen lokalt i webbläsaren.",
+    "encode": "Bild till Base64",
+    "decode": "Base64 till bild",
+    "dropTitle": "Släpp eller välj bilder",
+    "dropHint": "Stöder JPG, PNG, WebP, GIF, SVG, max 10 MB var",
+    "settings": "Utdata",
+    "output": "Base64-resultat",
+    "dataUrl": "Data URL",
+    "raw": "Endast Base64",
+    "cssUrl": "CSS url()",
+    "copy": "Kopiera",
+    "copied": "Kopierat",
+    "empty": "Ladda upp en bild och välj den i listan nedan.",
+    "decodeInput": "Base64-innehåll",
+    "decodePlaceholder": "Klistra in en Data URL, ren Base64 eller CSS url()",
+    "preview": "Bildförhandsvisning",
+    "decodeHint": "Bildformatet identifieras automatiskt.",
+    "invalid": "Ingen giltig bilddata hittades.",
+    "tooLarge": "Den avkodade bilden överskrider 20 MB.",
+    "download": "Ladda ner bild",
+    "detected": "Identifierad",
+    "errors": {
+      "oversize": "Överskrider 10 MB",
+      "unsupported": "Bildformatet stöds inte",
+      "read": "Kunde inte läsa filen"
+    }
+  },
+  "image-merge": {
+    "title": "Sammanfoga bilder",
+    "subtitle": "Lägg ett överläggsfoto ovanpå en bakgrund och exportera en lokal bild.",
+    "preview": "Direktförhandsvisning",
+    "settings": "Sammanfogningsinställningar",
+    "background": "Bakgrund",
+    "overlay": "Överlägg",
+    "chooseBackground": "Välj bakgrund",
+    "chooseOverlay": "Välj överlägg",
+    "output": "Utdata",
+    "width": "Bredd",
+    "height": "Höjd",
+    "download": "Ladda ner",
+    "empty": "Ladda upp en bakgrundsbild för att börja.",
+    "errors": {
+      "oversize": "Filen överskrider 10 MB",
+      "unsupported": "Bildformatet stöds inte",
+      "load": "Kunde inte läsa den här bilden",
+      "missing": "Ladda upp en bakgrundsbild först"
+    },
+    "ui": {
+      "previewScale": "Förhandsvisning",
+      "zoomOut": "Förminska",
+      "reset": "Återställ",
+      "zoomIn": "Förstora",
+      "remove": "Ta bort"
+    }
+  },
+  "images-to-gif": {
+    "title": "Bilder till animation",
+    "subtitle": "Kombinera flera bilder till en GIF lokalt i webbläsaren.",
+    "dropTitle": "Släpp eller välj bilder",
+    "dropHint": "Stöder JPG, PNG, WebP, SVG, upp till 50 filer",
+    "preview": "Animationsförhandsvisning",
+    "settings": "Animationsinställningar",
+    "width": "Bredd",
+    "height": "Höjd",
+    "delay": "Ramfördröjning",
+    "fit": "Fyllningsläge",
+    "cover": "Täck",
+    "contain": "Passa in",
+    "colors": "Färger",
+    "start": "Skapa GIF",
+    "download": "Ladda ner GIF",
+    "reset": "Välj bilder",
+    "source": "Bilder",
+    "output": "Utdata",
+    "frames": "Ramar",
+    "pending": "Förhandsvisning av den skapade GIF:en visas här.",
+    "errors": {
+      "oversize": "Några filer överskrider 10 MB",
+      "unsupported": "Några filer stöds inte",
+      "load": "Kunde inte läsa några bilder",
+      "missing": "Ladda upp minst två bilder",
+      "process": "Kunde inte skapa GIF"
+    },
+    "ui": {
+      "upload": "Ladda upp bilder",
+      "presets": "Storleksförinställningar",
+      "custom": "Anpassad",
+      "loop": "Loop",
+      "infinite": "Oändlig",
+      "times": "Antal uppspelningar",
+      "quality": "Kvalitet",
+      "high": "Hög",
+      "standard": "Standard",
+      "compact": "Maximal komprimering",
+      "background": "Bakgrund",
+      "transparent": "Transparent",
+      "white": "Vit",
+      "black": "Svart",
+      "colorSuffix": " färger",
+      "moveUp": "Flytta upp",
+      "moveDown": "Flytta ner",
+      "delete": "Ta bort"
+    }
+  },
+  "pixel-art": {
+    "title": "Pixelkonstverktyg",
+    "subtitle": "Gör bilder till tydlig pixelkonst, allt lokalt i webbläsaren.",
+    "dropTitle": "Släpp eller välj en bild",
+    "dropHint": "Stöder JPG, PNG, WebP, max 20 MB",
+    "preview": "Direktförhandsvisning",
+    "settings": "Pixelkonstinställningar",
+    "pixelSize": "Pixelstorlek",
+    "pixelHint": "Större pixlar ger tydligare block-effekt.",
+    "scale": "Exportstorlek",
+    "colors": "Antal färger",
+    "palette": "Palett",
+    "auto": "Automatiskt",
+    "gameboy": "Game Boy",
+    "gray": "Gråskala",
+    "nes": "NES-stil",
+    "output": "Utdata",
+    "download": "Ladda ner PNG",
+    "chooseAnother": "Välj en annan bild",
+    "invalid": "Bildformatet stöds inte",
+    "oversized": "Bilden överskrider 20 MB"
+  },
+  "resize": {
+    "title": "Ändra bildstorlek",
+    "subtitle": "Ändra storlek på JPG, PNG, WebP och animerade GIF-filer tillsammans i webbläsaren.",
+    "dropTitle": "Släpp bilder här, eller klicka för att välja",
+    "dropHint": "Stöder JPG, PNG, WebP, GIF, upp till 50 filer, max 10 MB var",
+    "settings": "Storleksinställningar",
+    "percent": "Efter procent",
+    "longest": "Längsta sida",
+    "scale": "Skala",
+    "longestSide": "Längsta sida",
+    "longestHelp": "Liggande bilder begränsar bredden, stående bilder begränsar höjden, och proportionerna bevaras.",
+    "start": "Starta storleksändring",
+    "downloadAll": "Ladda ner alla .ZIP",
+    "waiting": "Väntar",
+    "processing": "Bearbetar",
+    "completed": "Klar",
+    "download": "Ladda ner",
+    "empty": "Lägg till bilder för att förhandsvisa måldimensionerna här.",
+    "errors": {
+      "oversize": "Överskrider 10 MB",
+      "unsupported": "Formatet stöds inte",
+      "read": "Kunde inte läsa bildstorleken",
+      "process": "Kunde inte ändra storlek på bilden"
+    },
+    "ui": {
+      "summaryPercent": "{{count}} bild(er) kommer att skalas till {{percent}}%.",
+      "summaryLongest": "{{count}} bild(er) får längsta sidan begränsad till {{longest}}px.",
+      "gifTitle": "Ändra storlek på animerade GIF:ar",
+      "percentTitle": "Ändra bildstorlek efter procent",
+      "longestTitle": "Ändra bildstorlek efter längsta sida",
+      "gifSubtitle": "Ändra GIF-dimensionerna samtidigt som ramar, uppspelningshastighet och loopning bevaras.",
+      "percentSubtitle": "Ange en skalningsprocent och ändra storlek på JPG, PNG, WebP och animerade GIF-filer i batch.",
+      "longestSubtitle": "Ange längsta sidan i pixlar och ändra storlek på bilder utan att ändra deras proportioner.",
+      "gifDropTitle": "Släpp animerade GIF:ar här, eller klicka för att välja",
+      "gifDropHint": "Upp till 50 GIF-filer, max 10 MB var"
+    }
+  },
+  "rotate": {
+    "title": "Rotera och vänd bilder",
+    "subtitle": "Rotera eller spegla batchar lokalt i webbläsaren.",
+    "dropTitle": "Släpp bilder här, eller klicka för att välja",
+    "dropHint": "Stöder JPG, PNG, WebP, upp till 50 filer, max 10 MB var",
+    "settings": "Rotationsinställningar",
+    "rotate": "Rotera",
+    "flip": "Vänd",
+    "left": "Vänster",
+    "right": "Höger",
+    "reset": "Återställ",
+    "horizontal": "Vågrät",
+    "vertical": "Lodrät",
+    "start": "Starta bearbetning",
+    "downloadAll": "Ladda ner alla .ZIP",
+    "waiting": "Väntar",
+    "processing": "Bearbetar",
+    "completed": "Klar",
+    "download": "Ladda ner",
+    "empty": "Lägg till bilder för att rotera eller vända dem här.",
+    "errors": {
+      "oversize": "Överskrider 10 MB",
+      "unsupported": "Formatet stöds inte",
+      "read": "Kunde inte läsa bildstorleken",
+      "process": "Kunde inte bearbeta bilden"
+    },
+    "ui": {
+      "preview": "Direktförhandsvisning",
+      "add": "Lägg till fler bilder",
+      "empty": "Lägg till bilder för att förhandsvisa rotation och vändning.",
+      "summary": "{{count}} bild(er) får nuvarande rotations- och vändinställningar."
+    }
+  },
+  "watermark": {
+    "title": "Lägg till vattenmärke",
+    "subtitle": "Lägg till text- eller bildvattenmärken lokalt i webbläsaren.",
+    "dropTitle": "Släpp bilder här, eller klicka för att välja",
+    "dropHint": "Stöder JPG, PNG, WebP, upp till 50 filer, max 10 MB var",
+    "settings": "Vattenmärkesinställningar",
+    "text": "Text",
+    "image": "Bild",
+    "watermarkText": "Vattenmärkestext",
+    "chooseMark": "Välj vattenmärkesbild",
+    "size": "Storlek",
+    "opacity": "Genomskinlighet",
+    "color": "Färg",
+    "position": "Placering",
+    "start": "Lägg till vattenmärke",
+    "downloadAll": "Ladda ner alla .ZIP",
+    "waiting": "Väntar",
+    "processing": "Bearbetar",
+    "completed": "Klar",
+    "download": "Ladda ner",
+    "empty": "Lägg till bilder för att förhandsvisa vattenmärket här.",
+    "preview": "Direktförhandsvisning",
+    "addMore": "Lägg till fler bilder",
+    "errors": {
+      "oversize": "Överskrider 10 MB",
+      "unsupported": "Formatet stöds inte",
+      "read": "Kunde inte läsa bildstorleken",
+      "process": "Kunde inte lägga till vattenmärke",
+      "noWatermark": "Lägg till vattenmärkestext eller -bild först"
+    },
+    "ui": {
+      "summary": "{{count}} bild(er) får nuvarande vattenmärke.",
+      "layout": "Layout",
+      "position": "Placering",
+      "tile": "Upprepa",
+      "gap": "Mellanrum",
+      "angle": "Vinkel"
+    }
+  },
+  "common": {
+    "intensity": {
+      "light": "Lätt",
+      "medium": "Medel",
+      "strong": "Stark"
+    },
+    "tryAnother": "Prova en ny idé",
+    "original": "Original",
+    "originalSize": "Originalstorlek",
+    "preview": "Direktförhandsvisning",
+    "processing": "Bearbetar…",
+    "invalidImages": "Välj bilder som stöds, max 20 MB var",
+    "loading": "Laddar…",
+    "resizeCropBox": "Justera beskärningsramen"
+  },
+  "layout": {
+    "nav": {
+      "compress": "Bildkomprimering",
+      "resize": "Ändra storlek",
+      "crop": "Beskär",
+      "convert": "Konvertera",
+      "gif": "GIF-skapare",
+      "all": "Alla verktyg"
+    },
+    "tools": [
+      "Rotera och vänd",
+      "HEIC till JPG",
+      "Lägg till vattenmärke",
+      "Sammanfoga bilder",
+      "Komprimera GIF",
+      "Beskär GIF-ramar",
+      "Cirkulär profilbeskärning",
+      "ID-fotobeskärning",
+      "Bild och Base64",
+      "Pixelkonst",
+      "Färgpalett",
+      "Glitch-bild",
+      "Glitch-GIF",
+      "Komprimera SVG"
+    ]
+  },
+  "svg-compress": {
+    "title": "SVG-komprimeringsverktyg",
+    "subtitle": "Ta bort kommentarer, redigeringsmetadata och onödigt mellanrum från SVG samtidigt som grafiken och genomskinligheten bevaras.",
+    "drop": "Släpp SVG-filer här, eller klicka för att välja",
+    "hint": "Endast SVG, upp till 50 filer, max 10 MB var"
+  },
+  "gif-trim-ui": {
+    "playbackOrder": "Playback order",
+    "forward": "Forward",
+    "reverse": "Reverse",
+    "pingPong": "Ping-pong"
+  }
+}

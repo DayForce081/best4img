@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>OpticPrecision | Professional Image Optimizer</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "error-container": "#ffdad6",
+                "tertiary": "#7e3000",
+                "secondary": "#58579b",
+                "on-tertiary-fixed": "#351000",
+                "surface-container-highest": "#e0e3e5",
+                "surface-dim": "#d8dadc",
+                "surface-variant": "#e0e3e5",
+                "on-secondary-fixed": "#140f54",
+                "surface-container-low": "#f2f4f6",
+                "on-error": "#ffffff",
+                "on-primary-container": "#dad7ff",
+                "surface": "#f7f9fb",
+                "on-tertiary-fixed-variant": "#7b2f00",
+                "primary-fixed-dim": "#c3c0ff",
+                "on-secondary-fixed-variant": "#413f82",
+                "on-secondary": "#ffffff",
+                "surface-bright": "#f7f9fb",
+                "secondary-container": "#b6b4ff",
+                "surface-container-high": "#e6e8ea",
+                "on-secondary-container": "#454386",
+                "on-background": "#191c1e",
+                "background": "#f7f9fb",
+                "tertiary-fixed": "#ffdbcc",
+                "on-error-container": "#93000a",
+                "on-primary": "#ffffff",
+                "inverse-on-surface": "#eff1f3",
+                "primary": "#3525cd",
+                "outline-variant": "#c7c4d8",
+                "on-surface-variant": "#464555",
+                "inverse-surface": "#2d3133",
+                "primary-container": "#4f46e5",
+                "on-primary-fixed-variant": "#3323cc",
+                "surface-container": "#eceef0",
+                "tertiary-fixed-dim": "#ffb695",
+                "on-primary-fixed": "#0f0069",
+                "on-surface": "#191c1e",
+                "secondary-fixed-dim": "#c3c0ff",
+                "error": "#ba1a1a",
+                "tertiary-container": "#a44100",
+                "primary-fixed": "#e2dfff",
+                "inverse-primary": "#c3c0ff",
+                "surface-tint": "#4d44e3",
+                "surface-container-lowest": "#ffffff",
+                "secondary-fixed": "#e2dfff",
+                "on-tertiary": "#ffffff",
+                "outline": "#777587",
+                "on-tertiary-container": "#ffd2be"
+              },
+              fontFamily: {
+                "headline": ["Inter"],
+                "body": ["Inter"],
+                "label": ["Inter"]
+              },
+              borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        body {
+            background-color: #f7f9fb;
+        }
+        .tool-bg {
+            background-color: #f0f2f5;
+            background-image: radial-gradient(#d1d5db 0.5px, transparent 0.5px);
+            background-size: 24px 24px;
+        }
+        .content-bg {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body class="font-body text-on-surface">
+<!-- Top Navigation Shell -->
+<header class="bg-slate-50 dark:bg-slate-900 sticky top-0 z-50 border-b border-outline-variant/10">
+<nav class="max-w-[990px] mx-auto px-6 py-4 flex justify-between items-center">
+<div class="text-xl font-semibold tracking-tighter text-slate-900 dark:text-slate-50">OpticPrecision</div>
+<div class="hidden md:flex gap-6 items-center">
+<a class="font-inter text-sm tracking-tight font-medium text-indigo-600 dark:text-indigo-400 font-bold border-b-2 border-indigo-600 pb-1" href="#">Optimizer</a>
+<a class="font-inter text-sm tracking-tight font-medium text-slate-500 dark:text-slate-400 hover:text-slate-900 transition-colors duration-200" href="#">Batch</a>
+<a class="font-inter text-sm tracking-tight font-medium text-slate-500 dark:text-slate-400 hover:text-slate-900 transition-colors duration-200" href="#">Presets</a>
+<a class="font-inter text-sm tracking-tight font-medium text-slate-500 dark:text-slate-400 hover:text-slate-900 transition-colors duration-200" href="#">Archive</a>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-slate-500 cursor-pointer hover:text-indigo-600">settings</span>
+<button class="bg-primary text-on-primary px-4 py-1.5 rounded-lg text-sm font-medium hover:opacity-90 transition-all">Upload</button>
+</div>
+</nav>
+</header>
+<!-- Functional Tool Area -->
+<section class="tool-bg py-16 border-b border-outline-variant/20">
+<main class="max-w-[990px] mx-auto px-6">
+<!-- Main Tool Container -->
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant/30 shadow-sm overflow-hidden">
+<!-- Drop Zone -->
+<div class="p-12 border-b border-outline-variant/20 bg-surface">
+<div class="border-2 border-dashed border-outline-variant rounded-xl p-12 flex flex-col items-center justify-center cursor-pointer hover:bg-surface-container-low transition-colors group">
+<div class="w-16 h-16 bg-primary-fixed rounded-full flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-primary text-3xl">upload_file</span>
+</div>
+<span class="text-xl font-bold text-on-surface">Drop files here to start</span>
+<span class="text-sm text-on-surface-variant mt-2">or click to browse from your device</span>
+</div>
+</div>
+<!-- Batch List -->
+<div class="p-6 space-y-4 bg-surface-container-low/30">
+<!-- Row 1 -->
+<div class="bg-surface-container-lowest p-4 rounded-lg flex flex-col md:flex-row md:items-center justify-between gap-4 border border-outline-variant/10">
+<div class="flex-1 min-w-0">
+<div class="font-medium text-on-surface truncate">hero-banner-summer-campaign.webp</div>
+<div class="flex items-center gap-3 mt-1">
+<div class="flex-1 h-1.5 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-[#2e7d32] w-full"></div>
+</div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-[#2e7d32]">Completed</span>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="text-sm font-medium text-on-surface-variant whitespace-nowrap">
+                                1.2 MB <span class="text-[#2e7d32] mx-1">/</span> -85%
+                            </div>
+<button class="bg-surface-container-highest text-on-surface px-4 py-1.5 rounded-lg text-xs font-bold uppercase tracking-tight hover:bg-outline-variant transition-colors">Download</button>
+</div>
+</div>
+<!-- Row 2 -->
+<div class="bg-surface-container-lowest p-4 rounded-lg flex flex-col md:flex-row md:items-center justify-between gap-4 border border-outline-variant/10">
+<div class="flex-1 min-w-0">
+<div class="font-medium text-on-surface truncate">product-shot-01.png</div>
+<div class="flex items-center gap-3 mt-1">
+<div class="flex-1 h-1.5 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-primary w-2/3"></div>
+</div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-primary">Compressing</span>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="text-sm font-medium text-on-surface-variant whitespace-nowrap">
+                                4.8 MB <span class="text-primary mx-1">/</span> ...
+                            </div>
+<button class="bg-surface-container-highest/50 text-outline px-4 py-1.5 rounded-lg text-xs font-bold uppercase tracking-tight cursor-not-allowed">Download</button>
+</div>
+</div>
+</div>
+<!-- Tool Footer Actions -->
+<div class="p-6 border-t border-outline-variant/20 flex flex-col sm:flex-row justify-end gap-3 bg-surface">
+<button class="bg-[#ffd600] text-slate-900 px-6 py-2.5 rounded-lg font-bold text-sm flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+                        Upgrade to Pro
+                    </button>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-lg font-bold text-sm flex items-center justify-center gap-2 hover:bg-primary-container transition-colors shadow-sm">
+<span class="material-symbols-outlined text-lg">folder_zip</span>
+                        Download All .ZIP
+                    </button>
+</div>
+</div>
+</main>
+</section>
+<!-- Content Area -->
+<div class="content-bg py-16">
+<div class="max-w-[990px] mx-auto px-6">
+<!-- Moved Hero / Title Section -->
+<section class="text-center mb-16">
+<h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-on-surface mb-4">Image Compressor</h1>
+<p class="text-on-surface-variant text-lg max-w-2xl mx-auto">Free Client-Side Image Optimization. Supports JPG, PNG, WebP, and AVIF.</p>
+</section>
+<!-- SEO Technical Pillars -->
+<section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-low p-8 rounded-xl border border-outline-variant/20">
+<div class="w-full aspect-video bg-surface-container-highest rounded-lg mb-6 overflow-hidden">
+<img alt="Pixel-Perfect Edge Preservation" class="w-full h-full object-cover grayscale opacity-80" data-alt="Close-up of a sharp vector logo edge with perfectly smooth curves and crisp definition on a neutral studio background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB05j6LLV2oFlNpfUxSffNU4naMH5g8gOQv0OdvDLRjfGB6-RqV6wsnJK2_y2E_Fcvy314ed0WKpnoWJdfCGyVII-JgpDtLdzzFQSwPBKqcl2T0yyjqRF-ZWQNe_kuSLikBU9jUe5MUjo3qMOHtQIF_h6M8kTJUOvEsOLB7zAJwLNIOiYn0ATe7Sx_5sx-i25HPZuOqQOfHIGk7PFH7zUkkVlBSE6bPU089MFguCNMr9T-gnb9x5YoIJORwwRqMRrIT--M9YzK3pZFW"/>
+</div>
+<h3 class="text-xl font-bold mb-2">1. Pixel-Perfect Edge Preservation</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Our advanced quantization engine ensures that diagonal lines and high-contrast edges remain razor-sharp, even at high compression ratios.</p>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-low p-8 rounded-xl border border-outline-variant/20">
+<div class="w-full aspect-video bg-surface-container-highest rounded-lg mb-6 overflow-hidden">
+<img alt="Crisp Documentation Typography" class="w-full h-full object-cover grayscale opacity-80" data-alt="Micro photography of sharp glowing code on a high resolution screen with deep black background and blue syntax highlighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBULYLFJIN0XAI7Hi1NZ5qp1NZmeTfasGaj0I31pDzEQv2qygqABEcpim2NTGD5ZGU83ev7UjHdlsi2Cq5Ugdsev6Uvjf7aHC30jVoqON0mcR6lnAPmfRrpyyOQBmvXwauKLB1bLDOzYjS_g6-Sg4NElnDikEnFu4OTVRiKVcgWHeWeHXyYBgl6untVQiNKBtCjxrN8zrARoIus9eR9uGIHQEy57Rdl7wlTKxLGRIj3PNdTk5DUDdkwv1UgF746cYRUnzUHxADH9IoA"/>
+</div>
+<h3 class="text-xl font-bold mb-2">2. Crisp Documentation Typography</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Specialized sub-pixel rendering paths protect fine text in screenshots and technical diagrams, maintaining perfect legibility for developers.</p>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-low p-8 rounded-xl border border-outline-variant/20">
+<div class="flex items-center gap-4 mb-4">
+<div class="p-3 bg-surface-container-highest rounded-lg">
+<span class="material-symbols-outlined text-primary text-3xl">laptop_mac</span>
+</div>
+<div class="p-3 bg-surface-container-highest rounded-lg">
+<span class="material-symbols-outlined text-[#2e7d32] text-3xl">shield_with_heart</span>
+</div>
+</div>
+<h3 class="text-xl font-bold mb-2">3. 100% Client-Side Wasm</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Processing happens entirely in your browser using WebAssembly. Your data never leaves your device, ensuring total privacy and near-instant latency.</p>
+</div>
+<!-- Pillar 4 -->
+<div class="bg-surface-container-low p-8 rounded-xl border border-outline-variant/20">
+<div class="flex items-center gap-4 mb-4">
+<div class="p-3 bg-surface-container-highest rounded-lg">
+<span class="material-symbols-outlined text-tertiary text-3xl">balance</span>
+</div>
+</div>
+<h3 class="text-xl font-bold mb-2">4. The 'Size Gatekeeper'</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Automatic threshold monitoring prevents 'bloat' where re-compressing actually increases file size. Every byte saved is a byte earned.</p>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="mb-8">
+<h2 class="text-2xl font-extrabold mb-8 text-center uppercase tracking-widest text-on-surface-variant">Optimization Encyclopedia</h2>
+<div class="space-y-2 max-w-3xl mx-auto">
+<div class="border border-outline-variant/30 rounded-lg overflow-hidden">
+<button class="w-full flex justify-between items-center p-5 bg-surface-container-lowest text-left font-semibold">
+                            How does OpticPrecision handle privacy?
+                            <span class="material-symbols-outlined">expand_more</span>
+</button>
+<div class="p-5 bg-surface-container-low text-sm text-on-surface-variant border-t border-outline-variant/10">
+                            Since our engine runs on Wasm (WebAssembly), every image is processed locally on your hardware. We do not use servers to store or analyze your files.
+                        </div>
+</div>
+<div class="border border-outline-variant/30 rounded-lg overflow-hidden">
+<button class="w-full flex justify-between items-center p-5 bg-surface-container-lowest text-left font-semibold">
+                            What is the average compression ratio?
+                            <span class="material-symbols-outlined">expand_more</span>
+</button>
+<div class="p-5 bg-surface-container-low text-sm text-on-surface-variant border-t border-outline-variant/10">
+                            Depending on the source format, users typically see between 60% and 90% size reduction with zero perceptible loss in visual quality.
+                        </div>
+</div>
+<div class="border border-outline-variant/30 rounded-lg overflow-hidden">
+<button class="w-full flex justify-between items-center p-5 bg-surface-container-lowest text-left font-semibold">
+                            Does it support AVIF format?
+                            <span class="material-symbols-outlined">expand_more</span>
+</button>
+<div class="p-5 bg-surface-container-low text-sm text-on-surface-variant border-t border-outline-variant/10">
+                            Yes, our engine fully supports the high-efficiency AVIF format, providing superior compression compared to traditional JPEG and PNG.
+                        </div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<!-- Footer Shell -->
+<footer class="bg-slate-50 dark:bg-slate-900 border-t border-outline-variant/10">
+<div class="max-w-[990px] mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="font-inter text-xs text-slate-400 uppercase tracking-widest flex flex-col md:flex-row gap-4 text-center md:text-left">
+<span>© 2024 OpticPrecision. Engine v2.4.1.</span>
+<span class="hidden md:inline">|</span>
+<span>Efficiency: 60%-90% Average</span>
+<span class="hidden md:inline">|</span>
+<span>Engine: Wasm Core 4.0</span>
+</div>
+<div class="flex gap-6">
+<a class="font-inter text-xs text-slate-400 uppercase tracking-widest hover:text-slate-600 transition-colors" href="#">Documentation</a>
+<a class="font-inter text-xs text-slate-400 uppercase tracking-widest hover:text-slate-600 transition-colors" href="#">API Status</a>
+<a class="font-inter text-xs text-slate-400 uppercase tracking-widest hover:text-slate-600 transition-colors" href="#">Privacy</a>
+</div>
+</div>
+</footer>
+</body></html>

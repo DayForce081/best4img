@@ -1,0 +1,1428 @@
+{
+  "info": {
+    "about": {
+      "title": "O nas",
+      "intro": "BEST4IMG to darmowe narzędzia graficzne, które stawiają na szybkość, prywatność i wygodę użytkowania. Chcemy, aby typowe operacje na obrazach nie wymagały skomplikowanego oprogramowania ani wcześniejszego wysyłania prywatnych zdjęć na serwer.",
+      "sections": [
+        {
+          "title": "Co robimy",
+          "paragraphs": [
+            "Nasza strona oferuje narzędzia do kompresji, zmiany rozmiaru, przycinania, konwersji formatów, znakowania wodnego, pracy z GIF-ami i efektów kreatywnych. Większość operacji wykorzystuje bezpośrednio możliwości przeglądarki: Canvas, WebAssembly i Worker."
+          ]
+        },
+        {
+          "title": "Lokalnie w pierwszej kolejności",
+          "paragraphs": [
+            "Po wybraniu zdjęcia przetwarzanie zwykle odbywa się na Twoim urządzeniu. Zdjęcia nie są celowo wysyłane na nasze serwery, by wykonać te operacje. Po zamknięciu lub odświeżeniu strony tymczasowe podglądy utworzone w przeglądarce dla danej operacji zostają usunięte."
+          ]
+        },
+        {
+          "title": "Zasady produktu",
+          "paragraphs": [
+            "Na pierwszym miejscu stawiamy przejrzyste sterowanie, przewidywalne rezultaty i rozsądną wydajność. Nowe funkcje dodajemy tylko wtedy, gdy dobrze działają lokalnie i naprawdę pomagają użytkownikowi."
+          ]
+        },
+        {
+          "title": "Stworzone do codziennej pracy na obrazach",
+          "paragraphs": [
+            "Awatar trzeba wyciąć w kształt okręgu, serię zdjęć produktów ujednolicić pod względem rozmiaru, zrzut ekranu zmniejszyć, a kilka fotografii połączyć w animację. To pozornie proste czynności, a jednak często wymagają otwarcia różnych programów i wielokrotnego szukania opcji eksportu. BEST4IMG chce zgromadzić te najczęstsze akcje w jednym, znajomym miejscu.",
+            "Narzędzia możesz wybierać według bieżącego zadania: kompresja i konwersja przed publikacją, dopasowanie i przycinanie przed składem, znak wodny przed udostępnieniem, a także eksplorować różne formy wyrazu za pomocą pixel art i efektów glitch. Każde narzędzie skupia się wokół jednego konkretnego rezultatu."
+          ]
+        },
+        {
+          "title": "Wybór między jakością a wydajnością",
+          "paragraphs": [
+            "Mniejszy plik nie zawsze oznacza lepszy wynik. Zdjęcia, zrzuty ekranu, obrazy przezroczyste i animacje mają różne cechy i różne formaty wyjściowe do nich pasują. W zależności od narzędzia oferujemy odpowiednie opcje i pozwalamy sprawdzić przed pobraniem rozmiar, obszary przezroczystości i efekt wizualny.",
+            "Przetwarzanie lokalne zużywa też pamięć i zasoby obliczeniowe urządzenia. Duże obrazy, długie animacje lub wiele plików mogą zająć więcej czasu. Przetwarzanie partiami, zachowanie oryginałów i terminowe pobieranie wyników sprawiają, że codzienna praca jest bardziej niezawodna."
+          ]
+        },
+        {
+          "title": "Ciągłe doskonalenie",
+          "paragraphs": [
+            "Różne przeglądarki, formaty obrazów i wydajność urządzeń mogą dawać różnice. Nieustannie poprawiamy kompatybilność, jakość kompresji i komfort pracy, zwracając uwagę na detale z prawdziwych zadań: czy wprowadzanie danych jest wygodne, czy podgląd jest czytelny, czy wynik zgadza się z oczekiwaniami.",
+            "Do części kodowania i dekodowania używamy otwartoźródłowych komponentów przetwarzania obrazów. Pomagają one przeglądarce przejąć zadania, które wcześniej wymagały oprogramowania desktopowego; prawa i licencje poszczególnych komponentów pozostają przy ich autorach."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Regulamin",
+      "intro": "Korzystając z BEST4IMG, akceptujesz poniższe warunki. Przed przetworzeniem ważnych plików zachowaj ich kopię oryginalną.",
+      "updated": "Data aktualizacji: 5 września 2026 r.",
+      "sections": [
+        {
+          "title": "Zakres usługi",
+          "paragraphs": [
+            "BEST4IMG udostępnia narzędzia do obróbki obrazów w przeglądarce w takiej postaci, w jakiej są („tak jak jest”). Funkcje, obsługiwane formaty i limity przetwarzania mogą ulegać zmianie wraz z rozwojem produktu."
+          ]
+        },
+        {
+          "title": "Twoja odpowiedzialność",
+          "paragraphs": [
+            "Upewnij się, że masz prawo przetwarzać i wykorzystywać wybrane obrazy. Nie wolno Ci używać usługi do naruszenia praw autorskich, prywatności ani innych uzasadnionych interesów, a także do prób uszkodzenia strony lub zakłócenia korzystania z niej przez innych."
+          ]
+        },
+        {
+          "title": "Prawa do obrazów i zgoda na przetwarzanie",
+          "paragraphs": [
+            "Prawa do oryginalnego obrazu, które Ci przysługują, nie przechodzą na BEST4IMG w wyniku użycia tego narzędzia. Nie przejmujemy własności zdjęć przez sam fakt ich wybrania i nie żądamy udzielenia nam praw do publicznego pokazywania ich ani do trenowania modeli.",
+            "Dodanie znaku wodnego, przycięcie czy zmiana formatu nie daje Ci nowych praw do cudzych dzieł. Gdy sprawa dotyczy wizerunku, znaków towarowych, chronionych utworów lub danych osobowych, zadbaj o niezbędne zgody we własnym zakresie."
+          ]
+        },
+        {
+          "title": "Pliki i urządzenie",
+          "paragraphs": [
+            "Narzędzia przetwarzają pliki w Twojej przeglądarce; szybkość działania i skala przetwarzania zależą od pamięci urządzenia, przeglądarki i stopnia złożoności obrazu. Strona może narzucać limity liczby plików, ich rozmiaru lub wymiarów.",
+            "Odświeżenie strony, zamknięcie karty lub awaria przeglądarki mogą spowodować utratę niepobranych wyników. Strona nie jest usługą przechowywania ani tworzenia kopii zapasowych plików — zachowaj oryginały i pobierz potrzebne wyniki na własne urządzenie."
+          ]
+        },
+        {
+          "title": "Wyniki i dostępność",
+          "paragraphs": [
+            "Kodowanie obrazów, implementacja w przeglądarce i zasoby urządzenia się różnią, więc nie gwarantujemy, że każdy plik zostanie przetworzony pomyślnie, ani że efekt wyjściowy nada się do konkretnego druku, archiwizacji czy zastosowań profesjonalnych. Przed usunięciem oryginału sprawdź pobrany wynik."
+          ]
+        },
+        {
+          "title": "Formaty, kolory i specyfikacje specjalne",
+          "paragraphs": [
+            "Kompresja stratna i ponowne kodowanie mogą zmienić detale, kolory, przezroczystość lub metadane. Konwersja do JPG nie obsługuje kanału przezroczystości; po obróbce animacji mogą też wystąpić różnice w palecie barw. Opisy jakości na stronie nie oznaczają, że każde przetwarzanie jest bezstratne.",
+            "Ustawienia wymiarów oraz linie pomocnicze ułożenia twarzy w awatarach i zdjęciach do dokumentów służą ułatwieniu składu i nie stanowią certyfikacji przez platformę ani instytucję przyjmującą. Przed wysłaniem sprawdź aktualne wymagania odbiorcy: wymiary, tło, kompozycję i limity plików."
+          ]
+        },
+        {
+          "title": "Ograniczenie odpowiedzialności",
+          "paragraphs": [
+            "W zakresie dozwolonym przez prawo nie ponosimy odpowiedzialności za utratę plików, różnice w efektach, przerwy w działaniu usługi ani pośrednie szkody wynikające z korzystania z wyników przetwarzania."
+          ]
+        },
+        {
+          "title": "Zmiany regulaminu",
+          "paragraphs": [
+            "Możemy aktualizować te warunki ze względu na funkcje lub wymogi prawne. Zaktualizowana treść zostanie opublikowana na tej stronie wraz z nową datą aktualizacji."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Polityka prywatności",
+      "intro": "BEST4IMG stosuje podejście lokalne w pierwszej kolejności. Poniżej wyjaśniamy, jak strona traktuje obrazy i niezbędne informacje techniczne podczas używania narzędzi.",
+      "updated": "Data aktualizacji: 5 września 2026 r.",
+      "sections": [
+        {
+          "title": "Jak przetwarzamy obrazy",
+          "paragraphs": [
+            "Wybrane przez Ciebie obrazy zwykle są odczytywane i przetwarzane tylko w bieżącej karcie przeglądarki. Nie wysyłamy ich celowo na nasze serwery, by wykonać kompresję, przycinanie czy konwersję."
+          ]
+        },
+        {
+          "title": "Tymczasowe dane w przeglądarce",
+          "paragraphs": [
+            "Strona może tworzyć w pamięci podglądy obrazów, wyniki przetwarzania i tymczasowe adresy obiektów, a także używać pamięci lokalnej, by zapamiętać niezbędne preferencje, takie jak język. Tymi danymi zarządza Twoja przeglądarka; mogą zniknąć po odświeżeniu, zamknięciu strony lub wyczyszczeniu danych witryny."
+          ]
+        },
+        {
+          "title": "Preferencje języka i pobrane pliki",
+          "paragraphs": [
+            "Po zmianie języka strona zapisuje wybrany język w pamięci lokalnej przeglądarki, aby przywrócić go przy następnej wizycie. To ustawienie nie musi zawierać Twojego imienia, adresu e-mail ani treści obrazów — możesz je usunąć w ustawieniach przeglądarki.",
+            "Pobrane obrazy i pliki ZIP przeglądarka zapisuje w wybranym przez Ciebie miejscu. Zamknięcie strony ani wyczyszczenie danych witryny nie usuwa automatycznie tych pobranych plików ani oryginalnie wybranych przez Ciebie obrazów."
+          ]
+        },
+        {
+          "title": "Podstawowe informacje techniczne",
+          "paragraphs": [
+            "Usługa hostingowa może rejestrować czas dostępu, żądane adresy, typ przeglądarki, adres sieciowy i dzienniki błędów — w celach bezpieczeństwa, stabilności i diagnostyki. Te zapisy nie zawierają treści obrazów przetwarzanych lokalnie."
+          ]
+        },
+        {
+          "title": "Czcionki, zasoby programowe i linki zewnętrzne",
+          "paragraphs": [
+            "Obecna strona używa czcionek i ikon dostarczanych przez Google Fonts. Przy ładowaniu tych zasobów przeglądarka wysyła żądanie do domeny podmiotu trzeciego, który może otrzymać niezbędne dane techniczne połączenia, takie jak adres sieciowy czy informacje o przeglądarce; do żądań czcionek nie trzeba dołączać wybranych przez Ciebie obrazów.",
+            "Do przeglądarki muszą też zostać załadowane zasoby programowe, takie jak komponenty kodowania obrazów; niektóre narzędzia ładują zasoby dopiero w trakcie użycia. Dlatego lokalne przetwarzanie obrazów nie oznacza, że strona w ogóle nie wykonuje żądań sieciowych. Za przetwarzanie danych we własnym zakresie odpowiadają witryny zewnętrzne."
+          ]
+        },
+        {
+          "title": "Dane osobowe w obrazach",
+          "paragraphs": [
+            "Zdjęcia mogą zawierać twarze, adresy, treści dokumentów lub metadane, takie jak czas i miejsce wykonania. Wykonanie obróbki lokalnie nie oznacza, że pobrany wynik został pozbawiony wszystkich wrażliwych informacji. Przed udostępnieniem sprawdź samodzielnie widoczną treść i informacje o pliku.",
+            "Korzystając z narzędzi na współdzielonym urządzeniu, zwróć też uwagę na katalog pobierania, rozszerzenia przeglądarki i uprawnienia samego urządzenia. Niniejsza polityka opisuje sposób przetwarzania przez naszą witrynę i nie kontroluje zachowania innych programów na urządzeniu."
+          ]
+        },
+        {
+          "title": "Zakres polityki i aktualizacje",
+          "paragraphs": [
+            "Niniejsza polityka dotyczy narzędzi graficznych oferowanych obecnie przez BEST4IMG. Rzeczywisty okres przechowywania dzienników dostępu serwera zależy od konfiguracji wdrożenia i hostingu; ta strona nie obiecuje jednolitego okresu przechowywania, którego nie zweryfikowano.",
+            "Jeśli w przyszłości pojawią się funkcje wymagające konta, analizy statystycznej lub przetwarzania na serwerze, należy przy ich uruchomieniu równocześnie opisać odpowiednie cele przetwarzania danych i sposoby wyboru. Ważne zmiany znajdą odzwierciedlenie w dacie aktualizacji tej strony."
+          ]
+        },
+        {
+          "title": "Twój wybór",
+          "paragraphs": [
+            "W każdej chwili możesz przerwać przetwarzanie, zamknąć stronę lub usunąć lokalne dane zapisane przez naszą witrynę za pomocą ustawień przeglądarki. Nie zostawiaj wyników pobierania wrażliwych obrazów na niezaufanych, współdzielonych urządzeniach."
+          ]
+        }
+      ]
+    },
+    "ui": {
+      "eyebrow": "Darmowe narzędzia graficzne",
+      "highlights": {
+        "about": [
+          [
+            "devices",
+            "Przetwarzanie na Twoim urządzeniu",
+            "Obrazem zajmuje się przeglądarka"
+          ],
+          [
+            "photo_library",
+            "Obsługa typowych zadań graficznych",
+            "Od kompresji po efekty kreatywne"
+          ],
+          [
+            "download",
+            "Wyniki zapisujesz sam",
+            "Pobierz potrzebne rezultaty"
+          ]
+        ],
+        "privacy": [
+          [
+            "image",
+            "Obrazy przetwarzane lokalnie",
+            "Do działań narzędzi nie trzeba wysyłać zdjęć"
+          ],
+          [
+            "language",
+            "Zasoby strony ładują się z siecią",
+            "W tym kod, czcionki i ikony"
+          ],
+          [
+            "tune",
+            "Dane lokalne pod Twoją kontrolą",
+            "Preferencje języka można usunąć w przeglądarce"
+          ]
+        ],
+        "terms": [
+          [
+            "copyright",
+            "Prawa do obrazów należą do twórcy",
+            "Przed przetworzeniem potwierdź zgodę"
+          ],
+          [
+            "verified",
+            "Sprawdź wynik przed pobraniem",
+            "Zweryfikuj wymiary, kolor i zastosowanie"
+          ],
+          [
+            "save",
+            "Zachowaj pliki oryginalne",
+            "Narzędzia nie tworzą kopii zapasowej"
+          ]
+        ]
+      },
+      "tagline": "Niech obróbka obrazów będzie prosta.",
+      "explore": "Przeglądaj narzędzia graficzne"
+    }
+  },
+  "site": {
+    "siteName": "BEST4IMG",
+    "seo": {
+      "title": "BEST4IMG | Lokalny kompresor obrazów JPG, PNG, WebP i SVG",
+      "description": "Kompresuj obrazy JPG, PNG, WebP i SVG bezpośrednio w przeglądarce, bez wysyłania na serwer. Sprawdza się przy materiałach stron, zrzutach ekranu, zdjęciach e-commerce i codziennym udostępnianiu; obsługuje przetwarzanie wsadowe."
+    },
+    "nav": {
+      "ariaLabel": "Wybierz język",
+      "current": "Polski",
+      "options": [
+        {
+          "code": "en",
+          "label": "English"
+        },
+        {
+          "code": "es",
+          "label": "Español"
+        },
+        {
+          "code": "fr",
+          "label": "Français"
+        },
+        {
+          "code": "de",
+          "label": "Deutsch"
+        },
+        {
+          "code": "it",
+          "label": "Italiano"
+        },
+        {
+          "code": "pt",
+          "label": "Português"
+        },
+        {
+          "code": "ja",
+          "label": "日本語"
+        },
+        {
+          "code": "ru",
+          "label": "Pусский"
+        },
+        {
+          "code": "ko",
+          "label": "한국어"
+        },
+        {
+          "code": "zh",
+          "label": "简体中文"
+        },
+        {
+          "code": "zh-tw",
+          "label": "繁體中文"
+        },
+        {
+          "code": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "bg",
+          "label": "Български"
+        },
+        {
+          "code": "ca",
+          "label": "Català"
+        },
+        {
+          "code": "nl",
+          "label": "Nederlands"
+        },
+        {
+          "code": "el",
+          "label": "Ελληνικά"
+        },
+        {
+          "code": "hi",
+          "label": "हिन्दी"
+        },
+        {
+          "code": "id",
+          "label": "Bahasa Indonesia"
+        },
+        {
+          "code": "ms",
+          "label": "Bahasa Melayu"
+        },
+        {
+          "code": "pl",
+          "label": "Polski"
+        },
+        {
+          "code": "sv",
+          "label": "Svenska"
+        },
+        {
+          "code": "th",
+          "label": "ภาษาไทย"
+        },
+        {
+          "code": "tr",
+          "label": "Türkçe"
+        },
+        {
+          "code": "uk",
+          "label": "Українська"
+        },
+        {
+          "code": "vi",
+          "label": "Tiếng Việt"
+        },
+        {
+          "code": "sw",
+          "label": "Kiswahili"
+        }
+      ],
+      "tools": {
+        "compressor": "Kompresja obrazów",
+        "heicConverter": "HEIC na JPG"
+      }
+    },
+    "heicConverter": {
+      "heroTitle": "HEIC na JPG",
+      "heroSubtitle": "Konwertuj zdjęcia HEIC z iPhone'a lokalnie w przeglądarce",
+      "dropTitle": "Przeciągnij lub wybierz obrazy HEIC",
+      "dropHint": "do 50 plików, maks. 50 MB każdy",
+      "downloadAll": "Pobierz wszystko (.ZIP)",
+      "zipName": "BEST4IMG-converted.zip",
+      "formatJpg": "JPG",
+      "formatPng": "PNG",
+      "statuses": {
+        "converting": "Konwertowanie…",
+        "waiting": "Oczekiwanie…",
+        "completed": "Gotowe",
+        "error": "Błąd"
+      },
+      "errors": {
+        "exceedsLimit": "Błąd: przekroczono limit 50 MB",
+        "unsupportedFormat": "Błąd: nieobsługiwany format",
+        "failedToProcess": "Przetwarzanie nie powiodło się"
+      },
+      "actions": {
+        "download": "Pobierz"
+      },
+      "content": {
+        "hero": {
+          "title": "Konwersja HEIC na JPG\nLokalnie, natychmiast, prywatnie",
+          "subtitle": "Bez rejestracji, bez wysyłania na serwer i bez limitów rozmiaru pliku narzucanych przez backend. Cała konwersja odbywa się w Twojej przeglądarce dzięki WebAssembly."
+        },
+        "featureCards": [
+          {
+            "icon": "lock",
+            "title": "W pełni prywatne — pliki nie opuszczają Twojego urządzenia",
+            "body": "Dekodowanie HEIC i kodowanie JPG odbywają się całkowicie w karcie Twojej przeglądarki. Zdjęcia nie trafiają na żaden serwer zdalny, więc możesz bez obaw przetwarzać prywatne albumy, obrazy medyczne czy poufne pliki."
+          },
+          {
+            "icon": "bolt",
+            "title": "Konwersja wsadowa z kolejką sekwencyjną",
+            "body": "Jednorazowo możesz przeciągnąć do 50 plików HEIC, a system przetworzy je po kolei. Uporządkowana kolejka zapobiega zawieszaniu się przeglądarki przy dużych zdjęciach HEIC z iPhone'a lub iPada."
+          },
+          {
+            "icon": "image",
+            "title": "Zachowanie oryginalnej rozdzielczości w wyniku",
+            "body": "Przekonwertowany JPG zachowuje oryginalne wymiary w pikselach — bez skalowania ani ponownego próbkowania. Powstaje dokładnie taki obraz, jaki zarejestrował aparat, tyle że w formacie otwieranym przez każde urządzenie i aplikację."
+          }
+        ],
+        "underHood": {
+          "eyebrow": "Szczegóły techniczne",
+          "title": "Możliwości leżące u podstaw tego przepływu HEIC na JPG.",
+          "cards": [
+            {
+              "title": "heic2any i dekodowanie WebAssembly",
+              "body": "Pliki HEIC wykorzystują kontener HEIF firmy Apple z kodowaniem HEVC (H.265). Biblioteka heic2any uruchamia w przeglądarce dekoder skompilowany do WebAssembly i zamienia ten zastrzeżony format na standardowe dane obrazu, bez wywoływania interfejsów systemu natywnego."
+            },
+            {
+              "title": "Przetwarzanie pojedynczych plików po kolei",
+              "body": "Dekodowanie HEIC zużywa więcej CPU niż dekodowanie PNG czy JPEG. Zajmowanie się jednym plikiem naraz zapobiega przeciążeniu wątku głównego i utrzymuje płynność strony podczas konwersji wsadowej."
+            }
+          ]
+        }
+      },
+      "settings": {
+        "title": "Output settings",
+        "quality": "JPG quality",
+        "qualityHint": "Higher quality creates a larger JPG.",
+        "orientation": "Orientation",
+        "orientationAuto": "Correct automatically",
+        "orientationHint": "Uses the displayed shooting orientation.",
+        "metadata": "Metadata",
+        "metadataRemoved": "Removed automatically",
+        "metadataHint": "EXIF and GPS data are not copied to the JPG."
+      }
+    },
+    "compressor": {
+      "heroTitle": "Narzędzie kompresji obrazów",
+      "heroSubtitle": "Darmowa kompresja JPG, PNG, WebP i SVG z najlepszą możliwą jakością za każdym razem",
+      "dropTitle": "Przeciągnij obrazy lub kliknij, by je wybrać",
+      "dropHint": "do 50 obrazów, maks. 10 MB każdy",
+      "downloadAll": "Pobierz wszystko (.ZIP)",
+      "zipName": "BEST4IMG-compressed.zip",
+      "statuses": {
+        "compressing": "Kompresowanie…",
+        "waiting": "Oczekiwanie…",
+        "completed": "Gotowe",
+        "error": "Błąd"
+      },
+      "errors": {
+        "exceedsLimit": "Błąd: przekroczono limit 10 MB",
+        "unsupportedFormat": "Błąd: nieobsługiwany format",
+        "failedToProcess": "Przetwarzanie pliku nie powiodło się"
+      },
+      "actions": {
+        "download": "Pobierz"
+      }
+    },
+    "hero": {
+      "title": "Lokalny kompresor obrazów dla\nJPG, PNG, WebP i SVG",
+      "subtitle": "Zmniejszaj rozmiar obrazów na potrzeby stron internetowych, dokumentów, sklepów i codziennego udostępniania, zachowując naturalny wygląd."
+    },
+    "featureCards": [
+      {
+        "type": "compare",
+        "title": "Ostrożniej z detalami i przezroczystymi krawędziami",
+        "body": "Wiele narzędzi kompresji, gdy trafi na zrzut ekranu, grafikę interfejsu lub przezroczysty PNG, rozmywa drobny tekst i brudzi krawędzie. BEST4IMG stara się dbać o takie detale — wyraźnie zmniejsza rozmiar, a jednocześnie jak najlepiej chroni czytelność tekstu i czystość krawędzi."
+      },
+      {
+        "type": "image",
+        "title": "100% lokalnie — bezpieczniej",
+        "body": "Cała obróbka i kompresja plików odbywa się w Twojej przeglądarce, bez wysyłania na serwer zdalny. Takie lokalne podejście budzi większe zaufanie przy materiałach wewnętrznych, prywatnych plikach i wrażliwych treściach."
+      }
+    ],
+    "autopilot": {
+      "title": "Inteligentna optymalizacja bez zgadywania parametrów",
+      "body": "Nie musisz w kółko przesuwać suwaka jakości. BEST4IMG sam ocenia lepszą ścieżkę kompresji i dąży do mniejszego pliku, zachowując naturalny wygląd obrazu."
+    },
+    "underHood": {
+      "eyebrow": "Szczegóły techniczne",
+      "title": "Możliwości leżące u podstaw tego przepływu kompresji.",
+      "cards": [
+        {
+          "title": "Kwantyzacja PNG z uwzględnieniem krawędzi",
+          "body": "W oparciu o dostosowaną wersję biblioteki libimagequant dla WebAssembly, przy kompresji PNG najpierw dbamy o wysokoczęstotliwościowe krawędzie, co ogranicza brudne punkty i drgania na krawędziach przezroczystych grafik, UI i ikon."
+        },
+        {
+          "title": "Ostrożniejsze podejście do grafik typu JPEG",
+          "body": "Gdy obraz przypomina bardziej grafikę interfejsu lub treść mieszaną tekst-obraz, stosujemy ostrożniejszą ścieżkę chromatyczną, by zwykła strategia kompresji zdjęć nie niszczyła drobnego tekstu i ostrych krawędzi."
+        },
+        {
+          "title": "Dekodowanie w Web Worker z OffscreenCanvas",
+          "body": "Dekodowanie obrazów i ekstrakcję pikseli przeniesiono do Web Workera, realizowanego przez OffscreenCanvas, co ogranicza wpływ przetwarzania dużych obrazów na płynność interakcji w wątku głównym."
+        },
+        {
+          "title": "Strażnik rozmiaru i mechanizm awaryjny",
+          "body": "Jeśli skompresowany wynik okazałby się większy, system nie zwraca go pochopnie, lecz wraca do bezpieczniejszej ścieżki i w razie potrzeby oddaje oryginał."
+        }
+      ]
+    },
+    "footer": {
+      "left": [
+        "© 2026 BEST4IMG.COM",
+        "Tylko przetwarzanie lokalne w przeglądarce"
+      ],
+      "links": [
+        "O nas",
+        "Regulamin",
+        "Polityka prywatności"
+      ]
+    },
+    "compare": {
+      "original": "Oryginał",
+      "compressed": "BEST4IMG",
+      "before": "Przed kompresją / oryginał",
+      "after": "Po kompresji / BEST4IMG"
+    }
+  },
+  "crop": {
+    "title": "Przytnij obraz",
+    "subtitle": "Przeciągnij ramkę kadrowania lub wpisz dokładne wartości w pikselach. Całe przetwarzanie odbywa się lokalnie w przeglądarce.",
+    "dropTitle": "Przeciągnij jeden obraz lub kliknij, by go wybrać",
+    "dropHint": "Obsługiwane JPG, PNG, WebP, GIF, maks. 10 MB",
+    "settings": "Ustawienia kadrowania",
+    "cropBox": "Obszar kadrowania",
+    "width": "Szerokość",
+    "height": "Wysokość",
+    "ratios": {
+      "original": "Proporcje oryginału"
+    },
+    "reset": "Resetuj",
+    "crop": "Przytnij obraz",
+    "download": "Pobierz",
+    "replace": "Wybierz inny obraz",
+    "ready": "Wynik przycinania jest gotowy.",
+    "errors": {
+      "oversize": "Plik przekracza 10 MB",
+      "unsupported": "Nieobsługiwany format",
+      "read": "Nie można odczytać obrazu",
+      "crop": "Przycinanie obrazu nie powiodło się"
+    }
+  },
+  "crop-gif": {
+    "title": "Przytnij obraz GIF",
+    "subtitle": "Przeciągnij ramkę kadrowania, by wybrać zakres kadru; przy eksporcie zachowane zostaną klatki i szybkość odtwarzania.",
+    "dropTitle": "Przeciągnij jeden GIF lub kliknij, by wybrać animację",
+    "dropHint": "Tylko GIF, maks. 10 MB"
+  },
+  "glitch-gif": [
+    "Generator uszkodzonych GIF-ów",
+    "Spraw, by efekt glitch zmieniał się w każdej klatce, tworząc zapętlony GIF.",
+    "Przeciągnij jeden obraz lub kliknij, by wybrać",
+    "Obsługiwane JPG, PNG, WebP, maks. 20 MB",
+    "Podgląd animacji",
+    "Wybierz inny obraz",
+    "Ustawienia animacji",
+    "Typ efektu",
+    "Natężenie",
+    "Szybkość animacji",
+    "Czas trwania",
+    "Rozmiar wyjściowy",
+    "Generuj GIF",
+    "Generowanie…",
+    "Pobierz GIF",
+    "Generowanie nie powiodło się — spróbuj mniejszego rozmiaru lub krótszego czasu."
+  ],
+  "avatar-crop": {
+    "title": "Przytnij awatar i zdjęcie do dokumentu",
+    "subtitle": "Ustaw zdjęcie według wymiarów awatara społecznościowego lub zdjęcia do dokumentu i eksportuj lokalnie do PNG.",
+    "dropTitle": "Przeciągnij zdjęcie portretowe lub kliknij, by wybrać obraz",
+    "dropHint": "Obsługiwane JPG, PNG, WebP, maks. 20 MB",
+    "preview": "Podgląd na żywo",
+    "replace": "Wybierz inny obraz",
+    "presets": "Zastosowanie i rozmiar",
+    "guide": "Wskazówka ułożenia portretu",
+    "zoom": "Powiększenie zdjęcia",
+    "reset": "Przywróć",
+    "export": "Utwórz PNG",
+    "download": "Pobierz PNG",
+    "ready": "PNG jest gotowy",
+    "dragHint": "Przeciągnij zdjęcie, by zmienić położenie",
+    "unsupported": "Nieobsługiwany format obrazu",
+    "oversize": "Plik przekracza 20 MB",
+    "ui": {
+      "avatarTitle": "Przycinanie awatara okrągłego",
+      "idTitle": "Przycinanie zdjęcia do dokumentu",
+      "avatarSubtitle": "Utwórz awatar PNG z przezroczystym tłem w kształcie okręgu.",
+      "idSubtitle": "Dopasuj rozmiar i położenie portretu do wymiarów zdjęcia do dokumentu.",
+      "cropSettings": "Ustawienia kadrowania",
+      "outputSize": "Rozmiar wyjściowy",
+      "preset": "Preset",
+      "createDownload": "Utwórz i pobierz PNG",
+      "avatarLabel": "Awatar",
+      "transparentPng": "Przezroczysty PNG",
+      "idPresets": [
+        {
+          "id": "standard-passport",
+          "label": "Zdjęcie do paszportu",
+          "detail": "35 × 45 mm · 413 × 531 px",
+          "width": 413,
+          "height": 531,
+          "headTop": 0.08,
+          "chin": 0.8
+        },
+        {
+          "id": "us-passport",
+          "label": "U.S. passport",
+          "detail": "2 × 2 in · 600 × 600 px",
+          "width": 600,
+          "height": 600,
+          "headTop": 0.12,
+          "chin": 0.78
+        },
+        {
+          "id": "ca-passport",
+          "label": "Canada passport",
+          "detail": "50 × 70 mm · 591 × 827 px",
+          "width": 591,
+          "height": 827,
+          "headTop": 0.14,
+          "chin": 0.66
+        }
+      ],
+      "resizeCropArea": "Zmień obszar kadrowania",
+      "avatarPresets": [
+        {
+          "size": 200,
+          "label": "Discord / Slack"
+        },
+        {
+          "size": 300,
+          "label": "Microsoft Teams"
+        },
+        {
+          "size": 400,
+          "label": "Instagram / Facebook / X / LinkedIn"
+        },
+        {
+          "size": 460,
+          "label": "GitHub"
+        },
+        {
+          "size": 480,
+          "label": "YouTube"
+        },
+        {
+          "size": 640,
+          "label": "High-resolution profile"
+        }
+      ],
+      "presetNote": "Sizes are cropping references. Check the latest requirements with the issuing authority before submitting."
+    }
+  },
+  "color-palette": {
+    "title": "Ekstrakcja kolorów i paleta",
+    "subtitle": "Wydobądź z obrazu wielokrotnego użytku główne odcienie — wszystko lokalnie w przeglądarce.",
+    "dropTitle": "Przeciągnij lub wybierz jeden obraz",
+    "dropHint": "Obsługiwane JPG, PNG, WebP, maks. 20 MB",
+    "preview": "Podgląd obrazu",
+    "settings": "Ustawienia palety",
+    "count": "Liczba kolorów",
+    "colors": "Wydobyte kolory",
+    "clickToCopy": "Kliknij próbkę, by skopiować kod HEX",
+    "copied": "Skopiowano",
+    "output": "Wyjście kodu",
+    "css": "Zmienne CSS",
+    "tailwind": "Tailwind",
+    "copyCode": "Kopiuj kod",
+    "download": "Pobierz paletę PNG",
+    "chooseAnother": "Wybierz inny obraz",
+    "invalid": "Nieobsługiwany format obrazu",
+    "oversized": "Obraz przekracza 20 MB"
+  },
+  "format-converter": {
+    "title": "Konwersja formatów obrazów",
+    "subtitle": "Wzajemna konwersja między JPG, PNG i WebP — wszystko lokalnie w przeglądarce.",
+    "dropTitle": "Przeciągnij obrazy lub kliknij, by je wybrać",
+    "dropHint": "Obsługiwane JPG, PNG, WebP, do 50 plików, maks. 10 MB każdy",
+    "settings": "Ustawienia konwersji",
+    "targetFormat": "Format docelowy",
+    "jpgHelp": "Przy konwersji do JPG obszary przezroczyste stają się automatycznie białe.",
+    "start": "Rozpocznij konwersję",
+    "downloadAll": "Pobierz wszystko (.ZIP)",
+    "waiting": "Oczekiwanie",
+    "processing": "Konwersja",
+    "completed": "Gotowe",
+    "download": "Pobierz",
+    "empty": "Po dodaniu obrazów możesz wsadowo konwertować formaty.",
+    "errors": {
+      "oversize": "Przekroczono limit 10 MB",
+      "unsupported": "Nieobsługiwany format",
+      "read": "Nie można odczytać wymiarów obrazu",
+      "process": "Konwersja obrazu nie powiodła się"
+    },
+    "ui": {
+      "summary": "{{count}} obrazów zostanie przekonwertowanych do formatu {{format}}.",
+      "fixedTitle": "Konwersja obrazów na {{format}}",
+      "fixedSubtitle": "Prześlij obrazy JPG, PNG lub WebP, by automatycznie przekonwertować je wsadowo do formatu {{format}}."
+    }
+  },
+  "gif-compress": {
+    "title": "Kompresja GIF",
+    "subtitle": "Zmniejszaj GIF-y lokalnie w przeglądarce przez skalowanie, usuwanie klatek i redukcję liczby kolorów.",
+    "dropTitle": "Przeciągnij jeden GIF lub kliknij, by wybrać",
+    "dropHint": "Tylko GIF, maks. 20 MB",
+    "preview": "Podgląd na żywo",
+    "settings": "Ustawienia GIF",
+    "scale": "Skala",
+    "frames": "Klatki",
+    "colors": "Liczba kolorów",
+    "start": "Kompresuj GIF",
+    "download": "Pobierz",
+    "reset": "Wybierz inny GIF",
+    "original": "Oryginał",
+    "output": "Po kompresji",
+    "ready": "Skompresowany GIF jest gotowy.",
+    "pending": "Podgląd skompresowanego GIF-u pojawi się tutaj.",
+    "errors": {
+      "oversize": "Plik przekracza 20 MB",
+      "unsupported": "Prześlij plik GIF",
+      "process": "Kompresja GIF nie powiodła się",
+      "tooManyFrames": "Ten GIF ma zbyt wiele klatek dla pierwszej wersji"
+    }
+  },
+  "gif-trim": [
+    "Przycinanie klatek GIF",
+    "Wytnij fragment animacji według klatki początkowej i końcowej, zachowując oryginalne wymiary.",
+    "Przeciągnij GIF lub kliknij, by wybrać animację",
+    "Tylko GIF, maks. 20 MB",
+    "Podgląd klatek",
+    "Wybierz inny GIF",
+    "Ustawienia przycinania",
+    "Klatka początkowa",
+    "Klatka końcowa",
+    "Klatki zachowane",
+    "Generuj podgląd",
+    "Pobierz GIF",
+    "Przetwarzanie…",
+    "Wybierz prawidłowy GIF (maks. 20 MB) o nie więcej niż 16 milionach pikseli.",
+    "Przetwarzanie nie powiodło się — spróbuj mniejszego GIF-u.",
+    "Po przycięciu",
+    "Bieżąca klatka",
+    "Czas trwania",
+    "Wszystkie klatki",
+    "milisekundy",
+    "Zmień interwał klatek wsadowo",
+    "Zastosuj do zachowanych klatek"
+  ],
+  "glitch-image": {
+    "title": "Generator uszkodzonych obrazów",
+    "subtitle": "Twórz efekty rozdzielenia kolorów, przesunięcia obrazu, szumu i linii skanowania.",
+    "dropTitle": "Przeciągnij lub wybierz wiele obrazów",
+    "dropHint": "Obsługiwane JPG, PNG, WebP, do 50 plików, maks. 20 MB każdy",
+    "preview": "Podgląd na żywo",
+    "replace": "Dodaj obrazy",
+    "settings": "Ustawienia",
+    "effectType": "Typ efektu",
+    "intensity": "Natężenie",
+    "download": "Pobierz bieżący obraz",
+    "effects": {
+      "rgb": {
+        "title": "Rozdzielenie RGB",
+        "body": "Rozdzielenie kanałów kolorów"
+      },
+      "shift": {
+        "title": "Przesunięcie pikseli",
+        "body": "Losowe przesunięcie linii"
+      },
+      "blocks": {
+        "title": "Bloki glitch",
+        "body": "Przesunięcie fragmentów"
+      },
+      "stripes": {
+        "title": "Cyfrowe pasy",
+        "body": "Zakłócenia sygnału koloru"
+      },
+      "noise": {
+        "title": "Szum analogowy",
+        "body": "Szum starego sygnału"
+      },
+      "wave": {
+        "title": "Zniekształcenie falowe",
+        "body": "Falowe przesunięcie sygnału"
+      },
+      "mirror": {
+        "title": "Odbicie",
+        "body": "Symetryczne odbicie"
+      },
+      "scanlines": {
+        "title": "Linie skanowania",
+        "body": "Retro efekt CRT"
+      }
+    }
+  },
+  "home": {
+    "title": "Darmowe lokalne narzędzia graficzne",
+    "subtitle": "Przetwarzaj, konwertuj i eksportuj obrazy w przeglądarce.",
+    "tools": [
+      {
+        "title": "Kompresuj obrazy",
+        "body": "Kompresuj lokalnie JPG, PNG, WebP i SVG, zachowując najlepszą możliwą jakość.",
+        "icon": "compress",
+        "href": "compress",
+        "badge": "Dostępne"
+      },
+      {
+        "title": "Zmień rozmiar",
+        "body": "Zmieniaj wsadowo wymiary JPG, PNG, WebP i GIF, zachowując efekt animacji.",
+        "icon": "photo_size_select_large",
+        "href": "resize",
+        "badge": "Priorytet 1"
+      },
+      {
+        "title": "Przytnij obrazy",
+        "body": "Obsługuje ramkę kadrowania przeciąganą i wpisywanie dokładnych wartości w pikselach.",
+        "icon": "crop",
+        "href": "crop",
+        "badge": "Priorytet 1"
+      },
+      {
+        "title": "Przycinanie awatara okrągłego",
+        "body": "Utwórz awatar PNG z przezroczystym tłem w kształcie okręgu; możesz ustawić szerokość wyjściową.",
+        "icon": "account_circle",
+        "href": "avatar-crop",
+        "badge": "Nowość"
+      },
+      {
+        "title": "Przycinanie zdjęcia do dokumentu",
+        "body": "Ustaw położenie portretu według wymiarów zdjęcia 1-calowego, 2-calowego lub do paszportu.",
+        "icon": "badge",
+        "href": "id-photo-crop",
+        "badge": "Nowość"
+      },
+      {
+        "title": "Uszkodzony obraz",
+        "body": "Losowo łącz kolorowe bloki, pasy, szum i zniekształcenia — za każdym odświeżeniem nowy efekt.",
+        "icon": "blur_on",
+        "href": "glitch-image",
+        "badge": "Nowość"
+      },
+      {
+        "title": "Uszkodzony GIF",
+        "body": "Spraw, by rozdzielenie kolorów, szum, pasy i zniekształcenia stale się zmieniały, tworząc zapętlony GIF.",
+        "icon": "movie_filter",
+        "href": "glitch-gif",
+        "badge": "Nowość"
+      },
+      {
+        "title": "Obróć / odbij",
+        "body": "Obracaj i odbijaj wsadowo oraz eksportuj wyniki lokalnie.",
+        "icon": "rotate_right",
+        "href": "rotate",
+        "badge": "Priorytet 1"
+      },
+      {
+        "title": "Konwersja formatów",
+        "body": "Wzajemna konwersja między JPG, PNG i WebP przy wspólnej logice eksportu lokalnego.",
+        "icon": "sync_alt",
+        "href": "convert",
+        "badge": "Priorytet 1"
+      },
+      {
+        "title": "HEIC na JPG",
+        "body": "Dekoduj lokalnie przez WebAssembly zdjęcia HEIC z iPhone'a do JPG.",
+        "icon": "image",
+        "href": "convert-heic",
+        "badge": "Dostępne"
+      },
+      {
+        "title": "Dodaj znak wodny",
+        "body": "Dodaj znak wodny tekstowy lub graficzny; pozycja, przezroczystość i eksport odbywają się lokalnie.",
+        "icon": "branding_watermark",
+        "href": "watermark",
+        "badge": "Priorytet 2"
+      },
+      {
+        "title": "Scal obrazy",
+        "body": "Prześlij obraz tła i nakładki, by lokalnie połączyć je w jeden nowy obraz.",
+        "icon": "layers",
+        "href": "merge-images",
+        "badge": "Dostępne"
+      },
+      {
+        "title": "Obraz i Base64",
+        "body": "Dwukierunkowa konwersja między obrazem a Base64 z lokalnym podglądem i pobieraniem.",
+        "icon": "code_blocks",
+        "href": "base64",
+        "badge": "Priorytet 2"
+      },
+      {
+        "title": "Pixel art",
+        "body": "Dostosuj ziarnistość pikseli, powiększenie, liczbę kolorów i stałą paletę.",
+        "icon": "grid_on",
+        "href": "pixel-art",
+        "badge": "Dostępne"
+      },
+      {
+        "title": "Paleta kolorów",
+        "body": "Wydobądź główne kolory obrazu i skopiuj wartości HEX, zmienne CSS lub konfigurację Tailwind.",
+        "icon": "palette",
+        "href": "color-palette",
+        "badge": "Dostępne"
+      },
+      {
+        "title": "Kompresja GIF",
+        "body": "Zmniejszaj rozmiar GIF lokalnie przez skalowanie, usuwanie klatek i redukcję kolorów.",
+        "icon": "gif",
+        "href": "gif-compress",
+        "badge": "Dostępne"
+      },
+      {
+        "title": "Obrazy w animację",
+        "body": "Połącz wiele obrazów w jeden plik GIF lokalnie.",
+        "icon": "burst_mode",
+        "href": "images-to-gif",
+        "badge": "Wkrótce"
+      }
+    ],
+    "ui": {
+      "badges": {
+        "smartOptimize": "Inteligentna optymalizacja",
+        "newFeature": "Nowość",
+        "supportsAnimation": "Obsługa animacji",
+        "freshIdea": "Świeży pomysł"
+      },
+      "categories": [
+        [
+          "all",
+          "Wszystkie narzędzia"
+        ],
+        [
+          "optimize",
+          "Kompresja i optymalizacja"
+        ],
+        [
+          "edit",
+          "Rozmiar i przycinanie"
+        ],
+        [
+          "convert",
+          "Konwersja formatów"
+        ],
+        [
+          "gif",
+          "GIF"
+        ],
+        [
+          "create",
+          "Kreatywne i praktyczne"
+        ]
+      ],
+      "gifTrim": {
+        "title": "Przycinanie klatek GIF",
+        "body": "Wytnij fragment animacji według klatek początkowej i końcowej, zachowując oryginalne wymiary.",
+        "icon": "content_cut",
+        "href": "gif-trim",
+        "badge": "Nowość"
+      },
+      "commonTasks": [
+        [
+          "Zmniejsz rozmiar pliku",
+          "Skompresuj JPG, PNG, WebP, SVG lub GIF do publikacji na stronach, w mailach i w celu oszczędzania miejsca.",
+          "compress"
+        ],
+        [
+          "Dopasuj do wymiarów platformy",
+          "Zmień rozmiar według pikseli, procentów lub najdłuższego boku; przygotuj też awatary i zdjęcia do dokumentów.",
+          "resize"
+        ],
+        [
+          "Przetwarzaj formaty z telefonu i sieci",
+          "Ujednolicaj obrazy do JPG lub PNG; możesz też przekonwertować zdjęcia HEIC z iPhone'a na powszechny JPG.",
+          "convert"
+        ],
+        [
+          "Stwórz obraz w ruchu",
+          "Skompresuj GIF, przytnij zakres klatek, połącz obrazy w animację lub stwórz losową animację glitch.",
+          "images-to-gif"
+        ]
+      ],
+      "content": {
+        "introTitle": "Otwórz stronę i łatwo edytuj obrazy",
+        "introBody": "BEST4IMG gromadzi typowe zadania graficzne z codziennej pracy: konwersja zdjęć z telefonu na powszechny format, wycięcie odpowiedniego awatara do kont społecznościowych, ujednolicenie wymiarów zdjęć produktów, kompresja materiałów stron czy złożenie animacji z wielu obrazów. Każde narzędzie skupia się na jednej czynności, a zmiany parametrów od razu widać w podglądzie.",
+        "taskTitle": "Zacznij od potrzebnego rezultatu",
+        "taskBody": "Gdy plik ma być mniejszy — wybierz kompresję; gdy platforma wymaga stałych pikseli — zmień rozmiar; gdy chcesz zachować tylko część kadru — przytnij; gdy zdjęcie z iPhone'a się nie otwiera — użyj HEIC na JPG.",
+        "directoryTitle": "Struktura narzędzi strony",
+        "directoryBody": "Tu wymieniamy wszystkie już dostępne funkcje, łącznie z wyodrębnionymi stronami skróconymi głównych narzędzi."
+      },
+      "benefits": [
+        [
+          "shield_lock",
+          "Pliki zostają na Twoim urządzeniu",
+          "Obsługiwane przetwarzanie odbywa się w przeglądarce, więc prywatne zdjęcia, materiały robocze i nieopublikowane projekty nie muszą być najpierw wysyłane i pobierane z powrotem."
+        ],
+        [
+          "stacks",
+          "Przetwarzaj wiele naraz",
+          "Typowe narzędzia — kompresja, konwersja, obrót, znak wodny — obsługują import wsadowy do 50 plików."
+        ],
+        [
+          "visibility",
+          "Widzisz parametry i wynik",
+          "Zakres kadrowania, proporcje płótna, położenie znaku wodnego, rytm animacji i efekty kreatywne koncentrują się wokół podglądu."
+        ]
+      ],
+      "categoriesAria": "Kategorie narzędzi",
+      "noResults": "Nie znaleziono pasujących narzędzi",
+      "directory": [
+        {
+          "title": "Kompresja i optymalizacja",
+          "links": [
+            [
+              "Kompresor obrazów",
+              "compress"
+            ],
+            [
+              "Kompresja SVG",
+              "compress/svg"
+            ],
+            [
+              "Kompresja GIF",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "Zmiana rozmiaru",
+          "links": [
+            [
+              "Zmień rozmiar obrazów",
+              "resize"
+            ],
+            [
+              "Według procentów",
+              "resize/by-percentage"
+            ],
+            [
+              "Według najdłuższego boku",
+              "resize/by-longest-side"
+            ],
+            [
+              "Zmień rozmiar GIF",
+              "resize/gif"
+            ]
+          ]
+        },
+        {
+          "title": "Przycinanie i orientacja",
+          "links": [
+            [
+              "Przytnij obrazy",
+              "crop"
+            ],
+            [
+              "Przytnij GIF",
+              "crop/gif"
+            ],
+            [
+              "Przycinanie awatara okrągłego",
+              "avatar-crop"
+            ],
+            [
+              "Przycinanie zdjęcia do dokumentu",
+              "id-photo-crop"
+            ],
+            [
+              "Obróć / odbij",
+              "rotate"
+            ]
+          ]
+        },
+        {
+          "title": "Konwersja formatów",
+          "links": [
+            [
+              "Konwerter formatów obrazów",
+              "convert"
+            ],
+            [
+              "Obraz na JPG",
+              "convert/image-to-jpg"
+            ],
+            [
+              "Obraz na PNG",
+              "convert/image-to-png"
+            ],
+            [
+              "HEIC na JPG",
+              "convert-heic"
+            ],
+            [
+              "Obraz i Base64",
+              "base64"
+            ]
+          ]
+        },
+        {
+          "title": "GIF i animacje",
+          "links": [
+            [
+              "Obrazy w animację",
+              "images-to-gif"
+            ],
+            [
+              "Przycinanie klatek GIF",
+              "gif-trim"
+            ],
+            [
+              "Uszkodzony GIF",
+              "glitch-gif"
+            ],
+            [
+              "Kompresja GIF",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "Kreatywne i praktyczne",
+          "links": [
+            [
+              "Dodaj znak wodny",
+              "watermark"
+            ],
+            [
+              "Scal obrazy",
+              "merge-images"
+            ],
+            [
+              "Pixel art",
+              "pixel-art"
+            ],
+            [
+              "Paleta kolorów",
+              "color-palette"
+            ],
+            [
+              "Uszkodzony obraz",
+              "glitch-image"
+            ],
+            [
+              "Uszkodzony GIF",
+              "glitch-gif"
+            ]
+          ]
+        }
+      ],
+      "splitRouteTitles": {
+        "resize/by-percentage": "Zmiana rozmiaru według procentów",
+        "resize/by-longest-side": "Zmiana rozmiaru według najdłuższego boku",
+        "resize/gif": "Zmiana rozmiaru GIF",
+        "crop/gif": "Przytnij GIF",
+        "convert/image-to-jpg": "Obraz na JPG",
+        "convert/image-to-png": "Obraz na PNG",
+        "compress/svg": "Kompresja SVG"
+      }
+    }
+  },
+  "image-base64": {
+    "title": "Konwerter obrazu i Base64",
+    "subtitle": "Dokonaj dwukierunkowej konwersji między obrazem a Base64 lokalnie w przeglądarce.",
+    "encode": "Obraz na Base64",
+    "decode": "Base64 na obraz",
+    "dropTitle": "Przeciągnij lub wybierz obrazy",
+    "dropHint": "Obsługiwane JPG, PNG, WebP, GIF, SVG, maks. 10 MB każdy",
+    "settings": "Wyjście",
+    "output": "Wynik Base64",
+    "dataUrl": "Data URL",
+    "raw": "Tylko Base64",
+    "cssUrl": "CSS url()",
+    "copy": "Kopiuj",
+    "copied": "Skopiowano",
+    "empty": "Prześlij obraz, a następnie wybierz go z listy poniżej.",
+    "decodeInput": "Treść Base64",
+    "decodePlaceholder": "Wklej Data URL, czysty Base64 lub zawartość CSS url()",
+    "preview": "Podgląd obrazu",
+    "decodeHint": "Format obrazu zostanie wykryty automatycznie; całe przetwarzanie odbywa się lokalnie.",
+    "invalid": "Nie wykryto prawidłowych danych obrazu.",
+    "tooLarge": "Odtworzony obraz przekracza 20 MB.",
+    "download": "Pobierz obraz",
+    "detected": "Wykryto",
+    "errors": {
+      "oversize": "Przekroczono limit 10 MB",
+      "unsupported": "Nieobsługiwany format obrazu",
+      "read": "Odczyt pliku nie powiódł się"
+    }
+  },
+  "image-merge": {
+    "title": "Scalanie obrazów",
+    "subtitle": "Prześlij obraz tła i nakładki, by lokalnie w przeglądarce połączyć je w jeden nowy obraz.",
+    "preview": "Podgląd na żywo",
+    "settings": "Ustawienia scalania",
+    "background": "Tło",
+    "overlay": "Nakładka",
+    "chooseBackground": "Wybierz tło",
+    "chooseOverlay": "Wybierz nakładkę",
+    "output": "Wyjście",
+    "width": "Szer.",
+    "height": "Wys.",
+    "download": "Pobierz",
+    "empty": "Najpierw prześlij obraz tła — tutaj pojawi się podgląd scalania.",
+    "errors": {
+      "oversize": "Plik przekracza 10 MB",
+      "unsupported": "Nieobsługiwany format obrazu",
+      "load": "Nie można odczytać tego obrazu",
+      "missing": "Najpierw prześlij obraz tła"
+    },
+    "ui": {
+      "previewScale": "Podgląd",
+      "zoomOut": "Pomniejsz",
+      "reset": "Przywróć",
+      "zoomIn": "Powiększ",
+      "remove": "Usuń"
+    }
+  },
+  "images-to-gif": {
+    "title": "Obrazy w animację",
+    "subtitle": "Połącz wiele obrazów w GIF lokalnie w przeglądarce.",
+    "dropTitle": "Przeciągnij lub wybierz wiele obrazów",
+    "dropHint": "Obsługiwane JPG, PNG, WebP, SVG, do 50 plików",
+    "preview": "Podgląd animacji",
+    "settings": "Ustawienia animacji",
+    "width": "Szer.",
+    "height": "Wys.",
+    "delay": "Czas klatki",
+    "fit": "Sposób wypełnienia",
+    "cover": "Wypełnij",
+    "contain": "Pokaż całość",
+    "colors": "Liczba kolorów",
+    "start": "Utwórz GIF",
+    "download": "Pobierz GIF",
+    "reset": "Wybierz obrazy",
+    "source": "Obrazy",
+    "output": "Wyjście",
+    "frames": "Klatki",
+    "pending": "Podgląd wygenerowanego GIF-u pojawi się tutaj.",
+    "errors": {
+      "oversize": "Niektóre pliki przekraczają 10 MB",
+      "unsupported": "Niektóre formaty są nieobsługiwane",
+      "load": "Niektórych obrazów nie można odczytać",
+      "missing": "Prześlij co najmniej dwa obrazy",
+      "process": "Tworzenie GIF nie powiodło się"
+    },
+    "ui": {
+      "upload": "Przesyłanie obrazów",
+      "presets": "Presety wymiarów",
+      "custom": "Niestandardowy",
+      "loop": "Pętla",
+      "infinite": "Nieskończona",
+      "times": "Liczba odtworzeń",
+      "quality": "Jakość",
+      "high": "Wysoka",
+      "standard": "Standardowa",
+      "compact": "Maksymalna kompresja",
+      "background": "Tło",
+      "transparent": "Przezroczyste",
+      "white": "Białe",
+      "black": "Czarne",
+      "colorSuffix": " kolorów",
+      "moveUp": "Przesuń w górę",
+      "moveDown": "Przesuń w dół",
+      "delete": "Usuń"
+    }
+  },
+  "pixel-art": {
+    "title": "Pixel art",
+    "subtitle": "Zamień obrazy w wyraźny pixel art — wszystko lokalnie w przeglądarce.",
+    "dropTitle": "Przeciągnij lub wybierz jeden obraz",
+    "dropHint": "Obsługiwane JPG, PNG, WebP, maks. 20 MB",
+    "preview": "Podgląd na żywo",
+    "settings": "Ustawienia pixel art",
+    "pixelSize": "Rozmiar piksela",
+    "pixelHint": "Większa wartość daje wyraźniejszy efekt bloków.",
+    "scale": "Rozmiar eksportu",
+    "colors": "Liczba kolorów",
+    "palette": "Paleta",
+    "auto": "Automatycznie",
+    "gameboy": "Game Boy",
+    "gray": "Skala szarości",
+    "nes": "Styl NES",
+    "output": "Rozmiar wyjściowy",
+    "download": "Pobierz PNG",
+    "chooseAnother": "Wybierz inny obraz",
+    "invalid": "Nieobsługiwany format obrazu",
+    "oversized": "Obraz przekracza 20 MB"
+  },
+  "resize": {
+    "title": "Zmień rozmiar obrazów",
+    "subtitle": "Zmieniaj wsadowo wymiary JPG, PNG, WebP i GIF, zachowując efekt animacji.",
+    "dropTitle": "Przeciągnij obrazy lub kliknij, by je wybrać",
+    "dropHint": "Obsługiwane JPG, PNG, WebP, GIF, do 50 plików, maks. 10 MB każdy",
+    "settings": "Ustawienia rozmiaru",
+    "percent": "Według procentów",
+    "longest": "Według najdłuższego boku",
+    "scale": "Skala",
+    "longestSide": "Najdłuższy bok",
+    "longestHelp": "Obrazy poziome ograniczają szerokość, pionowe — wysokość; proporcje zostają zachowane.",
+    "start": "Rozpocznij zmianę rozmiaru",
+    "downloadAll": "Pobierz wszystko (.ZIP)",
+    "waiting": "Oczekiwanie",
+    "processing": "Przetwarzanie",
+    "completed": "Gotowe",
+    "download": "Pobierz",
+    "empty": "Po dodaniu obrazów tutaj pojawią się ich docelowe wymiary.",
+    "errors": {
+      "oversize": "Przekroczono limit 10 MB",
+      "unsupported": "Nieobsługiwany format",
+      "read": "Nie można odczytać wymiarów obrazu",
+      "process": "Zmiana rozmiaru obrazu nie powiodła się"
+    },
+    "ui": {
+      "summaryPercent": "{{count}} obrazów zostanie przeskalowanych do {{percent}}%.",
+      "summaryLongest": "Najdłuższy bok {{count}} obrazów zostanie ograniczony do {{longest}} px.",
+      "gifTitle": "Zmiana rozmiaru animowanych GIF-ów",
+      "percentTitle": "Zmiana rozmiaru obrazów według procentów",
+      "longestTitle": "Zmiana rozmiaru obrazów według najdłuższego boku",
+      "gifSubtitle": "Zmień wymiary GIF, zachowując liczbę klatek, szybkość odtwarzania i pętlę.",
+      "percentSubtitle": "Wpisz procent skalowania, by wsadowo zmieniać wymiary JPG, PNG, WebP i GIF w proporcji.",
+      "longestSubtitle": "Ustaw najdłuższy bok w pikselach i przeskaluj obrazy, zachowując ich proporcje.",
+      "gifDropTitle": "Przeciągnij GIF-y lub kliknij, by wybrać animacje",
+      "gifDropHint": "Do 50 plików GIF, maks. 10 MB każdy"
+    }
+  },
+  "rotate": {
+    "title": "Obróć / odbij obrazy",
+    "subtitle": "Obracaj lub odbijaj wsadowo — wszystko lokalnie w przeglądarce.",
+    "dropTitle": "Przeciągnij obrazy lub kliknij, by je wybrać",
+    "dropHint": "Obsługiwane JPG, PNG, WebP, do 50 plików, maks. 10 MB każdy",
+    "settings": "Ustawienia obrotu",
+    "rotate": "Obróć",
+    "flip": "Odbij",
+    "left": "W lewo",
+    "right": "W prawo",
+    "reset": "Resetuj",
+    "horizontal": "W poziomie",
+    "vertical": "W pionie",
+    "start": "Rozpocznij przetwarzanie",
+    "downloadAll": "Pobierz wszystko (.ZIP)",
+    "waiting": "Oczekiwanie",
+    "processing": "Przetwarzanie",
+    "completed": "Gotowe",
+    "download": "Pobierz",
+    "empty": "Po dodaniu obrazów możesz obracać i odbijać je wsadowo.",
+    "errors": {
+      "oversize": "Przekroczono limit 10 MB",
+      "unsupported": "Nieobsługiwany format",
+      "read": "Nie można odczytać wymiarów obrazu",
+      "process": "Przetwarzanie obrazu nie powiodło się"
+    },
+    "ui": {
+      "preview": "Podgląd na żywo",
+      "add": "Dodaj więcej obrazów",
+      "empty": "Po przeciągnięciu obrazów tutaj pojawi się efekt obrotu i odbicia.",
+      "summary": "{{count}} obrazów użyje bieżących ustawień obrotu i odbicia."
+    }
+  },
+  "watermark": {
+    "title": "Dodaj znak wodny",
+    "subtitle": "Dodaj znak wodny tekstowy lub graficzny — wszystko lokalnie w przeglądarce.",
+    "dropTitle": "Przeciągnij obrazy lub kliknij, by je wybrać",
+    "dropHint": "Obsługiwane JPG, PNG, WebP, do 50 plików, maks. 10 MB każdy",
+    "settings": "Ustawienia znaku wodnego",
+    "text": "Tekst",
+    "image": "Obraz",
+    "watermarkText": "Tekst znaku wodnego",
+    "chooseMark": "Wybierz obraz znaku wodnego",
+    "size": "Rozmiar",
+    "opacity": "Przezroczystość",
+    "color": "Kolor",
+    "position": "Położenie",
+    "start": "Dodaj znak wodny",
+    "downloadAll": "Pobierz wszystko (.ZIP)",
+    "waiting": "Oczekiwanie",
+    "processing": "Przetwarzanie",
+    "completed": "Gotowe",
+    "download": "Pobierz",
+    "empty": "Po dodaniu obrazów tutaj pojawi się podgląd znaku wodnego.",
+    "preview": "Podgląd na żywo",
+    "addMore": "Dodaj więcej obrazów",
+    "errors": {
+      "oversize": "Przekroczono limit 10 MB",
+      "unsupported": "Nieobsługiwany format",
+      "read": "Nie można odczytać wymiarów obrazu",
+      "process": "Dodanie znaku wodnego nie powiodło się",
+      "noWatermark": "Najpierw dodaj tekst lub obraz znaku wodnego"
+    },
+    "ui": {
+      "summary": "{{count}} obrazów użyje bieżącego znaku wodnego.",
+      "layout": "Układ",
+      "position": "Położenie",
+      "tile": "Kafelki",
+      "gap": "Odstęp",
+      "angle": "Kąt nachylenia"
+    }
+  },
+  "common": {
+    "intensity": {
+      "light": "Lekkie",
+      "medium": "Średnie",
+      "strong": "Mocne"
+    },
+    "tryAnother": "Wypróbuj nowy pomysł",
+    "original": "Oryginał",
+    "originalSize": "Rozmiar oryginału",
+    "preview": "Podgląd na żywo",
+    "processing": "Przetwarzanie…",
+    "invalidImages": "Wybierz obsługiwane obrazy, maks. 20 MB każdy",
+    "loading": "Ładowanie…",
+    "resizeCropBox": "Zmień rozmiar ramki kadrowania"
+  },
+  "layout": {
+    "nav": {
+      "compress": "Kompresja obrazów",
+      "resize": "Zmień rozmiar",
+      "crop": "Przytnij obrazy",
+      "convert": "Konwersja",
+      "gif": "Tworzenie GIF",
+      "all": "Wszystkie narzędzia"
+    },
+    "tools": [
+      "Obróć / odbij",
+      "HEIC na JPG",
+      "Dodaj znak wodny",
+      "Scal obrazy",
+      "Kompresja GIF",
+      "Przycinanie klatek GIF",
+      "Przycinanie awatara okrągłego",
+      "Przycinanie zdjęcia do dokumentu",
+      "Obraz i Base64",
+      "Pixel art",
+      "Paleta kolorów",
+      "Uszkodzony obraz",
+      "Uszkodzony GIF",
+      "Kompresja SVG"
+    ]
+  },
+  "svg-compress": {
+    "title": "Kompresor SVG",
+    "subtitle": "Usuwaj komentarze, metadane edytora i nadmiarowe odstępy z SVG, zachowując grafikę i przezroczystość.",
+    "drop": "Przeciągnij SVG lub kliknij, by wybrać pliki",
+    "hint": "Tylko SVG, do 50 plików, maks. 10 MB każdy"
+  },
+  "gif-trim-ui": {
+    "playbackOrder": "Playback order",
+    "forward": "Forward",
+    "reverse": "Reverse",
+    "pingPong": "Ping-pong"
+  }
+}

@@ -1,0 +1,1428 @@
+{
+  "info": {
+    "about": {
+      "title": "關於我們",
+      "intro": "BEST4IMG 是一套注重速度、隱私與易用性的免費圖片工具。我們希望常見的圖片處理不必依賴複雜軟體，也不必先把私人照片上傳到遠端伺服器。",
+      "sections": [
+        {
+          "title": "我們在做什麼",
+          "paragraphs": [
+            "網站提供圖片壓縮、尺寸調整、裁切、格式轉換、浮水印、GIF 與創意效果等工具。大多數處理直接使用瀏覽器的 Canvas、WebAssembly 和 Worker 能力完成。"
+          ]
+        },
+        {
+          "title": "本機優先",
+          "paragraphs": [
+            "選擇圖片後，處理工作通常發生在目前裝置中。圖片不會為了完成這些工具操作而主動上傳到我們的伺服器。關閉或重新整理頁面後，瀏覽器內為本次操作建立的臨時預覽也會失效。"
+          ]
+        },
+        {
+          "title": "產品原則",
+          "paragraphs": [
+            "我們優先提供清晰的操作、可預期的結果和合理的效能。新功能只有在適合本機執行、對使用者確實有幫助時才會加入。"
+          ]
+        },
+        {
+          "title": "為日常圖片工作而做",
+          "paragraphs": [
+            "一張頭像需要裁成圓形，一組商品圖需要統一尺寸，一張截圖需要縮小體積，幾張照片需要合成動圖。這些事情看似簡單，卻常常要開啟不同的軟體，重複尋找匯出選項。BEST4IMG 希望把這些常用動作放在一個熟悉的地方。",
+            "你可以按目前任務選擇工具：發佈前壓縮與轉換，排版前調整與裁切，分享前新增浮水印，也可以用像素畫和故障效果探索不同的視覺表達。每個工具都盡量圍繞一個明確的結果展開。"
+          ]
+        },
+        {
+          "title": "品質與效率之間，保留選擇",
+          "paragraphs": [
+            "更小的檔案不一定意味著更好的結果。照片、截圖、透明圖和動圖各有不同的特點，適合的輸出格式也不同。我們根據工具提供適當的選項，並讓你在下載前檢查尺寸、透明區域和視覺效果。",
+            "本機處理也會佔用裝置的記憶體和運算資源。大尺寸圖片、長動圖或大量檔案可能需要更久。分批處理、保留原圖、及時下載結果，能讓日常工作更可靠。"
+          ]
+        },
+        {
+          "title": "持續改進",
+          "paragraphs": [
+            "不同瀏覽器、圖片格式和裝置效能可能帶來差異。我們持續改進相容性、壓縮品質與操作體驗，關注真實任務中的細節：輸入是否順手、預覽是否清楚、結果是否符合預期。",
+            "我們使用開源影像處理元件完成部分編碼與解碼工作。它們幫助瀏覽器承擔更多原本需要桌面軟體的任務，各元件的權利與許可仍屬於對應作者。"
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "服務條款",
+      "intro": "使用 BEST4IMG 即表示你同意以下條款。請在處理重要檔案前保留原始副本。",
+      "updated": "更新日期：2026年9月7日",
+      "sections": [
+        {
+          "title": "服務範圍",
+          "paragraphs": [
+            "BEST4IMG 依現況提供瀏覽器圖片處理工具。功能、支援格式和處理限制可能隨產品更新而調整。"
+          ]
+        },
+        {
+          "title": "你的責任",
+          "paragraphs": [
+            "你應確保有權處理和使用所選擇的圖片，不得利用本服務侵犯版權、隱私或其他合法權益，也不得嘗試破壞網站或影響他人正常使用。"
+          ]
+        },
+        {
+          "title": "圖片權利與處理授權",
+          "paragraphs": [
+            "你對原始圖片擁有的權利不會因為使用本工具而轉移給 BEST4IMG。我們不因你選擇檔案而取得圖片的所有權，也不要求你授予將圖片用於公開展示或模型訓練的權利。",
+            "新增浮水印、裁切、轉換格式等操作不會賦予你對他人作品的新權利。涉及肖像、商標、受保護作品或個人資訊時，請自行取得必要授權。"
+          ]
+        },
+        {
+          "title": "檔案與裝置",
+          "paragraphs": [
+            "工具在你的瀏覽器中處理檔案，執行速度與可處理規模取決於裝置記憶體、瀏覽器及圖片複雜程度。頁面可能設定數量、檔案大小或尺寸限制。",
+            "重新整理頁面、關閉分頁或瀏覽器異常可能導致未下載的結果丟失。網站不是檔案儲存或備份服務，請保留原始檔案，並將需要的結果下載到自己的裝置。"
+          ]
+        },
+        {
+          "title": "結果與可用性",
+          "paragraphs": [
+            "圖片編碼、瀏覽器實現和裝置資源存在差異，我們不保證所有檔案都能處理成功，也不保證輸出適合特定印刷、存檔或專業用途。請在刪除原檔案前檢查下載結果。"
+          ]
+        },
+        {
+          "title": "格式、色彩與專用規格",
+          "paragraphs": [
+            "有失真壓縮和重新編碼可能改變細節、色彩、透明度或後設資料。轉換為 JPG 時不支援透明通道；動圖經處理後也可能出現調色盤差異。頁面中的品質描述不代表所有處理都是無損的。",
+            "頭像和證件照中的尺寸預設及人像參考線用於輔助排版，不構成平台或受理機構的認證。提交前應以接收方目前要求為準，核對尺寸、背景、構圖和檔案限制。"
+          ]
+        },
+        {
+          "title": "責任限制",
+          "paragraphs": [
+            "在法律允許的範圍內，我們不對檔案丟失、輸出差異、服務中斷或因使用處理結果產生的間接損失承擔責任。"
+          ]
+        },
+        {
+          "title": "條款變更",
+          "paragraphs": [
+            "我們可能因功能或法律要求更新這些條款。更新後的內容會發布在本頁面，並標註新的更新日期。"
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "隱私政策",
+      "intro": "BEST4IMG 採用本機優先的圖片處理方式。下面說明網站在你使用工具時如何對待圖片和必要的技術資訊。",
+      "updated": "更新日期：2026年9月5日",
+      "sections": [
+        {
+          "title": "圖片如何處理",
+          "paragraphs": [
+            "你選擇的圖片通常只在目前瀏覽器分頁中讀取和處理。我們不會為了執行壓縮、裁切、轉換等操作而主動把圖片內容上傳到伺服器。"
+          ]
+        },
+        {
+          "title": "瀏覽器中的臨時資料",
+          "paragraphs": [
+            "網站可能在記憶體中建立圖片預覽、處理結果和暫存物件 URL，並使用本機儲存記住語言等必要偏好。這些資料由你的瀏覽器管理，重新整理、關閉頁面或清理網站資料後可能消失。"
+          ]
+        },
+        {
+          "title": "語言偏好與下載檔案",
+          "paragraphs": [
+            "當你切換語言時，網站會將所選語言儲存到瀏覽器的本機儲存，方便下次造訪時恢復。此設定不需要包含你的姓名、電子郵件信箱或圖片內容，你可以在瀏覽器設定中清除它。",
+            "下載的圖片與 ZIP 檔案由瀏覽器儲存到你指定的位置。關閉頁面或清除本站資料不會自動刪除這些下載檔案，也不會刪除你原來選擇的圖片。"
+          ]
+        },
+        {
+          "title": "基礎技術資訊",
+          "paragraphs": [
+            "網站託管服務可能記錄存取時間、請求網址、瀏覽器類型、IP 位址和錯誤紀錄等基礎資訊，用於安全、穩定性和故障排查。這些記錄不包含你在本機處理的圖片內容。"
+          ]
+        },
+        {
+          "title": "字型、程式資源與外部連結",
+          "paragraphs": [
+            "目前頁面使用 Google Fonts 提供的字型與圖示。載入這些資源時，瀏覽器會向第三方網域發起請求，對方可能接收IP 位址、瀏覽器資訊等連線所需的技術資料；這些字型請求不需要傳送你選擇的圖片。",
+            "圖片編碼元件等程式資源也需要載入到瀏覽器中，部分工具會在使用時再載入資源。因此，本機圖片處理不等於網站完全不發生網路請求。外部網站對其自身的資料處理負責。"
+          ]
+        },
+        {
+          "title": "圖片中的個人資訊",
+          "paragraphs": [
+            "照片可能包含人臉、住址、證件內容，或拍攝時間與位置等後設資料。處理在本機完成，並不意味著下載結果已經去除了所有敏感資訊。請在分享前自行核對可見內容及檔案資訊。",
+            "在共享裝置上使用工具時，還應關注下載目錄、瀏覽器擴充功能和裝置本身的存取權限。本政策說明本站的處理方式，無法控制裝置上其他軟體的行為。"
+          ]
+        },
+        {
+          "title": "政策範圍與更新",
+          "paragraphs": [
+            "本政策適用於 BEST4IMG 目前提供的圖片工具。伺服器存取紀錄的實際保留期限取決於部署與託管設定，本頁面不承諾未經核實的統一儲存期限。",
+            "如果未來增加帳號、統計分析或需要伺服器處理的功能，應在上線時同步說明相關的資料用途與選擇方式。重要變化會反映在本頁面的更新日期中。"
+          ]
+        },
+        {
+          "title": "你的選擇",
+          "paragraphs": [
+            "你可以隨時停止處理、關閉頁面，或透過瀏覽器設定清除本站儲存的本機資料。請勿在不信任的共享裝置上保留敏感圖片的下載結果。"
+          ]
+        }
+      ]
+    },
+    "ui": {
+      "eyebrow": "免費圖片工具",
+      "highlights": {
+        "about": [
+          [
+            "devices",
+            "處理留在裝置上",
+            "瀏覽器承擔圖片處理"
+          ],
+          [
+            "photo_library",
+            "覆蓋常見圖片任務",
+            "從壓縮裁切到創意效果"
+          ],
+          [
+            "download",
+            "結果由你儲存",
+            "處理完成，自主下載"
+          ]
+        ],
+        "privacy": [
+          [
+            "image",
+            "圖片在本機處理",
+            "工具操作無需上傳圖片"
+          ],
+          [
+            "language",
+            "聯網載入網頁資源",
+            "包括程式、字型與圖示"
+          ],
+          [
+            "tune",
+            "本機資料由你管理",
+            "語言偏好可在瀏覽器中清除"
+          ]
+        ],
+        "terms": [
+          [
+            "copyright",
+            "圖片權利歸原權利人",
+            "處理前確認使用授權"
+          ],
+          [
+            "verified",
+            "下載前檢查結果",
+            "核對尺寸、顏色與用途"
+          ],
+          [
+            "save",
+            "保留原始檔案",
+            "工具不提供檔案備份"
+          ]
+        ]
+      },
+      "tagline": "讓圖片處理，回到簡單。",
+      "explore": "瀏覽圖片工具"
+    }
+  },
+  "site": {
+    "siteName": "BEST4IMG",
+    "seo": {
+      "title": "BEST4IMG | 本機端 JPG、PNG、WebP、SVG 圖片壓縮工具",
+      "description": "在瀏覽器本機壓縮 JPG、PNG、WebP 與 SVG 圖片，不必上傳伺服器。適合網站素材、截圖、電商圖片與日常分享，支援批次處理。"
+    },
+    "nav": {
+      "ariaLabel": "選擇語言",
+      "current": "繁體中文",
+      "options": [
+        {
+          "code": "en",
+          "label": "English"
+        },
+        {
+          "code": "es",
+          "label": "Español"
+        },
+        {
+          "code": "fr",
+          "label": "Français"
+        },
+        {
+          "code": "de",
+          "label": "Deutsch"
+        },
+        {
+          "code": "it",
+          "label": "Italiano"
+        },
+        {
+          "code": "pt",
+          "label": "Português"
+        },
+        {
+          "code": "ja",
+          "label": "日本語"
+        },
+        {
+          "code": "ru",
+          "label": "Pусский"
+        },
+        {
+          "code": "ko",
+          "label": "한국어"
+        },
+        {
+          "code": "zh",
+          "label": "简体中文"
+        },
+        {
+          "code": "zh-tw",
+          "label": "繁體中文"
+        },
+        {
+          "code": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "bg",
+          "label": "Български"
+        },
+        {
+          "code": "ca",
+          "label": "Català"
+        },
+        {
+          "code": "nl",
+          "label": "Nederlands"
+        },
+        {
+          "code": "el",
+          "label": "Ελληνικά"
+        },
+        {
+          "code": "hi",
+          "label": "हिन्दी"
+        },
+        {
+          "code": "id",
+          "label": "Bahasa Indonesia"
+        },
+        {
+          "code": "ms",
+          "label": "Bahasa Melayu"
+        },
+        {
+          "code": "pl",
+          "label": "Polski"
+        },
+        {
+          "code": "sv",
+          "label": "Svenska"
+        },
+        {
+          "code": "th",
+          "label": "ภาษาไทย"
+        },
+        {
+          "code": "tr",
+          "label": "Türkçe"
+        },
+        {
+          "code": "uk",
+          "label": "Українська"
+        },
+        {
+          "code": "vi",
+          "label": "Tiếng Việt"
+        },
+        {
+          "code": "sw",
+          "label": "Kiswahili"
+        }
+      ],
+      "tools": {
+        "compressor": "圖片壓縮",
+        "heicConverter": "HEIC 轉 JPG"
+      }
+    },
+    "heicConverter": {
+      "heroTitle": "HEIC 轉 JPG",
+      "heroSubtitle": "在瀏覽器本機批次轉換蘋果 HEIC 照片",
+      "dropTitle": "拖曳加入或選擇 HEIC 圖片",
+      "dropHint": "最多 50 張，單張不超過 50MB",
+      "downloadAll": "下載全部 .ZIP",
+      "zipName": "BEST4IMG-converted.zip",
+      "formatJpg": "JPG",
+      "formatPng": "PNG",
+      "statuses": {
+        "converting": "轉換中...",
+        "waiting": "等待中...",
+        "completed": "已完成",
+        "error": "錯誤"
+      },
+      "errors": {
+        "exceedsLimit": "錯誤：檔案超過 50MB",
+        "unsupportedFormat": "錯誤：不支援此格式",
+        "failedToProcess": "處理失敗"
+      },
+      "actions": {
+        "download": "下載"
+      },
+      "content": {
+        "hero": {
+          "title": "本機轉換 HEIC\n即時、私密、無需上傳",
+          "subtitle": "無需註冊，不經過伺服器，也不受後端檔案大小限制。所有轉換都在你的瀏覽器中透過 WebAssembly 完成。"
+        },
+        "featureCards": [
+          {
+            "icon": "lock",
+            "title": "完全私密 — 檔案不離開你的裝置",
+            "body": "HEIC 解碼和 JPG 編碼全程在你的瀏覽器分頁內完成。照片不會發送到任何遠端伺服器，可以放心處理個人相簿、醫療影像或敏感檔案。"
+          },
+          {
+            "icon": "bolt",
+            "title": "批次轉換，順序處理佇列",
+            "body": "一次最多可以拖曳加入 50 張 HEIC 檔案，系統會逐一按順序處理。有序的佇列機制可以防止瀏覽器在處理 iPhone 或 iPad 拍攝的大尺寸 HEIC 照片時卡頓。"
+          },
+          {
+            "icon": "image",
+            "title": "保留原始解析度輸出",
+            "body": "轉換後的 JPG 保留原始像素尺寸，不會縮放或重取樣。拍攝的是什麼解析度，輸出就是什麼解析度，只是換成了所有裝置和應用都能開啟的格式。"
+          }
+        ],
+        "underHood": {
+          "eyebrow": "技術細節",
+          "title": "支撐這套 HEIC 轉 JPG 流程的核心能力。",
+          "cards": [
+            {
+              "title": "heic2any 與 WebAssembly 解碼",
+              "body": "HEIC 檔案使用蘋果的 HEIF 容器與 HEVC（H.265）編碼。heic2any 函式庫透過瀏覽器內的 WebAssembly 編譯解碼器，將這種私有格式轉換為標準影像資料，無需呼叫任何原生系統介面。"
+            },
+            {
+              "title": "依序處理單一檔案",
+              "body": "HEIC 解碼比 PNG 或 JPEG 解碼消耗更多 CPU。每次只處理一個檔案，可以避免主執行緒過載，在批次轉換過程中保持頁面的流暢回應。"
+            }
+          ]
+        }
+      },
+      "settings": {
+        "title": "輸出設定",
+        "quality": "JPG 品質",
+        "qualityHint": "品質越高，產生的 JPG 檔案越大。",
+        "orientation": "拍攝方向",
+        "orientationAuto": "自動校正",
+        "orientationHint": "依照片顯示方向輸出。",
+        "metadata": "中繼資料",
+        "metadataRemoved": "自動清除",
+        "metadataHint": "EXIF 與 GPS 資訊不會複製到 JPG。"
+      }
+    },
+    "compressor": {
+      "heroTitle": "圖片壓縮工具",
+      "heroSubtitle": "免費支援 JPG、PNG、WebP 與 SVG，確保每次壓縮都保持最佳品質",
+      "dropTitle": "拖曳加入圖片，或點選選擇圖片",
+      "dropHint": "最多 50 張圖片，單張不超過 10MB",
+      "downloadAll": "下載全部 .ZIP",
+      "zipName": "BEST4IMG-compressed.zip",
+      "statuses": {
+        "compressing": "壓縮中...",
+        "waiting": "等待中...",
+        "completed": "已完成",
+        "error": "錯誤"
+      },
+      "errors": {
+        "exceedsLimit": "錯誤：檔案超過 10MB",
+        "unsupportedFormat": "錯誤：不支援此格式",
+        "failedToProcess": "處理檔案時失敗"
+      },
+      "actions": {
+        "download": "下載"
+      }
+    },
+    "hero": {
+      "title": "支援 JPG、PNG、WebP 與 SVG 的\n本機端圖片壓縮工具",
+      "subtitle": "為網站、檔案、電商和日常分享減小圖片體積，同時盡量保持觀感自然。"
+    },
+    "featureCards": [
+      {
+        "type": "compare",
+        "title": "文字更清楚，透明邊緣更乾淨",
+        "body": "很多壓縮工具一碰截圖、介面圖或透明 PNG，就容易把小字壓糊、把邊緣壓髒。BEST4IMG 會盡量照顧這類細節，在明顯減小體積的同時，儘可能保住字和邊緣的乾淨程度。"
+      },
+      {
+        "type": "image",
+        "title": "100% 本機處理，更安心",
+        "body": "所有檔案處理和壓縮都在你的瀏覽器裡完成，不會上傳到遠端伺服器。對於內部素材、個人檔案和敏感內容，這種本機處理方式會更讓人放心。"
+      }
+    ],
+    "autopilot": {
+      "title": "智慧最佳化處理，無需反覆猜參數",
+      "body": "不用來回拖品質滑桿。BEST4IMG 會自動評估更合適的壓縮路徑，盡量在保持觀感自然的前提下，把檔案體積壓得更小。"
+    },
+    "underHood": {
+      "eyebrow": "技術細節",
+      "title": "支撐這套壓縮流程的核心能力。",
+      "cards": [
+        {
+          "title": "邊緣優先的 PNG 量化",
+          "body": "基於定製化的 libimagequant WebAssembly 方案，在壓縮 PNG 時優先照顧高頻邊緣，減少透明圖、UI 圖和圖示邊緣出現髒點和抖動的情況。"
+        },
+        {
+          "title": "更保守的圖形類 JPEG 策略",
+          "body": "在識別到更像 UI 圖或圖文混排內容時，會採用更保守的色度處理路徑，盡量避免小字和銳利邊緣被普通照片壓縮策略破壞。"
+        },
+        {
+          "title": "OffscreenCanvas 與 Worker 解碼",
+          "body": "圖片解碼與像素擷取已移到 Web Worker 中，透過 OffscreenCanvas 完成，盡量減少大圖處理時對主執行緒互動流暢度的影響。"
+        },
+        {
+          "title": "體積守衛與回退機制",
+          "body": "如果壓縮後的結果反而更大，系統不會盲目輸出，而是會回退到更穩妥的路徑，必要時直接返回原圖。"
+        }
+      ]
+    },
+    "footer": {
+      "left": [
+        "© 2026 BEST4IMG.COM",
+        "僅瀏覽器本機處理"
+      ],
+      "links": [
+        "關於我們",
+        "服務條款",
+        "隱私政策"
+      ]
+    },
+    "compare": {
+      "original": "原圖",
+      "compressed": "BEST4IMG",
+      "before": "壓縮前 / 原圖",
+      "after": "壓縮後 / BEST4IMG"
+    }
+  },
+  "crop": {
+    "title": "裁切圖片",
+    "subtitle": "拖曳裁切框，或輸入精確像素值。所有處理都在瀏覽器本機完成。",
+    "dropTitle": "拖曳加入一張圖片，或點選選擇圖片",
+    "dropHint": "支援 JPG、PNG、WebP、GIF，單張不超過 10MB",
+    "settings": "裁切設定",
+    "cropBox": "裁切區域",
+    "width": "寬度",
+    "height": "高度",
+    "ratios": {
+      "original": "原圖比例"
+    },
+    "reset": "重設",
+    "crop": "裁切圖片",
+    "download": "下載",
+    "replace": "選擇另一張圖片",
+    "ready": "裁切結果已產生。",
+    "errors": {
+      "oversize": "檔案超過 10MB",
+      "unsupported": "不支援此格式",
+      "read": "無法讀取圖片",
+      "crop": "裁切圖片失敗"
+    }
+  },
+  "crop-gif": {
+    "title": "裁切 GIF 圖片",
+    "subtitle": "拖曳裁切框選擇畫面範圍，匯出時保留動畫影格和播放速度。",
+    "dropTitle": "拖曳加入一張 GIF，或點選選擇動圖",
+    "dropHint": "僅支援 GIF，單張不超過 10MB"
+  },
+  "glitch-gif": [
+    "故障動圖產生",
+    "讓故障效果在每一影格中變化，產生無限迴圈的 GIF 動圖。",
+    "拖曳加入一張圖片，或點選選擇",
+    "支援 JPG、PNG、WebP，單張不超過 20MB",
+    "動圖預覽",
+    "選擇另一張圖片",
+    "動圖設定",
+    "效果類型",
+    "強度",
+    "動畫速度",
+    "動畫時長",
+    "輸出尺寸",
+    "產生 GIF",
+    "產生中…",
+    "下載 GIF",
+    "產生失敗，請嘗試更小的尺寸或更短的時長。"
+  ],
+  "avatar-crop": {
+    "title": "頭像與證件照裁切",
+    "subtitle": "按社群頭像或證件照規格定位照片，本機匯出 PNG。",
+    "dropTitle": "拖曳加入一張人像照片，或點選選擇圖片",
+    "dropHint": "支援 JPG、PNG、WebP，單張不超過 20MB",
+    "preview": "即時預覽",
+    "replace": "選擇另一張圖片",
+    "presets": "用途與尺寸",
+    "guide": "人像位置參考",
+    "zoom": "照片縮放",
+    "reset": "還原",
+    "export": "產生 PNG",
+    "download": "下載 PNG",
+    "ready": "PNG 已產生",
+    "dragHint": "拖曳照片調整位置",
+    "unsupported": "不支援該圖片格式",
+    "oversize": "檔案超過 20MB",
+    "ui": {
+      "avatarTitle": "圓形頭像裁切",
+      "idTitle": "證件照裁切",
+      "avatarSubtitle": "製作透明底圓形 PNG 頭像。",
+      "idSubtitle": "按證件照規格調整人像大小和位置。",
+      "cropSettings": "裁切設定",
+      "outputSize": "輸出尺寸",
+      "preset": "預設",
+      "createDownload": "產生並下載 PNG",
+      "avatarLabel": "頭像",
+      "transparentPng": "透明 PNG",
+      "idPresets": [
+        {
+          "id": "hk-passport",
+          "label": "香港特區護照",
+          "detail": "40 × 50 mm · 1200 × 1600 px",
+          "width": 1200,
+          "height": 1600,
+          "headTop": 0.08,
+          "chin": 0.78
+        },
+        {
+          "id": "tw-passport",
+          "label": "臺灣護照",
+          "detail": "35 × 45 mm · 413 × 531 px",
+          "width": 413,
+          "height": 531,
+          "headTop": 0.08,
+          "chin": 0.8
+        },
+        {
+          "id": "hk-id",
+          "label": "香港證件照",
+          "detail": "40 × 50 mm · 472 × 591 px",
+          "width": 472,
+          "height": 591,
+          "headTop": 0.08,
+          "chin": 0.78
+        }
+      ],
+      "resizeCropArea": "調整裁切範圍",
+      "avatarPresets": [
+        {
+          "size": 200,
+          "label": "LINE"
+        },
+        {
+          "size": 300,
+          "label": "Facebook"
+        },
+        {
+          "size": 400,
+          "label": "Instagram / Threads / LinkedIn"
+        },
+        {
+          "size": 460,
+          "label": "GitHub"
+        },
+        {
+          "size": 480,
+          "label": "YouTube"
+        },
+        {
+          "size": 640,
+          "label": "高畫質社群頭像"
+        }
+      ],
+      "presetNote": "尺寸僅供裁切參考，提交前請核對辦理機構的最新要求。"
+    }
+  },
+  "color-palette": {
+    "title": "顏色擷取與調色盤",
+    "subtitle": "從圖片中擷取可複用的主色調，所有處理均在瀏覽器本機完成。",
+    "dropTitle": "拖曳加入或選擇一張圖片",
+    "dropHint": "支援 JPG、PNG、WebP，最大 20MB",
+    "preview": "圖片預覽",
+    "settings": "調色盤設定",
+    "count": "顏色數量",
+    "colors": "擷取顏色",
+    "clickToCopy": "點選色塊複製 HEX 色值",
+    "copied": "已複製",
+    "output": "程式碼輸出",
+    "css": "CSS 變數",
+    "tailwind": "Tailwind",
+    "copyCode": "複製程式碼",
+    "download": "下載調色盤 PNG",
+    "chooseAnother": "選擇另一張圖片",
+    "invalid": "不支援該圖片格式",
+    "oversized": "圖片超過 20MB"
+  },
+  "format-converter": {
+    "title": "圖片格式轉換",
+    "subtitle": "JPG、PNG、WebP 之間互轉，所有處理都在瀏覽器本機完成。",
+    "dropTitle": "拖曳加入圖片，或點選選擇圖片",
+    "dropHint": "支援 JPG、PNG、WebP，最多 50 張，單張不超過 10MB",
+    "settings": "轉換設定",
+    "targetFormat": "目標格式",
+    "jpgHelp": "轉換為 JPG 時，透明區域會自動變成白色。",
+    "start": "開始轉換",
+    "downloadAll": "下載全部 .ZIP",
+    "waiting": "等待中",
+    "processing": "轉換中",
+    "completed": "已完成",
+    "download": "下載",
+    "empty": "新增圖片後，即可批次轉換格式。",
+    "errors": {
+      "oversize": "檔案超過 10MB",
+      "unsupported": "不支援此格式",
+      "read": "無法讀取圖片尺寸",
+      "process": "轉換圖片失敗"
+    },
+    "ui": {
+      "summary": "{{count}} 張圖片將轉換為 {{format}}。",
+      "fixedTitle": "圖片轉 {{format}}",
+      "fixedSubtitle": "上傳 JPG、PNG 或 WebP 圖片，自動批次轉換為 {{format}}。"
+    }
+  },
+  "gif-compress": {
+    "title": "GIF 壓縮",
+    "subtitle": "透過縮放、減少影格和減少顏色數，在瀏覽器本機壓縮 GIF。",
+    "dropTitle": "拖曳加入一個 GIF，或點選選擇",
+    "dropHint": "僅支援 GIF，最大 20MB",
+    "preview": "即時預覽",
+    "settings": "GIF 設定",
+    "scale": "縮放",
+    "frames": "影格",
+    "colors": "顏色數",
+    "start": "壓縮 GIF",
+    "download": "下載",
+    "reset": "選擇另一個 GIF",
+    "original": "原圖",
+    "output": "壓縮後",
+    "ready": "壓縮後的 GIF 已產生。",
+    "pending": "壓縮後會在這裡顯示預覽。",
+    "errors": {
+      "oversize": "檔案超過 20MB",
+      "unsupported": "請上傳 GIF 檔案",
+      "process": "GIF 壓縮失敗",
+      "tooManyFrames": "這個 GIF 影格數太多，第一版暫不處理"
+    }
+  },
+  "gif-trim": [
+    "GIF 影格裁切",
+    "依起訖影格擷取動圖片段，保留原始畫面尺寸。",
+    "拖曳加入 GIF，或點選選擇動圖",
+    "僅支援 GIF，最大 20MB",
+    "影格預覽",
+    "選擇另一個 GIF",
+    "裁切設定",
+    "起始影格",
+    "結束影格",
+    "保留影格數",
+    "產生預覽",
+    "下載 GIF",
+    "處理中…",
+    "請選擇有效的 GIF（最大 20MB），畫面不超過 1600 萬像素。",
+    "處理失敗，請嘗試較小的 GIF。",
+    "裁切後",
+    "目前影格",
+    "播放時長",
+    "全部影格",
+    "毫秒",
+    "批次修改影格間隔",
+    "套用至保留影格"
+  ],
+  "glitch-image": {
+    "title": "故障圖片產生",
+    "subtitle": "製作色彩分離、影像錯位、噪點和掃描線效果。",
+    "dropTitle": "拖曳加入或選擇多張圖片",
+    "dropHint": "支援 JPG、PNG、WebP，最多 50 張，單張不超過 20MB",
+    "preview": "即時預覽",
+    "replace": "新增圖片",
+    "settings": "設定",
+    "effectType": "效果類型",
+    "intensity": "強度",
+    "download": "下載目前圖片",
+    "effects": {
+      "rgb": {
+        "title": "RGB 分離",
+        "body": "色彩通道分離"
+      },
+      "shift": {
+        "title": "像素偏移",
+        "body": "隨機線段錯位"
+      },
+      "blocks": {
+        "title": "錯點陣圖塊",
+        "body": "碎片區域偏移"
+      },
+      "stripes": {
+        "title": "數字條紋",
+        "body": "彩色訊號干擾"
+      },
+      "noise": {
+        "title": "模擬噪點",
+        "body": "老式訊號雜訊"
+      },
+      "wave": {
+        "title": "波形扭曲",
+        "body": "波浪訊號偏移"
+      },
+      "mirror": {
+        "title": "鏡像",
+        "body": "對稱反射"
+      },
+      "scanlines": {
+        "title": "掃描線",
+        "body": "復古 CRT 效果"
+      }
+    }
+  },
+  "home": {
+    "title": "本機的免費圖片工具",
+    "subtitle": "在瀏覽器裡處理、轉換和匯出圖片。",
+    "tools": [
+      {
+        "title": "壓縮圖片",
+        "body": "本機壓縮 JPG、PNG、WebP 與 SVG，確保每次壓縮都保持最佳品質。",
+        "icon": "compress",
+        "href": "compress",
+        "badge": "已上線"
+      },
+      {
+        "title": "調整大小",
+        "body": "批次調整 JPG、PNG、WebP 和 GIF 尺寸，保留動圖效果。",
+        "icon": "photo_size_select_large",
+        "href": "resize",
+        "badge": "第一優先"
+      },
+      {
+        "title": "裁切圖片",
+        "body": "支援拖曳裁切框，也支援輸入精確像素值。",
+        "icon": "crop",
+        "href": "crop",
+        "badge": "第一優先"
+      },
+      {
+        "title": "圓形頭像裁切",
+        "body": "製作透明底圓形 PNG 頭像，可自定義輸出寬度。",
+        "icon": "account_circle",
+        "href": "avatar-crop",
+        "badge": "新功能"
+      },
+      {
+        "title": "證件照裁切",
+        "body": "按一寸、二寸或護照照片規格調整人像位置。",
+        "icon": "badge",
+        "href": "id-photo-crop",
+        "badge": "新功能"
+      },
+      {
+        "title": "故障圖片產生",
+        "body": "隨機組合色塊、條紋、噪點與扭曲，每次重新整理都有新效果。",
+        "icon": "blur_on",
+        "href": "glitch-image",
+        "badge": "新功能"
+      },
+      {
+        "title": "故障動圖產生",
+        "body": "讓色彩分離、噪點、條紋和扭曲持續變化，產生迴圈動圖。",
+        "icon": "movie_filter",
+        "href": "glitch-gif",
+        "badge": "新功能"
+      },
+      {
+        "title": "旋轉/翻轉",
+        "body": "批次旋轉、鏡像，並在本機匯出結果。",
+        "icon": "rotate_right",
+        "href": "rotate",
+        "badge": "第一優先"
+      },
+      {
+        "title": "圖片格式轉換",
+        "body": "JPG、PNG、WebP 之間互轉，共用本機匯出邏輯。",
+        "icon": "sync_alt",
+        "href": "convert",
+        "badge": "第一優先"
+      },
+      {
+        "title": "HEIC 轉 JPG",
+        "body": "用本機 WebAssembly 解碼，把 iPhone HEIC 轉成 JPG。",
+        "icon": "image",
+        "href": "convert-heic",
+        "badge": "已上線"
+      },
+      {
+        "title": "新增浮水印",
+        "body": "新增文字或圖片浮水印，位置、透明度和匯出都在本機完成。",
+        "icon": "branding_watermark",
+        "href": "watermark",
+        "badge": "第二順位"
+      },
+      {
+        "title": "拼合影像",
+        "body": "上傳背景圖和覆蓋圖，在本機合成為一張新圖片。",
+        "icon": "layers",
+        "href": "merge-images",
+        "badge": "已上線"
+      },
+      {
+        "title": "圖片與 Base64 轉換",
+        "body": "圖片與 Base64 雙向轉換，可本機預覽和下載。",
+        "icon": "code_blocks",
+        "href": "base64",
+        "badge": "第二順位"
+      },
+      {
+        "title": "像素畫工具",
+        "body": "調整像素顆粒、放大倍數、顏色數量和固定調色盤。",
+        "icon": "grid_on",
+        "href": "pixel-art",
+        "badge": "已上線"
+      },
+      {
+        "title": "顏色擷取與調色盤",
+        "body": "擷取圖片主色，複製 HEX、CSS 變數或 Tailwind 設定。",
+        "icon": "palette",
+        "href": "color-palette",
+        "badge": "已上線"
+      },
+      {
+        "title": "GIF 壓縮",
+        "body": "透過縮放、減少影格和減少顏色數，在本機壓縮 GIF。",
+        "icon": "gif",
+        "href": "gif-compress",
+        "badge": "已上線"
+      },
+      {
+        "title": "多圖合成動圖",
+        "body": "把多張圖片按順序合成為一個 GIF 動圖。",
+        "icon": "burst_mode",
+        "href": "images-to-gif",
+        "badge": "後續"
+      }
+    ],
+    "ui": {
+      "badges": {
+        "smartOptimize": "智慧最佳化",
+        "newFeature": "新功能",
+        "supportsAnimation": "支援動圖",
+        "freshIdea": "換個新創意"
+      },
+      "categories": [
+        [
+          "all",
+          "全部工具"
+        ],
+        [
+          "optimize",
+          "壓縮與最佳化"
+        ],
+        [
+          "edit",
+          "尺寸與裁切"
+        ],
+        [
+          "convert",
+          "格式轉換"
+        ],
+        [
+          "gif",
+          "GIF"
+        ],
+        [
+          "create",
+          "創意與實用"
+        ]
+      ],
+      "gifTrim": {
+        "title": "GIF 影格裁切",
+        "body": "依起訖影格擷取動圖片段，保留原始畫面尺寸。",
+        "icon": "content_cut",
+        "href": "gif-trim",
+        "badge": "新功能"
+      },
+      "commonTasks": [
+        [
+          "縮小檔案體積",
+          "壓縮 JPG、PNG、WebP、SVG 或 GIF，適合網頁發佈、郵件附件和節省儲存空間。",
+          "compress"
+        ],
+        [
+          "適配平台尺寸",
+          "按像素、百分比或最長邊調整尺寸，也可以製作圓形頭像和常用證件照。",
+          "resize"
+        ],
+        [
+          "處理手機與網頁格式",
+          "將圖片統一轉成 JPG 或 PNG，也能把 iPhone 的 HEIC 照片轉成通用 JPG。",
+          "convert"
+        ],
+        [
+          "製作會動的圖片",
+          "壓縮 GIF、裁切影格區間、用多張圖片合成動圖，或者製作隨機故障動畫。",
+          "images-to-gif"
+        ]
+      ],
+      "content": {
+        "introTitle": "開啟網頁，就能輕鬆處理圖片",
+        "introBody": "BEST4IMG 面向日常工作中的真實圖片任務：把手機照片轉成通用格式，為社群帳號裁出合適頭像，批次統一商品圖尺寸，壓縮網頁素材，或把多張圖片做成動圖。每個工具專注一個動作，參數變化會盡量直接反映在預覽中。",
+        "taskTitle": "不必先弄懂圖片術語",
+        "taskBody": "需要檔案更小就選壓縮；平台要求固定像素就調整大小；只保留畫面的一部分就裁切；iPhone 照片打不開時用 HEIC 轉 JPG。",
+        "directoryTitle": "網站工具結構",
+        "directoryBody": "這裡列出目前已經開放的全部功能，包括從主工具拆分出的快捷頁面。"
+      },
+      "benefits": [
+        [
+          "shield_lock",
+          "檔案留在裝置中",
+          "支援的處理流程在瀏覽器內完成。私人照片、工作素材和未發佈設計不需要先上傳再下載。"
+        ],
+        [
+          "stacks",
+          "一次處理多張",
+          "壓縮、轉換、旋轉、浮水印等常用工具支援批次匯入，最多可選擇 50 個檔案。"
+        ],
+        [
+          "visibility",
+          "參數與結果看得見",
+          "裁切範圍、畫布比例、浮水印位置、動圖節奏和創意效果都以預覽為中心。"
+        ]
+      ],
+      "categoriesAria": "工具分類",
+      "noResults": "沒有找到匹配的工具",
+      "directory": [
+        {
+          "title": "壓縮與最佳化",
+          "links": [
+            [
+              "壓縮圖片",
+              "compress"
+            ],
+            [
+              "SVG 壓縮",
+              "compress/svg"
+            ],
+            [
+              "GIF 壓縮",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "調整尺寸",
+          "links": [
+            [
+              "調整圖片大小",
+              "resize"
+            ],
+            [
+              "依百分比調整",
+              "resize/by-percentage"
+            ],
+            [
+              "依最長邊調整",
+              "resize/by-longest-side"
+            ],
+            [
+              "調整 GIF 大小",
+              "resize/gif"
+            ]
+          ]
+        },
+        {
+          "title": "裁切與方向",
+          "links": [
+            [
+              "裁切圖片",
+              "crop"
+            ],
+            [
+              "裁切 GIF 圖片",
+              "crop/gif"
+            ],
+            [
+              "圓形頭像裁切",
+              "avatar-crop"
+            ],
+            [
+              "證件照裁切",
+              "id-photo-crop"
+            ],
+            [
+              "旋轉/翻轉",
+              "rotate"
+            ]
+          ]
+        },
+        {
+          "title": "格式轉換",
+          "links": [
+            [
+              "圖片格式轉換",
+              "convert"
+            ],
+            [
+              "圖片轉 JPG",
+              "convert/image-to-jpg"
+            ],
+            [
+              "圖片轉 PNG",
+              "convert/image-to-png"
+            ],
+            [
+              "HEIC 轉 JPG",
+              "convert-heic"
+            ],
+            [
+              "圖片與 Base64",
+              "base64"
+            ]
+          ]
+        },
+        {
+          "title": "GIF 與動圖",
+          "links": [
+            [
+              "多圖合成動圖",
+              "images-to-gif"
+            ],
+            [
+              "GIF 影格裁切",
+              "gif-trim"
+            ],
+            [
+              "故障動圖產生",
+              "glitch-gif"
+            ],
+            [
+              "GIF 壓縮",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "創意與實用",
+          "links": [
+            [
+              "新增浮水印",
+              "watermark"
+            ],
+            [
+              "拼合影像",
+              "merge-images"
+            ],
+            [
+              "像素畫工具",
+              "pixel-art"
+            ],
+            [
+              "顏色擷取",
+              "color-palette"
+            ],
+            [
+              "故障圖片產生",
+              "glitch-image"
+            ],
+            [
+              "故障動圖產生",
+              "glitch-gif"
+            ]
+          ]
+        }
+      ],
+      "splitRouteTitles": {
+        "resize/by-percentage": "依百分比調整",
+        "resize/by-longest-side": "依最長邊調整",
+        "resize/gif": "調整 GIF 大小",
+        "crop/gif": "裁切 GIF 圖片",
+        "convert/image-to-jpg": "圖片轉 JPG",
+        "convert/image-to-png": "圖片轉 PNG",
+        "compress/svg": "SVG 壓縮"
+      }
+    }
+  },
+  "image-base64": {
+    "title": "圖片與 Base64 轉換",
+    "subtitle": "在瀏覽器本機完成圖片與 Base64 的雙向轉換。",
+    "encode": "圖片轉 Base64",
+    "decode": "Base64 轉圖片",
+    "dropTitle": "拖曳加入或選擇圖片",
+    "dropHint": "支援 JPG、PNG、WebP、GIF、SVG，每張最大 10MB",
+    "settings": "輸出",
+    "output": "Base64 結果",
+    "dataUrl": "Data URL",
+    "raw": "純 Base64",
+    "cssUrl": "CSS url()",
+    "copy": "複製",
+    "copied": "已複製",
+    "empty": "上傳圖片後，在下方列表裡選擇一張檢視結果。",
+    "decodeInput": "Base64 內容",
+    "decodePlaceholder": "貼上 Data URL、純 Base64 或 CSS url() 內容",
+    "preview": "圖片預覽",
+    "decodeHint": "系統會自動識別圖片格式，所有處理均在本機完成。",
+    "invalid": "沒有識別到有效的圖片資料。",
+    "tooLarge": "還原後的圖片超過 20MB。",
+    "download": "下載圖片",
+    "detected": "已識別",
+    "errors": {
+      "oversize": "超過 10MB 限制",
+      "unsupported": "不支援的圖片格式",
+      "read": "讀取檔案失敗"
+    }
+  },
+  "image-merge": {
+    "title": "拼合影像",
+    "subtitle": "上傳背景圖和覆蓋圖，在瀏覽器本機合成為一張新圖片。",
+    "preview": "即時預覽",
+    "settings": "拼合設定",
+    "background": "背景圖",
+    "overlay": "覆蓋圖",
+    "chooseBackground": "上傳背景圖",
+    "chooseOverlay": "上傳覆蓋圖",
+    "output": "輸出",
+    "width": "寬",
+    "height": "高",
+    "download": "下載",
+    "empty": "先上傳背景圖，這裡會顯示合成預覽。",
+    "errors": {
+      "oversize": "檔案超過 10MB",
+      "unsupported": "不支援該圖片格式",
+      "load": "無法讀取這張圖片",
+      "missing": "請先上傳背景圖"
+    },
+    "ui": {
+      "previewScale": "預覽",
+      "zoomOut": "縮小",
+      "reset": "還原",
+      "zoomIn": "放大",
+      "remove": "去掉"
+    }
+  },
+  "images-to-gif": {
+    "title": "多圖合成動圖",
+    "subtitle": "把多張圖片按順序合成為 GIF 動圖，全程在瀏覽器本機完成。",
+    "dropTitle": "拖曳加入或選擇多張圖片",
+    "dropHint": "支援 JPG、PNG、WebP、SVG，最多 50 張",
+    "preview": "動圖預覽",
+    "settings": "動圖設定",
+    "width": "寬",
+    "height": "高",
+    "delay": "每影格停留",
+    "fit": "填充方式",
+    "cover": "鋪滿",
+    "contain": "完整顯示",
+    "colors": "顏色數",
+    "start": "產生 GIF",
+    "download": "下載 GIF",
+    "reset": "選擇圖片",
+    "source": "圖片",
+    "output": "輸出",
+    "frames": "影格",
+    "pending": "產生後會在這裡顯示 GIF 預覽。",
+    "errors": {
+      "oversize": "部分檔案超過 10MB",
+      "unsupported": "部分檔案格式不支援",
+      "load": "部分圖片讀取失敗",
+      "missing": "請至少上傳兩張圖片",
+      "process": "GIF 產生失敗"
+    },
+    "ui": {
+      "upload": "圖片上傳",
+      "presets": "尺寸預設",
+      "custom": "自定義",
+      "loop": "迴圈",
+      "infinite": "無限迴圈",
+      "times": "播放次數",
+      "quality": "畫質",
+      "high": "高畫質",
+      "standard": "標準",
+      "compact": "極致壓縮",
+      "background": "背景",
+      "transparent": "透明",
+      "white": "白色",
+      "black": "黑色",
+      "colorSuffix": "色",
+      "moveUp": "上移",
+      "moveDown": "下移",
+      "delete": "刪除"
+    }
+  },
+  "pixel-art": {
+    "title": "像素畫工具",
+    "subtitle": "把圖片轉換成清晰的像素畫，所有處理均在瀏覽器本機完成。",
+    "dropTitle": "拖曳加入或選擇一張圖片",
+    "dropHint": "支援 JPG、PNG、WebP，最大 20MB",
+    "preview": "即時預覽",
+    "settings": "像素畫設定",
+    "pixelSize": "像素尺寸",
+    "pixelHint": "數值越大，像素顆粒越明顯。",
+    "scale": "匯出尺寸",
+    "colors": "顏色數量",
+    "palette": "調色盤",
+    "auto": "自動取色",
+    "gameboy": "Game Boy",
+    "gray": "黑白灰階",
+    "nes": "NES 風格",
+    "output": "輸出尺寸",
+    "download": "下載 PNG",
+    "chooseAnother": "選擇另一張圖片",
+    "invalid": "不支援該圖片格式",
+    "oversized": "圖片超過 20MB"
+  },
+  "resize": {
+    "title": "調整圖片大小",
+    "subtitle": "批次調整 JPG、PNG、WebP 和 GIF 尺寸，保留動圖效果。",
+    "dropTitle": "拖曳加入圖片，或點選選擇圖片",
+    "dropHint": "支援 JPG、PNG、WebP、GIF，最多 50 張，單張不超過 10MB",
+    "settings": "尺寸設定",
+    "percent": "依百分比",
+    "longest": "依最長邊",
+    "scale": "縮放比例",
+    "longestSide": "最長邊",
+    "longestHelp": "橫式圖片限制寬度，直式圖片限制高度，自動保持原始比例。",
+    "start": "開始調整",
+    "downloadAll": "下載全部 .ZIP",
+    "waiting": "等待中",
+    "processing": "處理中",
+    "completed": "已完成",
+    "download": "下載",
+    "empty": "新增圖片後，這裡會顯示每張圖的目標尺寸。",
+    "errors": {
+      "oversize": "檔案超過 10MB",
+      "unsupported": "不支援此格式",
+      "read": "無法讀取圖片尺寸",
+      "process": "調整圖片失敗"
+    },
+    "ui": {
+      "summaryPercent": "{{count}} 張圖片將按 {{percent}}% 等比例縮放。",
+      "summaryLongest": "{{count}} 張圖片的最長邊將限制在 {{longest}}px 內。",
+      "gifTitle": "調整 GIF 動圖大小",
+      "percentTitle": "依百分比調整圖片大小",
+      "longestTitle": "依最長邊調整圖片大小",
+      "gifSubtitle": "調整 GIF 的寬高尺寸，同時保留原始影格數、播放速度和迴圈效果。",
+      "percentSubtitle": "輸入縮放比例，批次等比例調整 JPG、PNG、WebP 和 GIF 圖片。",
+      "longestSubtitle": "設定最長邊像素，批次縮放圖片並保持原始比例。",
+      "gifDropTitle": "拖曳加入 GIF，或點選選擇動圖",
+      "gifDropHint": "最多 50 個 GIF，每個不超過 10MB"
+    }
+  },
+  "rotate": {
+    "title": "旋轉/翻轉圖片",
+    "subtitle": "批次旋轉或鏡像圖片，所有處理都在瀏覽器本機完成。",
+    "dropTitle": "拖曳加入圖片，或點選選擇圖片",
+    "dropHint": "支援 JPG、PNG、WebP，最多 50 張，單張不超過 10MB",
+    "settings": "旋轉設定",
+    "rotate": "旋轉",
+    "flip": "翻轉",
+    "left": "向左",
+    "right": "向右",
+    "reset": "重設",
+    "horizontal": "水平翻轉",
+    "vertical": "垂直翻轉",
+    "start": "開始處理",
+    "downloadAll": "下載全部 .ZIP",
+    "waiting": "等待中",
+    "processing": "處理中",
+    "completed": "已完成",
+    "download": "下載",
+    "empty": "新增圖片後，即可批次旋轉或翻轉。",
+    "errors": {
+      "oversize": "檔案超過 10MB",
+      "unsupported": "不支援此格式",
+      "read": "無法讀取圖片尺寸",
+      "process": "處理圖片失敗"
+    },
+    "ui": {
+      "preview": "即時預覽",
+      "add": "新增更多圖片",
+      "empty": "拖曳加入圖片後，這裡會顯示旋轉/翻轉後的效果。",
+      "summary": "{{count}} 張圖片將應用目前旋轉/翻轉設定。"
+    }
+  },
+  "watermark": {
+    "title": "新增浮水印",
+    "subtitle": "給圖片新增文字或圖片浮水印，所有處理都在瀏覽器本機完成。",
+    "dropTitle": "拖曳加入圖片，或點選選擇圖片",
+    "dropHint": "支援 JPG、PNG、WebP，最多 50 張，單張不超過 10MB",
+    "settings": "浮水印設定",
+    "text": "文字",
+    "image": "圖片",
+    "watermarkText": "浮水印文字",
+    "chooseMark": "選擇浮水印圖片",
+    "size": "大小",
+    "opacity": "透明度",
+    "color": "顏色",
+    "position": "位置",
+    "start": "新增浮水印",
+    "downloadAll": "下載全部 .ZIP",
+    "waiting": "等待中",
+    "processing": "處理中",
+    "completed": "已完成",
+    "download": "下載",
+    "empty": "新增圖片後，這裡會顯示浮水印預覽。",
+    "preview": "即時預覽",
+    "addMore": "新增更多圖片",
+    "errors": {
+      "oversize": "檔案超過 10MB",
+      "unsupported": "不支援此格式",
+      "read": "無法讀取圖片尺寸",
+      "process": "新增浮水印失敗",
+      "noWatermark": "請先新增浮水印文字或圖片"
+    },
+    "ui": {
+      "summary": "{{count}} 張圖片將新增目前浮水印。",
+      "layout": "排列方式",
+      "position": "位置",
+      "tile": "平鋪",
+      "gap": "間距",
+      "angle": "傾斜角度"
+    }
+  },
+  "common": {
+    "intensity": {
+      "light": "輕微",
+      "medium": "適中",
+      "strong": "強烈"
+    },
+    "tryAnother": "換個新創意",
+    "original": "原尺寸",
+    "originalSize": "原尺寸",
+    "preview": "即時預覽",
+    "processing": "處理中…",
+    "invalidImages": "請選擇支援的圖片，單張不超過 20MB",
+    "loading": "載入中…",
+    "resizeCropBox": "調整裁切框"
+  },
+  "layout": {
+    "nav": {
+      "compress": "圖片壓縮",
+      "resize": "調整大小",
+      "crop": "裁切圖片",
+      "convert": "格式轉換",
+      "gif": "動圖合成",
+      "all": "全部工具"
+    },
+    "tools": [
+      "旋轉/翻轉",
+      "HEIC 轉 JPG",
+      "新增浮水印",
+      "拼合影像",
+      "GIF 壓縮",
+      "GIF 影格裁切",
+      "圓形頭像裁切",
+      "證件照裁切",
+      "圖片與 Base64",
+      "像素畫工具",
+      "顏色擷取",
+      "故障圖片產生",
+      "故障動圖產生",
+      "SVG 壓縮"
+    ]
+  },
+  "svg-compress": {
+    "title": "SVG 壓縮工具",
+    "subtitle": "刪除 SVG 中的註釋、編輯器後設資料和多餘空白，保留圖形與透明效果。",
+    "drop": "拖曳加入 SVG，或點選選擇檔案",
+    "hint": "僅支援 SVG，最多 50 個，每個不超過 10MB"
+  },
+  "gif-trim-ui": {
+    "playbackOrder": "播放順序",
+    "forward": "正序",
+    "reverse": "倒序",
+    "pingPong": "往返"
+  }
+}

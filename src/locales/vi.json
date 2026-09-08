@@ -1,0 +1,1428 @@
+{
+  "info": {
+    "about": {
+      "title": "Giới thiệu",
+      "intro": "BEST4IMG là bộ công cụ xử lý ảnh miễn phí chú trọng tốc độ, quyền riêng tư và sự dễ sử dụng. Chúng tôi muốn các thao tác xử lý ảnh thường ngày không cần đến phần mềm phức tạp, cũng chẳng phải tải ảnh cá nhân lên máy chủ từ xa trước.",
+      "sections": [
+        {
+          "title": "Chúng tôi làm gì",
+          "paragraphs": [
+            "Trang web cung cấp các công cụ như nén ảnh, đổi kích thước, cắt xén, chuyển đổi định dạng, thêm watermark, GIF và hiệu ứng sáng tạo. Hầu hết quá trình xử lý tận dụng trực tiếp Canvas, WebAssembly và Worker của trình duyệt."
+          ]
+        },
+        {
+          "title": "Ưu tiên xử lý trên thiết bị",
+          "paragraphs": [
+            "Sau khi bạn chọn ảnh, quá trình xử lý thường diễn ra ngay trên thiết bị hiện tại. Ảnh sẽ không bị tự động tải lên máy chủ của chúng tôi để thực hiện các thao tác này. Khi bạn đóng hoặc làm mới trang, bản xem trước tạm thời do lần thao tác này tạo ra trong trình duyệt cũng sẽ mất hiệu lực."
+          ]
+        },
+        {
+          "title": "Nguyên tắc sản phẩm",
+          "paragraphs": [
+            "Chúng tôi ưu tiên mang lại thao tác rõ ràng, kết quả có thể dự đoán và hiệu năng hợp lý. Tính năng mới chỉ được thêm vào khi phù hợp để chạy trên thiết bị và thực sự hữu ích với người dùng."
+          ]
+        },
+        {
+          "title": "Dành cho công việc ảnh hàng ngày",
+          "paragraphs": [
+            "Một tấm ảnh đại diện cần cắt tròn, một bộ ảnh sản phẩm cần đồng bộ kích thước, một ảnh chụp màn hình cần thu nhỏ dung lượng, vài tấm ảnh cần ghép thành ảnh động. Những việc này tưởng chừng đơn giản nhưng thường phải mở nhiều phần mềm khác nhau, lặp lại việc tìm kiếm tùy chọn xuất. BEST4IMG muốn gom những thao tác quen thuộc này về một nơi dễ nhận biết.",
+            "Bạn có thể chọn công cụ theo tác vụ hiện tại: nén và chuyển đổi trước khi đăng tải, chỉnh sửa và cắt xén trước khi sắp xếp bố cục, thêm watermark trước khi chia sẻ, hoặc khám phá cách thể hiện thị giác khác biệt qua pixel art và hiệu ứng glitch. Mỗi công cụ đều hướng tới một kết quả rõ ràng."
+          ]
+        },
+        {
+          "title": "Giữa chất lượng và hiệu quả, giữ quyền lựa chọn",
+          "paragraphs": [
+            "Tệp nhỏ hơn chưa chắc đã cho kết quả tốt hơn. Ảnh chụp, ảnh chụp màn hình, ảnh trong suốt và ảnh động đều có đặc điểm riêng, định dạng xuất tối ưu cũng khác nhau. Chúng tôi cung cấp các tùy chọn phù hợp theo từng công cụ và cho phép bạn kiểm tra kích thước, vùng trong suốt và hiệu ứng trước khi tải xuống.",
+            "Xử lý trên thiết bị cũng tiêu tốn bộ nhớ và tài nguyên tính toán. Ảnh kích thước lớn, ảnh động dài hoặc số lượng tệp nhiều có thể mất nhiều thời gian hơn. Xử lý thành từng đợt, giữ nguyên ảnh gốc và tải kết quả về kịp thời sẽ giúp công việc hàng ngày ổn định hơn."
+          ]
+        },
+        {
+          "title": "Cải thiện không ngừng",
+          "paragraphs": [
+            "Các trình duyệt, định dạng ảnh và hiệu năng thiết bị khác nhau có thể tạo ra sự khác biệt. Chúng tôi liên tục cải thiện tính tương thích, chất lượng nén và trải nghiệm thao tác, chú trọng vào chi tiết trong tác vụ thực tế: nhập liệu có thuận tiện, xem trước có rõ ràng, kết quả có đúng như kỳ vọng.",
+            "Chúng tôi dùng các thành phần xử lý ảnh mã nguồn mở để thực hiện một phần việc mã hóa và giải mã. Chúng giúp trình duyệt gánh vác nhiều tác vụ vốn cần phần mềm máy tính để bàn, còn quyền lợi và giấy phép của từng thành phần vẫn thuộc về tác giả tương ứng."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Điều khoản dịch vụ",
+      "intro": "Bằng việc sử dụng BEST4IMG, bạn đồng ý với các điều khoản sau. Vui lòng giữ bản sao gốc của tệp quan trọng trước khi xử lý.",
+      "updated": "Cập nhật: 5 tháng 9, 2026",
+      "sections": [
+        {
+          "title": "Phạm vi dịch vụ",
+          "paragraphs": [
+            "BEST4IMG cung cấp công cụ xử lý ảnh trên trình duyệt theo hiện trạng. Tính năng, định dạng được hỗ trợ và giới hạn xử lý có thể thay đổi theo bản cập nhật sản phẩm."
+          ]
+        },
+        {
+          "title": "Trách nhiệm của bạn",
+          "paragraphs": [
+            "Bạn phải đảm bảo có quyền xử lý và sử dụng ảnh đã chọn, không được lợi dụng dịch vụ này để xâm phạm bản quyền, quyền riêng tư hay quyền lợi hợp pháp khác, cũng không được cố gắng phá hoại trang web hoặc ảnh hưởng đến người dùng khác."
+          ]
+        },
+        {
+          "title": "Quyền đối với ảnh và cấp phép xử lý",
+          "paragraphs": [
+            "Quyền của bạn đối với ảnh gốc sẽ không chuyển sang BEST4IMG khi dùng công cụ này. Chúng tôi không sở hữu ảnh chỉ vì bạn chọn tệp, và không yêu cầu bạn cấp quyền sử dụng ảnh cho mục đích trưng bày công khai hay huấn luyện mô hình.",
+            "Các thao tác như thêm watermark, cắt xén, chuyển đổi định dạng không trao cho bạn quyền mới đối với tác phẩm của người khác. Khi liên quan đến chân dung, thương hiệu, tác phẩm được bảo hộ hay thông tin cá nhân, bạn hãy tự xin phép cần thiết."
+          ]
+        },
+        {
+          "title": "Tệp và thiết bị",
+          "paragraphs": [
+            "Công cụ xử lý tệp ngay trong trình duyệt của bạn; tốc độ chạy và quy mô xử lý phụ thuộc vào bộ nhớ thiết bị, trình duyệt và độ phức tạp của ảnh. Trang có thể đặt giới hạn về số lượng, kích thước tệp hoặc kích thước ảnh.",
+            "Làm mới trang, đóng thẻ hoặc lỗi trình duyệt có thể khiến kết quả chưa tải xuống bị mất. Trang web không phải dịch vụ lưu trữ hay sao lưu tệp, hãy giữ nguyên tệp gốc và tải kết quả cần thiết về thiết bị của bạn."
+          ]
+        },
+        {
+          "title": "Kết quả và tính khả dụng",
+          "paragraphs": [
+            "Mã hóa ảnh, cách trình duyệt triển khai và tài nguyên thiết bị có khác biệt, chúng tôi không đảm bảo mọi tệp đều xử lý thành công, cũng không đảm bảo đầu ra phù hợp cho in ấn, lưu trữ hay mục đích chuyên nghiệp cụ thể. Hãy kiểm tra kết quả tải xuống trước khi xóa tệp gốc."
+          ]
+        },
+        {
+          "title": "Định dạng, màu sắc và quy cách chuyên dụng",
+          "paragraphs": [
+            "Nén có mất dữ liệu và mã hóa lại có thể thay đổi chi tiết, màu sắc, độ trong suốt hoặc siêu dữ liệu. Chuyển sang JPG không hỗ trợ kênh trong suốt; ảnh động sau xử lý cũng có thể xuất hiện khác biệt bảng màu. Mô tả chất lượng trên trang không đồng nghĩa mọi xử lý đều không mất dữ liệu.",
+            "Các cài sẵn kích thước và đường hướng dẫn chân dung trong ảnh đại diện, ảnh thẻ chỉ hỗ trợ sắp xếp bố cục, không phải sự xác nhận từ nền tảng hay cơ quan tiếp nhận. Trước khi nộp, hãy căn cứ theo yêu cầu hiện tại của bên nhận để đối chiếu kích thước, nền, bố cục và giới hạn tệp."
+          ]
+        },
+        {
+          "title": "Giới hạn trách nhiệm",
+          "paragraphs": [
+            "Trong phạm vi pháp luật cho phép, chúng tôi không chịu trách nhiệm về mất tệp, khác biệt đầu ra, gián đoạn dịch vụ hay thiệt hại gián tiếp phát sinh từ việc sử dụng kết quả xử lý."
+          ]
+        },
+        {
+          "title": "Thay đổi điều khoản",
+          "paragraphs": [
+            "Chúng tôi có thể cập nhật các điều khoản này do yêu cầu tính năng hoặc pháp lý. Nội dung mới sẽ được đăng trên trang này kèm theo ngày cập nhật mới."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Chính sách quyền riêng tư",
+      "intro": "BEST4IMG áp dụng cách xử lý ảnh ưu tiên trên thiết bị. Phần dưới giải thích trang web đối xử với ảnh và thông tin kỹ thuật cần thiết như thế nào khi bạn dùng công cụ.",
+      "updated": "Cập nhật: 5 tháng 9, 2026",
+      "sections": [
+        {
+          "title": "Ảnh được xử lý như thế nào",
+          "paragraphs": [
+            "Ảnh bạn chọn thường chỉ được đọc và xử lý trong thẻ trình duyệt hiện tại. Chúng tôi sẽ không tự ý tải nội dung ảnh lên máy chủ để thực hiện các thao tác như nén, cắt xén, chuyển đổi."
+          ]
+        },
+        {
+          "title": "Dữ liệu tạm thời trong trình duyệt",
+          "paragraphs": [
+            "Trang có thể tạo bản xem trước ảnh, kết quả xử lý và địa chỉ đối tượng tạm thời trong bộ nhớ, đồng thời dùng bộ nhớ cục bộ để ghi nhớ tùy chọn cần thiết như ngôn ngữ. Dữ liệu này do trình duyệt của bạn quản lý và có thể biến mất sau khi làm mới, đóng trang hoặc xóa dữ liệu trang."
+          ]
+        },
+        {
+          "title": "Tùy chọn ngôn ngữ và tệp tải xuống",
+          "paragraphs": [
+            "Khi bạn đổi ngôn ngữ, trang lưu ngôn ngữ đã chọn vào bộ nhớ cục bộ của trình duyệt để khôi phục khi truy cập lần sau. Thiết lập này không cần chứa họ tên, email hay nội dung ảnh của bạn, và bạn có thể xóa nó trong cài đặt trình duyệt.",
+            "Ảnh và tệp ZIP tải xuống được trình duyệt lưu tại vị trí bạn chỉ định. Đóng trang hoặc xóa dữ liệu trang không tự động xóa các tệp tải xuống này, cũng không xóa ảnh bạn đã chọn ban đầu."
+          ]
+        },
+        {
+          "title": "Thông tin kỹ thuật cơ bản",
+          "paragraphs": [
+            "Dịch vụ lưu trữ trang có thể ghi lại thông tin cơ bản như thời gian truy cập, địa chỉ yêu cầu, loại trình duyệt, địa chỉ mạng và nhật ký lỗi, phục vụ bảo mật, ổn định và xử lý sự cố. Các bản ghi này không chứa nội dung ảnh bạn xử lý trên thiết bị."
+          ]
+        },
+        {
+          "title": "Phông chữ, tài nguyên chương trình và liên kết ngoài",
+          "paragraphs": [
+            "Trang hiện tại dùng phông chữ và biểu tượng do Google Fonts cung cấp. Khi tải các tài nguyên này, trình duyệt sẽ gửi yêu cầu đến tên miền bên thứ ba, đối tác có thể nhận dữ liệu kỹ thuật cần cho kết nối như địa chỉ mạng, thông tin trình duyệt; các yêu cầu phông chữ này không cần gửi ảnh bạn đã chọn.",
+            "Các tài nguyên chương trình như thành phần mã hóa ảnh cũng cần được tải vào trình duyệt, một số công cụ tải tài nguyên bổ sung khi dùng. Vì vậy, xử lý ảnh trên thiết bị không đồng nghĩa trang hoàn toàn không phát sinh yêu cầu mạng. Trang web bên ngoài tự chịu trách nhiệm về xử lý dữ liệu của họ."
+          ]
+        },
+        {
+          "title": "Thông tin cá nhân trong ảnh",
+          "paragraphs": [
+            "Ảnh có thể chứa khuôn mặt, địa chỉ, nội dung giấy tờ, hoặc siêu dữ liệu như thời gian và vị trí chụp. Xử lý trên thiết bị không có nghĩa kết quả tải xuống đã loại bỏ mọi thông tin nhạy cảm. Hãy tự đối chiếu nội dung hiển thị và thông tin tệp trước khi chia sẻ.",
+            "Khi dùng công cụ trên thiết bị chia sẻ, bạn cũng nên để ý thư mục tải xuống, tiện ích mở rộng trình duyệt và quyền truy cập của chính thiết bị. Chính sách này chỉ nêu cách xử lý của trang, không thể kiểm soát hành vi của phần mềm khác trên thiết bị."
+          ]
+        },
+        {
+          "title": "Phạm vi và cập nhật chính sách",
+          "paragraphs": [
+            "Chính sách này áp dụng cho các công cụ xử lý ảnh BEST4IMG đang cung cấp. Thời hạn lưu giữ thực tế của nhật ký truy cập máy chủ tùy thuộc vào cấu hình triển khai và lưu trữ; trang này không cam kết một thời hạn lưu giữ thống nhất chưa được xác minh.",
+            "Nếu trong tương lai bổ sung tính năng như tài khoản, thống kê phân tích hay xử lý trên máy chủ, chúng tôi sẽ công bố đồng bộ mục đích dùng dữ liệu và cách lựa chọn khi ra mắt. Thay đổi quan trọng sẽ thể hiện trong ngày cập nhật của trang này."
+          ]
+        },
+        {
+          "title": "Lựa chọn của bạn",
+          "paragraphs": [
+            "Bạn có thể dừng xử lý, đóng trang bất cứ lúc nào, hoặc xóa dữ liệu cục bộ do trang lưu qua cài đặt trình duyệt. Đừng giữ kết quả tải xuống của ảnh nhạy cảm trên thiết bị chia sẻ không đáng tin."
+          ]
+        }
+      ]
+    },
+    "ui": {
+      "eyebrow": "Công cụ ảnh miễn phí",
+      "highlights": {
+        "about": [
+          [
+            "devices",
+            "Xử lý diễn ra trên thiết bị",
+            "Trình duyệt đảm nhiệm xử lý ảnh"
+          ],
+          [
+            "photo_library",
+            "Đáp ứng tác vụ ảnh phổ biến",
+            "Từ nén, cắt xén đến hiệu ứng sáng tạo"
+          ],
+          [
+            "download",
+            "Kết quả do bạn lưu",
+            "Xử lý xong, tự tải xuống"
+          ]
+        ],
+        "privacy": [
+          [
+            "image",
+            "Ảnh được xử lý trên thiết bị",
+            "Thao tác công cụ không cần tải ảnh lên"
+          ],
+          [
+            "language",
+            "Tải tài nguyên trang qua mạng",
+            "Gồm chương trình, phông chữ và biểu tượng"
+          ],
+          [
+            "tune",
+            "Dữ liệu cục bộ do bạn quản lý",
+            "Tùy chọn ngôn ngữ có thể xóa trong trình duyệt"
+          ]
+        ],
+        "terms": [
+          [
+            "copyright",
+            "Quyền ảnh thuộc chủ sở hữu gốc",
+            "Xác nhận quyền sử dụng trước khi xử lý"
+          ],
+          [
+            "verified",
+            "Kiểm tra kết quả trước khi tải xuống",
+            "Đối chiếu kích thước, màu sắc và mục đích"
+          ],
+          [
+            "save",
+            "Giữ nguyên tệp gốc",
+            "Công cụ không sao lưu tệp"
+          ]
+        ]
+      },
+      "tagline": "Xử lý ảnh, trở lại đơn giản.",
+      "explore": "Khám phá công cụ ảnh"
+    }
+  },
+  "site": {
+    "siteName": "BEST4IMG",
+    "seo": {
+      "title": "BEST4IMG | Công cụ nén ảnh JPG, PNG, WebP, SVG ngay trên thiết bị",
+      "description": "Nén ảnh JPG, PNG, WebP và SVG ngay trong trình duyệt, không cần tải lên máy chủ. Phù hợp với tài nguyên web, ảnh chụp màn hình, ảnh thương mại điện tử và chia sẻ hàng ngày, hỗ trợ xử lý hàng loạt."
+    },
+    "nav": {
+      "ariaLabel": "Chọn ngôn ngữ",
+      "current": "Tiếng Việt",
+      "options": [
+        {
+          "code": "en",
+          "label": "English"
+        },
+        {
+          "code": "es",
+          "label": "Español"
+        },
+        {
+          "code": "fr",
+          "label": "Français"
+        },
+        {
+          "code": "de",
+          "label": "Deutsch"
+        },
+        {
+          "code": "it",
+          "label": "Italiano"
+        },
+        {
+          "code": "pt",
+          "label": "Português"
+        },
+        {
+          "code": "ja",
+          "label": "日本語"
+        },
+        {
+          "code": "ru",
+          "label": "Pусский"
+        },
+        {
+          "code": "ko",
+          "label": "한국어"
+        },
+        {
+          "code": "zh",
+          "label": "简体中文"
+        },
+        {
+          "code": "zh-tw",
+          "label": "繁體中文"
+        },
+        {
+          "code": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "bg",
+          "label": "Български"
+        },
+        {
+          "code": "ca",
+          "label": "Català"
+        },
+        {
+          "code": "nl",
+          "label": "Nederlands"
+        },
+        {
+          "code": "el",
+          "label": "Ελληνικά"
+        },
+        {
+          "code": "hi",
+          "label": "हिन्दी"
+        },
+        {
+          "code": "id",
+          "label": "Bahasa Indonesia"
+        },
+        {
+          "code": "ms",
+          "label": "Bahasa Melayu"
+        },
+        {
+          "code": "pl",
+          "label": "Polski"
+        },
+        {
+          "code": "sv",
+          "label": "Svenska"
+        },
+        {
+          "code": "th",
+          "label": "ภาษาไทย"
+        },
+        {
+          "code": "tr",
+          "label": "Türkçe"
+        },
+        {
+          "code": "uk",
+          "label": "Українська"
+        },
+        {
+          "code": "vi",
+          "label": "Tiếng Việt"
+        },
+        {
+          "code": "sw",
+          "label": "Kiswahili"
+        }
+      ],
+      "tools": {
+        "compressor": "Nén ảnh",
+        "heicConverter": "HEIC sang JPG"
+      }
+    },
+    "heicConverter": {
+      "heroTitle": "HEIC sang JPG",
+      "heroSubtitle": "Chuyển đổi hàng loạt ảnh HEIC của Apple ngay trong trình duyệt",
+      "dropTitle": "Thả hoặc chọn ảnh HEIC",
+      "dropHint": "Tối đa 50 ảnh, mỗi ảnh không quá 50MB",
+      "downloadAll": "Tải xuống toàn bộ .ZIP",
+      "zipName": "BEST4IMG-converted.zip",
+      "formatJpg": "JPG",
+      "formatPng": "PNG",
+      "statuses": {
+        "converting": "Đang chuyển đổi…",
+        "waiting": "Đang chờ…",
+        "completed": "Hoàn tất",
+        "error": "Lỗi"
+      },
+      "errors": {
+        "exceedsLimit": "Lỗi: Tệp vượt quá 50MB",
+        "unsupportedFormat": "Lỗi: Định dạng không được hỗ trợ",
+        "failedToProcess": "Xử lý thất bại"
+      },
+      "actions": {
+        "download": "Tải xuống"
+      },
+      "content": {
+        "hero": {
+          "title": "Chuyển HEIC trên thiết bị\nTức thì, riêng tư, không cần tải lên",
+          "subtitle": "Không cần đăng ký, không qua máy chủ, cũng không bị giới hạn kích thước tệp từ phía máy chủ. Mọi chuyển đổi đều hoàn tất trong trình duyệt của bạn nhờ WebAssembly."
+        },
+        "featureCards": [
+          {
+            "icon": "lock",
+            "title": "Hoàn toàn riêng tư — tệp không rời khỏi thiết bị của bạn",
+            "body": "Giải mã HEIC và mã hóa JPG diễn ra trọn vẹn trong thẻ trình duyệt của bạn. Ảnh không được gửi đến bất kỳ máy chủ từ xa nào, giúp bạn yên tâm xử lý album cá nhân, hình ảnh y tế hay tệp nhạy cảm."
+          },
+          {
+            "icon": "bolt",
+            "title": "Chuyển đổi hàng loạt, xử lý theo hàng đợi tuần tự",
+            "body": "Mỗi lần có thể thả tối đa 50 tệp HEIC, hệ thống sẽ xử lý lần lượt theo thứ tự. Cơ chế hàng đợi có trật tự giúp trình duyệt không bị giật khi xử lý ảnh HEIC cỡ lớn chụp từ iPhone hoặc iPad."
+          },
+          {
+            "icon": "image",
+            "title": "Giữ nguyên độ phân giải gốc khi xuất",
+            "body": "JPG sau chuyển đổi giữ nguyên kích thước pixel gốc, không thu phóng hay lấy mẫu lại. Chụp ở độ phân giải nào, xuất ra độ phân giải đó, chỉ đổi sang định dạng mọi thiết bị và ứng dụng đều mở được."
+          }
+        ],
+        "underHood": {
+          "eyebrow": "Chi tiết kỹ thuật",
+          "title": "Năng lực cốt lõi đằng sau quy trình HEIC sang JPG này.",
+          "cards": [
+            {
+              "title": "heic2any và giải mã WebAssembly",
+              "body": "Tệp HEIC dùng hộp chứa HEIF và mã hóa HEVC (H.265) của Apple. Thư viện heic2any chạy bộ giải mã được biên dịch bằng WebAssembly ngay trong trình duyệt để chuyển định dạng độc quyền này thành dữ liệu ảnh tiêu chuẩn, không cần gọi bất kỳ giao diện hệ thống gốc nào."
+            },
+            {
+              "title": "Xử lý tuần tự từng tệp",
+              "body": "Giải mã HEIC tốn nhiều CPU hơn giải mã PNG hay JPEG. Chỉ xử lý một tệp mỗi lần giúp tránh quá tải luồng chính, giữ trang phản hồi mượt mà trong quá trình chuyển đổi hàng loạt."
+            }
+          ]
+        }
+      },
+      "settings": {
+        "title": "Output settings",
+        "quality": "JPG quality",
+        "qualityHint": "Higher quality creates a larger JPG.",
+        "orientation": "Orientation",
+        "orientationAuto": "Correct automatically",
+        "orientationHint": "Uses the displayed shooting orientation.",
+        "metadata": "Metadata",
+        "metadataRemoved": "Removed automatically",
+        "metadataHint": "EXIF and GPS data are not copied to the JPG."
+      }
+    },
+    "compressor": {
+      "heroTitle": "Công cụ nén ảnh",
+      "heroSubtitle": "Hỗ trợ miễn phí JPG, PNG, WebP và SVG, đảm bảo chất lượng tốt nhất sau mỗi lần nén",
+      "dropTitle": "Thả ảnh vào hoặc bấm để chọn ảnh",
+      "dropHint": "Tối đa 50 ảnh, mỗi ảnh không quá 10MB",
+      "downloadAll": "Tải xuống toàn bộ .ZIP",
+      "zipName": "BEST4IMG-compressed.zip",
+      "statuses": {
+        "compressing": "Đang nén…",
+        "waiting": "Đang chờ…",
+        "completed": "Hoàn tất",
+        "error": "Lỗi"
+      },
+      "errors": {
+        "exceedsLimit": "Lỗi: Tệp vượt quá 10MB",
+        "unsupportedFormat": "Lỗi: Định dạng không được hỗ trợ",
+        "failedToProcess": "Xử lý tệp thất bại"
+      },
+      "actions": {
+        "download": "Tải xuống"
+      }
+    },
+    "hero": {
+      "title": "Công cụ nén ảnh ngay trên thiết bị\nhỗ trợ JPG, PNG, WebP và SVG",
+      "subtitle": "Giảm dung lượng ảnh cho web, tài liệu, thương mại điện tử và chia sẻ hàng ngày, đồng thời giữ nguyên cảm quan tự nhiên."
+    },
+    "featureCards": [
+      {
+        "type": "compare",
+        "title": "Chữ rõ hơn, cạnh trong suốt sạch hơn",
+        "body": "Nhiều công cụ nén khi gặp ảnh chụp màn hình, ảnh giao diện hay PNG trong suốt thường làm mờ chữ nhỏ, bẩn cạnh. BEST4IMG cố gắng quan tâm đến những chi tiết này, thu nhỏ dung lượng rõ rệt mà vẫn giữ chữ và cạnh sạch sẽ."
+      },
+      {
+        "type": "image",
+        "title": "100% xử lý trên thiết bị, an tâm hơn",
+        "body": "Mọi xử lý và nén tệp đều hoàn tất trong trình duyệt của bạn, không tải lên máy chủ từ xa. Với tài liệu nội bộ, tệp cá nhân và nội dung nhạy cảm, cách xử lý trên thiết bị này mang lại sự yên tâm hơn."
+      }
+    ],
+    "autopilot": {
+      "title": "Tối ưu hóa thông minh, không cần mò mẫm tham số",
+      "body": "Không cần kéo thanh chất lượng đi lại. BEST4IMG tự đánh giá đường nén phù hợp hơn, thu nhỏ dung lượng tệp mà vẫn giữ cảm quan tự nhiên."
+    },
+    "underHood": {
+      "eyebrow": "Chi tiết kỹ thuật",
+      "title": "Năng lực cốt lõi đằng sau quy trình nén này.",
+      "cards": [
+        {
+          "title": "Lượng tử hóa PNG ưu tiên cạnh",
+          "body": "Dựa trên phương án libimagequant WebAssembly được tùy biến, khi nén PNG ưu tiên các cạnh tần số cao, giảm tình trạng xuất hiện nhiễu và rung tại cạnh của ảnh trong suốt, ảnh giao diện và biểu tượng."
+        },
+        {
+          "title": "Chiến lược JPEG thận trọng hơn cho ảnh đồ họa",
+          "body": "Khi nhận diện nội dung giống ảnh giao diện hoặc văn bản lồng ảnh, hệ thống dùng đường xử lý độ chói thận trọng hơn, hạn chế tối đa chữ nhỏ và cạnh sắc bị hỏng do chiến lược nén ảnh thông thường."
+        },
+        {
+          "title": "Giải mã bằng OffscreenCanvas và Worker",
+          "body": "Giải mã ảnh và trích xuất pixel đã chuyển vào Web Worker, thực hiện qua OffscreenCanvas, giảm thiểu ảnh hưởng đến độ mượt của tương tác luồng chính khi xử lý ảnh lớn."
+        },
+        {
+          "title": "Bộ hạn chế dung lượng và cơ chế dự phòng",
+          "body": "Nếu kết quả nén lại lớn hơn, hệ thống không xuất mù quáng mà quay về đường an toàn hơn, trả về ảnh gốc khi cần thiết."
+        }
+      ]
+    },
+    "footer": {
+      "left": [
+        "© 2026 BEST4IMG.COM",
+        "Chỉ xử lý cục bộ trên trình duyệt"
+      ],
+      "links": [
+        "Giới thiệu",
+        "Điều khoản dịch vụ",
+        "Chính sách quyền riêng tư"
+      ]
+    },
+    "compare": {
+      "original": "Ảnh gốc",
+      "compressed": "BEST4IMG",
+      "before": "Trước khi nén / Ảnh gốc",
+      "after": "Sau khi nén / BEST4IMG"
+    }
+  },
+  "crop": {
+    "title": "Cắt xén ảnh",
+    "subtitle": "Kéo khung cắt xén hoặc nhập giá trị pixel chính xác. Mọi xử lý đều hoàn tất cục bộ trên trình duyệt.",
+    "dropTitle": "Thả một ảnh vào hoặc bấm để chọn ảnh",
+    "dropHint": "Hỗ trợ JPG, PNG, WebP, GIF, mỗi ảnh không quá 10MB",
+    "settings": "Cài đặt cắt xén",
+    "cropBox": "Vùng cắt xén",
+    "width": "Rộng",
+    "height": "Cao",
+    "ratios": {
+      "original": "Tỷ lệ ảnh gốc"
+    },
+    "reset": "Đặt lại",
+    "crop": "Cắt xén ảnh",
+    "download": "Tải xuống",
+    "replace": "Chọn ảnh khác",
+    "ready": "Kết quả cắt xén đã được tạo.",
+    "errors": {
+      "oversize": "Tệp vượt quá 10MB",
+      "unsupported": "Định dạng không được hỗ trợ",
+      "read": "Không thể đọc ảnh",
+      "crop": "Cắt xén ảnh thất bại"
+    }
+  },
+  "crop-gif": {
+    "title": "Cắt xén ảnh GIF",
+    "subtitle": "Kéo khung cắt xén để chọn vùng hình, khi xuất vẫn giữ khung hình động và tốc độ phát.",
+    "dropTitle": "Thả một GIF vào hoặc bấm để chọn ảnh động",
+    "dropHint": "Chỉ hỗ trợ GIF, mỗi tệp không quá 10MB"
+  },
+  "glitch-gif": [
+    "Tạo ảnh động glitch",
+    "Hiệu ứng glitch thay đổi ở mỗi khung hình, tạo GIF động lặp vô tận.",
+    "Thả một ảnh vào hoặc bấm để chọn",
+    "Hỗ trợ JPG, PNG, WebP, mỗi ảnh không quá 20MB",
+    "Xem trước ảnh động",
+    "Chọn ảnh khác",
+    "Cài đặt ảnh động",
+    "Loại hiệu ứng",
+    "Cường độ",
+    "Tốc độ hoạt ảnh",
+    "Thời lượng hoạt ảnh",
+    "Kích thước đầu ra",
+    "Tạo GIF",
+    "Đang tạo…",
+    "Tải xuống GIF",
+    "Tạo thất bại, hãy thử kích thước nhỏ hơn hoặc thời lượng ngắn hơn."
+  ],
+  "avatar-crop": {
+    "title": "Cắt ảnh đại diện và ảnh thẻ",
+    "subtitle": "Định vị ảnh theo quy cách ảnh đại diện mạng xã hội hoặc ảnh thẻ, xuất PNG trên thiết bị.",
+    "dropTitle": "Thả một ảnh chân dung vào hoặc bấm để chọn ảnh",
+    "dropHint": "Hỗ trợ JPG, PNG, WebP, mỗi ảnh không quá 20MB",
+    "preview": "Xem trước trực tiếp",
+    "replace": "Chọn ảnh khác",
+    "presets": "Mục đích và kích thước",
+    "guide": "Tham chiếu vị trí chân dung",
+    "zoom": "Thu phóng ảnh",
+    "reset": "Đặt lại",
+    "export": "Tạo PNG",
+    "download": "Tải xuống PNG",
+    "ready": "PNG đã được tạo",
+    "dragHint": "Kéo ảnh để điều chỉnh vị trí",
+    "unsupported": "Định dạng ảnh không được hỗ trợ",
+    "oversize": "Tệp vượt quá 20MB",
+    "ui": {
+      "avatarTitle": "Cắt ảnh đại diện tròn",
+      "idTitle": "Cắt ảnh thẻ",
+      "avatarSubtitle": "Tạo ảnh đại diện PNG nền trong suốt hình tròn.",
+      "idSubtitle": "Chỉnh kích thước và vị trí chân dung theo quy cách ảnh thẻ.",
+      "cropSettings": "Cài đặt cắt xén",
+      "outputSize": "Kích thước đầu ra",
+      "preset": "Cài sẵn",
+      "createDownload": "Tạo và tải xuống PNG",
+      "avatarLabel": "Ảnh đại diện",
+      "transparentPng": "PNG trong suốt",
+      "idPresets": [
+        {
+          "id": "standard-passport",
+          "label": "Ảnh hộ chiếu",
+          "detail": "35 × 45 mm · 413 × 531 px",
+          "width": 413,
+          "height": 531,
+          "headTop": 0.08,
+          "chin": 0.8
+        },
+        {
+          "id": "us-passport",
+          "label": "U.S. passport",
+          "detail": "2 × 2 in · 600 × 600 px",
+          "width": 600,
+          "height": 600,
+          "headTop": 0.12,
+          "chin": 0.78
+        },
+        {
+          "id": "ca-passport",
+          "label": "Canada passport",
+          "detail": "50 × 70 mm · 591 × 827 px",
+          "width": 591,
+          "height": 827,
+          "headTop": 0.14,
+          "chin": 0.66
+        }
+      ],
+      "resizeCropArea": "Điều chỉnh vùng cắt xén",
+      "avatarPresets": [
+        {
+          "size": 200,
+          "label": "Discord / Slack"
+        },
+        {
+          "size": 300,
+          "label": "Microsoft Teams"
+        },
+        {
+          "size": 400,
+          "label": "Instagram / Facebook / X / LinkedIn"
+        },
+        {
+          "size": 460,
+          "label": "GitHub"
+        },
+        {
+          "size": 480,
+          "label": "YouTube"
+        },
+        {
+          "size": 640,
+          "label": "High-resolution profile"
+        }
+      ],
+      "presetNote": "Sizes are cropping references. Check the latest requirements with the issuing authority before submitting."
+    }
+  },
+  "color-palette": {
+    "title": "Trích màu và bảng màu",
+    "subtitle": "Trích xuất tông màu chủ đạo có thể tái sử dụng từ ảnh, mọi xử lý đều hoàn tất cục bộ trên trình duyệt.",
+    "dropTitle": "Thả hoặc chọn một ảnh",
+    "dropHint": "Hỗ trợ JPG, PNG, WebP, tối đa 20MB",
+    "preview": "Xem trước ảnh",
+    "settings": "Cài đặt bảng màu",
+    "count": "Số lượng màu",
+    "colors": "Màu đã trích",
+    "clickToCopy": "Bấm vào ô màu để sao chép mã HEX",
+    "copied": "Đã sao chép",
+    "output": "Xuất mã",
+    "css": "Biến CSS",
+    "tailwind": "Tailwind",
+    "copyCode": "Sao chép mã",
+    "download": "Tải xuống bảng màu PNG",
+    "chooseAnother": "Chọn ảnh khác",
+    "invalid": "Định dạng ảnh không được hỗ trợ",
+    "oversized": "Ảnh vượt quá 20MB"
+  },
+  "format-converter": {
+    "title": "Chuyển đổi định dạng ảnh",
+    "subtitle": "Chuyển đổi qua lại giữa JPG, PNG, WebP, mọi xử lý đều hoàn tất cục bộ trên trình duyệt.",
+    "dropTitle": "Thả ảnh vào hoặc bấm để chọn ảnh",
+    "dropHint": "Hỗ trợ JPG, PNG, WebP, tối đa 50 ảnh, mỗi ảnh không quá 10MB",
+    "settings": "Cài đặt chuyển đổi",
+    "targetFormat": "Định dạng đích",
+    "jpgHelp": "Khi chuyển sang JPG, vùng trong suốt sẽ tự động thành màu trắng.",
+    "start": "Bắt đầu chuyển đổi",
+    "downloadAll": "Tải xuống toàn bộ .ZIP",
+    "waiting": "Đang chờ",
+    "processing": "Đang chuyển đổi",
+    "completed": "Hoàn tất",
+    "download": "Tải xuống",
+    "empty": "Sau khi thêm ảnh, bạn có thể chuyển đổi định dạng hàng loạt.",
+    "errors": {
+      "oversize": "Tệp vượt quá 10MB",
+      "unsupported": "Định dạng không được hỗ trợ",
+      "read": "Không thể đọc kích thước ảnh",
+      "process": "Chuyển đổi ảnh thất bại"
+    },
+    "ui": {
+      "summary": "{{count}} ảnh sẽ được chuyển sang {{format}}.",
+      "fixedTitle": "Chuyển ảnh sang {{format}}",
+      "fixedSubtitle": "Tải lên ảnh JPG, PNG hoặc WebP, tự động chuyển đổi hàng loạt sang {{format}}."
+    }
+  },
+  "gif-compress": {
+    "title": "Nén GIF",
+    "subtitle": "Thu nhỏ bằng cách tỷ lệ, bỏ bớt khung hình và giảm số màu, nén GIF cục bộ trên trình duyệt.",
+    "dropTitle": "Thả một GIF vào hoặc bấm để chọn",
+    "dropHint": "Chỉ hỗ trợ GIF, tối đa 20MB",
+    "preview": "Xem trước trực tiếp",
+    "settings": "Cài đặt GIF",
+    "scale": "Tỷ lệ",
+    "frames": "Số khung hình",
+    "colors": "Số màu",
+    "start": "Nén GIF",
+    "download": "Tải xuống",
+    "reset": "Chọn GIF khác",
+    "original": "Ảnh gốc",
+    "output": "Sau khi nén",
+    "ready": "GIF sau khi nén đã được tạo.",
+    "pending": "Xem trước sẽ hiển thị tại đây sau khi nén.",
+    "errors": {
+      "oversize": "Tệp vượt quá 20MB",
+      "unsupported": "Vui lòng tải lên tệp GIF",
+      "process": "Nén GIF thất bại",
+      "tooManyFrames": "GIF này có quá nhiều khung hình, phiên bản đầu chưa hỗ trợ xử lý"
+    }
+  },
+  "gif-trim": [
+    "Cắt khung hình GIF",
+    "Cắt đoạn ảnh động theo khung đầu và cuối, giữ nguyên kích thước hình gốc.",
+    "Thả GIF vào hoặc bấm để chọn ảnh động",
+    "Chỉ hỗ trợ GIF, tối đa 20MB",
+    "Xem trước khung hình",
+    "Chọn GIF khác",
+    "Cài đặt cắt xén",
+    "Khung bắt đầu",
+    "Khung kết thúc",
+    "Số khung hình giữ lại",
+    "Tạo xem trước",
+    "Tải xuống GIF",
+    "Đang xử lý…",
+    "Vui lòng chọn GIF hợp lệ (tối đa 20MB), hình không quá 16 triệu pixel.",
+    "Xử lý thất bại, hãy thử GIF nhỏ hơn.",
+    "Sau khi cắt",
+    "Khung hiện tại",
+    "Thời lượng phát",
+    "Tất cả khung hình",
+    "mili-giây",
+    "Sửa khoảng cách khung hàng loạt",
+    "Áp dụng cho khung giữ lại"
+  ],
+  "glitch-image": {
+    "title": "Tạo ảnh glitch",
+    "subtitle": "Tạo hiệu ứng tách màu, lệch ảnh, nhiễu và đường quét.",
+    "dropTitle": "Thả hoặc chọn nhiều ảnh",
+    "dropHint": "Hỗ trợ JPG, PNG, WebP, tối đa 50 ảnh, mỗi ảnh không quá 20MB",
+    "preview": "Xem trước trực tiếp",
+    "replace": "Thêm ảnh",
+    "settings": "Cài đặt",
+    "effectType": "Loại hiệu ứng",
+    "intensity": "Cường độ",
+    "download": "Tải xuống ảnh hiện tại",
+    "effects": {
+      "rgb": {
+        "title": "Tách RGB",
+        "body": "Tách kênh màu"
+      },
+      "shift": {
+        "title": "Dịch pixel",
+        "body": "Lệch đoạn ngẫu nhiên"
+      },
+      "blocks": {
+        "title": "Khối lệch vị trí",
+        "body": "Dịch vùng mảnh"
+      },
+      "stripes": {
+        "title": "Sọc kỹ thuật số",
+        "body": "Nhiễu tín hiệu màu"
+      },
+      "noise": {
+        "title": "Nhiễu mô phỏng",
+        "body": "Tạp âm tín hiệu cũ"
+      },
+      "wave": {
+        "title": "Méo dạng sóng",
+        "body": "Dịch tín hiệu sóng"
+      },
+      "mirror": {
+        "title": "Phản chiếu",
+        "body": "Phản xạ đối xứng"
+      },
+      "scanlines": {
+        "title": "Đường quét",
+        "body": "Hiệu ứng CRT cổ điển"
+      }
+    }
+  },
+  "home": {
+    "title": "Công cụ ảnh miễn phí trên thiết bị",
+    "subtitle": "Xử lý, chuyển đổi và xuất ảnh ngay trong trình duyệt.",
+    "tools": [
+      {
+        "title": "Nén ảnh",
+        "body": "Nén JPG, PNG, WebP và SVG trên thiết bị, đảm bảo chất lượng tốt nhất sau mỗi lần nén.",
+        "icon": "compress",
+        "href": "compress",
+        "badge": "Đã ra mắt"
+      },
+      {
+        "title": "Thay đổi kích thước",
+        "body": "Đổi kích thước hàng loạt JPG, PNG, WebP và GIF, giữ hiệu ứng ảnh động.",
+        "icon": "photo_size_select_large",
+        "href": "resize",
+        "badge": "Ưu tiên 1"
+      },
+      {
+        "title": "Cắt xén ảnh",
+        "body": "Hỗ trợ kéo khung cắt xén và nhập giá trị pixel chính xác.",
+        "icon": "crop",
+        "href": "crop",
+        "badge": "Ưu tiên 1"
+      },
+      {
+        "title": "Cắt ảnh đại diện tròn",
+        "body": "Tạo ảnh đại diện PNG hình tròn nền trong suốt, tùy chỉnh được chiều rộng xuất.",
+        "icon": "account_circle",
+        "href": "avatar-crop",
+        "badge": "Tính năng mới"
+      },
+      {
+        "title": "Cắt ảnh thẻ",
+        "body": "Chỉnh vị trí chân dung theo quy cách ảnh thẻ 1 inch, 2 inch hoặc hộ chiếu.",
+        "icon": "badge",
+        "href": "id-photo-crop",
+        "badge": "Tính năng mới"
+      },
+      {
+        "title": "Tạo ảnh glitch",
+        "body": "Kết hợp ngẫu nhiên khối màu, sọc, nhiễu và méo, mỗi lần làm mới lại ra hiệu ứng mới.",
+        "icon": "blur_on",
+        "href": "glitch-image",
+        "badge": "Tính năng mới"
+      },
+      {
+        "title": "Tạo ảnh động glitch",
+        "body": "Để sự tách màu, nhiễu, sọc và méo thay đổi liên tục, tạo ảnh động lặp.",
+        "icon": "movie_filter",
+        "href": "glitch-gif",
+        "badge": "Tính năng mới"
+      },
+      {
+        "title": "Xoay / Lật",
+        "body": "Xoay, phản chiếu hàng loạt và xuất kết quả trên thiết bị.",
+        "icon": "rotate_right",
+        "href": "rotate",
+        "badge": "Ưu tiên 1"
+      },
+      {
+        "title": "Chuyển đổi định dạng ảnh",
+        "body": "Chuyển đổi qua lại giữa JPG, PNG, WebP, dùng chung logic xuất trên thiết bị.",
+        "icon": "sync_alt",
+        "href": "convert",
+        "badge": "Ưu tiên 1"
+      },
+      {
+        "title": "HEIC sang JPG",
+        "body": "Giải mã WebAssembly trên thiết bị để chuyển HEIC từ iPhone sang JPG.",
+        "icon": "image",
+        "href": "convert-heic",
+        "badge": "Đã ra mắt"
+      },
+      {
+        "title": "Thêm watermark",
+        "body": "Thêm watermark chữ hoặc ảnh, vị trí, độ trong suốt và xuất đều hoàn tất trên thiết bị.",
+        "icon": "branding_watermark",
+        "href": "watermark",
+        "badge": "Ưu tiên 2"
+      },
+      {
+        "title": "Ghép ảnh",
+        "body": "Tải ảnh nền và ảnh phủ lên, ghép thành một ảnh mới trên thiết bị.",
+        "icon": "layers",
+        "href": "merge-images",
+        "badge": "Đã ra mắt"
+      },
+      {
+        "title": "Chuyển đổi ảnh và Base64",
+        "body": "Chuyển hai chiều giữa ảnh và Base64, xem trước và tải xuống trên thiết bị.",
+        "icon": "code_blocks",
+        "href": "base64",
+        "badge": "Ưu tiên 2"
+      },
+      {
+        "title": "Công cụ pixel art",
+        "body": "Điều chỉnh hạt pixel, mức phóng to, số lượng màu và bảng màu cố định.",
+        "icon": "grid_on",
+        "href": "pixel-art",
+        "badge": "Đã ra mắt"
+      },
+      {
+        "title": "Trích màu và bảng màu",
+        "body": "Trích màu chủ đạo từ ảnh, sao chép cấu hình HEX, biến CSS hoặc Tailwind.",
+        "icon": "palette",
+        "href": "color-palette",
+        "badge": "Đã ra mắt"
+      },
+      {
+        "title": "Nén GIF",
+        "body": "Thu nhỏ tỷ lệ, bỏ bớt khung hình và giảm số màu để nén GIF trên thiết bị.",
+        "icon": "gif",
+        "href": "gif-compress",
+        "badge": "Đã ra mắt"
+      },
+      {
+        "title": "Ghép nhiều ảnh thành động",
+        "body": "Ghép nhiều ảnh theo thứ tự thành một ảnh động GIF.",
+        "icon": "burst_mode",
+        "href": "images-to-gif",
+        "badge": "Sau này"
+      }
+    ],
+    "ui": {
+      "badges": {
+        "smartOptimize": "Tối ưu hóa thông minh",
+        "newFeature": "Tính năng mới",
+        "supportsAnimation": "Hỗ trợ ảnh động",
+        "freshIdea": "Thử ý tưởng mới"
+      },
+      "categories": [
+        [
+          "all",
+          "Tất cả công cụ"
+        ],
+        [
+          "optimize",
+          "Nén và tối ưu"
+        ],
+        [
+          "edit",
+          "Kích thước và cắt xén"
+        ],
+        [
+          "convert",
+          "Chuyển đổi định dạng"
+        ],
+        [
+          "gif",
+          "GIF"
+        ],
+        [
+          "create",
+          "Sáng tạo và tiện ích"
+        ]
+      ],
+      "gifTrim": {
+        "title": "Cắt khung hình GIF",
+        "body": "Cắt đoạn ảnh động theo khung đầu và cuối, giữ nguyên kích thước hình gốc.",
+        "icon": "content_cut",
+        "href": "gif-trim",
+        "badge": "Tính năng mới"
+      },
+      "commonTasks": [
+        [
+          "Thu nhỏ dung lượng tệp",
+          "Nén JPG, PNG, WebP, SVG hoặc GIF, phù hợp đăng web, đính kèm email và tiết kiệm bộ nhớ.",
+          "compress"
+        ],
+        [
+          "Khớp kích thước nền tảng",
+          "Đổi kích thước theo pixel, phần trăm hoặc cạnh dài nhất, cũng có thể tạo ảnh đại diện tròn và ảnh thẻ phổ biến.",
+          "resize"
+        ],
+        [
+          "Xử lý định dạng điện thoại và web",
+          "Chuyển ảnh sang JPG hoặc PNG thống nhất, cũng có thể chuyển ảnh HEIC từ iPhone sang JPG phổ thông.",
+          "convert"
+        ],
+        [
+          "Tạo ảnh có chuyển động",
+          "Nén GIF, cắt khoảng khung hình, ghép nhiều ảnh thành động, hoặc tạo ảnh động glitch ngẫu nhiên.",
+          "images-to-gif"
+        ]
+      ],
+      "content": {
+        "introTitle": "Mở trang web và chỉnh sửa ảnh dễ dàng",
+        "introBody": "BEST4IMG hướng tới những tác vụ ảnh thực tế trong công việc hàng ngày: chuyển ảnh điện thoại sang định dạng phổ thông, cắt ảnh đại diện vừa ý cho tài khoản mạng xã hội, đồng bộ kích thước ảnh sản phẩm hàng loạt, nén tài nguyên web, hay ghép nhiều ảnh thành động. Mỗi công cụ tập trung một thao tác, thay đổi tham số thể hiện trực tiếp nhất có thể trong bản xem trước.",
+        "taskTitle": "Chẳng cần hiểu thuật ngữ ảnh trước",
+        "taskBody": "Cần tệp nhỏ hơn thì chọn nén; nền tảng yêu cầu pixel cố định thì đổi kích thước; chỉ giữ một phần hình thì cắt xén; ảnh iPhone không mở được thì dùng HEIC sang JPG.",
+        "directoryTitle": "Cấu trúc công cụ của trang",
+        "directoryBody": "Đây liệt kê mọi tính năng đã mở, gồm cả các trang nhanh tách từ công cụ chính."
+      },
+      "benefits": [
+        [
+          "shield_lock",
+          "Tệp ở lại trên thiết bị",
+          "Quy trình xử lý được hỗ trợ hoàn tất trong trình duyệt. Ảnh cá nhân, tài liệu công việc và thiết kế chưa công bố không cần tải lên rồi tải xuống."
+        ],
+        [
+          "stacks",
+          "Xử lý nhiều ảnh một lần",
+          "Các công cụ thường dùng như nén, chuyển đổi, xoay, watermark hỗ trợ nhập hàng loạt, tối đa 50 tệp."
+        ],
+        [
+          "visibility",
+          "Tham số và kết quả đều thấy được",
+          "Vùng cắt, tỷ lệ khung, vị trí watermark, nhịp ảnh động và hiệu ứng sáng tạo đều xoay quanh bản xem trước."
+        ]
+      ],
+      "categoriesAria": "Phân loại công cụ",
+      "noResults": "Không tìm thấy công cụ phù hợp",
+      "directory": [
+        {
+          "title": "Nén và tối ưu",
+          "links": [
+            [
+              "Nén ảnh",
+              "compress"
+            ],
+            [
+              "Nén SVG",
+              "compress/svg"
+            ],
+            [
+              "Nén GIF",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "Thay đổi kích thước",
+          "links": [
+            [
+              "Đổi kích thước ảnh",
+              "resize"
+            ],
+            [
+              "Chỉnh theo phần trăm",
+              "resize/by-percentage"
+            ],
+            [
+              "Chỉnh theo cạnh dài nhất",
+              "resize/by-longest-side"
+            ],
+            [
+              "Đổi kích thước GIF",
+              "resize/gif"
+            ]
+          ]
+        },
+        {
+          "title": "Cắt xén và hướng",
+          "links": [
+            [
+              "Cắt xén ảnh",
+              "crop"
+            ],
+            [
+              "Cắt xén ảnh GIF",
+              "crop/gif"
+            ],
+            [
+              "Cắt ảnh đại diện tròn",
+              "avatar-crop"
+            ],
+            [
+              "Cắt ảnh thẻ",
+              "id-photo-crop"
+            ],
+            [
+              "Xoay / Lật",
+              "rotate"
+            ]
+          ]
+        },
+        {
+          "title": "Chuyển đổi định dạng",
+          "links": [
+            [
+              "Chuyển đổi định dạng ảnh",
+              "convert"
+            ],
+            [
+              "Chuyển ảnh sang JPG",
+              "convert/image-to-jpg"
+            ],
+            [
+              "Chuyển ảnh sang PNG",
+              "convert/image-to-png"
+            ],
+            [
+              "HEIC sang JPG",
+              "convert-heic"
+            ],
+            [
+              "Ảnh và Base64",
+              "base64"
+            ]
+          ]
+        },
+        {
+          "title": "GIF và ảnh động",
+          "links": [
+            [
+              "Ghép nhiều ảnh thành động",
+              "images-to-gif"
+            ],
+            [
+              "Cắt khung hình GIF",
+              "gif-trim"
+            ],
+            [
+              "Tạo ảnh động glitch",
+              "glitch-gif"
+            ],
+            [
+              "Nén GIF",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "Sáng tạo và tiện ích",
+          "links": [
+            [
+              "Thêm watermark",
+              "watermark"
+            ],
+            [
+              "Ghép ảnh",
+              "merge-images"
+            ],
+            [
+              "Công cụ pixel art",
+              "pixel-art"
+            ],
+            [
+              "Trích màu",
+              "color-palette"
+            ],
+            [
+              "Tạo ảnh glitch",
+              "glitch-image"
+            ],
+            [
+              "Tạo ảnh động glitch",
+              "glitch-gif"
+            ]
+          ]
+        }
+      ],
+      "splitRouteTitles": {
+        "resize/by-percentage": "Chỉnh theo phần trăm",
+        "resize/by-longest-side": "Chỉnh theo cạnh dài nhất",
+        "resize/gif": "Đổi kích thước GIF",
+        "crop/gif": "Cắt xén ảnh GIF",
+        "convert/image-to-jpg": "Chuyển ảnh sang JPG",
+        "convert/image-to-png": "Chuyển ảnh sang PNG",
+        "compress/svg": "Nén SVG"
+      }
+    }
+  },
+  "image-base64": {
+    "title": "Chuyển đổi ảnh và Base64",
+    "subtitle": "Hoàn tất chuyển đổi hai chiều giữa ảnh và Base64 ngay trên trình duyệt.",
+    "encode": "Ảnh sang Base64",
+    "decode": "Base64 sang ảnh",
+    "dropTitle": "Thả hoặc chọn ảnh",
+    "dropHint": "Hỗ trợ JPG, PNG, WebP, GIF, SVG, mỗi ảnh tối đa 10MB",
+    "settings": "Đầu ra",
+    "output": "Kết quả Base64",
+    "dataUrl": "Data URL",
+    "raw": "Base64 thuần",
+    "cssUrl": "CSS url()",
+    "copy": "Sao chép",
+    "copied": "Đã sao chép",
+    "empty": "Sau khi tải ảnh lên, chọn một ảnh trong danh sách bên dưới để xem kết quả.",
+    "decodeInput": "Nội dung Base64",
+    "decodePlaceholder": "Dán nội dung Data URL, Base64 thuần hoặc CSS url()",
+    "preview": "Xem trước ảnh",
+    "decodeHint": "Hệ thống tự nhận diện định dạng ảnh, mọi xử lý đều hoàn tất trên thiết bị.",
+    "invalid": "Không nhận diện được dữ liệu ảnh hợp lệ.",
+    "tooLarge": "Ảnh khôi phục vượt quá 20MB.",
+    "download": "Tải xuống ảnh",
+    "detected": "Đã nhận diện",
+    "errors": {
+      "oversize": "Vượt quá giới hạn 10MB",
+      "unsupported": "Định dạng ảnh không được hỗ trợ",
+      "read": "Đọc tệp thất bại"
+    }
+  },
+  "image-merge": {
+    "title": "Ghép ảnh",
+    "subtitle": "Tải ảnh nền và ảnh phủ lên, ghép thành một ảnh mới ngay trên trình duyệt.",
+    "preview": "Xem trước trực tiếp",
+    "settings": "Cài đặt ghép",
+    "background": "Ảnh nền",
+    "overlay": "Ảnh phủ",
+    "chooseBackground": "Tải ảnh nền lên",
+    "chooseOverlay": "Tải ảnh phủ lên",
+    "output": "Đầu ra",
+    "width": "Rộng",
+    "height": "Cao",
+    "download": "Tải xuống",
+    "empty": "Tải ảnh nền lên trước, bản xem trước ghép sẽ hiển thị tại đây.",
+    "errors": {
+      "oversize": "Tệp vượt quá 10MB",
+      "unsupported": "Định dạng ảnh không được hỗ trợ",
+      "load": "Không thể đọc ảnh này",
+      "missing": "Vui lòng tải ảnh nền lên trước"
+    },
+    "ui": {
+      "previewScale": "Xem trước",
+      "zoomOut": "Thu nhỏ",
+      "reset": "Đặt lại",
+      "zoomIn": "Phóng to",
+      "remove": "Xóa bỏ"
+    }
+  },
+  "images-to-gif": {
+    "title": "Ghép nhiều ảnh thành động",
+    "subtitle": "Ghép nhiều ảnh theo thứ tự thành ảnh động GIF, hoàn tất toàn bộ trên trình duyệt.",
+    "dropTitle": "Thả hoặc chọn nhiều ảnh",
+    "dropHint": "Hỗ trợ JPG, PNG, WebP, SVG, tối đa 50 ảnh",
+    "preview": "Xem trước ảnh động",
+    "settings": "Cài đặt ảnh động",
+    "width": "Rộng",
+    "height": "Cao",
+    "delay": "Dừng mỗi khung",
+    "fit": "Cách lấp đầy",
+    "cover": "Lấp đầy",
+    "contain": "Hiển thị đầy đủ",
+    "colors": "Số màu",
+    "start": "Tạo GIF",
+    "download": "Tải xuống GIF",
+    "reset": "Chọn ảnh",
+    "source": "Ảnh",
+    "output": "Đầu ra",
+    "frames": "Khung hình",
+    "pending": "Xem trước GIF sẽ hiển thị tại đây sau khi tạo.",
+    "errors": {
+      "oversize": "Một số tệp vượt quá 10MB",
+      "unsupported": "Một số định dạng tệp không được hỗ trợ",
+      "load": "Một số ảnh đọc thất bại",
+      "missing": "Vui lòng tải lên ít nhất hai ảnh",
+      "process": "Tạo GIF thất bại"
+    },
+    "ui": {
+      "upload": "Tải ảnh lên",
+      "presets": "Cài sẵn kích thước",
+      "custom": "Tùy chỉnh",
+      "loop": "Lặp",
+      "infinite": "Lặp vô tận",
+      "times": "Số lần phát",
+      "quality": "Chất lượng",
+      "high": "Cao cấp",
+      "standard": "Tiêu chuẩn",
+      "compact": "Nén tối đa",
+      "background": "Nền",
+      "transparent": "Trong suốt",
+      "white": "Trắng",
+      "black": "Đen",
+      "colorSuffix": " màu",
+      "moveUp": "Chuyển lên",
+      "moveDown": "Chuyển xuống",
+      "delete": "Xóa"
+    }
+  },
+  "pixel-art": {
+    "title": "Công cụ pixel art",
+    "subtitle": "Chuyển ảnh thành pixel art rõ nét, mọi xử lý đều hoàn tất cục bộ trên trình duyệt.",
+    "dropTitle": "Thả hoặc chọn một ảnh",
+    "dropHint": "Hỗ trợ JPG, PNG, WebP, tối đa 20MB",
+    "preview": "Xem trước trực tiếp",
+    "settings": "Cài đặt pixel art",
+    "pixelSize": "Kích thước pixel",
+    "pixelHint": "Giá trị càng lớn, hạt pixel càng rõ.",
+    "scale": "Kích thước xuất",
+    "colors": "Số lượng màu",
+    "palette": "Bảng màu",
+    "auto": "Tự động lấy màu",
+    "gameboy": "Game Boy",
+    "gray": "Trắng đen xám",
+    "nes": "Phong cách NES",
+    "output": "Kích thước đầu ra",
+    "download": "Tải xuống PNG",
+    "chooseAnother": "Chọn ảnh khác",
+    "invalid": "Định dạng ảnh không được hỗ trợ",
+    "oversized": "Ảnh vượt quá 20MB"
+  },
+  "resize": {
+    "title": "Thay đổi kích thước ảnh",
+    "subtitle": "Đổi kích thước hàng loạt JPG, PNG, WebP và GIF, giữ hiệu ứng ảnh động.",
+    "dropTitle": "Thả ảnh vào hoặc bấm để chọn ảnh",
+    "dropHint": "Hỗ trợ JPG, PNG, WebP, GIF, tối đa 50 ảnh, mỗi ảnh không quá 10MB",
+    "settings": "Cài đặt kích thước",
+    "percent": "Theo phần trăm",
+    "longest": "Theo cạnh dài nhất",
+    "scale": "Tỷ lệ thu phóng",
+    "longestSide": "Cạnh dài nhất",
+    "longestHelp": "Ảnh ngang giới hạn chiều rộng, ảnh dọc giới hạn chiều cao, tự động giữ tỷ lệ gốc.",
+    "start": "Bắt đầu đổi kích thước",
+    "downloadAll": "Tải xuống toàn bộ .ZIP",
+    "waiting": "Đang chờ",
+    "processing": "Đang xử lý",
+    "completed": "Hoàn tất",
+    "download": "Tải xuống",
+    "empty": "Sau khi thêm ảnh, kích thước đích của từng ảnh sẽ hiển thị tại đây.",
+    "errors": {
+      "oversize": "Tệp vượt quá 10MB",
+      "unsupported": "Định dạng không được hỗ trợ",
+      "read": "Không thể đọc kích thước ảnh",
+      "process": "Đổi kích thước ảnh thất bại"
+    },
+    "ui": {
+      "summaryPercent": "{{count}} ảnh sẽ được thu phóng tỷ lệ theo {{percent}}%.",
+      "summaryLongest": "Cạnh dài nhất của {{count}} ảnh sẽ được giới hạn trong {{longest}}px.",
+      "gifTitle": "Đổi kích thước ảnh động GIF",
+      "percentTitle": "Đổi kích thước ảnh theo phần trăm",
+      "longestTitle": "Đổi kích thước ảnh theo cạnh dài nhất",
+      "gifSubtitle": "Đổi kích thước rộng cao của GIF, đồng thời giữ số khung gốc, tốc độ phát và hiệu ứng lặp.",
+      "percentSubtitle": "Nhập tỷ lệ thu phóng để đổi kích thước tỷ lệ hàng loạt ảnh JPG, PNG, WebP và GIF.",
+      "longestSubtitle": "Đặt pixel cạnh dài nhất để thu phóng hàng loạt ảnh và giữ tỷ lệ gốc.",
+      "gifDropTitle": "Thả GIF vào hoặc bấm để chọn ảnh động",
+      "gifDropHint": "Tối đa 50 GIF, mỗi tệp không quá 10MB"
+    }
+  },
+  "rotate": {
+    "title": "Xoay / Lật ảnh",
+    "subtitle": "Xoay hoặc phản chiếu ảnh hàng loạt, mọi xử lý đều hoàn tất cục bộ trên trình duyệt.",
+    "dropTitle": "Thả ảnh vào hoặc bấm để chọn ảnh",
+    "dropHint": "Hỗ trợ JPG, PNG, WebP, tối đa 50 ảnh, mỗi ảnh không quá 10MB",
+    "settings": "Cài đặt xoay",
+    "rotate": "Xoay",
+    "flip": "Lật",
+    "left": "Trái",
+    "right": "Phải",
+    "reset": "Đặt lại",
+    "horizontal": "Lật ngang",
+    "vertical": "Lật dọc",
+    "start": "Bắt đầu xử lý",
+    "downloadAll": "Tải xuống toàn bộ .ZIP",
+    "waiting": "Đang chờ",
+    "processing": "Đang xử lý",
+    "completed": "Hoàn tất",
+    "download": "Tải xuống",
+    "empty": "Sau khi thêm ảnh, bạn có thể xoay hoặc lật hàng loạt.",
+    "errors": {
+      "oversize": "Tệp vượt quá 10MB",
+      "unsupported": "Định dạng không được hỗ trợ",
+      "read": "Không thể đọc kích thước ảnh",
+      "process": "Xử lý ảnh thất bại"
+    },
+    "ui": {
+      "preview": "Xem trước trực tiếp",
+      "add": "Thêm ảnh",
+      "empty": "Sau khi thả ảnh vào, hiệu ứng sau xoay / lật sẽ hiển thị tại đây.",
+      "summary": "{{count}} ảnh sẽ áp dụng cài đặt xoay / lật hiện tại."
+    }
+  },
+  "watermark": {
+    "title": "Thêm watermark",
+    "subtitle": "Thêm watermark chữ hoặc ảnh vào ảnh, mọi xử lý đều hoàn tất cục bộ trên trình duyệt.",
+    "dropTitle": "Thả ảnh vào hoặc bấm để chọn ảnh",
+    "dropHint": "Hỗ trợ JPG, PNG, WebP, tối đa 50 ảnh, mỗi ảnh không quá 10MB",
+    "settings": "Cài đặt watermark",
+    "text": "Văn bản",
+    "image": "Ảnh",
+    "watermarkText": "Văn bản watermark",
+    "chooseMark": "Chọn ảnh watermark",
+    "size": "Kích thước",
+    "opacity": "Độ trong suốt",
+    "color": "Màu",
+    "position": "Vị trí",
+    "start": "Thêm watermark",
+    "downloadAll": "Tải xuống toàn bộ .ZIP",
+    "waiting": "Đang chờ",
+    "processing": "Đang xử lý",
+    "completed": "Hoàn tất",
+    "download": "Tải xuống",
+    "empty": "Sau khi thêm ảnh, xem trước watermark sẽ hiển thị tại đây.",
+    "preview": "Xem trước trực tiếp",
+    "addMore": "Thêm ảnh",
+    "errors": {
+      "oversize": "Tệp vượt quá 10MB",
+      "unsupported": "Định dạng không được hỗ trợ",
+      "read": "Không thể đọc kích thước ảnh",
+      "process": "Thêm watermark thất bại",
+      "noWatermark": "Vui lòng thêm văn bản hoặc ảnh watermark trước"
+    },
+    "ui": {
+      "summary": "{{count}} ảnh sẽ được thêm watermark hiện tại.",
+      "layout": "Cách sắp xếp",
+      "position": "Vị trí",
+      "tile": "Lát gạch",
+      "gap": "Khoảng cách",
+      "angle": "Góc nghiêng"
+    }
+  },
+  "common": {
+    "intensity": {
+      "light": "Nhẹ",
+      "medium": "Vừa",
+      "strong": "Mạnh"
+    },
+    "tryAnother": "Thử ý tưởng mới",
+    "original": "Kích thước gốc",
+    "originalSize": "Kích thước gốc",
+    "preview": "Xem trước trực tiếp",
+    "processing": "Đang xử lý…",
+    "invalidImages": "Vui lòng chọn ảnh được hỗ trợ, mỗi ảnh không quá 20MB",
+    "loading": "Đang tải…",
+    "resizeCropBox": "Điều chỉnh khung cắt xén"
+  },
+  "layout": {
+    "nav": {
+      "compress": "Nén ảnh",
+      "resize": "Thay đổi kích thước",
+      "crop": "Cắt xén ảnh",
+      "convert": "Chuyển đổi định dạng",
+      "gif": "Ghép ảnh động",
+      "all": "Tất cả công cụ"
+    },
+    "tools": [
+      "Xoay / Lật",
+      "HEIC sang JPG",
+      "Thêm watermark",
+      "Ghép ảnh",
+      "Nén GIF",
+      "Cắt khung hình GIF",
+      "Cắt ảnh đại diện tròn",
+      "Cắt ảnh thẻ",
+      "Ảnh và Base64",
+      "Công cụ pixel art",
+      "Trích màu",
+      "Tạo ảnh glitch",
+      "Tạo ảnh động glitch",
+      "Nén SVG"
+    ]
+  },
+  "svg-compress": {
+    "title": "Công cụ nén SVG",
+    "subtitle": "Xóa chú thích, siêu dữ liệu trình chỉnh sửa và khoảng trắng thừa trong SVG, giữ hình họa và hiệu ứng trong suốt.",
+    "drop": "Thả SVG vào hoặc bấm để chọn tệp",
+    "hint": "Chỉ hỗ trợ SVG, tối đa 50 tệp, mỗi tệp không quá 10MB"
+  },
+  "gif-trim-ui": {
+    "playbackOrder": "Playback order",
+    "forward": "Forward",
+    "reverse": "Reverse",
+    "pingPong": "Ping-pong"
+  }
+}

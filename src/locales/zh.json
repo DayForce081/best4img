@@ -1,0 +1,1428 @@
+{
+  "info": {
+    "about": {
+      "title": "关于我们",
+      "intro": "BEST4IMG 是一套注重速度、隐私与易用性的免费图片工具。我们希望常见的图片处理不必依赖复杂软件，也不必先把私人照片上传到远端服务器。",
+      "sections": [
+        {
+          "title": "我们在做什么",
+          "paragraphs": [
+            "网站提供图片压缩、尺寸调整、裁切、格式转换、水印、GIF 与创意效果等工具。大多数处理直接使用浏览器的 Canvas、WebAssembly 和 Worker 能力完成。"
+          ]
+        },
+        {
+          "title": "本地优先",
+          "paragraphs": [
+            "选择图片后，处理工作通常发生在当前设备中。图片不会为了完成这些工具操作而主动上传到我们的服务器。关闭或刷新页面后，浏览器内为本次操作创建的临时预览也会失效。"
+          ]
+        },
+        {
+          "title": "产品原则",
+          "paragraphs": [
+            "我们优先提供清晰的操作、可预期的结果和合理的性能。新功能只有在适合本地运行、对用户确实有帮助时才会加入。"
+          ]
+        },
+        {
+          "title": "为日常图片工作而做",
+          "paragraphs": [
+            "一张头像需要裁成圆形，一组商品图需要统一尺寸，一张截图需要缩小体积，几张照片需要合成动图。这些事情看似简单，却常常要打开不同的软件，重复寻找导出选项。BEST4IMG 希望把这些常用动作放在一个熟悉的地方。",
+            "你可以按当前任务选择工具：发布前压缩与转换，排版前调整与裁切，分享前添加水印，也可以用像素画和故障效果探索不同的视觉表达。每个工具都尽量围绕一个明确的结果展开。"
+          ]
+        },
+        {
+          "title": "质量与效率之间，保留选择",
+          "paragraphs": [
+            "更小的文件不一定意味着更好的结果。照片、截图、透明图和动图各有不同的特点，适合的输出格式也不同。我们根据工具提供适当的选项，并让你在下载前检查尺寸、透明区域和视觉效果。",
+            "本地处理也会占用设备的内存和运算资源。大尺寸图片、长动图或大量文件可能需要更久。分批处理、保留原图、及时下载结果，能让日常工作更可靠。"
+          ]
+        },
+        {
+          "title": "持续改进",
+          "paragraphs": [
+            "不同浏览器、图片格式和设备性能可能带来差异。我们持续改进兼容性、压缩质量与操作体验，关注真实任务中的细节：输入是否顺手、预览是否清楚、结果是否符合预期。",
+            "我们使用开源图像处理组件完成部分编码与解码工作。它们帮助浏览器承担更多原本需要桌面软件的任务，各组件的权利与许可仍属于对应作者。"
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "服务条款",
+      "intro": "使用 BEST4IMG 即表示你同意以下条款。请在处理重要文件前保留原始副本。",
+      "updated": "更新日期：2026年9月7日",
+      "sections": [
+        {
+          "title": "服务范围",
+          "paragraphs": [
+            "BEST4IMG 按现状提供浏览器图片处理工具。功能、支持格式和处理限制可能随产品更新而调整。"
+          ]
+        },
+        {
+          "title": "你的责任",
+          "paragraphs": [
+            "你应确保有权处理和使用所选择的图片，不得利用本服务侵犯版权、隐私或其他合法权益，也不得尝试破坏网站或影响他人正常使用。"
+          ]
+        },
+        {
+          "title": "图片权利与处理授权",
+          "paragraphs": [
+            "你对原始图片拥有的权利不会因为使用本工具而转移给 BEST4IMG。我们不因你选择文件而取得图片的所有权，也不要求你授予将图片用于公开展示或模型训练的权利。",
+            "添加水印、裁切、转换格式等操作不会赋予你对他人作品的新权利。涉及肖像、商标、受保护作品或个人信息时，请自行取得必要授权。"
+          ]
+        },
+        {
+          "title": "文件与设备",
+          "paragraphs": [
+            "工具在你的浏览器中处理文件，运行速度与可处理规模取决于设备内存、浏览器及图片复杂程度。页面可能设置数量、文件大小或尺寸限制。",
+            "刷新页面、关闭标签页或浏览器异常可能导致未下载的结果丢失。网站不是文件存储或备份服务，请保留原始文件，并将需要的结果下载到自己的设备。"
+          ]
+        },
+        {
+          "title": "结果与可用性",
+          "paragraphs": [
+            "图片编码、浏览器实现和设备资源存在差异，我们不保证所有文件都能处理成功，也不保证输出适合特定印刷、存档或专业用途。请在删除原文件前检查下载结果。"
+          ]
+        },
+        {
+          "title": "格式、色彩与专用规格",
+          "paragraphs": [
+            "有损压缩和重新编码可能改变细节、色彩、透明度或元数据。转换为 JPG 时不支持透明通道；动图经处理后也可能出现调色板差异。页面中的质量描述不代表所有处理都是无损的。",
+            "头像和证件照中的尺寸预设及人像参考线用于辅助排版，不构成平台或受理机构的认证。提交前应以接收方当前要求为准，核对尺寸、背景、构图和文件限制。"
+          ]
+        },
+        {
+          "title": "责任限制",
+          "paragraphs": [
+            "在法律允许的范围内，我们不对文件丢失、输出差异、服务中断或因使用处理结果产生的间接损失承担责任。"
+          ]
+        },
+        {
+          "title": "条款变更",
+          "paragraphs": [
+            "我们可能因功能或法律要求更新这些条款。更新后的内容会发布在本页面，并标注新的更新日期。"
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "intro": "BEST4IMG 采用本地优先的图片处理方式。下面说明网站在你使用工具时如何对待图片和必要的技术信息。",
+      "updated": "更新日期：2026年9月5日",
+      "sections": [
+        {
+          "title": "图片如何处理",
+          "paragraphs": [
+            "你选择的图片通常只在当前浏览器标签页中读取和处理。我们不会为了执行压缩、裁切、转换等操作而主动把图片内容上传到服务器。"
+          ]
+        },
+        {
+          "title": "浏览器中的临时数据",
+          "paragraphs": [
+            "网站可能在内存中创建图片预览、处理结果和临时对象地址，并使用本地存储记住语言等必要偏好。这些数据由你的浏览器管理，刷新、关闭页面或清理网站数据后可能消失。"
+          ]
+        },
+        {
+          "title": "语言偏好与下载文件",
+          "paragraphs": [
+            "当你切换语言时，网站会将所选语言保存到浏览器的本地存储，方便下次访问时恢复。此设置不需要包含你的姓名、邮箱或图片内容，你可以在浏览器设置中清除它。",
+            "下载的图片与 ZIP 文件由浏览器保存到你指定的位置。关闭页面或清除本站数据不会自动删除这些下载文件，也不会删除你原来选择的图片。"
+          ]
+        },
+        {
+          "title": "基础技术信息",
+          "paragraphs": [
+            "网站托管服务可能记录访问时间、请求地址、浏览器类型、网络地址和错误日志等基础信息，用于安全、稳定性和故障排查。这些记录不包含你在本地处理的图片内容。"
+          ]
+        },
+        {
+          "title": "字体、程序资源与外部链接",
+          "paragraphs": [
+            "当前页面使用 Google Fonts 提供的字体与图标。加载这些资源时，浏览器会向第三方域名发起请求，对方可能接收网络地址、浏览器信息等连接所需的技术数据；这些字体请求不需要发送你选择的图片。",
+            "图片编码组件等程序资源也需要加载到浏览器中，部分工具会在使用时再加载资源。因此，本地图片处理不等于网站完全不发生网络请求。外部网站对其自身的数据处理负责。"
+          ]
+        },
+        {
+          "title": "图片中的个人信息",
+          "paragraphs": [
+            "照片可能包含人脸、住址、证件内容，或拍摄时间与位置等元数据。处理在本地完成，并不意味着下载结果已经去除了所有敏感信息。请在分享前自行核对可见内容及文件信息。",
+            "在共享设备上使用工具时，还应关注下载目录、浏览器扩展和设备本身的访问权限。本政策说明本站的处理方式，无法控制设备上其他软件的行为。"
+          ]
+        },
+        {
+          "title": "政策范围与更新",
+          "paragraphs": [
+            "本政策适用于 BEST4IMG 当前提供的图片工具。服务器访问日志的实际保留期限取决于部署与托管配置，本页面不承诺未经核实的统一保存期限。",
+            "如果未来增加账号、统计分析或需要服务器处理的功能，应在上线时同步说明相应的数据用途与选择方式。重要变化会反映在本页面的更新日期中。"
+          ]
+        },
+        {
+          "title": "你的选择",
+          "paragraphs": [
+            "你可以随时停止处理、关闭页面，或通过浏览器设置清除本站保存的本地数据。请勿在不信任的共享设备上保留敏感图片的下载结果。"
+          ]
+        }
+      ]
+    },
+    "ui": {
+      "eyebrow": "免费图片工具",
+      "highlights": {
+        "about": [
+          [
+            "devices",
+            "处理留在设备上",
+            "浏览器承担图片处理"
+          ],
+          [
+            "photo_library",
+            "覆盖常见图片任务",
+            "从压缩裁切到创意效果"
+          ],
+          [
+            "download",
+            "结果由你保存",
+            "处理完成，自主下载"
+          ]
+        ],
+        "privacy": [
+          [
+            "image",
+            "图片在本地处理",
+            "工具操作无需上传图片"
+          ],
+          [
+            "language",
+            "联网加载网页资源",
+            "包括程序、字体与图标"
+          ],
+          [
+            "tune",
+            "本地数据由你管理",
+            "语言偏好可在浏览器中清除"
+          ]
+        ],
+        "terms": [
+          [
+            "copyright",
+            "图片权利归原权利人",
+            "处理前确认使用授权"
+          ],
+          [
+            "verified",
+            "下载前检查结果",
+            "核对尺寸、颜色与用途"
+          ],
+          [
+            "save",
+            "保留原始文件",
+            "工具不提供文件备份"
+          ]
+        ]
+      },
+      "tagline": "让图片处理，回到简单。",
+      "explore": "浏览图片工具"
+    }
+  },
+  "site": {
+    "siteName": "BEST4IMG",
+    "seo": {
+      "title": "BEST4IMG | 本地端 JPG、PNG、WebP、SVG 图片压缩工具",
+      "description": "在浏览器本地压缩 JPG、PNG、WebP 与 SVG 图片，不必上传服务器。适合网站素材、截图、电商图片与日常分享，支持批量处理。"
+    },
+    "nav": {
+      "ariaLabel": "选择语言",
+      "current": "简体中文",
+      "options": [
+        {
+          "code": "en",
+          "label": "English"
+        },
+        {
+          "code": "es",
+          "label": "Español"
+        },
+        {
+          "code": "fr",
+          "label": "Français"
+        },
+        {
+          "code": "de",
+          "label": "Deutsch"
+        },
+        {
+          "code": "it",
+          "label": "Italiano"
+        },
+        {
+          "code": "pt",
+          "label": "Português"
+        },
+        {
+          "code": "ja",
+          "label": "日本語"
+        },
+        {
+          "code": "ru",
+          "label": "Pусский"
+        },
+        {
+          "code": "ko",
+          "label": "한국어"
+        },
+        {
+          "code": "zh",
+          "label": "简体中文"
+        },
+        {
+          "code": "zh-tw",
+          "label": "繁體中文"
+        },
+        {
+          "code": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "bg",
+          "label": "Български"
+        },
+        {
+          "code": "ca",
+          "label": "Català"
+        },
+        {
+          "code": "nl",
+          "label": "Nederlands"
+        },
+        {
+          "code": "el",
+          "label": "Ελληνικά"
+        },
+        {
+          "code": "hi",
+          "label": "हिन्दी"
+        },
+        {
+          "code": "id",
+          "label": "Bahasa Indonesia"
+        },
+        {
+          "code": "ms",
+          "label": "Bahasa Melayu"
+        },
+        {
+          "code": "pl",
+          "label": "Polski"
+        },
+        {
+          "code": "sv",
+          "label": "Svenska"
+        },
+        {
+          "code": "th",
+          "label": "ภาษาไทย"
+        },
+        {
+          "code": "tr",
+          "label": "Türkçe"
+        },
+        {
+          "code": "uk",
+          "label": "Українська"
+        },
+        {
+          "code": "vi",
+          "label": "Tiếng Việt"
+        },
+        {
+          "code": "sw",
+          "label": "Kiswahili"
+        }
+      ],
+      "tools": {
+        "compressor": "图片压缩",
+        "heicConverter": "HEIC 转 JPG"
+      }
+    },
+    "heicConverter": {
+      "heroTitle": "HEIC 转 JPG",
+      "heroSubtitle": "在浏览器本地批量转换苹果 HEIC 照片",
+      "dropTitle": "拖入或选择 HEIC 图片",
+      "dropHint": "最多 50 张，单张不超过 50MB",
+      "downloadAll": "下载全部 .ZIP",
+      "zipName": "BEST4IMG-converted.zip",
+      "formatJpg": "JPG",
+      "formatPng": "PNG",
+      "statuses": {
+        "converting": "转换中...",
+        "waiting": "等待中...",
+        "completed": "已完成",
+        "error": "错误"
+      },
+      "errors": {
+        "exceedsLimit": "错误：文件超过 50MB",
+        "unsupportedFormat": "错误：不支持该格式",
+        "failedToProcess": "处理失败"
+      },
+      "actions": {
+        "download": "下载"
+      },
+      "content": {
+        "hero": {
+          "title": "本地转换 HEIC\n即时、私密、无需上传",
+          "subtitle": "无需注册，不经过服务器，也不受后端文件大小限制。所有转换都在你的浏览器中通过 WebAssembly 完成。"
+        },
+        "featureCards": [
+          {
+            "icon": "lock",
+            "title": "完全私密 — 文件不离开你的设备",
+            "body": "HEIC 解码和 JPG 编码全程在你的浏览器标签页内完成。照片不会发送到任何远程服务器，可以放心处理个人相册、医学影像或敏感文件。"
+          },
+          {
+            "icon": "bolt",
+            "title": "批量转换，顺序处理队列",
+            "body": "一次最多可以拖入 50 张 HEIC 文件，系统会逐一按顺序处理。有序的队列机制可以防止浏览器在处理 iPhone 或 iPad 拍摄的大尺寸 HEIC 照片时卡顿。"
+          },
+          {
+            "icon": "image",
+            "title": "保留原始分辨率输出",
+            "body": "转换后的 JPG 保留原始像素尺寸，不会缩放或重采样。拍摄的是什么分辨率，输出就是什么分辨率，只是换成了所有设备和应用都能打开的格式。"
+          }
+        ],
+        "underHood": {
+          "eyebrow": "技术细节",
+          "title": "支撑这套 HEIC 转 JPG 流程的核心能力。",
+          "cards": [
+            {
+              "title": "heic2any 与 WebAssembly 解码",
+              "body": "HEIC 文件使用苹果的 HEIF 容器与 HEVC（H.265）编码。heic2any 库通过浏览器内的 WebAssembly 编译解码器，将这种私有格式转换为标准图像数据，无需调用任何原生系统接口。"
+            },
+            {
+              "title": "单文件顺序处理",
+              "body": "HEIC 解码比 PNG 或 JPEG 解码消耗更多 CPU。每次只处理一个文件，可以避免主线程过载，在批量转换过程中保持页面的流畅响应。"
+            }
+          ]
+        }
+      },
+      "settings": {
+        "title": "输出设置",
+        "quality": "JPG 质量",
+        "qualityHint": "质量越高，生成的 JPG 文件越大。",
+        "orientation": "拍摄方向",
+        "orientationAuto": "自动校正",
+        "orientationHint": "按照片显示方向输出。",
+        "metadata": "元数据",
+        "metadataRemoved": "自动清除",
+        "metadataHint": "EXIF 和 GPS 信息不会复制到 JPG。"
+      }
+    },
+    "compressor": {
+      "heroTitle": "图片压缩工具",
+      "heroSubtitle": "免费支持 JPG、PNG、WebP 与 SVG，确保每次压缩都保持最佳质量",
+      "dropTitle": "拖入图片，或点击选择图片",
+      "dropHint": "最多 50 张图片，单张不超过 10MB",
+      "downloadAll": "下载全部 .ZIP",
+      "zipName": "BEST4IMG-compressed.zip",
+      "statuses": {
+        "compressing": "压缩中...",
+        "waiting": "等待中...",
+        "completed": "已完成",
+        "error": "错误"
+      },
+      "errors": {
+        "exceedsLimit": "错误：文件超过 10MB",
+        "unsupportedFormat": "错误：不支持该格式",
+        "failedToProcess": "处理文件时失败"
+      },
+      "actions": {
+        "download": "下载"
+      }
+    },
+    "hero": {
+      "title": "支持 JPG、PNG、WebP 与 SVG 的\n本地端图片压缩工具",
+      "subtitle": "为网站、文档、电商和日常分享减小图片体积，同时尽量保持观感自然。"
+    },
+    "featureCards": [
+      {
+        "type": "compare",
+        "title": "文字更清楚，透明边缘更干净",
+        "body": "很多压缩工具一碰截图、界面图或透明 PNG，就容易把小字压糊、把边缘压脏。BEST4IMG 会尽量照顾这类细节，在明显减小体积的同时，尽可能保住字和边缘的干净程度。"
+      },
+      {
+        "type": "image",
+        "title": "100% 本地处理，更安心",
+        "body": "所有文件处理和压缩都在你的浏览器里完成，不会上传到远程服务器。对于内部素材、个人文件和敏感内容，这种本地处理方式会更让人放心。"
+      }
+    ],
+    "autopilot": {
+      "title": "智能最优化处理，无需反复猜参数",
+      "body": "不用来回拖质量滑块。BEST4IMG 会自动评估更合适的压缩路径，尽量在保持观感自然的前提下，把文件体积压得更小。"
+    },
+    "underHood": {
+      "eyebrow": "技术细节",
+      "title": "支撑这套压缩流程的核心能力。",
+      "cards": [
+        {
+          "title": "边缘优先的 PNG 量化",
+          "body": "基于定制化的 libimagequant WebAssembly 方案，在压缩 PNG 时优先照顾高频边缘，减少透明图、UI 图和图标边缘出现脏点和抖动的情况。"
+        },
+        {
+          "title": "更保守的图形类 JPEG 策略",
+          "body": "在识别到更像 UI 图或图文混排内容时，会采用更保守的色度处理路径，尽量避免小字和锐利边缘被普通照片压缩策略破坏。"
+        },
+        {
+          "title": "OffscreenCanvas 与 Worker 解码",
+          "body": "图片解码与像素提取已移到 Web Worker 中，通过 OffscreenCanvas 完成，尽量减少大图处理时对主线程交互流畅度的影响。"
+        },
+        {
+          "title": "体积守卫与回退机制",
+          "body": "如果压缩后的结果反而更大，系统不会盲目输出，而是会回退到更稳妥的路径，必要时直接返回原图。"
+        }
+      ]
+    },
+    "footer": {
+      "left": [
+        "© 2026 BEST4IMG.COM",
+        "仅浏览器本地处理"
+      ],
+      "links": [
+        "关于我们",
+        "服务条款",
+        "隐私政策"
+      ]
+    },
+    "compare": {
+      "original": "原图",
+      "compressed": "BEST4IMG",
+      "before": "压缩前 / 原图",
+      "after": "压缩后 / BEST4IMG"
+    }
+  },
+  "crop": {
+    "title": "裁剪图片",
+    "subtitle": "拖动裁剪框，或输入精确像素值。所有处理都在浏览器本地完成。",
+    "dropTitle": "拖入一张图片，或点击选择图片",
+    "dropHint": "支持 JPG、PNG、WebP、GIF，单张不超过 10MB",
+    "settings": "裁剪设置",
+    "cropBox": "裁剪区域",
+    "width": "宽度",
+    "height": "高度",
+    "ratios": {
+      "original": "原图比例"
+    },
+    "reset": "重置",
+    "crop": "裁剪图片",
+    "download": "下载",
+    "replace": "选择另一张图片",
+    "ready": "裁剪结果已生成。",
+    "errors": {
+      "oversize": "文件超过 10MB",
+      "unsupported": "不支持该格式",
+      "read": "无法读取图片",
+      "crop": "裁剪图片失败"
+    }
+  },
+  "crop-gif": {
+    "title": "裁剪 GIF 图片",
+    "subtitle": "拖动裁剪框选择画面范围，导出时保留动画帧和播放速度。",
+    "dropTitle": "拖入一张 GIF，或点击选择动图",
+    "dropHint": "仅支持 GIF，单张不超过 10MB"
+  },
+  "glitch-gif": [
+    "故障动图生成",
+    "让故障效果在每一帧中变化，生成无限循环的 GIF 动图。",
+    "拖入一张图片，或点击选择",
+    "支持 JPG、PNG、WebP，单张不超过 20MB",
+    "动图预览",
+    "选择另一张图片",
+    "动图设置",
+    "效果类型",
+    "强度",
+    "动画速度",
+    "动画时长",
+    "输出尺寸",
+    "生成 GIF",
+    "生成中…",
+    "下载 GIF",
+    "生成失败，请尝试更小的尺寸或更短的时长。"
+  ],
+  "avatar-crop": {
+    "title": "头像与证件照裁切",
+    "subtitle": "按社交头像或证件照规格定位照片，本地导出 PNG。",
+    "dropTitle": "拖入一张人像照片，或点击选择图片",
+    "dropHint": "支持 JPG、PNG、WebP，单张不超过 20MB",
+    "preview": "实时预览",
+    "replace": "选择另一张图片",
+    "presets": "用途与尺寸",
+    "guide": "人像位置参考",
+    "zoom": "照片缩放",
+    "reset": "还原",
+    "export": "生成 PNG",
+    "download": "下载 PNG",
+    "ready": "PNG 已生成",
+    "dragHint": "拖动照片调整位置",
+    "unsupported": "不支持该图片格式",
+    "oversize": "文件超过 20MB",
+    "ui": {
+      "avatarTitle": "圆形头像裁切",
+      "idTitle": "证件照裁切",
+      "avatarSubtitle": "制作透明底圆形 PNG 头像。",
+      "idSubtitle": "按证件照规格调整人像大小和位置。",
+      "cropSettings": "裁切设置",
+      "outputSize": "输出尺寸",
+      "preset": "预设",
+      "createDownload": "生成并下载 PNG",
+      "avatarLabel": "头像",
+      "transparentPng": "透明 PNG",
+      "idPresets": [
+        {
+          "id": "one-inch",
+          "label": "一寸证件照",
+          "detail": "25 × 35 mm · 295 × 413 px",
+          "width": 295,
+          "height": 413,
+          "headTop": 0.1,
+          "chin": 0.72
+        },
+        {
+          "id": "two-inch",
+          "label": "二寸证件照",
+          "detail": "35 × 53 mm · 413 × 626 px",
+          "width": 413,
+          "height": 626,
+          "headTop": 0.1,
+          "chin": 0.7
+        },
+        {
+          "id": "cn-passport",
+          "label": "中国护照",
+          "detail": "33 × 48 mm · 390 × 567 px",
+          "width": 390,
+          "height": 567,
+          "headTop": 0.08,
+          "chin": 0.72
+        }
+      ],
+      "resizeCropArea": "调整裁切范围",
+      "avatarPresets": [
+        {
+          "size": 200,
+          "label": "钉钉 / 飞书 / 小红书"
+        },
+        {
+          "size": 300,
+          "label": "微信公众号"
+        },
+        {
+          "size": 400,
+          "label": "知乎 / 抖音 / 微博"
+        },
+        {
+          "size": 460,
+          "label": "GitHub"
+        },
+        {
+          "size": 480,
+          "label": "B站"
+        },
+        {
+          "size": 640,
+          "label": "微信"
+        }
+      ],
+      "presetNote": "尺寸仅作裁切参考，提交前请核对办理机构的最新要求。"
+    }
+  },
+  "color-palette": {
+    "title": "颜色提取与调色板",
+    "subtitle": "从图片中提取可复用的主色调，所有处理均在浏览器本地完成。",
+    "dropTitle": "拖入或选择一张图片",
+    "dropHint": "支持 JPG、PNG、WebP，最大 20MB",
+    "preview": "图片预览",
+    "settings": "调色板设置",
+    "count": "颜色数量",
+    "colors": "提取颜色",
+    "clickToCopy": "点击色块复制 HEX 色值",
+    "copied": "已复制",
+    "output": "代码输出",
+    "css": "CSS 变量",
+    "tailwind": "Tailwind",
+    "copyCode": "复制代码",
+    "download": "下载调色板 PNG",
+    "chooseAnother": "选择另一张图片",
+    "invalid": "不支持该图片格式",
+    "oversized": "图片超过 20MB"
+  },
+  "format-converter": {
+    "title": "图片格式转换",
+    "subtitle": "JPG、PNG、WebP 之间互转，所有处理都在浏览器本地完成。",
+    "dropTitle": "拖入图片，或点击选择图片",
+    "dropHint": "支持 JPG、PNG、WebP，最多 50 张，单张不超过 10MB",
+    "settings": "转换设置",
+    "targetFormat": "目标格式",
+    "jpgHelp": "转换为 JPG 时，透明区域会自动变成白色。",
+    "start": "开始转换",
+    "downloadAll": "下载全部 .ZIP",
+    "waiting": "等待中",
+    "processing": "转换中",
+    "completed": "已完成",
+    "download": "下载",
+    "empty": "添加图片后，即可批量转换格式。",
+    "errors": {
+      "oversize": "文件超过 10MB",
+      "unsupported": "不支持该格式",
+      "read": "无法读取图片尺寸",
+      "process": "转换图片失败"
+    },
+    "ui": {
+      "summary": "{{count}} 张图片将转换为 {{format}}。",
+      "fixedTitle": "图片转 {{format}}",
+      "fixedSubtitle": "上传 JPG、PNG 或 WebP 图片，自动批量转换为 {{format}}。"
+    }
+  },
+  "gif-compress": {
+    "title": "GIF 压缩",
+    "subtitle": "通过缩放、抽帧和减少颜色数，在浏览器本地压缩 GIF。",
+    "dropTitle": "拖入一个 GIF，或点击选择",
+    "dropHint": "仅支持 GIF，最大 20MB",
+    "preview": "实时预览",
+    "settings": "GIF 设置",
+    "scale": "缩放",
+    "frames": "帧率",
+    "colors": "颜色数",
+    "start": "压缩 GIF",
+    "download": "下载",
+    "reset": "选择另一个 GIF",
+    "original": "原图",
+    "output": "压缩后",
+    "ready": "压缩后的 GIF 已生成。",
+    "pending": "压缩后会在这里显示预览。",
+    "errors": {
+      "oversize": "文件超过 20MB",
+      "unsupported": "请上传 GIF 文件",
+      "process": "GIF 压缩失败",
+      "tooManyFrames": "这个 GIF 帧数太多，第一版暂不处理"
+    }
+  },
+  "gif-trim": [
+    "GIF 帧裁剪",
+    "按起止帧截取动图片段，保留原始画面尺寸。",
+    "拖入 GIF，或点击选择动图",
+    "仅支持 GIF，最大 20MB",
+    "帧预览",
+    "选择另一个 GIF",
+    "裁剪设置",
+    "起始帧",
+    "结束帧",
+    "保留帧数",
+    "生成预览",
+    "下载 GIF",
+    "处理中…",
+    "请选择有效的 GIF（最大 20MB），画面不超过 1600 万像素。",
+    "处理失败，请尝试较小的 GIF。",
+    "裁剪后",
+    "当前帧",
+    "播放时长",
+    "全部帧",
+    "毫秒",
+    "批量修改帧间隔",
+    "应用到保留帧"
+  ],
+  "glitch-image": {
+    "title": "故障图片生成",
+    "subtitle": "制作色彩分离、图像错位、噪点和扫描线效果。",
+    "dropTitle": "拖入或选择多张图片",
+    "dropHint": "支持 JPG、PNG、WebP，最多 50 张，单张不超过 20MB",
+    "preview": "实时预览",
+    "replace": "添加图片",
+    "settings": "设置",
+    "effectType": "效果类型",
+    "intensity": "强度",
+    "download": "下载当前图片",
+    "effects": {
+      "rgb": {
+        "title": "RGB 分离",
+        "body": "色彩通道分离"
+      },
+      "shift": {
+        "title": "像素偏移",
+        "body": "随机线段错位"
+      },
+      "blocks": {
+        "title": "错位图块",
+        "body": "碎片区域偏移"
+      },
+      "stripes": {
+        "title": "数字条纹",
+        "body": "彩色信号干扰"
+      },
+      "noise": {
+        "title": "模拟噪点",
+        "body": "老式信号杂讯"
+      },
+      "wave": {
+        "title": "波形扭曲",
+        "body": "波浪信号偏移"
+      },
+      "mirror": {
+        "title": "镜像",
+        "body": "对称反射"
+      },
+      "scanlines": {
+        "title": "扫描线",
+        "body": "复古 CRT 效果"
+      }
+    }
+  },
+  "home": {
+    "title": "本地的免费图片工具",
+    "subtitle": "在浏览器里处理、转换和导出图片。",
+    "tools": [
+      {
+        "title": "压缩图片",
+        "body": "本地压缩 JPG、PNG、WebP 与 SVG，确保每次压缩都保持最佳质量。",
+        "icon": "compress",
+        "href": "compress",
+        "badge": "已上线"
+      },
+      {
+        "title": "调整大小",
+        "body": "批量调整 JPG、PNG、WebP 和 GIF 尺寸，保留动图效果。",
+        "icon": "photo_size_select_large",
+        "href": "resize",
+        "badge": "第一优先"
+      },
+      {
+        "title": "裁剪图片",
+        "body": "支持拖拽裁剪框，也支持输入精确像素值。",
+        "icon": "crop",
+        "href": "crop",
+        "badge": "第一优先"
+      },
+      {
+        "title": "圆形头像裁切",
+        "body": "制作透明底圆形 PNG 头像，可自定义输出宽度。",
+        "icon": "account_circle",
+        "href": "avatar-crop",
+        "badge": "新功能"
+      },
+      {
+        "title": "证件照裁切",
+        "body": "按一寸、二寸或护照照片规格调整人像位置。",
+        "icon": "badge",
+        "href": "id-photo-crop",
+        "badge": "新功能"
+      },
+      {
+        "title": "故障图片生成",
+        "body": "随机组合色块、条纹、噪点与扭曲，每次刷新都有新效果。",
+        "icon": "blur_on",
+        "href": "glitch-image",
+        "badge": "新功能"
+      },
+      {
+        "title": "故障动图生成",
+        "body": "让色彩分离、噪点、条纹和扭曲持续变化，生成循环动图。",
+        "icon": "movie_filter",
+        "href": "glitch-gif",
+        "badge": "新功能"
+      },
+      {
+        "title": "旋转/翻转",
+        "body": "批量旋转、镜像，并在本地导出结果。",
+        "icon": "rotate_right",
+        "href": "rotate",
+        "badge": "第一优先"
+      },
+      {
+        "title": "图片格式转换",
+        "body": "JPG、PNG、WebP 之间互转，共用本地导出逻辑。",
+        "icon": "sync_alt",
+        "href": "convert",
+        "badge": "第一优先"
+      },
+      {
+        "title": "HEIC 转 JPG",
+        "body": "用本地 WebAssembly 解码，把 iPhone HEIC 转成 JPG。",
+        "icon": "image",
+        "href": "convert-heic",
+        "badge": "已上线"
+      },
+      {
+        "title": "添加水印",
+        "body": "添加文字或图片水印，位置、透明度和导出都在本地完成。",
+        "icon": "branding_watermark",
+        "href": "watermark",
+        "badge": "第二顺位"
+      },
+      {
+        "title": "拼合图像",
+        "body": "上传背景图和覆盖图，在本地合成为一张新图片。",
+        "icon": "layers",
+        "href": "merge-images",
+        "badge": "已上线"
+      },
+      {
+        "title": "图片与 Base64 转换",
+        "body": "图片与 Base64 双向转换，可本地预览和下载。",
+        "icon": "code_blocks",
+        "href": "base64",
+        "badge": "第二顺位"
+      },
+      {
+        "title": "像素画工具",
+        "body": "调整像素颗粒、放大倍数、颜色数量和固定调色板。",
+        "icon": "grid_on",
+        "href": "pixel-art",
+        "badge": "已上线"
+      },
+      {
+        "title": "颜色提取与调色板",
+        "body": "提取图片主色，复制 HEX、CSS 变量或 Tailwind 配置。",
+        "icon": "palette",
+        "href": "color-palette",
+        "badge": "已上线"
+      },
+      {
+        "title": "GIF 压缩",
+        "body": "通过缩放、抽帧和减少颜色数，在本地压缩 GIF。",
+        "icon": "gif",
+        "href": "gif-compress",
+        "badge": "已上线"
+      },
+      {
+        "title": "多图合成动图",
+        "body": "把多张图片按顺序合成为一个 GIF 动图。",
+        "icon": "burst_mode",
+        "href": "images-to-gif",
+        "badge": "后续"
+      }
+    ],
+    "ui": {
+      "badges": {
+        "smartOptimize": "智能优化",
+        "newFeature": "新功能",
+        "supportsAnimation": "支持动图",
+        "freshIdea": "换个新创意"
+      },
+      "categories": [
+        [
+          "all",
+          "全部工具"
+        ],
+        [
+          "optimize",
+          "压缩优化"
+        ],
+        [
+          "edit",
+          "尺寸与裁剪"
+        ],
+        [
+          "convert",
+          "格式转换"
+        ],
+        [
+          "gif",
+          "GIF"
+        ],
+        [
+          "create",
+          "创意与实用"
+        ]
+      ],
+      "gifTrim": {
+        "title": "GIF 帧裁剪",
+        "body": "按起止帧截取动图片段，保留原始画面尺寸。",
+        "icon": "content_cut",
+        "href": "gif-trim",
+        "badge": "新功能"
+      },
+      "commonTasks": [
+        [
+          "缩小文件体积",
+          "压缩 JPG、PNG、WebP、SVG 或 GIF，适合网页发布、邮件附件和节省存储空间。",
+          "compress"
+        ],
+        [
+          "适配平台尺寸",
+          "按像素、百分比或最长边调整尺寸，也可以制作圆形头像和常用证件照。",
+          "resize"
+        ],
+        [
+          "处理手机与网页格式",
+          "将图片统一转成 JPG 或 PNG，也能把 iPhone 的 HEIC 照片转成通用 JPG。",
+          "convert"
+        ],
+        [
+          "制作会动的图片",
+          "压缩 GIF、裁剪帧区间、用多张图片合成动图，或者制作随机故障动画。",
+          "images-to-gif"
+        ]
+      ],
+      "content": {
+        "introTitle": "打开网页，就能轻松处理图片",
+        "introBody": "BEST4IMG 面向日常工作中的真实图片任务：把手机照片转成通用格式，为社交账号裁出合适头像，批量统一商品图尺寸，压缩网页素材，或把多张图片做成动图。每个工具专注一个动作，参数变化会尽量直接反映在预览中。",
+        "taskTitle": "不必先弄懂图片术语",
+        "taskBody": "需要文件更小就选压缩；平台要求固定像素就调整大小；只保留画面的一部分就裁剪；iPhone 照片打不开时用 HEIC 转 JPG。",
+        "directoryTitle": "网站工具结构",
+        "directoryBody": "这里列出目前已经开放的全部功能，包括从主工具拆分出的快捷页面。"
+      },
+      "benefits": [
+        [
+          "shield_lock",
+          "文件留在设备中",
+          "支持的处理流程在浏览器内完成。私人照片、工作素材和未发布设计不需要先上传再下载。"
+        ],
+        [
+          "stacks",
+          "一次处理多张",
+          "压缩、转换、旋转、水印等常用工具支持批量导入，最多可选择 50 个文件。"
+        ],
+        [
+          "visibility",
+          "参数与结果看得见",
+          "裁剪范围、画布比例、水印位置、动图节奏和创意效果都以预览为中心。"
+        ]
+      ],
+      "categoriesAria": "工具分类",
+      "noResults": "没有找到匹配的工具",
+      "directory": [
+        {
+          "title": "压缩与优化",
+          "links": [
+            [
+              "压缩图片",
+              "compress"
+            ],
+            [
+              "SVG 压缩",
+              "compress/svg"
+            ],
+            [
+              "GIF 压缩",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "调整尺寸",
+          "links": [
+            [
+              "调整图片大小",
+              "resize"
+            ],
+            [
+              "按百分比调整",
+              "resize/by-percentage"
+            ],
+            [
+              "按最长边调整",
+              "resize/by-longest-side"
+            ],
+            [
+              "调整 GIF 大小",
+              "resize/gif"
+            ]
+          ]
+        },
+        {
+          "title": "裁剪与方向",
+          "links": [
+            [
+              "裁剪图片",
+              "crop"
+            ],
+            [
+              "裁剪 GIF 图片",
+              "crop/gif"
+            ],
+            [
+              "圆形头像裁切",
+              "avatar-crop"
+            ],
+            [
+              "证件照裁切",
+              "id-photo-crop"
+            ],
+            [
+              "旋转/翻转",
+              "rotate"
+            ]
+          ]
+        },
+        {
+          "title": "格式转换",
+          "links": [
+            [
+              "图片格式转换",
+              "convert"
+            ],
+            [
+              "图片转 JPG",
+              "convert/image-to-jpg"
+            ],
+            [
+              "图片转 PNG",
+              "convert/image-to-png"
+            ],
+            [
+              "HEIC 转 JPG",
+              "convert-heic"
+            ],
+            [
+              "图片与 Base64",
+              "base64"
+            ]
+          ]
+        },
+        {
+          "title": "GIF 与动图",
+          "links": [
+            [
+              "多图合成动图",
+              "images-to-gif"
+            ],
+            [
+              "GIF 帧裁剪",
+              "gif-trim"
+            ],
+            [
+              "故障动图生成",
+              "glitch-gif"
+            ],
+            [
+              "GIF 压缩",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "创意与实用",
+          "links": [
+            [
+              "添加水印",
+              "watermark"
+            ],
+            [
+              "拼合图像",
+              "merge-images"
+            ],
+            [
+              "像素画工具",
+              "pixel-art"
+            ],
+            [
+              "颜色提取",
+              "color-palette"
+            ],
+            [
+              "故障图片生成",
+              "glitch-image"
+            ],
+            [
+              "故障动图生成",
+              "glitch-gif"
+            ]
+          ]
+        }
+      ],
+      "splitRouteTitles": {
+        "resize/by-percentage": "按百分比调整",
+        "resize/by-longest-side": "按最长边调整",
+        "resize/gif": "调整 GIF 大小",
+        "crop/gif": "裁剪 GIF 图片",
+        "convert/image-to-jpg": "图片转 JPG",
+        "convert/image-to-png": "图片转 PNG",
+        "compress/svg": "SVG 压缩"
+      }
+    }
+  },
+  "image-base64": {
+    "title": "图片与 Base64 转换",
+    "subtitle": "在浏览器本地完成图片与 Base64 的双向转换。",
+    "encode": "图片转 Base64",
+    "decode": "Base64 转图片",
+    "dropTitle": "拖入或选择图片",
+    "dropHint": "支持 JPG、PNG、WebP、GIF、SVG，每张最大 10MB",
+    "settings": "输出",
+    "output": "Base64 结果",
+    "dataUrl": "Data URL",
+    "raw": "纯 Base64",
+    "cssUrl": "CSS url()",
+    "copy": "复制",
+    "copied": "已复制",
+    "empty": "上传图片后，在下方列表里选择一张查看结果。",
+    "decodeInput": "Base64 内容",
+    "decodePlaceholder": "粘贴 Data URL、纯 Base64 或 CSS url() 内容",
+    "preview": "图片预览",
+    "decodeHint": "系统会自动识别图片格式，所有处理均在本地完成。",
+    "invalid": "没有识别到有效的图片数据。",
+    "tooLarge": "还原后的图片超过 20MB。",
+    "download": "下载图片",
+    "detected": "已识别",
+    "errors": {
+      "oversize": "超过 10MB 限制",
+      "unsupported": "不支持的图片格式",
+      "read": "读取文件失败"
+    }
+  },
+  "image-merge": {
+    "title": "拼合图像",
+    "subtitle": "上传背景图和覆盖图，在浏览器本地合成为一张新图片。",
+    "preview": "实时预览",
+    "settings": "拼合设置",
+    "background": "背景图",
+    "overlay": "覆盖图",
+    "chooseBackground": "上传背景图",
+    "chooseOverlay": "上传覆盖图",
+    "output": "输出",
+    "width": "宽",
+    "height": "高",
+    "download": "下载",
+    "empty": "先上传背景图，这里会显示合成预览。",
+    "errors": {
+      "oversize": "文件超过 10MB",
+      "unsupported": "不支持该图片格式",
+      "load": "无法读取这张图片",
+      "missing": "请先上传背景图"
+    },
+    "ui": {
+      "previewScale": "预览",
+      "zoomOut": "缩小",
+      "reset": "还原",
+      "zoomIn": "放大",
+      "remove": "去掉"
+    }
+  },
+  "images-to-gif": {
+    "title": "多图合成动图",
+    "subtitle": "把多张图片按顺序合成为 GIF 动图，全程在浏览器本地完成。",
+    "dropTitle": "拖入或选择多张图片",
+    "dropHint": "支持 JPG、PNG、WebP、SVG，最多 50 张",
+    "preview": "动图预览",
+    "settings": "动图设置",
+    "width": "宽",
+    "height": "高",
+    "delay": "每帧停留",
+    "fit": "填充方式",
+    "cover": "铺满",
+    "contain": "完整显示",
+    "colors": "颜色数",
+    "start": "生成 GIF",
+    "download": "下载 GIF",
+    "reset": "选择图片",
+    "source": "图片",
+    "output": "输出",
+    "frames": "帧",
+    "pending": "生成后会在这里显示 GIF 预览。",
+    "errors": {
+      "oversize": "部分文件超过 10MB",
+      "unsupported": "部分文件格式不支持",
+      "load": "部分图片读取失败",
+      "missing": "请至少上传两张图片",
+      "process": "GIF 生成失败"
+    },
+    "ui": {
+      "upload": "图片上传",
+      "presets": "尺寸预设",
+      "custom": "自定义",
+      "loop": "循环",
+      "infinite": "无限循环",
+      "times": "播放次数",
+      "quality": "画质",
+      "high": "高清",
+      "standard": "标准",
+      "compact": "极致压缩",
+      "background": "背景",
+      "transparent": "透明",
+      "white": "白色",
+      "black": "黑色",
+      "colorSuffix": "色",
+      "moveUp": "上移",
+      "moveDown": "下移",
+      "delete": "删除"
+    }
+  },
+  "pixel-art": {
+    "title": "像素画工具",
+    "subtitle": "把图片转换成清晰的像素画，所有处理均在浏览器本地完成。",
+    "dropTitle": "拖入或选择一张图片",
+    "dropHint": "支持 JPG、PNG、WebP，最大 20MB",
+    "preview": "实时预览",
+    "settings": "像素画设置",
+    "pixelSize": "像素尺寸",
+    "pixelHint": "数值越大，像素颗粒越明显。",
+    "scale": "导出尺寸",
+    "colors": "颜色数量",
+    "palette": "调色板",
+    "auto": "自动取色",
+    "gameboy": "Game Boy",
+    "gray": "黑白灰阶",
+    "nes": "NES 风格",
+    "output": "输出尺寸",
+    "download": "下载 PNG",
+    "chooseAnother": "选择另一张图片",
+    "invalid": "不支持该图片格式",
+    "oversized": "图片超过 20MB"
+  },
+  "resize": {
+    "title": "调整图片大小",
+    "subtitle": "批量调整 JPG、PNG、WebP 和 GIF 尺寸，保留动图效果。",
+    "dropTitle": "拖入图片，或点击选择图片",
+    "dropHint": "支持 JPG、PNG、WebP、GIF，最多 50 张，单张不超过 10MB",
+    "settings": "尺寸设置",
+    "percent": "按百分比",
+    "longest": "按最长边",
+    "scale": "缩放比例",
+    "longestSide": "最长边",
+    "longestHelp": "横图限制宽度，竖图限制高度，自动保持原始比例。",
+    "start": "开始调整",
+    "downloadAll": "下载全部 .ZIP",
+    "waiting": "等待中",
+    "processing": "处理中",
+    "completed": "已完成",
+    "download": "下载",
+    "empty": "添加图片后，这里会显示每张图的目标尺寸。",
+    "errors": {
+      "oversize": "文件超过 10MB",
+      "unsupported": "不支持该格式",
+      "read": "无法读取图片尺寸",
+      "process": "调整图片失败"
+    },
+    "ui": {
+      "summaryPercent": "{{count}} 张图片将按 {{percent}}% 等比例缩放。",
+      "summaryLongest": "{{count}} 张图片的最长边将限制在 {{longest}}px 内。",
+      "gifTitle": "调整 GIF 动图大小",
+      "percentTitle": "按百分比调整图片大小",
+      "longestTitle": "按最长边调整图片大小",
+      "gifSubtitle": "调整 GIF 的宽高尺寸，同时保留原始帧数、播放速度和循环效果。",
+      "percentSubtitle": "输入缩放比例，批量等比例调整 JPG、PNG、WebP 和 GIF 图片。",
+      "longestSubtitle": "设置最长边像素，批量缩放图片并保持原始比例。",
+      "gifDropTitle": "拖入 GIF，或点击选择动图",
+      "gifDropHint": "最多 50 个 GIF，单个不超过 10MB"
+    }
+  },
+  "rotate": {
+    "title": "旋转/翻转图片",
+    "subtitle": "批量旋转或镜像图片，所有处理都在浏览器本地完成。",
+    "dropTitle": "拖入图片，或点击选择图片",
+    "dropHint": "支持 JPG、PNG、WebP，最多 50 张，单张不超过 10MB",
+    "settings": "旋转设置",
+    "rotate": "旋转",
+    "flip": "翻转",
+    "left": "向左",
+    "right": "向右",
+    "reset": "重置",
+    "horizontal": "水平翻转",
+    "vertical": "垂直翻转",
+    "start": "开始处理",
+    "downloadAll": "下载全部 .ZIP",
+    "waiting": "等待中",
+    "processing": "处理中",
+    "completed": "已完成",
+    "download": "下载",
+    "empty": "添加图片后，即可批量旋转或翻转。",
+    "errors": {
+      "oversize": "文件超过 10MB",
+      "unsupported": "不支持该格式",
+      "read": "无法读取图片尺寸",
+      "process": "处理图片失败"
+    },
+    "ui": {
+      "preview": "实时预览",
+      "add": "添加更多图片",
+      "empty": "拖入图片后，这里会显示旋转/翻转后的效果。",
+      "summary": "{{count}} 张图片将应用当前旋转/翻转设置。"
+    }
+  },
+  "watermark": {
+    "title": "添加水印",
+    "subtitle": "给图片添加文字或图片水印，所有处理都在浏览器本地完成。",
+    "dropTitle": "拖入图片，或点击选择图片",
+    "dropHint": "支持 JPG、PNG、WebP，最多 50 张，单张不超过 10MB",
+    "settings": "水印设置",
+    "text": "文字",
+    "image": "图片",
+    "watermarkText": "水印文字",
+    "chooseMark": "选择水印图片",
+    "size": "大小",
+    "opacity": "透明度",
+    "color": "颜色",
+    "position": "位置",
+    "start": "添加水印",
+    "downloadAll": "下载全部 .ZIP",
+    "waiting": "等待中",
+    "processing": "处理中",
+    "completed": "已完成",
+    "download": "下载",
+    "empty": "添加图片后，这里会显示水印预览。",
+    "preview": "实时预览",
+    "addMore": "添加更多图片",
+    "errors": {
+      "oversize": "文件超过 10MB",
+      "unsupported": "不支持该格式",
+      "read": "无法读取图片尺寸",
+      "process": "添加水印失败",
+      "noWatermark": "请先添加水印文字或图片"
+    },
+    "ui": {
+      "summary": "{{count}} 张图片将添加当前水印。",
+      "layout": "排列方式",
+      "position": "位置",
+      "tile": "平铺",
+      "gap": "间距",
+      "angle": "倾斜角度"
+    }
+  },
+  "common": {
+    "intensity": {
+      "light": "轻微",
+      "medium": "适中",
+      "strong": "强烈"
+    },
+    "tryAnother": "换个新创意",
+    "original": "原尺寸",
+    "originalSize": "原尺寸",
+    "preview": "实时预览",
+    "processing": "处理中…",
+    "invalidImages": "请选择支持的图片，单张不超过 20MB",
+    "loading": "加载中…",
+    "resizeCropBox": "调整裁切框"
+  },
+  "layout": {
+    "nav": {
+      "compress": "图片压缩",
+      "resize": "调整大小",
+      "crop": "裁剪图片",
+      "convert": "格式转换",
+      "gif": "动图合成",
+      "all": "全部工具"
+    },
+    "tools": [
+      "旋转/翻转",
+      "HEIC 转 JPG",
+      "添加水印",
+      "拼合图像",
+      "GIF 压缩",
+      "GIF 帧裁剪",
+      "圆形头像裁切",
+      "证件照裁切",
+      "图片与 Base64",
+      "像素画工具",
+      "颜色提取",
+      "故障图片生成",
+      "故障动图生成",
+      "SVG 压缩"
+    ]
+  },
+  "svg-compress": {
+    "title": "SVG 压缩工具",
+    "subtitle": "删除 SVG 中的注释、编辑器元数据和多余空白，保留图形与透明效果。",
+    "drop": "拖入 SVG，或点击选择文件",
+    "hint": "仅支持 SVG，最多 50 个，单个不超过 10MB"
+  },
+  "gif-trim-ui": {
+    "playbackOrder": "播放顺序",
+    "forward": "正序",
+    "reverse": "倒序",
+    "pingPong": "往返"
+  }
+}

@@ -1,0 +1,211 @@
+@import "tailwindcss";
+
+@theme {
+  /* Surface Architecture — Tonal Depth System */
+  --color-surface: #f7f9fb;
+  --color-surface-bright: #f7f9fb;
+  --color-surface-dim: #d8dadc;
+  --color-surface-container: #eceef0;
+  --color-surface-container-low: #f2f4f6;
+  --color-surface-container-high: #e6e8ea;
+  --color-surface-container-highest: #e0e3e5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-variant: #e0e3e5;
+  --color-surface-tint: #4d44e3;
+
+  /* Primary Palette */
+  --color-primary: #3525cd;
+  --color-primary-container: #4f46e5;
+  --color-primary-fixed: #e2dfff;
+  --color-primary-fixed-dim: #c3c0ff;
+  --color-inverse-primary: #c3c0ff;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #dad7ff;
+  --color-on-primary-fixed: #0f0069;
+  --color-on-primary-fixed-variant: #3323cc;
+
+  /* Secondary Palette */
+  --color-secondary: #58579b;
+  --color-secondary-container: #b6b4ff;
+  --color-secondary-fixed: #e2dfff;
+  --color-secondary-fixed-dim: #c3c0ff;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #454386;
+  --color-on-secondary-fixed: #140f54;
+  --color-on-secondary-fixed-variant: #413f82;
+
+  /* Tertiary Palette */
+  --color-tertiary: #7e3000;
+  --color-tertiary-container: #a44100;
+  --color-tertiary-fixed: #ffdbcc;
+  --color-tertiary-fixed-dim: #ffb695;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #ffd2be;
+  --color-on-tertiary-fixed: #351000;
+  --color-on-tertiary-fixed-variant: #7b2f00;
+
+  /* Error */
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error: #ffffff;
+  --color-on-error-container: #93000a;
+
+  /* On-Surface */
+  --color-on-surface: #191c1e;
+  --color-on-surface-variant: #464555;
+  --color-on-background: #191c1e;
+  --color-background: #f7f9fb;
+
+  /* Outline */
+  --color-outline: #777587;
+  --color-outline-variant: #c7c4d8;
+
+  /* Inverse */
+  --color-inverse-surface: #2d3133;
+  --color-inverse-on-surface: #eff1f3;
+
+  /* Font families */
+  --font-headline: "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
+
+  /* Border Radius */
+  --radius: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+}
+
+/* Base body */
+body {
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content-bg {
+  background-color: #ffffff;
+}
+
+.bleed-container {
+  width: 110%;
+  margin-left: -5%;
+}
+
+/* Material Symbols */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.home-tool-icon {
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+/* Signature gradient for primary CTAs */
+.signature-gradient {
+  background: linear-gradient(135deg, #3525cd 0%, #4f46e5 100%);
+}
+
+/* Prism background system */
+.prism-bg {
+  background-color: #f8faff;
+  position: relative;
+  overflow-x: hidden;
+}
+.prism-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+.prism-shape {
+  position: absolute;
+  filter: blur(80px);
+  opacity: 0.4;
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  animation: morph 20s infinite alternate ease-in-out;
+}
+
+/* Floating icons */
+.floating-icon {
+  position: absolute;
+  color: #4f46e5;
+  animation: float 20s infinite ease-in-out;
+  z-index: 1;
+  opacity: 0.08;
+}
+
+/* Keyframe animations */
+@keyframes morph {
+  0% {
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+    transform: translate(0, 0) rotate(0deg);
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 50% 60% 40% 60%;
+    transform: translate(50px, 100px) rotate(15deg);
+  }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-40px) rotate(10deg); }
+}
+
+/* Spring-feel entry animation for file rows */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(12px) scale(0.97);
+  }
+  60% {
+    transform: translateY(-2px) scale(1.005);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+.file-row-enter {
+  animation: slideIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+/* Progress bar animation */
+@keyframes progressPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+.progress-pulse {
+  animation: progressPulse 1.5s ease-in-out infinite;
+}
+
+/* Indeterminate progress shimmer */
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
+.progress-shimmer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  animation: shimmer 1.5s infinite;
+}
+
+/* Drag-over highlight */
+.drop-zone-active {
+  background-color: rgba(79, 70, 229, 0.05);
+  border-color: rgba(79, 70, 229, 0.4) !important;
+}
+
+.bg-checkerboard {
+  background-color: #f1f5f9;
+  background-image:
+    linear-gradient(45deg, #e2e8f0 25%, transparent 25%, transparent 75%, #e2e8f0 75%, #e2e8f0),
+    linear-gradient(45deg, #e2e8f0 25%, transparent 25%, transparent 75%, #e2e8f0 75%, #e2e8f0);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}

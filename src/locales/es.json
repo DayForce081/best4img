@@ -1,0 +1,1379 @@
+{
+  "info": {
+    "about": {
+      "title": "Sobre Nosotros",
+      "intro": "BEST4IMG es una colección gratuita de herramientas de imagen rápidas, privadas y fáciles de usar.",
+      "sections": [
+        {
+          "title": "Lo que construimos",
+          "paragraphs": [
+            "Ofrecemos compresión, cambio de tamaño, recorte, conversión, marca de agua, GIF y herramientas creativas de imagen en un único espacio de trabajo enfocado."
+          ]
+        },
+        {
+          "title": "Local primero",
+          "paragraphs": [
+            "La mayoría del procesamiento de imágenes se realiza en tu dispositivo con tecnologías del navegador como Canvas, WebAssembly y Web Workers. Tus imágenes no se suben intencionalmente a nuestros servidores para realizar estas operaciones."
+          ]
+        },
+        {
+          "title": "Nuestros principios",
+          "paragraphs": [
+            "Favorecemos controles claros, resultados predecibles y un rendimiento sensato. Añadimos funciones cuando son realmente útiles y adecuadas para el procesamiento local."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Términos de Servicio",
+      "intro": "Al usar BEST4IMG, aceptas estos términos. Mantén una copia original de los archivos importantes.",
+      "updated": "Última actualización: 7 de septiembre de 2026",
+      "sections": [
+        {
+          "title": "Servicio",
+          "paragraphs": [
+            "BEST4IMG proporciona herramientas de imagen basadas en navegador según disponibilidad. Las funciones, formatos y límites pueden cambiar a medida que el producto se desarrolla."
+          ]
+        },
+        {
+          "title": "Tus responsabilidades",
+          "paragraphs": [
+            "Debes tener el derecho de procesar tus imágenes y no debes usar el servicio para violar derechos de autor, privacidad, leyes o la disponibilidad del sitio."
+          ]
+        },
+        {
+          "title": "Derechos sobre las imágenes y autorización de tratamiento",
+          "paragraphs": [
+            "Los derechos que tengas sobre las imágenes originales no se transfieren a BEST4IMG por utilizar estas herramientas. No adquirimos la propiedad de tus imágenes ni te pedimos permiso para mostrarlas públicamente o utilizarlas para entrenar modelos.",
+            "Añadir marcas de agua, recortar o convertir un archivo no te concede nuevos derechos sobre obras ajenas. Obtén las autorizaciones necesarias cuando una imagen incluya la apariencia de una persona, marcas comerciales, obras protegidas o datos personales."
+          ]
+        },
+        {
+          "title": "Archivos y dispositivo",
+          "paragraphs": [
+            "Los archivos se procesan en tu navegador. La velocidad y la capacidad dependen de la memoria del dispositivo, el navegador y la complejidad de las imágenes. Cada herramienta puede establecer límites de cantidad, tamaño o dimensiones.",
+            "Actualizar la página, cerrar la pestaña o un fallo del navegador puede eliminar resultados que todavía no hayas descargado. El sitio no es un servicio de almacenamiento ni de copia de seguridad. Conserva los originales."
+          ]
+        },
+        {
+          "title": "Salidas y disponibilidad",
+          "paragraphs": [
+            "Los navegadores y codificadores de imágenes difieren. No podemos garantizar que todos los archivos se procesen correctamente o que se adapten a un propósito profesional específico. Verifique cada resultado antes de eliminar un original."
+          ]
+        },
+        {
+          "title": "Formatos, color y requisitos específicos",
+          "paragraphs": [
+            "La compresión con pérdida y la recodificación pueden modificar el detalle, el color, la transparencia o los metadatos. JPG no admite transparencia y las animaciones procesadas pueden presentar diferencias de paleta.",
+            "Los tamaños y las guías para avatares y fotos de identidad ayudan con la composición, pero no son certificaciones oficiales. Antes de enviar una imagen, revisa los requisitos actuales del destinatario."
+          ]
+        },
+        {
+          "title": "Responsabilidad",
+          "paragraphs": [
+            "En la medida permitida por la ley, BEST4IMG no se hace responsable por archivos perdidos, diferencias en las salidas, interrupciones o pérdidas indirectas que surjan del uso del servicio."
+          ]
+        },
+        {
+          "title": "Cambios en estos términos",
+          "paragraphs": [
+            "Podemos actualizar estos términos cuando cambien las funciones o los requisitos legales. La versión actualizada se publicará en esta página con una nueva fecha de revisión."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "intro": "BEST4IMG utiliza un enfoque local-first. Esta política explica cómo se manejan las imágenes y la información técnica básica.",
+      "updated": "Última actualización: 5 de septiembre de 2026",
+      "sections": [
+        {
+          "title": "Procesamiento de imágenes",
+          "paragraphs": [
+            "Las imágenes que seleccione normalmente se leen y procesan dentro de la pestaña del navegador actual. No se suben intencionalmente a nuestros servidores para ejecutar herramientas de imagen."
+          ]
+        },
+        {
+          "title": "Datos temporales del navegador",
+          "paragraphs": [
+            "El sitio puede crear vistas previas, resultados y URLs de objetos temporales en la memoria, y puede almacenar preferencias necesarias como el idioma localmente en su navegador."
+          ]
+        },
+        {
+          "title": "Información técnica básica",
+          "paragraphs": [
+            "La infraestructura de alojamiento puede registrar tiempos de solicitud, URLs, tipos de navegador, direcciones de red y registros de errores por seguridad y fiabilidad. Estos registros no contienen imágenes procesadas localmente."
+          ]
+        },
+        {
+          "title": "Sus elecciones",
+          "paragraphs": [
+            "Puedes detener el procesamiento, cerrar la página o borrar los datos del sitio almacenados localmente a través de la configuración de tu navegador en cualquier momento."
+          ]
+        }
+      ]
+    },
+    "ui": {
+      "eyebrow": "Herramientas de imagen gratuitas",
+      "highlights": {
+        "about": [
+          [
+            "devices",
+            "En tu dispositivo",
+            "Procesamiento de imágenes basado en el navegador"
+          ],
+          [
+            "photo_library",
+            "Tareas cotidianas de imagen",
+            "Desde compresión hasta efectos creativos"
+          ],
+          [
+            "download",
+            "Tus archivos, tu elección",
+            "Descarga los resultados que necesites"
+          ]
+        ],
+        "privacy": [
+          [
+            "image",
+            "Procesamiento de imágenes local",
+            "Operaciones de imagen que se ejecutan localmente"
+          ],
+          [
+            "language",
+            "Recursos que usan la red",
+            "Incluyendo código, fuentes e íconos"
+          ],
+          [
+            "tune",
+            "Administrar datos locales",
+            "Borrar preferencias en tu navegador"
+          ]
+        ],
+        "terms": [
+          [
+            "copyright",
+            "Respetar los derechos de imagen",
+            "Usa imágenes que tengas derecho a procesar"
+          ],
+          [
+            "verified",
+            "Verifica tus resultados",
+            "Revisa dimensiones, colores y adecuación"
+          ],
+          [
+            "save",
+            "Conserva tus originales",
+            "Las herramientas no son un servicio de respaldo"
+          ]
+        ]
+      },
+      "tagline": "Haz que el trabajo con imágenes sea sencillo.",
+      "explore": "Explora herramientas de imágenes"
+    }
+  },
+  "site": {
+    "siteName": "BEST4IMG",
+    "seo": {
+      "title": "BEST4IMG | Compresor de Imágenes Local para JPG, PNG, WebP y SVG",
+      "description": "Comprime imágenes JPG, PNG, WebP y SVG directamente en tu navegador. BEST4IMG mantiene los archivos localmente, maneja lotes y reduce el tamaño sin pérdida de calidad evidente."
+    },
+    "nav": {
+      "ariaLabel": "Seleccionar idioma",
+      "current": "Español",
+      "options": [
+        {
+          "code": "en",
+          "label": "English"
+        },
+        {
+          "code": "es",
+          "label": "Español"
+        },
+        {
+          "code": "fr",
+          "label": "Français"
+        },
+        {
+          "code": "de",
+          "label": "Deutsch"
+        },
+        {
+          "code": "it",
+          "label": "Italiano"
+        },
+        {
+          "code": "pt",
+          "label": "Português"
+        },
+        {
+          "code": "ja",
+          "label": "日本語"
+        },
+        {
+          "code": "ru",
+          "label": "Pусский"
+        },
+        {
+          "code": "ko",
+          "label": "한국어"
+        },
+        {
+          "code": "zh",
+          "label": "简体中文"
+        },
+        {
+          "code": "zh-tw",
+          "label": "繁體中文"
+        },
+        {
+          "code": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "bg",
+          "label": "Български"
+        },
+        {
+          "code": "ca",
+          "label": "Català"
+        },
+        {
+          "code": "nl",
+          "label": "Nederlands"
+        },
+        {
+          "code": "el",
+          "label": "Ελληνικά"
+        },
+        {
+          "code": "hi",
+          "label": "हिन्दी"
+        },
+        {
+          "code": "id",
+          "label": "Bahasa Indonesia"
+        },
+        {
+          "code": "ms",
+          "label": "Bahasa Melayu"
+        },
+        {
+          "code": "pl",
+          "label": "Polski"
+        },
+        {
+          "code": "sv",
+          "label": "Svenska"
+        },
+        {
+          "code": "th",
+          "label": "ภาษาไทย"
+        },
+        {
+          "code": "tr",
+          "label": "Türkçe"
+        },
+        {
+          "code": "uk",
+          "label": "Українська"
+        },
+        {
+          "code": "vi",
+          "label": "Tiếng Việt"
+        },
+        {
+          "code": "sw",
+          "label": "Kiswahili"
+        }
+      ],
+      "tools": {
+        "compressor": "Compresor de Imágenes",
+        "heicConverter": "HEIC a JPG"
+      }
+    },
+    "heicConverter": {
+      "heroTitle": "Convertidor de HEIC a JPG",
+      "heroSubtitle": "Convierte fotos Apple HEIC localmente en tu navegador",
+      "dropTitle": "Suelta o selecciona tus imágenes HEIC",
+      "dropHint": "hasta 50 archivos, máximo 50 MB cada uno",
+      "downloadAll": "Descargar todo .ZIP",
+      "zipName": "BEST4IMG-convertido.zip",
+      "formatJpg": "JPG",
+      "formatPng": "PNG",
+      "statuses": {
+        "converting": "Convirtiendo...",
+        "waiting": "Esperando...",
+        "completed": "Completado",
+        "error": "Error"
+      },
+      "errors": {
+        "exceedsLimit": "Error: Supera el límite de 50 MB",
+        "unsupportedFormat": "Error: Formato no compatible",
+        "failedToProcess": "No se pudo procesar el archivo"
+      },
+      "actions": {
+        "download": "Descargar"
+      },
+      "content": {
+        "hero": {
+          "title": "Convertir HEIC a JPG\nLocalmente, al instante, de forma privada",
+          "subtitle": "Sin registro, sin carga a servidor, sin restricciones de tamaño de archivo impuestas por un backend. Todo se ejecuta dentro de tu navegador usando decodificación potenciada por WebAssembly."
+        },
+        "featureCards": [
+          {
+            "icon": "lock",
+            "title": "Totalmente Privado — Nada Sale de Tu Dispositivo",
+            "body": "La decodificación HEIC y la codificación JPG ocurren completamente en la pestaña de tu navegador. Tus fotos nunca tocan un servidor remoto, lo que hace esto seguro para recuerdos personales, imágenes médicas y archivos confidenciales."
+          },
+          {
+            "icon": "bolt",
+            "title": "Conversión por Lotes con una Cola Secuencial",
+            "body": "Suelta hasta 50 archivos HEIC a la vez y cada uno se procesa en orden. Una cola controlada previene que el navegador se congele incluso al manejar fotos grandes de múltiples megapíxeles HEIC desde un iPhone o iPad."
+          },
+          {
+            "icon": "image",
+            "title": "Salida en Resolución Completa",
+            "body": "El JPG convertido preserva las dimensiones de píxel originales. Sin reducción de tamaño, sin re-muestreo oculto. Lo que capturaste es lo que obtienes, solo que en un formato que cualquier aplicación, navegador y dispositivo puede abrir."
+          }
+        ],
+        "underHood": {
+          "eyebrow": "Bajo el Capó",
+          "title": "La capa técnica detrás de la tubería de conversión HEIC.",
+          "cards": [
+            {
+              "title": "heic2any con Decodificación WebAssembly",
+              "body": "Los archivos HEIC usan el contenedor HEIF de Apple con codificación HEVC (H.265). La biblioteca heic2any ejecuta un decodificador compilado en WebAssembly completamente en el navegador para convertir ese formato propietario en datos de imagen estándar sin necesidad de una llamada nativa del sistema operativo."
+            },
+            {
+              "title": "Procesamiento Secuencial de Archivo Único",
+              "body": "La decodificación de HEIC requiere significativamente más CPU que la decodificación de PNG o JPEG. Procesar archivos uno a la vez evita saturar el hilo principal y mantiene la página sensible mientras se convierte tu lote."
+            }
+          ]
+        }
+      },
+      "settings": {
+        "title": "Ajustes de salida",
+        "quality": "Calidad JPG",
+        "qualityHint": "Una calidad mayor crea un JPG más grande.",
+        "orientation": "Orientación",
+        "orientationAuto": "Corregir automáticamente",
+        "orientationHint": "Respeta la orientación visible de la foto.",
+        "metadata": "Metadatos",
+        "metadataRemoved": "Eliminados automáticamente",
+        "metadataHint": "Los datos EXIF y GPS no se copian al JPG."
+      }
+    },
+    "compressor": {
+      "heroTitle": "Compresor de Imágenes",
+      "heroSubtitle": "Compresión gratuita de JPG, PNG, WebP y SVG con la mejor calidad posible cada vez",
+      "dropTitle": "Suelta o selecciona tus imágenes aquí",
+      "dropHint": "hasta 50 archivos, máximo 10MB cada uno",
+      "downloadAll": "Descargar todo .ZIP",
+      "zipName": "BEST4IMG-comprimido.zip",
+      "statuses": {
+        "compressing": "Comprimiendo...",
+        "waiting": "Esperando...",
+        "completed": "Completado",
+        "error": "Error"
+      },
+      "errors": {
+        "exceedsLimit": "Error: Excede el límite de 10MB",
+        "unsupportedFormat": "Error: Formato no compatible",
+        "failedToProcess": "Error al procesar el archivo"
+      },
+      "actions": {
+        "download": "Descargar"
+      }
+    },
+    "hero": {
+      "title": "Compresor de imágenes del lado del cliente para\nJPG, PNG, WebP y SVG",
+      "subtitle": "Haz que las imágenes sean más pequeñas para sitios web, documentos, tiendas y compartir sin que se vean visiblemente peor."
+    },
+    "featureCards": [
+      {
+        "type": "compare",
+        "title": "Detalles impecables y bordes transparentes",
+        "body": "¿Alguna vez has comprimido una captura de pantalla de software o un PNG transparente, solo para ver texto borroso y bordes blancos ásperos? BEST4IMG se enfoca en elementos de la interfaz, subtítulos y logotipos para que los archivos se reduzcan drásticamente sin que los detalles importantes se desmoronen."
+      },
+      {
+        "type": "image",
+        "title": "100% local y seguro",
+        "body": "Tus archivos permanecen contigo. La compresión se ejecuta completamente en tu navegador, por lo que nada se carga en un servidor remoto. Eso lo hace mucho más seguro para recursos internos, fotos personales y materiales sensibles."
+      }
+    ],
+    "autopilot": {
+      "title": "Optimización Inteligente, Sin Suposiciones",
+      "body": "No hay necesidad de estar moviendo los deslizadores de calidad de un lado a otro. BEST4IMG evalúa automáticamente los caminos de compresión adecuados y busca un archivo más pequeño mientras mantiene la imagen con un aspecto natural."
+    },
+    "underHood": {
+      "eyebrow": "Bajo el Capó",
+      "title": "La capa técnica detrás del proceso de compresión.",
+      "cards": [
+        {
+          "title": "Cuantificación Con Conciencia de Bordes PNG",
+          "body": "Las imágenes PNG pasan por una ruta de WebAssembly de libimagequant afinada que intenta preservar los bordes de alta frecuencia de manera más cuidadosa, ayudando a que los íconos, los activos transparentes y los gráficos de la interfaz de usuario se mantengan más limpios en tamaños pequeños."
+        },
+        {
+          "title": "Manejo más conservador de JPEG para imágenes similares a la interfaz de usuario",
+          "body": "Cuando una imagen se parece más a gráficos de interfaz o contenido mixto de texto e imagen, la ruta JPEG se vuelve más conservadora para que el texto pequeño y los bordes afilados tengan menos probabilidades de degradarse."
+        },
+        {
+          "title": "Decodificación del lado del worker con OffscreenCanvas",
+          "body": "La decodificación de imágenes y la extracción de píxeles se realizan dentro de un Web Worker mediante OffscreenCanvas, lo que ayuda a reducir las pausas del hilo principal cuando se procesan imágenes grandes."
+        },
+        {
+          "title": "Lógica de Protección de Tamaño y Reemplazo",
+          "body": "Si un resultado supuestamente comprimido termina siendo más grande, BEST4IMG evita devolverlo ciegamente. La secuencia recurre a un camino más seguro y puede devolver el original cuando sea necesario."
+        }
+      ]
+    },
+    "footer": {
+      "left": [
+        "© 2026 BEST4IMG.COM",
+        "Solo del lado del cliente"
+      ],
+      "links": [
+        "Acerca de",
+        "Términos",
+        "Privacidad"
+      ]
+    },
+    "compare": {
+      "original": "Original",
+      "compressed": "BEST4IMG",
+      "before": "Antes / Original",
+      "after": "Después / BEST4IMG"
+    }
+  },
+  "crop": {
+    "title": "Recortar Imágenes",
+    "subtitle": "Arrastra el cuadro de recorte o ingresa los píxeles exactos. La imagen permanece local en tu navegador.",
+    "dropTitle": "Suelta o selecciona una imagen",
+    "dropHint": "JPG, PNG, WebP, GIF, máximo 10MB",
+    "settings": "Configuración de Recorte",
+    "cropBox": "Cuadro de recorte",
+    "width": "Ancho",
+    "height": "Altura",
+    "ratios": {
+      "original": "Original"
+    },
+    "reset": "Restablecer",
+    "crop": "Recortar imagen",
+    "download": "Descargar",
+    "replace": "Elegir otra imagen",
+    "ready": "La imagen recortada está lista.",
+    "errors": {
+      "oversize": "El archivo supera 10MB",
+      "unsupported": "Formato no compatible",
+      "read": "No se puede leer la imagen",
+      "crop": "Error al recortar la imagen"
+    }
+  },
+  "crop-gif": {
+    "title": "Recortar imágenes GIF",
+    "subtitle": "Seleccione un área con la caja de recorte mientras preserva los cuadros de animación y la velocidad de reproducción.",
+    "dropTitle": "Suelta o selecciona un GIF",
+    "dropHint": "Sólo GIF, máximo 10MB"
+  },
+  "glitch-gif": [
+    "Generador de glitches GIF",
+    "Anima una variación de glitch diferente en cada cuadro y exporta un GIF en bucle.",
+    "Suelta o selecciona una imagen",
+    "JPG, PNG, o WebP, máximo 20MB",
+    "Vista previa animada",
+    "Elige otra imagen",
+    "Configuración de animación",
+    "Tipo de efecto",
+    "Intensidad",
+    "Velocidad de animación",
+    "Duración",
+    "Tamaño de salida",
+    "Generar GIF",
+    "Generando…",
+    "Descargar GIF",
+    "Generación fallida. Intenta un tamaño más pequeño o una duración más corta."
+  ],
+  "avatar-crop": {
+    "title": "Recorte de Avatar y Foto de Identificación",
+    "subtitle": "Posiciona retratos para perfiles sociales o tamaños de fotos de identificación y exporta localmente.",
+    "dropTitle": "Suelta o selecciona un retrato",
+    "dropHint": "JPG, PNG, WebP, máximo 20MB",
+    "preview": "Vista previa en vivo",
+    "replace": "Elegir otra imagen",
+    "presets": "Uso y tamaño",
+    "guide": "Guía de posición de retrato",
+    "zoom": "Zoom de foto",
+    "reset": "Restablecer",
+    "export": "Crear PNG",
+    "download": "Descargar PNG",
+    "ready": "PNG está listo",
+    "dragHint": "Arrastra la foto para reposicionarla",
+    "unsupported": "Formato de imagen no soportado",
+    "oversize": "El archivo supera los 20 MB",
+    "ui": {
+      "avatarTitle": "Recorte de avatar circular",
+      "idTitle": "Recorte de foto de identificación",
+      "avatarSubtitle": "Crea un avatar circular PNG con esquinas transparentes.",
+      "idSubtitle": "Posiciona un retrato usando tamaños comunes de foto de identificación.",
+      "cropSettings": "Configuración de recorte",
+      "outputSize": "Tamaño de salida",
+      "preset": "Preajuste",
+      "createDownload": "Crear y descargar PNG",
+      "avatarLabel": "Avatar",
+      "transparentPng": "Transparente PNG",
+      "idPresets": [
+        {
+          "id": "standard-passport",
+          "label": "Foto de pasaporte",
+          "detail": "35 × 45 mm · 413 × 531 px",
+          "width": 413,
+          "height": 531,
+          "headTop": 0.08,
+          "chin": 0.8
+        },
+        {
+          "id": "us-passport",
+          "label": "U.S. passport",
+          "detail": "2 × 2 in · 600 × 600 px",
+          "width": 600,
+          "height": 600,
+          "headTop": 0.12,
+          "chin": 0.78
+        },
+        {
+          "id": "ca-passport",
+          "label": "Canada passport",
+          "detail": "50 × 70 mm · 591 × 827 px",
+          "width": 591,
+          "height": 827,
+          "headTop": 0.14,
+          "chin": 0.66
+        }
+      ],
+      "resizeCropArea": "Cambiar tamaño del área de recorte",
+      "avatarPresets": [
+        {
+          "size": 200,
+          "label": "Discord / Slack"
+        },
+        {
+          "size": 300,
+          "label": "Microsoft Teams"
+        },
+        {
+          "size": 400,
+          "label": "Instagram / Facebook / X / LinkedIn"
+        },
+        {
+          "size": 460,
+          "label": "GitHub"
+        },
+        {
+          "size": 480,
+          "label": "YouTube"
+        },
+        {
+          "size": 640,
+          "label": "High-resolution profile"
+        }
+      ],
+      "presetNote": "Sizes are cropping references. Check the latest requirements with the issuing authority before submitting."
+    }
+  },
+  "color-palette": {
+    "title": "Paleta de colores",
+    "subtitle": "Extraer una paleta de colores reutilizable de cualquier imagen localmente.",
+    "dropTitle": "Arrastra o selecciona una imagen",
+    "dropHint": "JPG, PNG, WebP, hasta 20MB",
+    "preview": "Vista previa de la imagen",
+    "settings": "Configuración de la paleta",
+    "count": "Cantidad de colores",
+    "colors": "Colores extraídos",
+    "clickToCopy": "Haz clic en un color para copiar HEX",
+    "copied": "Copiado",
+    "output": "Código de salida",
+    "css": "Variables\nCSS",
+    "tailwind": "Tailwind",
+    "copyCode": "Copiar código",
+    "download": "Descargar paleta\nPNG",
+    "chooseAnother": "Elegir otra imagen",
+    "invalid": "Formato de imagen no compatible",
+    "oversized": "La imagen supera los 20 MB"
+  },
+  "format-converter": {
+    "title": "Convertir formatos de imagen",
+    "subtitle": "Convertir JPG, PNG y WebP localmente en tu navegador.",
+    "dropTitle": "Arrastra o selecciona tus imágenes",
+    "dropHint": "JPG, PNG, WebP, hasta 50 archivos, máximo 10 MB cada uno",
+    "settings": "Configuración de conversión",
+    "targetFormat": "Formato de destino",
+    "jpgHelp": "Las áreas transparentes se vuelven blancas al convertir a JPG.",
+    "start": "Comenzar conversión",
+    "downloadAll": "Descargar todo .ZIP",
+    "waiting": "Esperando",
+    "processing": "Convirtiendo",
+    "completed": "Hecho",
+    "download": "Descargar",
+    "empty": "Agrega imágenes para convertirlas aquí.",
+    "errors": {
+      "oversize": "Excede el límite de 10MB",
+      "unsupported": "Formato no compatible",
+      "read": "No se puede leer el tamaño de la imagen",
+      "process": "Error al convertir la imagen"
+    },
+    "ui": {
+      "summary": "La(s) imagen(es) {{count}} se convertirán a {{format}}.",
+      "fixedTitle": "Convertir imágenes a {{format}}",
+      "fixedSubtitle": "Sube imágenes JPG, PNG o WebP y conviértelas automáticamente a {{format}}."
+    }
+  },
+  "gif-compress": {
+    "title": "Comprimir GIF",
+    "subtitle": "Redimensiona, elimina cuadros y reduce colores localmente en tu navegador.",
+    "dropTitle": "Arrastra o selecciona un GIF",
+    "dropHint": "Solo GIF, máximo 20MB",
+    "preview": "Vista previa en vivo",
+    "settings": "Configuración de GIF",
+    "scale": "Escalar",
+    "frames": "Frames",
+    "colors": "Colores",
+    "start": "Comprimir GIF",
+    "download": "Descargar",
+    "reset": "Elegir otro GIF",
+    "original": "Original",
+    "output": "Comprimido",
+    "ready": "GIF comprimido está listo.",
+    "pending": "La vista previa de GIF comprimido aparecerá aquí.",
+    "errors": {
+      "oversize": "El archivo supera los 20MB",
+      "unsupported": "Por favor suba un archivo GIF",
+      "process": "Falló la compresión de GIF",
+      "tooManyFrames": "Este GIF tiene demasiados cuadros para la primera versión"
+    }
+  },
+  "gif-trim": [
+    "Recortar cuadros GIF",
+    "Conservar un rango de cuadros de animación sin cambiar las dimensiones de la imagen.",
+    "Arrastra o selecciona un GIF",
+    "Solo GIF, máximo 20MB",
+    "Vista previa del cuadro",
+    "Elegir otro GIF",
+    "Configuración de recorte",
+    "Fotograma de inicio",
+    "Fotograma final",
+    "Fotogramas conservados",
+    "Generar vista previa",
+    "Descargar GIF",
+    "Procesando…",
+    "Elige un GIF válido de hasta 20MB y 16 millones de píxeles.",
+    "Procesamiento fallido. Prueba con un GIF más pequeño.",
+    "GIF recortado",
+    "Fotograma actual",
+    "Duración",
+    "Todos los fotogramas",
+    "milisegundos",
+    "Retraso de fotograma por lote",
+    "Aplicar"
+  ],
+  "glitch-image": {
+    "title": "Generador de imágenes con fallos",
+    "subtitle": "Crea divisiones de color, fragmentos desplazados, ruido y efectos de líneas de escaneo.",
+    "dropTitle": "Suelta o selecciona múltiples imágenes",
+    "dropHint": "JPG, PNG, WebP, hasta 50 archivos, máximo 20 MB cada uno",
+    "preview": "Vista previa en vivo",
+    "replace": "Agregar imágenes",
+    "settings": "Configuraciones",
+    "effectType": "Tipo de efecto",
+    "intensity": "Intensidad",
+    "download": "Descargar imagen actual",
+    "effects": {
+      "rgb": {
+        "title": "RGB Dividir",
+        "body": "Separar canales de color"
+      },
+      "shift": {
+        "title": "Desplazamiento de píxeles",
+        "body": "Desplazamiento aleatorio de líneas"
+      },
+      "blocks": {
+        "title": "Glitch de bloques",
+        "body": "Fragmentos desplazados"
+      },
+      "stripes": {
+        "title": "Rayas digitales",
+        "body": "Interferencia de la señal de color"
+      },
+      "noise": {
+        "title": "Ruido analógico",
+        "body": "Ruido de señal vintage"
+      },
+      "wave": {
+        "title": "Distorsión de onda",
+        "body": "Desplazamiento ondulado de señal"
+      },
+      "mirror": {
+        "title": "Espejo",
+        "body": "Reflejo simétrico"
+      },
+      "scanlines": {
+        "title": "Líneas de escaneo",
+        "body": "Efecto CRT Retro"
+      }
+    }
+  },
+  "home": {
+    "title": "Herramientas de Imagen Locales Gratis",
+    "subtitle": "Editar, convertir y exportar imágenes en tu navegador.",
+    "tools": [
+      {
+        "title": "Comprimir Imágenes",
+        "body": "Comprimir JPG, PNG, WebP y SVG mientras se conserva la mejor calidad posible.",
+        "icon": "compress",
+        "href": "compress",
+        "badge": "Listo"
+      },
+      {
+        "title": "Cambiar Tamaño de Imágenes",
+        "body": "Cambiar el tamaño de los archivos JPG, PNG, WebP y GIF animados juntos.",
+        "icon": "photo_size_select_large",
+        "href": "resize",
+        "badge": "Prioridad 1"
+      },
+      {
+        "title": "Recortar Imágenes",
+        "body": "Recortar imágenes mediante selección de arrastre o valores exactos de píxeles.",
+        "icon": "crop",
+        "href": "crop",
+        "badge": "Prioridad 1"
+      },
+      {
+        "title": "Recorte Circular de Avatar",
+        "body": "Crear una imagen de perfil circular con esquinas PNG transparentes.",
+        "icon": "account_circle",
+        "href": "avatar-crop",
+        "badge": "Nuevo"
+      },
+      {
+        "title": "Recorte de Foto de Identidad",
+        "body": "Coloca retratos usando tamaños de fotos de identificación comunes y guías.",
+        "icon": "badge",
+        "href": "id-photo-crop",
+        "badge": "Nuevo"
+      },
+      {
+        "title": "Imagen con fallas",
+        "body": "Aleatoriza bloques de colores, rayas, ruido, ondas y otros efectos de fallo.",
+        "icon": "blur_on",
+        "href": "glitch-image",
+        "badge": "Nuevo"
+      },
+      {
+        "title": "Fallo GIF",
+        "body": "Anima colores cambiantes, ruido, rayas y distorsión como un bucle GIF.",
+        "icon": "movie_filter",
+        "href": "glitch-gif",
+        "badge": "Nuevo"
+      },
+      {
+        "title": "Rotar y Voltear",
+        "body": "Rota, refleja y exporta lotes sin subir archivos.",
+        "icon": "rotate_right",
+        "href": "rotate",
+        "badge": "Prioridad 1"
+      },
+      {
+        "title": "Convertir formatos",
+        "body": "Convierte entre JPG, PNG y WebP con lógica de exportación local compartida.",
+        "icon": "sync_alt",
+        "href": "convert",
+        "badge": "Prioridad 1"
+      },
+      {
+        "title": "HEIC a JPG",
+        "body": "Convertir fotos de iPhone HEIC a JPG con decodificación local en WebAssembly.",
+        "icon": "image",
+        "href": "convert-heic",
+        "badge": "Listo"
+      },
+      {
+        "title": "Marcar imágenes",
+        "body": "Agregar marcas de agua de texto o imagen con exportación local desde Canvas.",
+        "icon": "branding_watermark",
+        "href": "watermark",
+        "badge": "Prioridad 2"
+      },
+      {
+        "title": "Combinar imágenes",
+        "body": "Colocar una imagen superpuesta sobre un fondo y exportar una imagen local.",
+        "icon": "layers",
+        "href": "merge-images",
+        "badge": "Listo"
+      },
+      {
+        "title": "Imagen y Base64",
+        "body": "Convertir imágenes y Base64 en cualquiera de las direcciones de manera local.",
+        "icon": "code_blocks",
+        "href": "base64",
+        "badge": "Prioridad 2"
+      },
+      {
+        "title": "Arte de píxeles",
+        "body": "Crear arte de píxeles con píxeles, colores y paletas clásicas ajustables.",
+        "icon": "grid_on",
+        "href": "pixel-art",
+        "badge": "Listo"
+      },
+      {
+        "title": "Paleta de colores",
+        "body": "Extraer colores dominantes y exportar valores HEX, CSS o Tailwind.",
+        "icon": "palette",
+        "href": "color-palette",
+        "badge": "Listo"
+      },
+      {
+        "title": "Comprimir GIF",
+        "body": "Reducir tamaño de GIF ajustando el tamaño, eliminando fotogramas y disminuyendo colores localmente.",
+        "icon": "gif",
+        "href": "gif-compress",
+        "badge": "Listo"
+      },
+      {
+        "title": "Imágenes a Animación",
+        "body": "Combinar varias imágenes en un solo GIF localmente.",
+        "icon": "burst_mode",
+        "href": "images-to-gif",
+        "badge": "Más tarde"
+      }
+    ],
+    "ui": {
+      "badges": {
+        "smartOptimize": "Optimización inteligente",
+        "newFeature": "Nuevo",
+        "supportsAnimation": "GIF animado",
+        "freshIdea": "Idea fresca"
+      },
+      "categories": [
+        [
+          "all",
+          "Todas las herramientas"
+        ],
+        [
+          "optimize",
+          "Optimizar"
+        ],
+        [
+          "edit",
+          "Redimensionar y recortar"
+        ],
+        [
+          "convert",
+          "Convertir"
+        ],
+        [
+          "gif",
+          "GIF"
+        ],
+        [
+          "create",
+          "Crear"
+        ]
+      ],
+      "gifTrim": {
+        "title": "Recortar fotogramas de GIF",
+        "body": "Mantener un rango de fotogramas de GIF sin cambiar las dimensiones de la imagen.",
+        "icon": "content_cut",
+        "href": "gif-trim",
+        "badge": "Nuevo"
+      },
+      "directory": [
+        {
+          "title": "Comprimir y optimizar",
+          "links": [
+            [
+              "Compresor de imágenes",
+              "compress"
+            ],
+            [
+              "Compresor SVG",
+              "compress/svg"
+            ],
+            [
+              "Compresor GIF",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "Cambiar tamaño",
+          "links": [
+            [
+              "Cambiar el tamaño de las imágenes",
+              "resize"
+            ],
+            [
+              "Cambiar tamaño por porcentaje",
+              "resize/by-percentage"
+            ],
+            [
+              "Cambiar tamaño según el lado más largo",
+              "resize/by-longest-side"
+            ],
+            [
+              "Cambiar tamaño GIF",
+              "resize/gif"
+            ]
+          ]
+        },
+        {
+          "title": "Recortar y girar",
+          "links": [
+            [
+              "Recortar imágenes",
+              "crop"
+            ],
+            [
+              "Recortar GIF",
+              "crop/gif"
+            ],
+            [
+              "Recorte de avatar circular",
+              "avatar-crop"
+            ],
+            [
+              "Recorte de foto de identificación",
+              "id-photo-crop"
+            ],
+            [
+              "Girar y voltear",
+              "rotate"
+            ]
+          ]
+        },
+        {
+          "title": "Convertir",
+          "links": [
+            [
+              "Convertidor de formato de imagen",
+              "convert"
+            ],
+            [
+              "Imagen a JPG",
+              "convert/image-to-jpg"
+            ],
+            [
+              "Imagen a PNG",
+              "convert/image-to-png"
+            ],
+            [
+              "HEIC a JPG",
+              "convert-heic"
+            ],
+            [
+              "Imagen y Base64",
+              "base64"
+            ]
+          ]
+        },
+        {
+          "title": "GIF y animación",
+          "links": [
+            [
+              "Imágenes a GIF",
+              "images-to-gif"
+            ],
+            [
+              "Recortar marcos GIF",
+              "gif-trim"
+            ],
+            [
+              "Glitch GIF",
+              "glitch-gif"
+            ],
+            [
+              "Compresor GIF",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "Herramientas creativas",
+          "links": [
+            [
+              "Agregar marca de agua a imágenes",
+              "watermark"
+            ],
+            [
+              "Combinar imágenes",
+              "merge-images"
+            ],
+            [
+              "Arte pixelado",
+              "pixel-art"
+            ],
+            [
+              "Paleta de colores",
+              "color-palette"
+            ],
+            [
+              "Imagen glitch",
+              "glitch-image"
+            ],
+            [
+              "Glitch GIF",
+              "glitch-gif"
+            ]
+          ]
+        }
+      ],
+      "commonTasks": [
+        [
+          "Reducir tamaño de archivo",
+          "Comprimir archivos JPG, PNG, WebP, SVG o GIF para sitios web, correo electrónico y almacenamiento.",
+          "compress"
+        ],
+        [
+          "Ajustar al tamaño de la plataforma",
+          "Redimensionar por píxeles, porcentaje o lado más largo, y preparar avatares o fotos de identificación.",
+          "resize"
+        ],
+        [
+          "Convertir imágenes móviles y web",
+          "Convertir imágenes a JPG o PNG, incluyendo fotos HEIC de iPhone.",
+          "convert"
+        ],
+        [
+          "Crear una animación",
+          "Comprime o recorta GIFs, combina imágenes o crea una animación con fallos.",
+          "images-to-gif"
+        ]
+      ],
+      "splitRouteTitles": {
+        "resize/by-percentage": "Redimensionar por porcentaje",
+        "resize/by-longest-side": "Redimensionar por el lado más largo",
+        "resize/gif": "Redimensionar GIF",
+        "crop/gif": "Recortar GIF",
+        "convert/image-to-jpg": "Imagen a JPG",
+        "convert/image-to-png": "Imagen a PNG",
+        "compress/svg": "Comprimir SVG"
+      },
+      "content": {
+        "introTitle": "Abre la página y edita imágenes fácilmente",
+        "introBody": "BEST4IMG reúne tareas comunes de imagen: convertir fotos móviles, preparar avatares, estandarizar imágenes de productos, reducir recursos web o crear animaciones a partir de múltiples imágenes. Cada herramienta se centra en una acción y muestra una vista previa del resultado antes de la descarga.",
+        "taskTitle": "Comienza con el resultado que necesitas",
+        "taskBody": "Comprime para un archivo más pequeño, redimensiona para cumplir con los requisitos exactos de píxeles, recorta para mantener parte de una imagen, o convierte fotos HEIC para una compatibilidad más amplia.",
+        "directoryTitle": "Todas las herramientas de imagen",
+        "directoryBody": "Todas las herramientas disponibles, incluyendo páginas enfocadas para tareas específicas."
+      },
+      "benefits": [
+        [
+          "shield_lock",
+          "Los archivos permanecen en tu dispositivo",
+          "El procesamiento compatible se realiza en el navegador, por lo que las fotos privadas y trabajos no publicados no necesitan subirse."
+        ],
+        [
+          "stacks",
+          "Procesa múltiples imágenes",
+          "Las herramientas comunes de compresión, conversión, rotación y marca de agua aceptan hasta 50 archivos."
+        ],
+        [
+          "visibility",
+          "Vea el resultado primero",
+          "Previsualiza las áreas de recorte, dimensiones, marcas de agua, tiempo de animación y efectos creativos antes de exportar."
+        ]
+      ],
+      "categoriesAria": "Categorías de herramientas",
+      "noResults": "No hay herramientas coincidentes"
+    }
+  },
+  "image-base64": {
+    "title": "Imagen y Base64 Convertidor",
+    "subtitle": "Convierte imágenes y Base64 localmente en tu navegador.",
+    "encode": "Imagen a Base64",
+    "decode": "Base64 a Imagen",
+    "dropTitle": "Suelta o selecciona tus imágenes",
+    "dropHint": "JPG, PNG, WebP, GIF, SVG, hasta 10MB cada una",
+    "settings": "Salida",
+    "output": "Resultado de Base64",
+    "dataUrl": "Data URL",
+    "raw": "Solo Base64",
+    "cssUrl": "URL de CSS()",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "empty": "Sube una imagen, luego selecciónala de la lista.",
+    "decodeInput": "Contenido de Base64",
+    "decodePlaceholder": "Pega un Data URL, Base64 simple o CSS url() aquí",
+    "preview": "Vista previa de imagen",
+    "decodeHint": "El formato de la imagen se detectará automáticamente.",
+    "invalid": "No se detectaron datos de imagen válidos.",
+    "tooLarge": "La imagen decodificada supera los 20MB.",
+    "download": "Descargar imagen",
+    "detected": "Detectado",
+    "errors": {
+      "oversize": "Supera el límite de 10MB",
+      "unsupported": "Formato de imagen no compatible",
+      "read": "Error al leer el archivo"
+    }
+  },
+  "image-merge": {
+    "title": "Combinar imágenes",
+    "subtitle": "Colocar una imagen superpuesta sobre un fondo y exportar una imagen local.",
+    "preview": "Vista previa en vivo",
+    "settings": "Configuración de combinación",
+    "background": "Fondo",
+    "overlay": "Superposición",
+    "chooseBackground": "Elegir fondo",
+    "chooseOverlay": "Elegir superposición",
+    "output": "Salida",
+    "width": "Ancho",
+    "height": "Altura",
+    "download": "Descargar",
+    "empty": "Sube una imagen de fondo para empezar.",
+    "errors": {
+      "oversize": "El archivo supera los 10 MB",
+      "unsupported": "Formato de imagen no soportado",
+      "load": "No se puede leer esta imagen",
+      "missing": "Sube primero una imagen de fondo"
+    },
+    "ui": {
+      "previewScale": "Vista previa",
+      "zoomOut": "Alejar",
+      "reset": "Restablecer",
+      "zoomIn": "Acercar",
+      "remove": "Eliminar"
+    }
+  },
+  "images-to-gif": {
+    "title": "Imágenes a Animación",
+    "subtitle": "Combina múltiples imágenes en un GIF localmente en tu navegador.",
+    "dropTitle": "Suelte o seleccione imágenes",
+    "dropHint": "JPG, PNG, WebP, SVG, hasta 50 archivos",
+    "preview": "Vista previa de animación",
+    "settings": "Configuración de animación",
+    "width": "Ancho",
+    "height": "Altura",
+    "delay": "Retardo de trama",
+    "fit": "Modo de relleno",
+    "cover": "Portada",
+    "contain": "Contiene",
+    "colors": "Colores",
+    "start": "Crea GIF",
+    "download": "Descargar GIF",
+    "reset": "Elige imágenes",
+    "source": "Imágenes",
+    "output": "Producción",
+    "frames": "Marcos",
+    "pending": "La vista previa generada GIF aparecerá aquí.",
+    "errors": {
+      "oversize": "Algunos archivos superan los 10MB",
+      "unsupported": "Algunos archivos no están soportados",
+      "load": "No se pueden leer algunas imágenes",
+      "missing": "Sube al menos dos imágenes",
+      "process": "No logró crear GIF"
+    },
+    "ui": {
+      "upload": "Subir imágenes",
+      "presets": "Preajustes de tamaño",
+      "custom": "Costumbres",
+      "loop": "Bucle",
+      "infinite": "Infinite",
+      "times": "Conteo de reproducciones",
+      "quality": "Calidad",
+      "high": "Alto",
+      "standard": "Estándar",
+      "compact": "Compresión máxima",
+      "background": "Fondo",
+      "transparent": "Transparente",
+      "white": "Blanco",
+      "black": "Negro",
+      "colorSuffix": "colores",
+      "moveUp": "Mover hacia arriba",
+      "moveDown": "Mover hacia abajo",
+      "delete": "Eliminar"
+    }
+  },
+  "pixel-art": {
+    "title": "Arte de Píxeles",
+    "subtitle": "Convierte imágenes en arte de píxeles nítido localmente en tu navegador.",
+    "dropTitle": "Suelta o selecciona una imagen",
+    "dropHint": "JPG, PNG, WebP, hasta 20MB",
+    "preview": "Vista previa en vivo",
+    "settings": "Configuración de píxeles",
+    "pixelSize": "Tamaño de píxel",
+    "pixelHint": "Los píxeles más grandes crean un efecto de bloque más fuerte.",
+    "scale": "Tamaño de exportación",
+    "colors": "Cantidad de colores",
+    "palette": "Paleta",
+    "auto": "Automático",
+    "gameboy": "Game Boy",
+    "gray": "Escala de grises",
+    "nes": "Estilo NES",
+    "output": "Salida",
+    "download": "Descargar PNG",
+    "chooseAnother": "Elegir otra imagen",
+    "invalid": "Formato de imagen no compatible",
+    "oversized": "La imagen supera los 20MB"
+  },
+  "resize": {
+    "title": "Redimensionar imágenes",
+    "subtitle": "Redimensiona los archivos JPG, PNG, WebP y GIF animados juntos en tu navegador.",
+    "dropTitle": "Arrastra o selecciona tus imágenes",
+    "dropHint": "JPG, PNG, WebP, GIF, hasta 50 archivos, máximo 10MB cada uno",
+    "settings": "Configuración de tamaño",
+    "percent": "Por porcentaje",
+    "longest": "Lado más largo",
+    "scale": "Escalar",
+    "longestSide": "Lado más largo",
+    "longestHelp": "Las imágenes horizontales limitan el ancho, las imágenes verticales limitan la altura, y la proporción se mantiene intacta.",
+    "start": "Comenzar redimensionamiento",
+    "downloadAll": "Descargar todo .ZIP",
+    "waiting": "Esperando",
+    "processing": "Procesando",
+    "completed": "Hecho",
+    "download": "Descargar",
+    "empty": "Agrega imágenes para previsualizar las dimensiones objetivo aquí.",
+    "errors": {
+      "oversize": "Supera el límite de 10MB",
+      "unsupported": "Formato no compatible",
+      "read": "No se puede leer el tamaño de la imagen",
+      "process": "Error al cambiar el tamaño de la imagen"
+    },
+    "ui": {
+      "summaryPercent": "La(s) imagen(es) {{count}} se escalarán a {{percent}}%.",
+      "summaryLongest": "La(s) imagen(es) {{count}} permanecerán dentro de {{longest}}px en el lado más largo.",
+      "gifTitle": "Cambiar tamaño de GIF animadas",
+      "percentTitle": "Cambiar tamaño de imágenes por porcentaje",
+      "longestTitle": "Cambiar tamaño de imágenes por el lado más largo",
+      "gifSubtitle": "Cambiar las dimensiones de GIF mientras se preservan los fotogramas, la velocidad de reproducción y el bucle.",
+      "percentSubtitle": "Escalar imágenes JPG, PNG, WebP y animadas GIF por un porcentaje.",
+      "longestSubtitle": "Establecer el lado más largo en píxeles y cambiar el tamaño de las imágenes sin alterar su relación de aspecto.",
+      "gifDropTitle": "Arrastra o selecciona GIF animados",
+      "gifDropHint": "Hasta 50 archivos GIF, máximo 10MB cada uno"
+    }
+  },
+  "rotate": {
+    "title": "Rotar y Voltear Imágenes",
+    "subtitle": "Rota o refleja lotes localmente en tu navegador.",
+    "dropTitle": "Arrastra o selecciona tus imágenes",
+    "dropHint": "JPG, PNG, WebP, hasta 50 archivos, máximo 10MB cada uno",
+    "settings": "Configuración de Rotación",
+    "rotate": "Rotar",
+    "flip": "Voltear",
+    "left": "Izquierda",
+    "right": "Derecha",
+    "reset": "Restablecer",
+    "horizontal": "Horizontal",
+    "vertical": "Vertical",
+    "start": "Iniciar Procesamiento",
+    "downloadAll": "Descargar todo .ZIP",
+    "waiting": "Esperando",
+    "processing": "Procesando",
+    "completed": "Hecho",
+    "download": "Descargar",
+    "empty": "Agrega imágenes para rotarlas o voltearlas aquí.",
+    "errors": {
+      "oversize": "Excede el límite de 10MB",
+      "unsupported": "Formato no compatible",
+      "read": "No se puede leer el tamaño de la imagen",
+      "process": "Error al procesar la imagen"
+    },
+    "ui": {
+      "preview": "Vista previa en vivo",
+      "add": "Agregar más imágenes",
+      "empty": "Agrega imágenes para previsualizar la rotación y el volteo.",
+      "summary": "La(s) imagen(es) {{count}} usarán la configuración actual de rotación y volteo."
+    }
+  },
+  "watermark": {
+    "title": "Marcar imágenes con agua",
+    "subtitle": "Agrega marcas de agua de texto o imagen localmente en tu navegador.",
+    "dropTitle": "Arrastra o selecciona tus imágenes",
+    "dropHint": "JPG, PNG, WebP, hasta 50 archivos, máximo 10MB cada uno",
+    "settings": "Configuración de marca de agua",
+    "text": "Texto",
+    "image": "Imagen",
+    "watermarkText": "Texto de marca de agua",
+    "chooseMark": "Elegir imagen de marca de agua",
+    "size": "Tamaño",
+    "opacity": "Opacidad",
+    "color": "Color",
+    "position": "Posición",
+    "start": "Agregar marca de agua",
+    "downloadAll": "Descargar todo .ZIP",
+    "waiting": "Esperando",
+    "processing": "Procesando",
+    "completed": "Hecho",
+    "download": "Descargar",
+    "empty": "Agrega imágenes para previsualizar la marca de agua aquí.",
+    "preview": "Previsualización en vivo",
+    "addMore": "Agregar más imágenes",
+    "errors": {
+      "oversize": "Supera el límite de 10MB",
+      "unsupported": "Formato no compatible",
+      "read": "No se puede leer el tamaño de la imagen",
+      "process": "Error al agregar la marca de agua",
+      "noWatermark": "Agregar texto o imagen de marca de agua primero"
+    },
+    "ui": {
+      "summary": "Las imagen(es) {{count}} usarán la marca de agua actual.",
+      "layout": "Diseño",
+      "position": "Posición",
+      "tile": "Mosaico",
+      "gap": "Espaciado",
+      "angle": "Ángulo"
+    }
+  },
+  "common": {
+    "intensity": {
+      "light": "Ligero",
+      "medium": "Medio",
+      "strong": "Fuerte"
+    },
+    "tryAnother": "Probar otra idea",
+    "original": "Original",
+    "originalSize": "Tamaño original",
+    "preview": "Vista previa en vivo",
+    "processing": "Procesando…",
+    "invalidImages": "Elegir imágenes compatibles de hasta 20 MB cada una",
+    "loading": "Cargando…",
+    "resizeCropBox": "Redimensionar cuadro de recorte"
+  },
+  "layout": {
+    "nav": {
+      "compress": "Compresor de imágenes",
+      "resize": "Redimensionar",
+      "crop": "Recortar",
+      "convert": "Convertir",
+      "gif": "Creador GIF",
+      "all": "Todas las herramientas"
+    },
+    "tools": [
+      "Girar y voltear",
+      "HEIC a JPG",
+      "Marca de agua",
+      "Combinar imágenes",
+      "Comprimir GIF",
+      "Recortar fotogramas de GIF",
+      "Recorte de avatar",
+      "Recorte de foto de identificación",
+      "Imagen y Base64",
+      "Arte de píxeles",
+      "Paleta de colores",
+      "Imagen con fallos",
+      "GIF con fallos",
+      "Comprimir SVG"
+    ]
+  },
+  "svg-compress": {
+    "title": "Compresor SVG",
+    "subtitle": "Eliminar comentarios, metadatos del editor y espacios en blanco redundantes mientras se preserva la obra.",
+    "drop": "Suelta o selecciona archivos SVG",
+    "hint": "Solo SVG, hasta 50 archivos, máximo 10MB cada uno"
+  },
+  "gif-trim-ui": {
+    "playbackOrder": "Orden de reproducción",
+    "forward": "Normal",
+    "reverse": "Inverso",
+    "pingPong": "Ida y vuelta"
+  }
+}

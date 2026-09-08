@@ -1,0 +1,1428 @@
+{
+  "info": {
+    "about": {
+      "title": "Tentang Kami",
+      "intro": "BEST4IMG ialah satu set alat gambar percuma yang mengutamakan kelajuan, privasi dan kemudahan penggunaan. Kami mahu pemprosesan gambar biasa tidak perlu bergantung pada perisian rumit, mahupun memuat naik foto peribadi ke pelayan jauh terlebih dahulu.",
+      "sections": [
+        {
+          "title": "Apa yang kami bina",
+          "paragraphs": [
+            "Laman ini menyediakan alat seperti pemampatan gambar, pelarasan saiz, pemotongan, penukaran format, tera air, GIF dan kesan kreatif. Kebanyakan pemprosesan menggunakan terus keupayaan Canvas, WebAssembly dan Worker pelayar."
+          ]
+        },
+        {
+          "title": "Tempatan didahulukan",
+          "paragraphs": [
+            "Selepas memilih gambar, kerja pemprosesan biasanya berlaku dalam peranti anda semasa ini. Gambar tidak akan dimuat naik secara aktif ke pelayan kami semata-mata untuk menjalankan alat ini. Selepas menutup atau menyegarkan semula halaman, pratonton sementara yang dicipta oleh pelayar untuk operasi ini juga akan terbatal."
+          ]
+        },
+        {
+          "title": "Prinsip produk",
+          "paragraphs": [
+            "Kami mengutamakan kawalan yang jelas, hasil yang boleh dijangka dan prestasi yang munasabah. Ciri baharu hanya ditambah apabila sesuai untuk dijalankan secara tempatan dan benar-benar membantu anda."
+          ]
+        },
+        {
+          "title": "Dibuat untuk kerja gambar harian",
+          "paragraphs": [
+            "Satu avatar perlu dipotong bulat, satu set gambar produk perlu diseragamkan saiznya, satu tangkapan skrin perlu dikecilkan saiznya, beberapa keping foto perlu digabung menjadi GIF bergerak. Perkara ini nampak mudah, namun sering memerlukan kita membuka perisian berbeza dan mencari pilihan eksport berulang kali. BEST4IMG mahu meletakkan tindakan lazim ini di satu tempat yang dikenali.",
+            "Anda boleh memilih alat mengikut tugas semasa: mampat dan tukar sebelum menerbitkan, laras dan potong sebelum susun atur, tambah tera air sebelum berkongsi, atau gunakan pixe dan kesan glitch untuk menerokai ungkapan visual berbeza. Setiap alat berusaha memfokuskan pada satu hasil yang jelas."
+          ]
+        },
+        {
+          "title": "Di antara kualiti dan kecekapan, kekalkan pilihan",
+          "paragraphs": [
+            "Fail lebih kecil tidak semestinya bermakna hasil lebih baik. Foto, tangkapan skrin, gambar telus dan GIF bergerak masing-masing mempunyai ciri berbeza, dan format output yang sesuai juga berbeza. Kami menyediakan pilihan yang wajar mengikut alat, dan membenarkan anda menyemak saiz, kawasan telus dan kesan visual sebelum memuat turun.",
+            "Pemprosesan tempatan juga menggunakan memori dan sumber pengiraan peranti. Gambar bersaiz besar, GIF panjang atau fail banyak mungkin mengambil masa lebih lama. Pemprosesan berkelompok, menyimpan gambar asal, dan memuat turun hasil dengan segera menjadikan kerja harian lebih dipercayai."
+          ]
+        },
+        {
+          "title": "Penambahbaikan berterusan",
+          "paragraphs": [
+            "Pelayar, format gambar dan prestasi peranti yang berbeza mungkin membawa perbezaan. Kami terus menambah baik keserasian, kualiti mampatan dan pengalaman penggunaan, dengan memberi perhatian kepada butiran dalam tugas sebenar: sama ada input mudah digunakan, pratonton jelas, dan hasil memenuhi jangkaan.",
+            "Kami menggunakan komponen pemprosesan gambar sumber terbuka untuk sebahagian kerja pengekodan dan penyahkodan. Ia membantu pelayar memikul lebih banyak tugas yang dahulunya memerlukan perisian deskop, dan hak serta lesen setiap komponen kekal milik pengarang masing-masing."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terma Perkhidmatan",
+      "intro": "Menggunakan BEST4IMG bermakna anda bersetuju dengan terma berikut. Sila kekalkan salinan asal fail penting sebelum memproses.",
+      "updated": "Dikemas kini: 5 September 2026",
+      "sections": [
+        {
+          "title": "Skop perkhidmatan",
+          "paragraphs": [
+            "BEST4IMG menyediakan alat pemprosesan gambar pelayar secara “seperti adanya”. Fungsi, format disokong dan had pemprosesan mungkin berubah mengikut kemas kini produk."
+          ]
+        },
+        {
+          "title": "Tanggungjawab anda",
+          "paragraphs": [
+            "Anda hendaklah memastikan anda berhak memproses dan menggunakan gambar yang dipilih, dan tidak menggunakan perkhidmatan ini untuk melanggar hak cipta, privasi atau hak sah lain, mahupun cuba merosakkan laman atau mengganggu penggunaan orang lain."
+          ]
+        },
+        {
+          "title": "Hak gambar dan kebenaran pemprosesan",
+          "paragraphs": [
+            "Hak yang anda miliki ke atas gambar asal tidak akan berpindah kepada BEST4IMG dengan menggunakan alat ini. Kami tidak memperoleh hak milik gambar kerana anda memilih fail, dan tidak meminta anda memberi hak untuk menggunakan gambar bagi paparan awam atau latihan model.",
+            "Menambah tera air, memotong, menukar format dan sebagainya tidak memberi anda hak baharu ke atas karya orang lain. Apabila melibatkan potret, tanda dagangan, karya dilindungi atau maklumat peribadi, sila dapatkan kebenaran perlu sendiri."
+          ]
+        },
+        {
+          "title": "Fail dan peranti",
+          "paragraphs": [
+            "Alat memproses fail dalam pelayar anda; kelajuan dan skala yang boleh diproses bergantung pada memori peranti, pelayar dan kerumitan gambar. Halaman mungkin menetapkan had bilangan, saiz fail atau dimensi.",
+            "Menyegarkan semula halaman, menutup tab atau kegagalan pelayar mungkin menyebabkan hasil yang belum dimuat turun hilang. Laman ini bukan perkhidmatan storan atau sandaran fail; sila kekalkan fail asal dan muat turun hasil yang diperlukan ke peranti anda sendiri."
+          ]
+        },
+        {
+          "title": "Hasil dan kebolehgunaan",
+          "paragraphs": [
+            "Pengekodan gambar, pelaksanaan pelayar dan sumber peranti berbeza; kami tidak menjamin semua fail berjaya diproses, mahupun output sesuai untuk tujuan cetak, arkib atau profesional tertentu. Sila semak hasil muat turun sebelum memadam fail asal."
+          ]
+        },
+        {
+          "title": "Format, warna dan spesifikasi khusus",
+          "paragraphs": [
+            "Mampatan ranap dan pengekodan semula mungkin mengubah butiran, warna, ketelusan atau metadata. Menukar ke JPG tidak menyokong saluran telus; GIF bergerak selepas diproses juga mungkin menunjukkan perbezaan palet. Penerangan kualiti pada halaman tidak bermakna semua pemprosesan adalah tanpa kehilangan.",
+            "Prasetel saiz dan garis panduan potret dalam avatar serta gambar kad pengenalan membantu susun atur, dan tidak merupakan pengesahan oleh platform atau pihak penerima. Sebelum menghantar, rujuk keperluan semasa pihak penerima; semak saiz, latar, komposisi dan had fail."
+          ]
+        },
+        {
+          "title": "Had liabiliti",
+          "paragraphs": [
+            "Dalam had yang dibenarkan oleh undang-undang, kami tidak bertanggungjawab ke atas kehilangan fail, perbezaan output, gangguan perkhidmatan atau kerugian tidak langsung akibat penggunaan hasil pemprosesan."
+          ]
+        },
+        {
+          "title": "Perubahan terma",
+          "paragraphs": [
+            "Kami mungkin mengemas kini terma ini disebabkan fungsi atau keperluan undang-undang. Kandungan dikemas kini akan diterbitkan di halaman ini bersama tarikh kemas kini baharu."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Dasar Privasi",
+      "intro": "BEST4IMG menggunakan kaedah pemprosesan gambar tempatan didahulukan. Berikut menerangkan cara laman mengendalikan gambar dan maklumat teknikal perlu semasa anda menggunakan alat.",
+      "updated": "Dikemas kini: 5 September 2026",
+      "sections": [
+        {
+          "title": "Cara gambar diproses",
+          "paragraphs": [
+            "Gambar yang anda pilih biasanya hanya dibaca dan diproses dalam tab pelayar semasa. Kami tidak akan memuat naik kandungan gambar secara aktif ke pelayan semata-mata untuk menjalankan pemampatan, pemotongan, penukaran dan sebagainya."
+          ]
+        },
+        {
+          "title": "Data sementara dalam pelayar",
+          "paragraphs": [
+            "Laman mungkin mencipta pratonton gambar, hasil pemprosesan dan alamat objek sementara dalam ingatan, dan menggunakan storan tempatan untuk mengingati keutamaan perlu seperti bahasa. Data ini diurus oleh pelayar anda, dan mungkin hilang selepas menyegarkan, menutup halaman atau mengosongkan data laman."
+          ]
+        },
+        {
+          "title": "Keutamaan bahasa dan fail dimuat turun",
+          "paragraphs": [
+            "Apabila anda menukar bahasa, laman akan menyimpan bahasa dipilih ke storan tempatan pelayar untuk pemulihan semasa lawatan seterusnya. Tetapan ini tidak perlu mengandungi nama, e-mel atau kandungan gambar anda; anda boleh mengosongkannya dalam tetapan pelayar.",
+            "Gambar dan fail ZIP yang dimuat turun disimpan oleh pelayar ke lokasi anda tentukan. Menutup halaman atau mengosongkan data laman tidak akan memadam fail muat turun ini secara automatik, mahupun memadam gambar asal yang anda pilih."
+          ]
+        },
+        {
+          "title": "Maklumat teknikal asas",
+          "paragraphs": [
+            "Perkhidmatan pengehosan laman mungkin merekod masa akses, alamat permintaan, jenis pelayar, alamat rangkaian dan log ralat sebagai maklumat asas untuk keselamatan, kestabilan dan penyelesaian masalah. Rekod ini tidak mengandungi kandungan gambar yang anda proses secara tempatan."
+          ]
+        },
+        {
+          "title": "Fon, sumber program dan pautan luar",
+          "paragraphs": [
+            "Halaman semasa menggunakan fon dan ikon daripada Google Fonts. Apabila memuatkan sumber ini, pelayar akan menghantar permintaan ke domain pihak ketiga; pihak berkenaan mungkin menerima alamat rangkaian, maklumat pelayar dan data teknikal lain yang diperlukan untuk sambungan. Permintaan fon ini tidak perlu menghantar gambar yang anda pilih.",
+            "Sumber program seperti komponen pengekodan gambar juga perlu dimuatkan ke pelayar; sesetengah alat memuatkan sumber semasa digunakan. Oleh itu, pemprosesan gambar tempatan tidak bermakna laman sama sekali tidak membuat permintaan rangkaian. Laman luar bertanggungjawab ke atas pemprosesan data mereka sendiri."
+          ]
+        },
+        {
+          "title": "Maklumat peribadi dalam gambar",
+          "paragraphs": [
+            "Foto mungkin mengandungi wajah, alamat, kandungan kad pengenalan, atau metadata seperti masa dan lokasi tangkapan. Pemprosesan secara tempatan tidak bermakna hasil muat turun telah membuang semua maklumat sensitif. Sila semak kandungan kelihatan dan maklumat fail sendiri sebelum berkongsi.",
+            "Apabila menggunakan alat pada peranti dikongsi, anda juga perlu memberi perhatian kepada direktori muat turun, sambungan pelayar dan keizinan akses peranti itu sendiri. Dasar ini menerangkan kaedah pemprosesan laman, dan tidak dapat mengawal tingkah laku perisian lain pada peranti."
+          ]
+        },
+        {
+          "title": "Skop dasar dan kemas kini",
+          "paragraphs": [
+            "Dasar ini terpakai pada alat gambar yang BEST4IMG sediakan pada masa ini. Tempoh simpanan sebenar log akses pelayan bergantung pada konfigurasi penggunaan dan pengehosan; halaman ini tidak berjanji tempoh simpanan seragam yang tidak disahkan.",
+            "Jika pada masa hadapan ditambah fungsi yang memerlukan akaun, analitik atau pemprosesan pelayan, penjelasan mengenai kegunaan data dan cara pilihan hendaklah diberikan serentak semasa pelancaran. Perubahan penting akan dicerminkan dalam tarikh kemas kini halaman ini."
+          ]
+        },
+        {
+          "title": "Pilihan anda",
+          "paragraphs": [
+            "Anda boleh pada bila-bila masa menghentikan pemprosesan, menutup halaman, atau mengosongkan data tempatan laman melalui tetapan pelayar. Jangan biarkan hasil muat turun gambar sensitif pada peranti dikongsi yang tidak dipercayai."
+          ]
+        }
+      ]
+    },
+    "ui": {
+      "eyebrow": "Alat gambar percuma",
+      "highlights": {
+        "about": [
+          [
+            "devices",
+            "Pemprosesan kekal pada peranti",
+            "Pelayar mengendalikan pemprosesan gambar"
+          ],
+          [
+            "photo_library",
+            "Meliputi tugas gambar biasa",
+            "Daripada mampat dan potong hingga kesan kreatif"
+          ],
+          [
+            "download",
+            "Hasil disimpan oleh anda",
+            "Selesai diproses, muat turun sendiri"
+          ]
+        ],
+        "privacy": [
+          [
+            "image",
+            "Gambar diproses secara tempatan",
+            "Operasi alat tidak perlu muat naik gambar"
+          ],
+          [
+            "language",
+            "Sumber laman dimuat melalui rangkaian",
+            "Termasuk program, fon dan ikon"
+          ],
+          [
+            "tune",
+            "Data tempatan diurus oleh anda",
+            "Keutamaan bahasa boleh dibuang dalam pelayar"
+          ]
+        ],
+        "terms": [
+          [
+            "copyright",
+            "Hak gambar kekal milik pemilik asal",
+            "Sahkan kebenaran penggunaan sebelum memproses"
+          ],
+          [
+            "verified",
+            "Semak hasil sebelum muat turun",
+            "Semak saiz, warna dan kegunaan"
+          ],
+          [
+            "save",
+            "Kekalkan fail asal",
+            "Alat tidak menyediakan sandaran fail"
+          ]
+        ]
+      },
+      "tagline": "Jadikan pemprosesan gambar kembali mudah.",
+      "explore": "Lihat alat gambar"
+    }
+  },
+  "site": {
+    "siteName": "BEST4IMG",
+    "seo": {
+      "title": "BEST4IMG | Alat Mampat Gambar Tempatan untuk JPG, PNG, WebP dan SVG",
+      "description": "Mampat gambar JPG, PNG, WebP dan SVG terus dalam pelayar anda. BEST4IMG mengekalkan fail di peranti, menyokong pemprosesan kelompok, dan mengurangkan saiz tanpa kehilangan kualiti ketara."
+    },
+    "nav": {
+      "ariaLabel": "Pilih bahasa",
+      "current": "Bahasa Melayu",
+      "options": [
+        {
+          "code": "en",
+          "label": "English"
+        },
+        {
+          "code": "es",
+          "label": "Español"
+        },
+        {
+          "code": "fr",
+          "label": "Français"
+        },
+        {
+          "code": "de",
+          "label": "Deutsch"
+        },
+        {
+          "code": "it",
+          "label": "Italiano"
+        },
+        {
+          "code": "pt",
+          "label": "Português"
+        },
+        {
+          "code": "ja",
+          "label": "日本語"
+        },
+        {
+          "code": "ru",
+          "label": "Pусский"
+        },
+        {
+          "code": "ko",
+          "label": "한국어"
+        },
+        {
+          "code": "zh",
+          "label": "简体中文"
+        },
+        {
+          "code": "zh-tw",
+          "label": "繁體中文"
+        },
+        {
+          "code": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "bg",
+          "label": "Български"
+        },
+        {
+          "code": "ca",
+          "label": "Català"
+        },
+        {
+          "code": "nl",
+          "label": "Nederlands"
+        },
+        {
+          "code": "el",
+          "label": "Ελληνικά"
+        },
+        {
+          "code": "hi",
+          "label": "हिन्दी"
+        },
+        {
+          "code": "id",
+          "label": "Bahasa Indonesia"
+        },
+        {
+          "code": "ms",
+          "label": "Bahasa Melayu"
+        },
+        {
+          "code": "pl",
+          "label": "Polski"
+        },
+        {
+          "code": "sv",
+          "label": "Svenska"
+        },
+        {
+          "code": "th",
+          "label": "ภาษาไทย"
+        },
+        {
+          "code": "tr",
+          "label": "Türkçe"
+        },
+        {
+          "code": "uk",
+          "label": "Українська"
+        },
+        {
+          "code": "vi",
+          "label": "Tiếng Việt"
+        },
+        {
+          "code": "sw",
+          "label": "Kiswahili"
+        }
+      ],
+      "tools": {
+        "compressor": "Pemampat Gambar",
+        "heicConverter": "HEIC ke JPG"
+      }
+    },
+    "heicConverter": {
+      "heroTitle": "HEIC ke JPG",
+      "heroSubtitle": "Tukar foto HEIC Apple secara kelompok terus dalam pelayar",
+      "dropTitle": "Seret masuk atau pilih gambar HEIC",
+      "dropHint": "Maksimum 50 keping, setiap satu tidak melebihi 50MB",
+      "downloadAll": "Muat turun semua .ZIP",
+      "zipName": "BEST4IMG-converted.zip",
+      "formatJpg": "JPG",
+      "formatPng": "PNG",
+      "statuses": {
+        "converting": "Sedang menukar...",
+        "waiting": "Sedang menunggu...",
+        "completed": "Selesai",
+        "error": "Ralat"
+      },
+      "errors": {
+        "exceedsLimit": "Ralat: Fail melebihi 50MB",
+        "unsupportedFormat": "Ralat: Format tidak disokong",
+        "failedToProcess": "Pemprosesan gagal"
+      },
+      "actions": {
+        "download": "Muat turun"
+      },
+      "content": {
+        "hero": {
+          "title": "Tukar HEIC ke JPG\nSecara tempatan, segera, peribadi",
+          "subtitle": "Tiada pendaftaran, tiada muat naik pelayan, tiada had saiz fail dari bahagian belakang. Semua penukaran dilakukan dalam pelayar anda melalui WebAssembly."
+        },
+        "featureCards": [
+          {
+            "icon": "lock",
+            "title": "Sepenuhnya peribadi — fail tidak meninggalkan peranti anda",
+            "body": "Penyahkodan HEIC dan pengekodan JPG berlaku sepenuhnya dalam tab pelayar anda. Foto tidak dihantar ke sebarang pelayan jauh, jadi selamat memproses album peribadi, imej perubatan atau fail sensitif."
+          },
+          {
+            "icon": "bolt",
+            "title": "Penukaran kelompok dengan baris gilir berurutan",
+            "body": "Sekali gus boleh menyeret masuk sehingga 50 fail HEIC, dan setiap satu diproses mengikut giliran. Mekanisme baris gilir teratur menghalang pelayar daripada tergendala semasa memproses foto HEIC bersaiz besar dari iPhone atau iPad."
+          },
+          {
+            "icon": "image",
+            "title": "Kekalkan resolusi asal pada output",
+            "body": "JPG yang ditukar mengekalkan dimensi piksel asal, tidak diskalakan atau disampel semula. Apa yang dirakam itulah outputnya, cuma ditukar ke format yang boleh dibuka oleh semua peranti dan aplikasi."
+          }
+        ],
+        "underHood": {
+          "eyebrow": "Butiran teknikal",
+          "title": "Keupayaan teras di sebalik aliran HEIC ke JPG ini.",
+          "cards": [
+            {
+              "title": "heic2any dan penyahkodan WebAssembly",
+              "body": "Fail HEIC menggunakan bekas HEIF Apple dengan pengekodan HEVC (H.265). Pustaka heic2any menjalankan penyahkod yang dikompil melalui WebAssembly dalam pelayar untuk menukar format proprietari ini kepada data imej standard, tanpa perlu memanggil sebarang antara muka sistem asli."
+            },
+            {
+              "title": "Pemprosesan satu fail berurutan",
+              "body": "Penyahkodan HEIC menggunakan lebih banyak CPU berbanding penyahkodan PNG atau JPEG. Memproses satu fail pada satu masa mengelak beban berlebihan pada urutan utama, mengekalkan tindak balas lancar halaman semasa penukaran kelompok."
+            }
+          ]
+        }
+      },
+      "settings": {
+        "title": "Output settings",
+        "quality": "JPG quality",
+        "qualityHint": "Higher quality creates a larger JPG.",
+        "orientation": "Orientation",
+        "orientationAuto": "Correct automatically",
+        "orientationHint": "Uses the displayed shooting orientation.",
+        "metadata": "Metadata",
+        "metadataRemoved": "Removed automatically",
+        "metadataHint": "EXIF and GPS data are not copied to the JPG."
+      }
+    },
+    "compressor": {
+      "heroTitle": "Alat Mampat Gambar",
+      "heroSubtitle": "Percuma menyokong JPG, PNG, WebP dan SVG, memastikan kualiti terbaik setiap kali dimampatkan",
+      "dropTitle": "Seret masuk gambar, atau klik untuk memilih gambar",
+      "dropHint": "Maksimum 50 gambar, setiap satu tidak melebihi 10MB",
+      "downloadAll": "Muat turun semua .ZIP",
+      "zipName": "BEST4IMG-compressed.zip",
+      "statuses": {
+        "compressing": "Sedang memampatkan...",
+        "waiting": "Sedang menunggu...",
+        "completed": "Selesai",
+        "error": "Ralat"
+      },
+      "errors": {
+        "exceedsLimit": "Ralat: Fail melebihi 10MB",
+        "unsupportedFormat": "Ralat: Format tidak disokong",
+        "failedToProcess": "Gagal memproses fail"
+      },
+      "actions": {
+        "download": "Muat turun"
+      }
+    },
+    "hero": {
+      "title": "Alat mampat gambar tempatan untuk\nJPG, PNG, WebP dan SVG",
+      "subtitle": "Kecilkan saiz gambar untuk laman web, dokumen, e-dagang dan perkongsian harian, sambil mengekalkan rupa yang tetap semula jadi."
+    },
+    "featureCards": [
+      {
+        "type": "compare",
+        "title": "Teks lebih jelas, tepi telus lebih bersih",
+        "body": "Banyak alat mampat, apabila menyentuh tangkapan skrin, gambar antaramuka atau PNG telus, mudah mengaburkan teks kecil dan mengotorkan tepi. BEST4IMG berusaha menjaga butiran sebegini, mengurangkan saiz dengan ketara sambil memelihara kebersihan teks dan tepi."
+      },
+      {
+        "type": "image",
+        "title": "100% pemprosesan tempatan, lebih tenang",
+        "body": "Semua pemprosesan fail dan pemampatan dilakukan dalam pelayar anda, tidak dimuat naik ke pelayan jauh. Untuk aset dalaman, fail peribadi dan kandungan sensitif, kaedah tempatan ini lebih meyakinkan."
+      }
+    ],
+    "autopilot": {
+      "title": "Pengoptimuman pintar, tiada perlu teka parameter berulang",
+      "body": "Tidak perlu tarik turun pelungsur kualiti. BEST4IMG secara automatik menilai laluan mampat yang lebih sesuai, berusaha mengecilkan fail sambil mengekalkan rupa semula jadi."
+    },
+    "underHood": {
+      "eyebrow": "Butiran teknikal",
+      "title": "Keupayaan teras di sebalik aliran pemampatan ini.",
+      "cards": [
+        {
+          "title": "Kuantisasi PNG utamakan tepi",
+          "body": "Berdasarkan penyelesaian libimagequant WebAssembly tersuai, memberikan keutamaan kepada tepi frekuensi tinggi semasa memampat PNG, mengurangkan titik kotor dan getaran pada tepi gambar telus, UI dan ikon."
+        },
+        {
+          "title": "Strategi JPEG lebih konservatif untuk grafik",
+          "body": "Apabila dikesan lebih menyerupai gambar UI atau kandungan teks bergambar, laluan pemprosesan kroma lebih konservatif digunakan untuk mengelak teks kecil dan tepi tajam rosak oleh strategi mampat foto biasa."
+        },
+        {
+          "title": "Penyahkodan OffscreenCanvas dan Worker",
+          "body": "Penyahkodan gambar dan pengekstrakan piksel telah dialih ke Web Worker, dilakukan melalui OffscreenCanvas, mengurangkan kesan ke atas kelancaran urutan utama semasa memproses gambar besar."
+        },
+        {
+          "title": "Pengawal saiz dan mekanisme undur",
+          "body": "Jika hasil mampatan sebaliknya lebih besar, sistem tidak akan membuangnya secara membuta tuli, sebaliknya kembali ke laluan lebih selamat, dan jika perlu mengembalikan gambar asal."
+        }
+      ]
+    },
+    "footer": {
+      "left": [
+        "© 2026 BEST4IMG.COM",
+        "Hanya pemprosesan tempatan pelayar"
+      ],
+      "links": [
+        "Tentang Kami",
+        "Terma Perkhidmatan",
+        "Dasar Privasi"
+      ]
+    },
+    "compare": {
+      "original": "Gambar asal",
+      "compressed": "BEST4IMG",
+      "before": "Sebelum mampat / gambar asal",
+      "after": "Selepas mampat / BEST4IMG"
+    }
+  },
+  "crop": {
+    "title": "Potong Gambar",
+    "subtitle": "Seret kotak potongan, atau masukkan nilai piksel tepat. Semua pemprosesan dilakukan secara tempatan dalam pelayar.",
+    "dropTitle": "Seret masuk sekeping gambar, atau klik untuk memilih gambar",
+    "dropHint": "Menyokong JPG, PNG, WebP, GIF, setiap satu tidak melebihi 10MB",
+    "settings": "Tetapan",
+    "cropBox": "Kawasan potongan",
+    "width": "Lebar",
+    "height": "Tinggi",
+    "ratios": {
+      "original": "Nisbah asal"
+    },
+    "reset": "Tetap semula",
+    "crop": "Potong Gambar",
+    "download": "Muat turun",
+    "replace": "Pilih gambar lain",
+    "ready": "Hasil potongan telah dijana.",
+    "errors": {
+      "oversize": "Fail melebihi 10MB",
+      "unsupported": "Format tidak disokong",
+      "read": "Tidak dapat membaca gambar",
+      "crop": "Gagal memotong gambar"
+    }
+  },
+  "crop-gif": {
+    "title": "Potong Gambar GIF",
+    "subtitle": "Seret kotak potongan untuk memilih kawasan, dan kekalkan bingkai animasi serta kelajuan main semasa mengeksport.",
+    "dropTitle": "Seret masuk sekeping GIF, atau klik untuk memilih gambar bergerak",
+    "dropHint": "Hanya menyokong GIF, setiap satu tidak melebihi 10MB"
+  },
+  "glitch-gif": [
+    "Penjana GIF Glitch",
+    "Biarkan kesan glitch berubah pada setiap bingkai, menjana GIF berputar tanpa had.",
+    "Seret masuk sekeping gambar, atau klik untuk memilih",
+    "Menyokong JPG, PNG, WebP, setiap satu tidak melebihi 20MB",
+    "Pratonton animasi",
+    "Pilih gambar lain",
+    "Tetapan animasi",
+    "Jenis kesan",
+    "Kekuatan",
+    "Kelajuan animasi",
+    "Tempoh animasi",
+    "Saiz output",
+    "Jana GIF",
+    "Sedang menjana…",
+    "Muat turun GIF",
+    "Penjanaan gagal, sila cuba saiz lebih kecil atau tempoh lebih pendek."
+  ],
+  "avatar-crop": {
+    "title": "Potong Avatar & Gambar Kad Pengenalan",
+    "subtitle": "Kedudukan foto mengikut avatar sosial atau spesifikasi gambar kad pengenalan, eksport PNG secara tempatan.",
+    "dropTitle": "Seret masuk sekeping foto potret, atau klik untuk memilih gambar",
+    "dropHint": "Menyokong JPG, PNG, WebP, setiap satu tidak melebihi 20MB",
+    "preview": "Pratonton masa nyata",
+    "replace": "Pilih gambar lain",
+    "presets": "Kegunaan & saiz",
+    "guide": "Panduan kedudukan potret",
+    "zoom": "Zum foto",
+    "reset": "Kembalikan",
+    "export": "Jana PNG",
+    "download": "Muat turun PNG",
+    "ready": "PNG telah dijana",
+    "dragHint": "Seret foto untuk laras kedudukan",
+    "unsupported": "Format gambar tidak disokong",
+    "oversize": "Fail melebihi 20MB",
+    "ui": {
+      "avatarTitle": "Potong avatar bulat",
+      "idTitle": "Potong gambar kad pengenalan",
+      "avatarSubtitle": "Hasilkan avatar PNG bulat berlatar telus.",
+      "idSubtitle": "Laras saiz dan kedudukan potret mengikut spesifikasi gambar kad pengenalan.",
+      "cropSettings": "Tetapan potongan",
+      "outputSize": "Saiz output",
+      "preset": "Prasetel",
+      "createDownload": "Jana & muat turun PNG",
+      "avatarLabel": "Avatar",
+      "transparentPng": "PNG telus",
+      "idPresets": [
+        {
+          "id": "standard-passport",
+          "label": "Gambar pasport",
+          "detail": "35 × 45 mm · 413 × 531 px",
+          "width": 413,
+          "height": 531,
+          "headTop": 0.08,
+          "chin": 0.8
+        },
+        {
+          "id": "us-passport",
+          "label": "U.S. passport",
+          "detail": "2 × 2 in · 600 × 600 px",
+          "width": 600,
+          "height": 600,
+          "headTop": 0.12,
+          "chin": 0.78
+        },
+        {
+          "id": "ca-passport",
+          "label": "Canada passport",
+          "detail": "50 × 70 mm · 591 × 827 px",
+          "width": 591,
+          "height": 827,
+          "headTop": 0.14,
+          "chin": 0.66
+        }
+      ],
+      "resizeCropArea": "Laras kawasan potongan",
+      "avatarPresets": [
+        {
+          "size": 200,
+          "label": "Discord / Slack"
+        },
+        {
+          "size": 300,
+          "label": "Microsoft Teams"
+        },
+        {
+          "size": 400,
+          "label": "Instagram / Facebook / X / LinkedIn"
+        },
+        {
+          "size": 460,
+          "label": "GitHub"
+        },
+        {
+          "size": 480,
+          "label": "YouTube"
+        },
+        {
+          "size": 640,
+          "label": "High-resolution profile"
+        }
+      ],
+      "presetNote": "Sizes are cropping references. Check the latest requirements with the issuing authority before submitting."
+    }
+  },
+  "color-palette": {
+    "title": "Pengekstrakan Warna & Palet",
+    "subtitle": "Ekstrak warna dominan boleh guna semula daripada gambar, semua pemprosesan dilakukan secara tempatan dalam pelayar.",
+    "dropTitle": "Seret masuk atau pilih sekeping gambar",
+    "dropHint": "Menyokong JPG, PNG, WebP, maksimum 20MB",
+    "preview": "Pratonton gambar",
+    "settings": "Tetapan palet",
+    "count": "Bilangan warna",
+    "colors": "Warna diekstrak",
+    "clickToCopy": "Klik blok warna untuk salin nilai HEX",
+    "copied": "Disalin",
+    "output": "Output kod",
+    "css": "Pemboleh ubah CSS",
+    "tailwind": "Tailwind",
+    "copyCode": "Salin kod",
+    "download": "Muat turun palet PNG",
+    "chooseAnother": "Pilih gambar lain",
+    "invalid": "Format gambar tidak disokong",
+    "oversized": "Gambar melebihi 20MB"
+  },
+  "format-converter": {
+    "title": "Penukaran Format Gambar",
+    "subtitle": "Tukar antara JPG, PNG, WebP, semua pemprosesan dilakukan secara tempatan dalam pelayar.",
+    "dropTitle": "Seret masuk gambar, atau klik untuk memilih gambar",
+    "dropHint": "Menyokong JPG, PNG, WebP, maksimum 50 keping, setiap satu tidak melebihi 10MB",
+    "settings": "Tetapan penukaran",
+    "targetFormat": "Format sasaran",
+    "jpgHelp": "Apabila menukar ke JPG, kawasan telus akan bertukar kepada putih secara automatik.",
+    "start": "Mula tukar",
+    "downloadAll": "Muat turun semua .ZIP",
+    "waiting": "Sedang menunggu",
+    "processing": "Sedang menukar",
+    "completed": "Selesai",
+    "download": "Muat turun",
+    "empty": "Selepas menambah gambar, anda boleh menukar format secara kelompok.",
+    "errors": {
+      "oversize": "Fail melebihi 10MB",
+      "unsupported": "Format tidak disokong",
+      "read": "Tidak dapat membaca saiz gambar",
+      "process": "Gagal menukar gambar"
+    },
+    "ui": {
+      "summary": "{{count}} keping gambar akan ditukar ke {{format}}.",
+      "fixedTitle": "Tukar gambar ke {{format}}",
+      "fixedSubtitle": "Muat naik gambar JPG, PNG atau WebP, dan tukar secara kelompok ke {{format}} secara automatik."
+    }
+  },
+  "gif-compress": {
+    "title": "Mampat GIF",
+    "subtitle": "Kecilkan GIF melalui skala, kurangkan bingkai dan kurangkan bilangan warna, secara tempatan dalam pelayar.",
+    "dropTitle": "Seret masuk satu GIF, atau klik untuk memilih",
+    "dropHint": "Hanya menyokong GIF, maksimum 20MB",
+    "preview": "Pratonton masa nyata",
+    "settings": "Tetapan GIF",
+    "scale": "Skala",
+    "frames": "Bingkai",
+    "colors": "Bilangan warna",
+    "start": "Mampat GIF",
+    "download": "Muat turun",
+    "reset": "Pilih GIF lain",
+    "original": "Gambar asal",
+    "output": "Selepas mampat",
+    "ready": "GIF yang dimampatkan telah dijana.",
+    "pending": "Pratonton GIF akan dipaparkan di sini selepas mampat.",
+    "errors": {
+      "oversize": "Fail melebihi 20MB",
+      "unsupported": "Sila muat naik fail GIF",
+      "process": "Gagal mampat GIF",
+      "tooManyFrames": "GIF ini mempunyai terlalu banyak bingkai, versi pertama belum menyokongnya"
+    }
+  },
+  "gif-trim": [
+    "Potong Bingkai GIF",
+    "Potong segmen animasi mengikut bingkai mula dan akhir, kekalkan saiz imej asal.",
+    "Seret masuk GIF, atau klik untuk memilih gambar bergerak",
+    "Hanya menyokong GIF, maksimum 20MB",
+    "Pratonton bingkai",
+    "Pilih GIF lain",
+    "Tetapan potongan",
+    "Bingkai mula",
+    "Bingkai akhir",
+    "Bingkai dikekalkan",
+    "Jana pratonton",
+    "Muat turun GIF",
+    "Sedang memproses…",
+    "Sila pilih GIF sah (maksimum 20MB), imej tidak melebihi 16 juta piksel.",
+    "Pemprosesan gagal, sila cuba GIF lebih kecil.",
+    "Selepas dipotong",
+    "Bingkai semasa",
+    "Tempoh main",
+    "Semua bingkai",
+    "milisaat",
+    "Ubah selang bingkai secara kelompok",
+    "Guna pada bingkai dikekalkan"
+  ],
+  "glitch-image": {
+    "title": "Penjana Gambar Glitch",
+    "subtitle": "Hasilkan kesan pemisahan warna, anjakan imej, hingar dan garisan imbasan.",
+    "dropTitle": "Seret masuk atau pilih beberapa keping gambar",
+    "dropHint": "Menyokong JPG, PNG, WebP, maksimum 50 keping, setiap satu tidak melebihi 20MB",
+    "preview": "Pratonton masa nyata",
+    "replace": "Tambah gambar",
+    "settings": "Tetapan",
+    "effectType": "Jenis kesan",
+    "intensity": "Kekuatan",
+    "download": "Muat turun gambar semasa",
+    "effects": {
+      "rgb": {
+        "title": "Pisahan RGB",
+        "body": "Pisahkan saluran warna"
+      },
+      "shift": {
+        "title": "Anjakan piksel",
+        "body": "Anjakan segmen rawak"
+      },
+      "blocks": {
+        "title": "Blok glitch",
+        "body": "Anjakan kawasan serpihan"
+      },
+      "stripes": {
+        "title": "Jalur digital",
+        "body": "Gangguan isyarat berwarna"
+      },
+      "noise": {
+        "title": "Hingar analog",
+        "body": "Hingar isyarat lama"
+      },
+      "wave": {
+        "title": "Herotan gelombang",
+        "body": "Anjakan isyarat berlekuk"
+      },
+      "mirror": {
+        "title": "Cermin",
+        "body": "Pantulan simetri"
+      },
+      "scanlines": {
+        "title": "Garis imbasan",
+        "body": "Kesan CRT retro"
+      }
+    }
+  },
+  "home": {
+    "title": "Alat gambar percuma tempatan",
+    "subtitle": "Proses, tukar dan eksport gambar dalam pelayar anda.",
+    "tools": [
+      {
+        "title": "Mampat Gambar",
+        "body": "Mampat JPG, PNG, WebP dan SVG secara tempatan, memastikan kualiti terbaik setiap kali dimampatkan.",
+        "icon": "compress",
+        "href": "compress",
+        "badge": "Tersedia"
+      },
+      {
+        "title": "Laras Saiz",
+        "body": "Laras saiz JPG, PNG, WebP dan GIF secara kelompok, kekalkan kesan bergerak.",
+        "icon": "photo_size_select_large",
+        "href": "resize",
+        "badge": "Keutamaan 1"
+      },
+      {
+        "title": "Potong Gambar",
+        "body": "Menyokong kotak potongan seret, juga nilai piksel tepat.",
+        "icon": "crop",
+        "href": "crop",
+        "badge": "Keutamaan 1"
+      },
+      {
+        "title": "Potong Avatar Bulat",
+        "body": "Hasilkan avatar PNG bulat berlatar telus, boleh tentukan lebar output.",
+        "icon": "account_circle",
+        "href": "avatar-crop",
+        "badge": "Ciri baharu"
+      },
+      {
+        "title": "Potong Gambar Kad Pengenalan",
+        "body": "Laras kedudukan potret mengikut spesifikasi satu inci, dua inci atau pasport.",
+        "icon": "badge",
+        "href": "id-photo-crop",
+        "badge": "Ciri baharu"
+      },
+      {
+        "title": "Penjana Gambar Glitch",
+        "body": "Gabungkan secara rawak blok warna, jalur, hingar dan herotan; setiap muat semula memberi kesan baharu.",
+        "icon": "blur_on",
+        "href": "glitch-image",
+        "badge": "Ciri baharu"
+      },
+      {
+        "title": "Penjana GIF Glitch",
+        "body": "Biarkan pemisahan warna, hingar, jalur dan herotan berubah berterusan, menjana GIF berputar.",
+        "icon": "movie_filter",
+        "href": "glitch-gif",
+        "badge": "Ciri baharu"
+      },
+      {
+        "title": "Putar / Balik",
+        "body": "Putar, cermin secara kelompok, dan eksport hasil secara tempatan.",
+        "icon": "rotate_right",
+        "href": "rotate",
+        "badge": "Keutamaan 1"
+      },
+      {
+        "title": "Tukar Format",
+        "body": "Tukar antara JPG, PNG, WebP, berkongsi logik eksport tempatan.",
+        "icon": "sync_alt",
+        "href": "convert",
+        "badge": "Keutamaan 1"
+      },
+      {
+        "title": "HEIC ke JPG",
+        "body": "Gunakan penyahkodan WebAssembly tempatan untuk tukar foto HEIC iPhone ke JPG.",
+        "icon": "image",
+        "href": "convert-heic",
+        "badge": "Tersedia"
+      },
+      {
+        "title": "Tambah Tera Air",
+        "body": "Tambah tera air teks atau gambar; kedudukan, ketelusan dan eksport dilakukan secara tempatan.",
+        "icon": "branding_watermark",
+        "href": "watermark",
+        "badge": "Keutamaan 2"
+      },
+      {
+        "title": "Gabung Gambar",
+        "body": "Muat naik gambar latar dan gambar tindanan, gabungkan secara tempatan menjadi satu gambar baharu.",
+        "icon": "layers",
+        "href": "merge-images",
+        "badge": "Tersedia"
+      },
+      {
+        "title": "Tukar Gambar & Base64",
+        "body": "Tukar dua hala antara gambar dan Base64, boleh pratonton dan muat turun secara tempatan.",
+        "icon": "code_blocks",
+        "href": "base64",
+        "badge": "Keutamaan 2"
+      },
+      {
+        "title": "Alat Pixel Art",
+        "body": "Laras butiran piksel, faktor pembesaran, bilangan warna dan palet tetap.",
+        "icon": "grid_on",
+        "href": "pixel-art",
+        "badge": "Tersedia"
+      },
+      {
+        "title": "Pengekstrakan Warna & Palet",
+        "body": "Ekstrak warna dominan gambar, salin HEX, pemboleh ubah CSS atau konfigurasi Tailwind.",
+        "icon": "palette",
+        "href": "color-palette",
+        "badge": "Tersedia"
+      },
+      {
+        "title": "Mampat GIF",
+        "body": "Kecilkan GIF melalui skala, kurang bingkai dan kurang warna secara tempatan.",
+        "icon": "gif",
+        "href": "gif-compress",
+        "badge": "Tersedia"
+      },
+      {
+        "title": "Gabung Gambar Jadi Animasi",
+        "body": "Gabungkan beberapa keping gambar menjadi satu GIF bergerak mengikut urutan.",
+        "icon": "burst_mode",
+        "href": "images-to-gif",
+        "badge": "Akan datang"
+      }
+    ],
+    "ui": {
+      "badges": {
+        "smartOptimize": "Pengoptimuman pintar",
+        "newFeature": "Ciri baharu",
+        "supportsAnimation": "Sokong GIF bergerak",
+        "freshIdea": "Cuba idea baharu"
+      },
+      "categories": [
+        [
+          "all",
+          "Semua alat"
+        ],
+        [
+          "optimize",
+          "Mampat & optimasi"
+        ],
+        [
+          "edit",
+          "Saiz & potong"
+        ],
+        [
+          "convert",
+          "Tukar format"
+        ],
+        [
+          "gif",
+          "GIF"
+        ],
+        [
+          "create",
+          "Kreatif & praktikal"
+        ]
+      ],
+      "gifTrim": {
+        "title": "Potong Bingkai GIF",
+        "body": "Potong segmen animasi mengikut bingkai mula dan akhir, kekalkan saiz imej asal.",
+        "icon": "content_cut",
+        "href": "gif-trim",
+        "badge": "Ciri baharu"
+      },
+      "commonTasks": [
+        [
+          "Kecilkan saiz fail",
+          "Mampat JPG, PNG, WebP, SVG atau GIF untuk penerbitan web, lampiran e-mel dan penjimatan storan.",
+          "compress"
+        ],
+        [
+          "Sesuaikan saiz platform",
+          "Laras mengikut piksel, peratus atau sisi terpanjang, juga boleh hasilkan avatar bulat dan gambar kad pengenalan lazim.",
+          "resize"
+        ],
+        [
+          "Proses format telefon & web",
+          "Seragamkan gambar ke JPG atau PNG, juga tukar foto HEIC iPhone ke JPG lazim.",
+          "convert"
+        ],
+        [
+          "Hasilkan gambar bergerak",
+          "Mampat GIF, potong julat bingkai, gabung gambar jadi animasi, atau hasilkan animasi glitch rawak.",
+          "images-to-gif"
+        ]
+      ],
+      "content": {
+        "introTitle": "Buka laman dan edit imej dengan mudah",
+        "introBody": "BEST4IMG menghimpunkan tugas gambar harian sebenar: tukar foto telefon ke format lazim, hasilkan avatar sesuai untuk akaun sosial, seragamkan saiz gambar produk secara kelompok, mampat aset web, atau bina animasi daripada beberapa gambar. Setiap alat fokus pada satu tindakan, dan perubahan parameter dipaparkan terus dalam pratonton.",
+        "taskTitle": "Tidak perlu faham istilah gambar dulu",
+        "taskBody": "Perlu fail lebih kecil pilih mampat; platform minta piksel tetap laras saiz; mahu kekalkan sebahagian imej potong; foto iPhone tidak boleh dibuka guna HEIC ke JPG.",
+        "directoryTitle": "Struktur alat laman",
+        "directoryBody": "Ini menyenaraikan semua fungsi yang telah dibuka, termasuk halaman pintas yang dipecahkan daripada alat utama."
+      },
+      "benefits": [
+        [
+          "shield_lock",
+          "Fail kekal pada peranti anda",
+          "Aliran pemprosesan disokong berlaku dalam pelayar. Foto peribadi, aset kerja dan reka belum terbit tidak perlu dimuat naik dahulu."
+        ],
+        [
+          "stacks",
+          "Proses beberapa gambar sekali gus",
+          "Alat lazim seperti mampat, tukar, putar, tera air menyokong import kelompok, sehingga 50 fail."
+        ],
+        [
+          "visibility",
+          "Parameter dan hasil kelihatan",
+          "Kawasan potongan, nisbah kanvas, kedudukan tera air, rentak animasi dan kesan kreatif berpusatkan pratonton."
+        ]
+      ],
+      "categoriesAria": "Kategori alat",
+      "noResults": "Tiada alat sepadan dijumpai",
+      "directory": [
+        {
+          "title": "Mampat & optimasi",
+          "links": [
+            [
+              "Mampat Gambar",
+              "compress"
+            ],
+            [
+              "Mampat SVG",
+              "compress/svg"
+            ],
+            [
+              "Mampat GIF",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "Laras saiz",
+          "links": [
+            [
+              "Laras saiz gambar",
+              "resize"
+            ],
+            [
+              "Laras mengikut peratus",
+              "resize/by-percentage"
+            ],
+            [
+              "Laras mengikut sisi terpanjang",
+              "resize/by-longest-side"
+            ],
+            [
+              "Laras saiz GIF",
+              "resize/gif"
+            ]
+          ]
+        },
+        {
+          "title": "Potong & orientasi",
+          "links": [
+            [
+              "Potong Gambar",
+              "crop"
+            ],
+            [
+              "Potong Gambar GIF",
+              "crop/gif"
+            ],
+            [
+              "Potong Avatar Bulat",
+              "avatar-crop"
+            ],
+            [
+              "Potong Gambar Kad Pengenalan",
+              "id-photo-crop"
+            ],
+            [
+              "Putar / Balik",
+              "rotate"
+            ]
+          ]
+        },
+        {
+          "title": "Tukar format",
+          "links": [
+            [
+              "Penukaran Format Gambar",
+              "convert"
+            ],
+            [
+              "Tukar gambar ke JPG",
+              "convert/image-to-jpg"
+            ],
+            [
+              "Tukar gambar ke PNG",
+              "convert/image-to-png"
+            ],
+            [
+              "HEIC ke JPG",
+              "convert-heic"
+            ],
+            [
+              "Gambar & Base64",
+              "base64"
+            ]
+          ]
+        },
+        {
+          "title": "GIF & animasi",
+          "links": [
+            [
+              "Gabung Gambar Jadi Animasi",
+              "images-to-gif"
+            ],
+            [
+              "Potong Bingkai GIF",
+              "gif-trim"
+            ],
+            [
+              "Penjana GIF Glitch",
+              "glitch-gif"
+            ],
+            [
+              "Mampat GIF",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "Kreatif & praktikal",
+          "links": [
+            [
+              "Tambah Tera Air",
+              "watermark"
+            ],
+            [
+              "Gabung Gambar",
+              "merge-images"
+            ],
+            [
+              "Alat Pixel Art",
+              "pixel-art"
+            ],
+            [
+              "Pengekstrakan Warna",
+              "color-palette"
+            ],
+            [
+              "Penjana Gambar Glitch",
+              "glitch-image"
+            ],
+            [
+              "Penjana GIF Glitch",
+              "glitch-gif"
+            ]
+          ]
+        }
+      ],
+      "splitRouteTitles": {
+        "resize/by-percentage": "Laras mengikut peratus",
+        "resize/by-longest-side": "Laras mengikut sisi terpanjang",
+        "resize/gif": "Laras saiz GIF",
+        "crop/gif": "Potong Gambar GIF",
+        "convert/image-to-jpg": "Tukar gambar ke JPG",
+        "convert/image-to-png": "Tukar gambar ke PNG",
+        "compress/svg": "Mampat SVG"
+      }
+    }
+  },
+  "image-base64": {
+    "title": "Penukar Gambar & Base64",
+    "subtitle": "Tukar dua hala antara gambar dan Base64 secara tempatan dalam pelayar.",
+    "encode": "Gambar ke Base64",
+    "decode": "Base64 ke Gambar",
+    "dropTitle": "Seret masuk atau pilih gambar",
+    "dropHint": "Menyokong JPG, PNG, WebP, GIF, SVG, setiap satu maksimum 10MB",
+    "settings": "Output",
+    "output": "Hasil Base64",
+    "dataUrl": "Data URL",
+    "raw": "Base64 sahaja",
+    "cssUrl": "CSS url()",
+    "copy": "Salin",
+    "copied": "Disalin",
+    "empty": "Selepas memuat naik gambar, pilih satu dari senarai untuk lihat hasil.",
+    "decodeInput": "Kandungan Base64",
+    "decodePlaceholder": "Tampal Data URL, Base64 sahaja atau kandungan CSS url()",
+    "preview": "Pratonton gambar",
+    "decodeHint": "Format gambar akan dikesan secara automatik.",
+    "invalid": "Tiada data gambar sah dikesan.",
+    "tooLarge": "Gambar yang dinyahkod melebihi 20MB.",
+    "download": "Muat turun gambar",
+    "detected": "Dikesan",
+    "errors": {
+      "oversize": "Melebihi had 10MB",
+      "unsupported": "Format gambar tidak disokong",
+      "read": "Gagal membaca fail"
+    }
+  },
+  "image-merge": {
+    "title": "Gabung Gambar",
+    "subtitle": "Muat naik gambar latar dan gambar tindanan, gabungkan secara tempatan menjadi satu gambar baharu dalam pelayar.",
+    "preview": "Pratonton masa nyata",
+    "settings": "Tetapan gabungan",
+    "background": "Latar",
+    "overlay": "Tindanan",
+    "chooseBackground": "Muat naik latar",
+    "chooseOverlay": "Muat naik tindanan",
+    "output": "Output",
+    "width": "Lebar",
+    "height": "Tinggi",
+    "download": "Muat turun",
+    "empty": "Muat naik gambar latar dahulu, pratonton gabungan dipaparkan di sini.",
+    "errors": {
+      "oversize": "Fail melebihi 10MB",
+      "unsupported": "Format gambar tidak disokong",
+      "load": "Tidak dapat membaca gambar ini",
+      "missing": "Sila muat naik gambar latar dahulu"
+    },
+    "ui": {
+      "previewScale": "Pratonton",
+      "zoomOut": "Kecilkan",
+      "reset": "Kembalikan",
+      "zoomIn": "Besarkan",
+      "remove": "Buang"
+    }
+  },
+  "images-to-gif": {
+    "title": "Gabung Gambar Jadi Animasi",
+    "subtitle": "Gabungkan beberapa keping gambar menjadi GIF bergerak, sepenuhnya dilakukan secara tempatan dalam pelayar.",
+    "dropTitle": "Seret masuk atau pilih beberapa keping gambar",
+    "dropHint": "Menyokong JPG, PNG, WebP, SVG, maksimum 50 keping",
+    "preview": "Pratonton animasi",
+    "settings": "Tetapan animasi",
+    "width": "Lebar",
+    "height": "Tinggi",
+    "delay": "Masa setiap bingkai",
+    "fit": "Cara isian",
+    "cover": "Litup",
+    "contain": "Penuh dipaparkan",
+    "colors": "Bilangan warna",
+    "start": "Jana GIF",
+    "download": "Muat turun GIF",
+    "reset": "Pilih gambar",
+    "source": "Gambar",
+    "output": "Output",
+    "frames": "Bingkai",
+    "pending": "Pratonton GIF akan dipaparkan di sini selepas dijana.",
+    "errors": {
+      "oversize": "Sesetengah fail melebihi 10MB",
+      "unsupported": "Sesetengah format fail tidak disokong",
+      "load": "Sesetengah gambar gagal dibaca",
+      "missing": "Sila muat naik sekurang-kurangnya dua gambar",
+      "process": "Gagal menjana GIF"
+    },
+    "ui": {
+      "upload": "Muat naik gambar",
+      "presets": "Prasetel saiz",
+      "custom": "Suai",
+      "loop": "Putar",
+      "infinite": "Putar tanpa had",
+      "times": "Bilangan main",
+      "quality": "Kualiti",
+      "high": "Tinggi",
+      "standard": "Standard",
+      "compact": "Mampatan maksimum",
+      "background": "Latar",
+      "transparent": "Telus",
+      "white": "Putih",
+      "black": "Hitam",
+      "colorSuffix": " warna",
+      "moveUp": "Alih ke atas",
+      "moveDown": "Alih ke bawah",
+      "delete": "Padam"
+    }
+  },
+  "pixel-art": {
+    "title": "Alat Pixel Art",
+    "subtitle": "Tukar gambar menjadi pixel art yang jelas, semua pemprosesan dilakukan secara tempatan dalam pelayar.",
+    "dropTitle": "Seret masuk atau pilih sekeping gambar",
+    "dropHint": "Menyokong JPG, PNG, WebP, maksimum 20MB",
+    "preview": "Pratonton masa nyata",
+    "settings": "Tetapan pixel",
+    "pixelSize": "Saiz piksel",
+    "pixelHint": "Nilai lebih besar, butiran piksel lebih ketara.",
+    "scale": "Saiz eksport",
+    "colors": "Bilangan warna",
+    "palette": "Palet",
+    "auto": "Auto",
+    "gameboy": "Game Boy",
+    "gray": "Skala kelabu",
+    "nes": "Gaya NES",
+    "output": "Saiz output",
+    "download": "Muat turun PNG",
+    "chooseAnother": "Pilih gambar lain",
+    "invalid": "Format gambar tidak disokong",
+    "oversized": "Gambar melebihi 20MB"
+  },
+  "resize": {
+    "title": "Laras Saiz Gambar",
+    "subtitle": "Laras saiz JPG, PNG, WebP dan GIF secara kelompok, kekalkan kesan bergerak.",
+    "dropTitle": "Seret masuk gambar, atau klik untuk memilih gambar",
+    "dropHint": "Menyokong JPG, PNG, WebP, GIF, maksimum 50 keping, setiap satu tidak melebihi 10MB",
+    "settings": "Tetapan saiz",
+    "percent": "Mengikut peratus",
+    "longest": "Mengikut sisi terpanjang",
+    "scale": "Skala",
+    "longestSide": "Sisi terpanjang",
+    "longestHelp": "Imej melintang hadkan lebar, imej menegak hadkan tinggi, nisbah asal dikekalkan secara automatik.",
+    "start": "Mula laras",
+    "downloadAll": "Muat turun semua .ZIP",
+    "waiting": "Sedang menunggu",
+    "processing": "Sedang memproses",
+    "completed": "Selesai",
+    "download": "Muat turun",
+    "empty": "Selepas menambah gambar, saiz sasaran setiap gambar dipaparkan di sini.",
+    "errors": {
+      "oversize": "Fail melebihi 10MB",
+      "unsupported": "Format tidak disokong",
+      "read": "Tidak dapat membaca saiz gambar",
+      "process": "Gagal melaras gambar"
+    },
+    "ui": {
+      "summaryPercent": "{{count}} keping gambar akan diskalakan kepada {{percent}}%.",
+      "summaryLongest": "Sisi terpanjang {{count}} keping gambar akan dihadkan dalam {{longest}}px.",
+      "gifTitle": "Laras Saiz GIF Bergerak",
+      "percentTitle": "Laras Saiz Gambar Mengikut Peratus",
+      "longestTitle": "Laras Saiz Gambar Mengikut Sisi Terpanjang",
+      "gifSubtitle": "Laras dimensi GIF sambil mengekalkan bilangan bingkai, kelajuan main dan kesan putaran asal.",
+      "percentSubtitle": "Masukkan nisbah skala, laras secara kelompok JPG, PNG, WebP dan GIF mengikut nisbah.",
+      "longestSubtitle": "Tetapkan piksel sisi terpanjang, skalakan gambar secara kelompok sambil mengekalkan nisbah asal.",
+      "gifDropTitle": "Seret masuk GIF, atau klik untuk memilih gambar bergerak",
+      "gifDropHint": "Maksimum 50 GIF, setiap satu tidak melebihi 10MB"
+    }
+  },
+  "rotate": {
+    "title": "Putar / Balik Gambar",
+    "subtitle": "Putar atau cermin gambar secara kelompok, semua pemprosesan dilakukan secara tempatan dalam pelayar.",
+    "dropTitle": "Seret masuk gambar, atau klik untuk memilih gambar",
+    "dropHint": "Menyokong JPG, PNG, WebP, maksimum 50 keping, setiap satu tidak melebihi 10MB",
+    "settings": "Tetapan putar",
+    "rotate": "Putar",
+    "flip": "Balik",
+    "left": "Ke kiri",
+    "right": "Ke kanan",
+    "reset": "Tetap semula",
+    "horizontal": "Balik melintang",
+    "vertical": "Balik menegak",
+    "start": "Mula proses",
+    "downloadAll": "Muat turun semua .ZIP",
+    "waiting": "Sedang menunggu",
+    "processing": "Sedang memproses",
+    "completed": "Selesai",
+    "download": "Muat turun",
+    "empty": "Selepas menambah gambar, anda boleh putar atau balik secara kelompok.",
+    "errors": {
+      "oversize": "Fail melebihi 10MB",
+      "unsupported": "Format tidak disokong",
+      "read": "Tidak dapat membaca saiz gambar",
+      "process": "Gagal memproses gambar"
+    },
+    "ui": {
+      "preview": "Pratonton masa nyata",
+      "add": "Tambah lebih banyak gambar",
+      "empty": "Seret masuk gambar, kesan putar/balik dipaparkan di sini.",
+      "summary": "{{count}} keping gambar akan menggunakan tetapan putar/balik semasa."
+    }
+  },
+  "watermark": {
+    "title": "Tambah Tera Air",
+    "subtitle": "Tambah tera air teks atau gambar pada gambar, semua pemprosesan dilakukan secara tempatan dalam pelayar.",
+    "dropTitle": "Seret masuk gambar, atau klik untuk memilih gambar",
+    "dropHint": "Menyokong JPG, PNG, WebP, maksimum 50 keping, setiap satu tidak melebihi 10MB",
+    "settings": "Tetapan tera air",
+    "text": "Teks",
+    "image": "Gambar",
+    "watermarkText": "Teks tera air",
+    "chooseMark": "Pilih gambar tera air",
+    "size": "Saiz",
+    "opacity": "Ketelusan",
+    "color": "Warna",
+    "position": "Kedudukan",
+    "start": "Tambah tera air",
+    "downloadAll": "Muat turun semua .ZIP",
+    "waiting": "Sedang menunggu",
+    "processing": "Sedang memproses",
+    "completed": "Selesai",
+    "download": "Muat turun",
+    "empty": "Selepas menambah gambar, pratonton tera air dipaparkan di sini.",
+    "preview": "Pratonton masa nyata",
+    "addMore": "Tambah lebih banyak gambar",
+    "errors": {
+      "oversize": "Fail melebihi 10MB",
+      "unsupported": "Format tidak disokong",
+      "read": "Tidak dapat membaca saiz gambar",
+      "process": "Gagal menambah tera air",
+      "noWatermark": "Sila tambah teks atau gambar tera air dahulu"
+    },
+    "ui": {
+      "summary": "{{count}} keping gambar akan menggunakan tera air semasa.",
+      "layout": "Susunan",
+      "position": "Kedudukan",
+      "tile": "Jubin",
+      "gap": "Jarak",
+      "angle": "Sudut condong"
+    }
+  },
+  "common": {
+    "intensity": {
+      "light": "Ringan",
+      "medium": "Sederhana",
+      "strong": "Kuat"
+    },
+    "tryAnother": "Cuba idea baharu",
+    "original": "Saiz asal",
+    "originalSize": "Saiz asal",
+    "preview": "Pratonton masa nyata",
+    "processing": "Sedang memproses…",
+    "invalidImages": "Sila pilih gambar disokong, setiap satu tidak melebihi 20MB",
+    "loading": "Sedang memuatkan…",
+    "resizeCropBox": "Laras kotak potongan"
+  },
+  "layout": {
+    "nav": {
+      "compress": "Pemampat Gambar",
+      "resize": "Laras Saiz",
+      "crop": "Potong Gambar",
+      "convert": "Tukar Format",
+      "gif": "Penjana Animasi",
+      "all": "Semua alat"
+    },
+    "tools": [
+      "Putar / Balik",
+      "HEIC ke JPG",
+      "Tambah Tera Air",
+      "Gabung Gambar",
+      "Mampat GIF",
+      "Potong Bingkai GIF",
+      "Potong Avatar Bulat",
+      "Potong Gambar Kad Pengenalan",
+      "Gambar & Base64",
+      "Alat Pixel Art",
+      "Pengekstrakan Warna",
+      "Penjana Gambar Glitch",
+      "Penjana GIF Glitch",
+      "Mampat SVG"
+    ]
+  },
+  "svg-compress": {
+    "title": "Alat Mampat SVG",
+    "subtitle": "Buang komen, metadata editor dan ruang kosong berlebihan dalam SVG, kekalkan grafik dan kesan telus.",
+    "drop": "Seret masuk SVG, atau klik untuk memilih fail",
+    "hint": "Hanya menyokong SVG, maksimum 50 fail, setiap satu tidak melebihi 10MB"
+  },
+  "gif-trim-ui": {
+    "playbackOrder": "Playback order",
+    "forward": "Forward",
+    "reverse": "Reverse",
+    "pingPong": "Ping-pong"
+  }
+}

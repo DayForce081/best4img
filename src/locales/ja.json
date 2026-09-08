@@ -1,0 +1,1379 @@
+{
+  "info": {
+    "about": {
+      "title": "私たちについて",
+      "intro": "BEST4IMGは、迅速でプライベート、かつ使いやすい画像ツールを無料で提供するコレクションです。",
+      "sections": [
+        {
+          "title": "私たちが作るもの",
+          "paragraphs": [
+            "圧縮、サイズ変更、トリミング、変換、透かし入れ、GIF、そしてクリエイティブな画像ツールを一つの集中したワークスペースで提供します。"
+          ]
+        },
+        {
+          "title": "ローカル優先",
+          "paragraphs": [
+            "ほとんどの画像処理は、Canvas、WebAssembly、Web Workersなどのブラウザ技術を使用してあなたのデバイス上で実行されます。これらの操作を行うためにあなたの画像が意図的にサーバーにアップロードされることはありません。"
+          ]
+        },
+        {
+          "title": "私たちの原則",
+          "paragraphs": [
+            "私たちは、明確な操作、予測可能な出力、そして適切なパフォーマンスを重視します。機能は、本当に役立ち、ローカルでの処理に適している場合にのみ追加します。"
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "利用規約",
+      "intro": "BEST4IMGを使用することで、これらの規約に同意したことになります。重要なファイルのオリジナルコピーを保持してください。",
+      "updated": "最終更新日：2026年9月7日",
+      "sections": [
+        {
+          "title": "サービス",
+          "paragraphs": [
+            "BEST4IMGは、利用可能なブラウザベースの画像ツールを提供します。機能、形式、および制限は、製品の開発に伴い変更される場合があります。"
+          ]
+        },
+        {
+          "title": "あなたの責任",
+          "paragraphs": [
+            "あなたは画像を処理する権利を有しており、著作権、プライバシー、法律、またはサイトの可用性を侵害するためにサービスを使用してはいけません。"
+          ]
+        },
+        {
+          "title": "画像の権利と処理許可",
+          "paragraphs": [
+            "本ツールを使用しても、元画像に関する利用者の権利がBEST4IMGへ移転することはありません。当社が画像の所有権を取得することはなく、公開表示やモデル学習への利用許可を求めることもありません。",
+            "透かしの追加、切り抜き、形式変換を行っても、第三者の作品に対する新たな権利は発生しません。人物の肖像、商標、保護された作品、個人情報を含む場合は必要な許可を取得してください。"
+          ]
+        },
+        {
+          "title": "ファイルと端末",
+          "paragraphs": [
+            "ファイルはブラウザ内で処理されます。処理速度と容量は、端末のメモリ、ブラウザ、画像の複雑さによって異なります。各ツールにはファイル数、容量、寸法の上限が設けられる場合があります。",
+            "ページの再読み込み、タブの終了、ブラウザの不具合により、未保存の結果が失われる場合があります。本サイトはファイル保管・バックアップサービスではありません。元データを保管してください。"
+          ]
+        },
+        {
+          "title": "出力と可用性",
+          "paragraphs": [
+            "ブラウザや画像エンコーダは異なります。すべてのファイルが正常に処理されること、または特定の専門的な目的に適することを保証することはできません。元のファイルを削除する前に、すべての結果を確認してください。"
+          ]
+        },
+        {
+          "title": "形式、色、用途別の仕様",
+          "paragraphs": [
+            "非可逆圧縮や再エンコードにより、細部、色、透明度、メタデータが変化する場合があります。JPGは透明部分に対応しておらず、処理後のアニメーションでは色パレットが変わることがあります。",
+            "アバターや証明写真のサイズと人物ガイドは構図を補助するものであり、公式な認定仕様ではありません。提出前に、提出先の最新要件を確認してください。"
+          ]
+        },
+        {
+          "title": "責任",
+          "paragraphs": [
+            "法律で許可されている範囲で、BEST4IMGは、サービスの使用に起因するファイルの消失、出力の違い、中断、または間接的な損失について責任を負いません。"
+          ]
+        },
+        {
+          "title": "規約の変更",
+          "paragraphs": [
+            "機能や法的要件の変更に伴い、本規約を更新する場合があります。更新後の内容は、新しい改定日とともに本ページへ掲載します。"
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "intro": "BEST4IMGはローカルファーストのアプローチを使用します。このポリシーでは、画像および基本的な技術情報の取り扱い方法について説明します。",
+      "updated": "最終更新日：2026年9月5日",
+      "sections": [
+        {
+          "title": "画像処理",
+          "paragraphs": [
+            "選択した画像は通常、現在のブラウザタブ内で読み込まれ、処理されます。画像ツールを実行するために意図的にサーバーにアップロードされることはありません。"
+          ]
+        },
+        {
+          "title": "一時的なブラウザデータ",
+          "paragraphs": [
+            "サイトは、メモリ内にプレビュー、結果、一時的なオブジェクトURLを作成する場合があり、言語などの必要な設定をお使いのブラウザにローカルで保存する場合があります。"
+          ]
+        },
+        {
+          "title": "基本的な技術情報",
+          "paragraphs": [
+            "ホスティングインフラは、セキュリティと信頼性のためにリクエスト時間、URL、ブラウザの種類、ネットワークアドレス、エラーログを記録する場合があります。これらのログには、ローカルで処理された画像は含まれません。"
+          ]
+        },
+        {
+          "title": "あなたの選択",
+          "paragraphs": [
+            "ブラウザの設定を通じて、いつでも処理を停止したり、ページを閉じたり、ローカルに保存されたサイトデータを消去したりできます。"
+          ]
+        }
+      ]
+    },
+    "ui": {
+      "eyebrow": "無料画像ツール",
+      "highlights": {
+        "about": [
+          [
+            "devices",
+            "あなたのデバイス上で",
+            "ブラウザベースの画像処理"
+          ],
+          [
+            "photo_library",
+            "日常の画像作業",
+            "圧縮からクリエイティブ効果まで"
+          ],
+          [
+            "download",
+            "あなたのファイル、あなたの選択",
+            "必要な結果をダウンロード"
+          ]
+        ],
+        "privacy": [
+          [
+            "image",
+            "ローカル画像処理",
+            "画像操作はローカルで実行されます"
+          ],
+          [
+            "language",
+            "リソースがネットワークを使用",
+            "コード、フォント、アイコンを含む"
+          ],
+          [
+            "tune",
+            "ローカルデータの管理",
+            "ブラウザの設定で環境設定を消去"
+          ]
+        ],
+        "terms": [
+          [
+            "copyright",
+            "画像の権利を尊重",
+            "処理する権利のある画像を使用する"
+          ],
+          [
+            "verified",
+            "結果を確認する",
+            "寸法、色、適合性を確認する"
+          ],
+          [
+            "save",
+            "元の画像を保持する",
+            "ツールはバックアップサービスではありません"
+          ]
+        ]
+      },
+      "tagline": "画像作業を簡単に感じさせる",
+      "explore": "画像ツールを探求する"
+    }
+  },
+  "site": {
+    "siteName": "BEST4IMG",
+    "seo": {
+      "title": "BEST4IMG | JPG、PNG、WebP、SVG用ローカル画像圧縮機",
+      "description": "JPG、PNG、WebP、SVGの画像をブラウザで直接圧縮します。BEST4IMGはファイルをローカルに保持し、バッチ処理を行い、目立った品質の低下なしにサイズを縮小します。"
+    },
+    "nav": {
+      "ariaLabel": "言語を選択",
+      "current": "日本語",
+      "options": [
+        {
+          "code": "en",
+          "label": "English"
+        },
+        {
+          "code": "es",
+          "label": "Español"
+        },
+        {
+          "code": "fr",
+          "label": "Français"
+        },
+        {
+          "code": "de",
+          "label": "Deutsch"
+        },
+        {
+          "code": "it",
+          "label": "Italiano"
+        },
+        {
+          "code": "pt",
+          "label": "Português"
+        },
+        {
+          "code": "ja",
+          "label": "日本語"
+        },
+        {
+          "code": "ru",
+          "label": "Pусский"
+        },
+        {
+          "code": "ko",
+          "label": "한국어"
+        },
+        {
+          "code": "zh",
+          "label": "简体中文"
+        },
+        {
+          "code": "zh-tw",
+          "label": "繁體中文"
+        },
+        {
+          "code": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "bg",
+          "label": "Български"
+        },
+        {
+          "code": "ca",
+          "label": "Català"
+        },
+        {
+          "code": "nl",
+          "label": "Nederlands"
+        },
+        {
+          "code": "el",
+          "label": "Ελληνικά"
+        },
+        {
+          "code": "hi",
+          "label": "हिन्दी"
+        },
+        {
+          "code": "id",
+          "label": "Bahasa Indonesia"
+        },
+        {
+          "code": "ms",
+          "label": "Bahasa Melayu"
+        },
+        {
+          "code": "pl",
+          "label": "Polski"
+        },
+        {
+          "code": "sv",
+          "label": "Svenska"
+        },
+        {
+          "code": "th",
+          "label": "ภาษาไทย"
+        },
+        {
+          "code": "tr",
+          "label": "Türkçe"
+        },
+        {
+          "code": "uk",
+          "label": "Українська"
+        },
+        {
+          "code": "vi",
+          "label": "Tiếng Việt"
+        },
+        {
+          "code": "sw",
+          "label": "Kiswahili"
+        }
+      ],
+      "tools": {
+        "compressor": "画像圧縮機",
+        "heicConverter": "HEICからJPGへ"
+      }
+    },
+    "heicConverter": {
+      "heroTitle": "HEICからJPGへのコンバーター",
+      "heroSubtitle": "Apple HEIC の写真をブラウザ内でローカルに変換する",
+      "dropTitle": "HEIC 画像をドロップまたは選択",
+      "dropHint": "最大 50 ファイル、各ファイル最大 50MB",
+      "downloadAll": "すべて .ZIP でダウンロード",
+      "zipName": "BEST4IMG-converted.zip",
+      "formatJpg": "JPG",
+      "formatPng": "PNG",
+      "statuses": {
+        "converting": "変換中...",
+        "waiting": "待機中...",
+        "completed": "完了",
+        "error": "エラー"
+      },
+      "errors": {
+        "exceedsLimit": "エラー: 50MB を超えています",
+        "unsupportedFormat": "エラー: サポートされていない形式",
+        "failedToProcess": "ファイルの処理に失敗しました"
+      },
+      "actions": {
+        "download": "ダウンロード"
+      },
+      "content": {
+        "hero": {
+          "title": "HEIC を JPG に変換\nローカルで、瞬時に、プライベートに",
+          "subtitle": "サインアップ不要、サーバーへのアップロード不要、バックエンドによるファイルサイズ制限なし。すべてブラウザ内で、WebAssembly 搭載のデコーディングを使用して実行されます。"
+        },
+        "featureCards": [
+          {
+            "icon": "lock",
+            "title": "完全にプライベート — 何もデバイスから出ません",
+            "body": "HEICのデコードおよびJPGのエンコードはすべてブラウザタブ内で行われます。あなたの写真がリモートサーバーに送信されることはなく、個人的な思い出、医療画像、機密ファイルにも安全です。"
+          },
+          {
+            "icon": "bolt",
+            "title": "シーケンシャルキューでのバッチ変換",
+            "body": "最大50件のHEICファイルを一度にドロップ可能で、それぞれ順番に処理されます。制御されたキューにより、iPhoneやiPadからの大容量のマルチメガピクセルHEIC写真を扱ってもブラウザがフリーズすることはありません。"
+          },
+          {
+            "icon": "image",
+            "title": "フル解像度出力",
+            "body": "変換されたJPGは、元のピクセル寸法を保持します。ダウンスケーリングなし、隠れたリサンプリングなし。撮影したものがそのまま得られます — ただし、すべてのアプリ、ブラウザ、デバイスで開ける形式で提供されます。"
+          }
+        ],
+        "underHood": {
+          "eyebrow": "内部構造",
+          "title": "HEIC変換パイプラインの背後にある技術層。",
+          "cards": [
+            {
+              "title": "WebAssemblyによるheic2anyデコード",
+              "body": "HEICファイルは、HEVC (H.265) エンコードを使用したAppleのHEIFコンテナを使用しています。heic2anyライブラリは、ブラウザ内で完全にWebAssemblyにコンパイルされたデコーダを実行し、その専用フォーマットを標準の画像データに変換するためにネイティブOS呼び出しを必要としません。"
+            },
+            {
+              "title": "単一ファイルの逐次処理",
+              "body": "HEICのデコードは、PNGやJPEGのデコードよりもCPU負荷が大幅に高くなります。ファイルを1つずつ処理することで、メインスレッドの過負荷を避け、バッチ処理中もページの応答性を保つことができます。"
+            }
+          ]
+        }
+      },
+      "settings": {
+        "title": "出力設定",
+        "quality": "JPG 品質",
+        "qualityHint": "品質を上げると JPG のファイルサイズも大きくなります。",
+        "orientation": "向き",
+        "orientationAuto": "自動補正",
+        "orientationHint": "写真の表示方向に合わせて出力します。",
+        "metadata": "メタデータ",
+        "metadataRemoved": "自動削除",
+        "metadataHint": "EXIF と GPS 情報は JPG に引き継がれません。"
+      }
+    },
+    "compressor": {
+      "heroTitle": "画像圧縮器",
+      "heroSubtitle": "毎回可能な限り最高の品質で、JPG、PNG、WebP、SVGを無料で圧縮",
+      "dropTitle": "ここに画像をドロップまたは選択してください",
+      "dropHint": "最大50ファイル、各ファイル最大10MB",
+      "downloadAll": "すべてダウンロード(.ZIP)",
+      "zipName": "BEST4IMG-compressed.zip",
+      "statuses": {
+        "compressing": "圧縮中...",
+        "waiting": "待機中...",
+        "completed": "完了",
+        "error": "エラー"
+      },
+      "errors": {
+        "exceedsLimit": "エラー: 10MB制限を超えています",
+        "unsupportedFormat": "エラー: サポートされていない形式",
+        "failedToProcess": "ファイルの処理に失敗しました"
+      },
+      "actions": {
+        "download": "ダウンロード"
+      }
+    },
+    "hero": {
+      "title": "クライアントサイド画像圧縮ツール for\nJPG、PNG、WebP、および SVG",
+      "subtitle": "画像をウェブサイト、ドキュメント、ストア、共有用に小さくするが、明らかに品質を落とさない。"
+    },
+    "featureCards": [
+      {
+        "type": "compare",
+        "title": "完璧なディテールと透過エッジ",
+        "body": "ソフトウェアのスクリーンショットや透過PNGを圧縮したら、文字がぼやけて白いエッジが粗くなることがありますか？BEST4IMGはUI要素、キャプション、ロゴに重点を置き、重要なディテールを壊さずにファイルサイズを劇的に小さくします。"
+      },
+      {
+        "type": "image",
+        "title": "100%ローカル＆安全",
+        "body": "あなたのファイルはあなたのもとに留まります。圧縮は完全にブラウザ内で行われるため、何もリモートサーバーにアップロードされません。これにより、内部資産、個人写真、機密資料に対してはるかに安全に利用できます。"
+      }
+    ],
+    "autopilot": {
+      "title": "推測なしのインテリジェント最適化",
+      "body": "品質スライダーを行き来させる必要はありません。BEST4IMGは自動的に適切な圧縮パスを評価し、画像を自然に保ちながらファイルサイズを小さくすることを目指します。"
+    },
+    "underHood": {
+      "eyebrow": "内部構造",
+      "title": "圧縮パイプラインの背後にある技術的層です。",
+      "cards": [
+        {
+          "title": "エッジ認識PNG量子化",
+          "body": "PNG 画像は、高周波のエッジをより注意深く保持しようとするチューニングされた libimagequant WebAssembly パスを通過し、アイコン、透過アセット、UI グラフィックスが小さいサイズでもよりきれいに保たれるのに役立ちます。"
+        },
+        {
+          "title": "UI のような画像に対するより保守的な JPEG 対応",
+          "body": "画像がインターフェースグラフィックスやテキストと画像が混在するコンテンツに見える場合、JPEG パスはより保守的になり、小さなテキストや鋭いエッジが崩れる可能性が低くなります。"
+        },
+        {
+          "title": "OffscreenCanvas を使ったワーカー側でのデコード",
+          "body": "画像のデコードとピクセル抽出は、OffscreenCanvas を介して Web Worker 内で実行され、大きな画像を処理する際のメインスレッドの停止を減らすのに役立ちます。"
+        },
+        {
+          "title": "サイズガードとフォールバックロジック",
+          "body": "圧縮された結果が大きくなっても、BEST4IMGは無差別に返すことを避けます。パイプラインは安全な経路に戻り、必要に応じて元の結果を戻すことができます。"
+        }
+      ]
+    },
+    "footer": {
+      "left": [
+        "© 2026 BEST4IMG.COM",
+        "クライアント側のみ"
+      ],
+      "links": [
+        "概要",
+        "用語",
+        "プライバシー"
+      ]
+    },
+    "compare": {
+      "original": "オリジナル",
+      "compressed": "BEST4IMG",
+      "before": "ビフォー/オリジナル",
+      "after": "アフター/BEST4IMG"
+    }
+  },
+  "crop": {
+    "title": "トリミング画像",
+    "subtitle": "トリミングボックスをドラッグするか、正確なピクセル数を入力してください。画像はブラウザ内でローカルに残ります。",
+    "dropTitle": "画像をドロップまたは選択",
+    "dropHint": "JPG、PNG、WebP、GIF、最大10MB",
+    "settings": "クロップ設定",
+    "cropBox": "クロップボックス",
+    "width": "幅",
+    "height": "高さ",
+    "ratios": {
+      "original": "元のサイズ"
+    },
+    "reset": "リセット",
+    "crop": "画像をトリミング",
+    "download": "ダウンロード",
+    "replace": "別の画像を選択",
+    "ready": "トリミングした画像が準備できました。",
+    "errors": {
+      "oversize": "ファイルが10MBを超えています",
+      "unsupported": "サポートされていないフォーマット",
+      "read": "画像を読み込めません",
+      "crop": "画像のトリミングに失敗しました"
+    }
+  },
+  "crop-gif": {
+    "title": "GIF画像をトリミング",
+    "subtitle": "アニメーションフレームと再生速度を維持しながら、トリミングボックスで領域を選択します。",
+    "dropTitle": "1つのGIFをドラッグまたは選択",
+    "dropHint": "最大10MBのGIFのみ"
+  },
+  "glitch-gif": [
+    "グリッチGIFジェネレーター",
+    "フレームごとに異なるグリッチバリエーションをアニメーション化して、ループするGIFとしてエクスポートします。",
+    "画像をドロップするか、1枚選択してください",
+    "JPG、PNG、またはWebP、最大20MB",
+    "アニメーションプレビュー",
+    "別の画像を選択",
+    "アニメーション設定",
+    "エフェクトタイプ",
+    "強度",
+    "アニメーション速度",
+    "継続時間",
+    "出力サイズ",
+    "GIFを生成",
+    "生成中…",
+    "GIFをダウンロード",
+    "生成に失敗しました。サイズを小さくするか、期間を短くしてください。"
+  ],
+  "avatar-crop": {
+    "title": "アバター＆ID写真トリミング",
+    "subtitle": "SNSプロフィールやID写真サイズに顔写真を配置し、ローカルにエクスポートします。",
+    "dropTitle": "ドロップするか、1枚の顔写真を選択してください",
+    "dropHint": "JPG、PNG、WebP、最大20MB",
+    "preview": "ライブプレビュー",
+    "replace": "別の画像を選択",
+    "presets": "使用とサイズ",
+    "guide": "縦位置ガイド",
+    "zoom": "写真ズーム",
+    "reset": "リセット",
+    "export": "作成 PNG",
+    "download": "ダウンロード PNG",
+    "ready": "PNG が準備完了",
+    "dragHint": "写真をドラッグして位置を変更",
+    "unsupported": "サポートされていない画像形式",
+    "oversize": "ファイルサイズが20MBを超えています",
+    "ui": {
+      "avatarTitle": "円形アバター切り抜き",
+      "idTitle": "ID写真切り抜き",
+      "avatarSubtitle": "角が透明な円形 PNG アバターを作成します。",
+      "idSubtitle": "一般的なID写真サイズでポートレートを配置します。",
+      "cropSettings": "切り抜き設定",
+      "outputSize": "出力サイズ",
+      "preset": "プリセット",
+      "createDownload": "作成＆ダウンロード PNG",
+      "avatarLabel": "アバター",
+      "transparentPng": "透明 PNG",
+      "idPresets": [
+        {
+          "id": "jp-passport",
+          "label": "パスポート",
+          "detail": "35 × 45 mm · 413 × 531 px",
+          "width": 413,
+          "height": 531,
+          "headTop": 0.07,
+          "chin": 0.83
+        },
+        {
+          "id": "resume",
+          "label": "履歴書",
+          "detail": "30 × 40 mm · 354 × 472 px",
+          "width": 354,
+          "height": 472,
+          "headTop": 0.1,
+          "chin": 0.76
+        },
+        {
+          "id": "visa",
+          "label": "ビザ申請",
+          "detail": "35 × 45 mm · 413 × 531 px",
+          "width": 413,
+          "height": 531,
+          "headTop": 0.08,
+          "chin": 0.8
+        }
+      ],
+      "resizeCropArea": "トリミング領域をリサイズ",
+      "avatarPresets": [
+        {
+          "size": 200,
+          "label": "LINE"
+        },
+        {
+          "size": 300,
+          "label": "note"
+        },
+        {
+          "size": 400,
+          "label": "X / Instagram / TikTok"
+        },
+        {
+          "size": 460,
+          "label": "GitHub"
+        },
+        {
+          "size": 480,
+          "label": "YouTube"
+        },
+        {
+          "size": 640,
+          "label": "Discord"
+        }
+      ],
+      "presetNote": "サイズは切り抜きの目安です。提出前に申請機関の最新要件をご確認ください。"
+    }
+  },
+  "color-palette": {
+    "title": "カラーパレット",
+    "subtitle": "任意の画像から再利用可能なカラーパレットをローカルで抽出",
+    "dropTitle": "画像をドロップまたは選択",
+    "dropHint": "JPG、PNG、WebP、最大20MB",
+    "preview": "画像プレビュー",
+    "settings": "パレット設定",
+    "count": "色数",
+    "colors": "抽出された色",
+    "clickToCopy": "色をクリックしてコピー HEX",
+    "copied": "コピーしました",
+    "output": "コード出力",
+    "css": "CSS 変数",
+    "tailwind": "Tailwind",
+    "copyCode": "コードをコピー",
+    "download": "パレットをダウンロード PNG",
+    "chooseAnother": "別の画像を選択",
+    "invalid": "サポートされていない画像形式",
+    "oversized": "画像が20MBを超えています"
+  },
+  "format-converter": {
+    "title": "画像形式を変換",
+    "subtitle": "JPG、PNG、WebP をブラウザでローカルに変換",
+    "dropTitle": "画像をドロップまたは選択",
+    "dropHint": "JPG、PNG、WebP、最大50ファイル、各ファイル最大10MB",
+    "settings": "変換設定",
+    "targetFormat": "ターゲット形式",
+    "jpgHelp": "JPG に変換すると透明部分が白になります",
+    "start": "変換を開始",
+    "downloadAll": "すべて .ZIP でダウンロード",
+    "waiting": "待機中",
+    "processing": "変換中",
+    "completed": "完了",
+    "download": "ダウンロード",
+    "empty": "ここに画像を追加して変換します。",
+    "errors": {
+      "oversize": "10MBの制限を超えています",
+      "unsupported": "サポートされていない形式",
+      "read": "画像サイズを読み取れません",
+      "process": "画像の変換に失敗しました"
+    },
+    "ui": {
+      "summary": "{{count}} の画像は {{format}} に変換されます。",
+      "fixedTitle": "画像を {{format}} に変換",
+      "fixedSubtitle": "JPG、PNG、または WebP の画像をアップロードして、自動的に {{format}} に変換します。"
+    }
+  },
+  "gif-compress": {
+    "title": "GIF を圧縮",
+    "subtitle": "ブラウザ上でサイズ変更、フレーム削除、色数削減を行います。",
+    "dropTitle": "GIF を1つドロップまたは選択",
+    "dropHint": "GIF のみ、最大20MB",
+    "preview": "ライブプレビュー",
+    "settings": "GIF 設定",
+    "scale": "スケール",
+    "frames": "フレーム",
+    "colors": "カラー",
+    "start": "GIFを圧縮",
+    "download": "ダウンロード",
+    "reset": "別のGIFを選択",
+    "original": "オリジナル",
+    "output": "圧縮済み",
+    "ready": "圧縮されたGIFが準備できました。",
+    "pending": "圧縮されたGIFのプレビューがここに表示されます。",
+    "errors": {
+      "oversize": "ファイルサイズが20MBを超えています",
+      "unsupported": "GIFファイルをアップロードしてください",
+      "process": "GIFの圧縮に失敗しました",
+      "tooManyFrames": "このGIFは初回バージョンではフレーム数が多すぎます"
+    }
+  },
+  "gif-trim": [
+    "GIFフレームをトリミング",
+    "画像の寸法を変えずにアニメーションフレームの範囲を保持します。",
+    "GIFをドラッグまたは選択",
+    "GIFのみ、最大20MB",
+    "フレームプレビュー",
+    "別のGIFを選択",
+    "トリム設定",
+    "開始フレーム",
+    "終了フレーム",
+    "保持するフレーム",
+    "プレビュー生成",
+    "GIF をダウンロード",
+    "処理中…",
+    "有効な GIF を 20MB まで、1600 万ピクセルまで選択してください。",
+    "処理に失敗しました。より小さい GIF を試してください。",
+    "トリミングされた GIF",
+    "現在のフレーム",
+    "期間",
+    "全フレーム",
+    "ミリ秒",
+    "バッチフレーム遅延",
+    "保持するフレームに適用"
+  ],
+  "glitch-image": {
+    "title": "グリッチ画像ジェネレーター",
+    "subtitle": "カラー分割、移動した破片、ノイズ、スキャンライン効果を作成。",
+    "dropTitle": "複数の画像をドロップまたは選択",
+    "dropHint": "JPG、PNG、WebP、最大50ファイル、各ファイル最大20MB",
+    "preview": "ライブプレビュー",
+    "replace": "画像を追加",
+    "settings": "設定",
+    "effectType": "エフェクトタイプ",
+    "intensity": "強度",
+    "download": "現在の画像をダウンロード",
+    "effects": {
+      "rgb": {
+        "title": "RGB 分割",
+        "body": "カラーチャンネルを分離"
+      },
+      "shift": {
+        "title": "ピクセルシフト",
+        "body": "ランダムライン変位"
+      },
+      "blocks": {
+        "title": "ブロックグリッチ",
+        "body": "変位断片"
+      },
+      "stripes": {
+        "title": "デジタルストライプ",
+        "body": "カラー信号干渉"
+      },
+      "noise": {
+        "title": "アナログノイズ",
+        "body": "ビンテージ信号ノイズ"
+      },
+      "wave": {
+        "title": "波形歪み",
+        "body": "波状信号変位"
+      },
+      "mirror": {
+        "title": "ミラー",
+        "body": "左右対称の反射"
+      },
+      "scanlines": {
+        "title": "走査線",
+        "body": "レトロCRT効果"
+      }
+    }
+  },
+  "home": {
+    "title": "無料のローカル画像ツール",
+    "subtitle": "ブラウザで画像を編集、変換、エクスポート。",
+    "tools": [
+      {
+        "title": "画像を圧縮",
+        "body": "JPG、PNG、WebP、SVGを可能な限り高品質で圧縮。",
+        "icon": "compress",
+        "href": "compress",
+        "badge": "準備完了"
+      },
+      {
+        "title": "画像のサイズ変更",
+        "body": "JPG、PNG、WebP、およびアニメーションGIFファイルをまとめてサイズ変更。",
+        "icon": "photo_size_select_large",
+        "href": "resize",
+        "badge": "優先度 1"
+      },
+      {
+        "title": "画像をトリミング",
+        "body": "ドラッグ選択または正確なピクセル値で画像をトリミング。",
+        "icon": "crop",
+        "href": "crop",
+        "badge": "優先度 1"
+      },
+      {
+        "title": "円形アバター切り抜き",
+        "body": "透明なPNG角付きの円形プロフィール画像を作成。",
+        "icon": "account_circle",
+        "href": "avatar-crop",
+        "badge": "新規"
+      },
+      {
+        "title": "ID写真のトリミング",
+        "body": "ポートレートを一般的なID写真のサイズとガイドを使って配置します。",
+        "icon": "badge",
+        "href": "id-photo-crop",
+        "badge": "新規"
+      },
+      {
+        "title": "グリッチ画像",
+        "body": "カラフルなブロック、ストライプ、ノイズ、波、その他のグリッチ効果をランダム化します。",
+        "icon": "blur_on",
+        "href": "glitch-image",
+        "badge": "新規"
+      },
+      {
+        "title": "グリッチ GIF",
+        "body": "色の変化、ノイズ、ストライプ、歪みをループするGIFとしてアニメーション化します。",
+        "icon": "movie_filter",
+        "href": "glitch-gif",
+        "badge": "新規"
+      },
+      {
+        "title": "回転 & 反転",
+        "body": "ファイルをアップロードせずにバッチの回転、ミラー、およびエクスポートを行います。",
+        "icon": "rotate_right",
+        "href": "rotate",
+        "badge": "優先度 1"
+      },
+      {
+        "title": "フォーマット変換",
+        "body": "JPG、PNG、WebP間で、共通のローカルエクスポートロジックで変換します。",
+        "icon": "sync_alt",
+        "href": "convert",
+        "badge": "優先度 1"
+      },
+      {
+        "title": "HEIC から JPG",
+        "body": "iPhone HEIC の写真をローカル WebAssembly デコーディングで JPG に変換します。",
+        "icon": "image",
+        "href": "convert-heic",
+        "badge": "準備完了"
+      },
+      {
+        "title": "ウォーターマーク画像",
+        "body": "ローカル Canvas エクスポートでテキストまたは画像のウォーターマークを追加します。",
+        "icon": "branding_watermark",
+        "href": "watermark",
+        "badge": "優先度 2"
+      },
+      {
+        "title": "画像をマージ",
+        "body": "背景にオーバーレイ画像を配置して、1 つのローカル画像をエクスポートします。",
+        "icon": "layers",
+        "href": "merge-images",
+        "badge": "準備完了"
+      },
+      {
+        "title": "画像 & Base64",
+        "body": "画像と Base64 をどちらの方向にもローカルで変換します。",
+        "icon": "code_blocks",
+        "href": "base64",
+        "badge": "優先度 2"
+      },
+      {
+        "title": "ピクセルアート",
+        "body": "ピクセル、色、クラシックパレットを調整してピクセルアートを作成します。",
+        "icon": "grid_on",
+        "href": "pixel-art",
+        "badge": "準備完了"
+      },
+      {
+        "title": "カラーパレット",
+        "body": "支配的な色を抽出し、HEX、CSS、またはTailwindの値をエクスポートしてください。",
+        "icon": "palette",
+        "href": "color-palette",
+        "badge": "準備完了"
+      },
+      {
+        "title": "GIFを圧縮",
+        "body": "サイズ変更、フレーム削除、ローカルでの色数削減によりGIFのサイズを縮小します。",
+        "icon": "gif",
+        "href": "gif-compress",
+        "badge": "準備完了"
+      },
+      {
+        "title": "画像をアニメーション化",
+        "body": "複数の画像を1つのGIFにローカルで結合します。",
+        "icon": "burst_mode",
+        "href": "images-to-gif",
+        "badge": "後で"
+      }
+    ],
+    "ui": {
+      "badges": {
+        "smartOptimize": "スマート最適化",
+        "newFeature": "新規",
+        "supportsAnimation": "アニメーションGIF",
+        "freshIdea": "新しいアイデア"
+      },
+      "categories": [
+        [
+          "all",
+          "すべてのツール"
+        ],
+        [
+          "optimize",
+          "最適化"
+        ],
+        [
+          "edit",
+          "サイズ変更とトリミング"
+        ],
+        [
+          "convert",
+          "変換"
+        ],
+        [
+          "gif",
+          "GIF"
+        ],
+        [
+          "create",
+          "作成"
+        ]
+      ],
+      "gifTrim": {
+        "title": "GIFフレームをトリム",
+        "body": "画像の寸法を変更せずにGIFフレームの範囲を保持します。",
+        "icon": "content_cut",
+        "href": "gif-trim",
+        "badge": "新規"
+      },
+      "directory": [
+        {
+          "title": "圧縮と最適化",
+          "links": [
+            [
+              "画像圧縮",
+              "compress"
+            ],
+            [
+              "SVG 圧縮",
+              "compress/svg"
+            ],
+            [
+              "GIF 圧縮",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "サイズ変更",
+          "links": [
+            [
+              "画像のサイズ変更",
+              "resize"
+            ],
+            [
+              "パーセンテージでサイズ変更",
+              "resize/by-percentage"
+            ],
+            [
+              "最長辺でサイズ変更",
+              "resize/by-longest-side"
+            ],
+            [
+              "GIF のサイズ変更",
+              "resize/gif"
+            ]
+          ]
+        },
+        {
+          "title": "トリミングと回転",
+          "links": [
+            [
+              "画像のトリミング",
+              "crop"
+            ],
+            [
+              "GIF のトリミング",
+              "crop/gif"
+            ],
+            [
+              "円形アバターのトリミング",
+              "avatar-crop"
+            ],
+            [
+              "ID写真のトリミング",
+              "id-photo-crop"
+            ],
+            [
+              "回転と反転",
+              "rotate"
+            ]
+          ]
+        },
+        {
+          "title": "変換",
+          "links": [
+            [
+              "画像フォーマット変換",
+              "convert"
+            ],
+            [
+              "画像を JPG に",
+              "convert/image-to-jpg"
+            ],
+            [
+              "画像を PNG に",
+              "convert/image-to-png"
+            ],
+            [
+              "HEIC から JPG へ",
+              "convert-heic"
+            ],
+            [
+              "画像と Base64",
+              "base64"
+            ]
+          ]
+        },
+        {
+          "title": "GIF とアニメーション",
+          "links": [
+            [
+              "画像を GIF に",
+              "images-to-gif"
+            ],
+            [
+              "GIFフレームのトリミング",
+              "gif-trim"
+            ],
+            [
+              "GIFグリッチ",
+              "glitch-gif"
+            ],
+            [
+              "GIFコンプレッサー",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "クリエイティブツール",
+          "links": [
+            [
+              "画像に透かしを入れる",
+              "watermark"
+            ],
+            [
+              "画像を結合する",
+              "merge-images"
+            ],
+            [
+              "ピクセルアート",
+              "pixel-art"
+            ],
+            [
+              "カラーパレット",
+              "color-palette"
+            ],
+            [
+              "グリッチ画像",
+              "glitch-image"
+            ],
+            [
+              "GIFグリッチ",
+              "glitch-gif"
+            ]
+          ]
+        }
+      ],
+      "commonTasks": [
+        [
+          "ファイルサイズを削減",
+          "JPG、PNG、WebP、SVG、またはGIFファイルをウェブサイト、メール、ストレージ用に圧縮",
+          "compress"
+        ],
+        [
+          "プラットフォームサイズに合わせる",
+          "ピクセル、パーセンテージ、または長辺でサイズ変更し、アバターやID写真を準備",
+          "resize"
+        ],
+        [
+          "モバイルおよびウェブ用画像を変換",
+          "画像をJPGまたはPNGに変換、iPhoneのHEIC写真を含む",
+          "convert"
+        ],
+        [
+          "アニメーションを作成",
+          "GIFを圧縮またはトリミング、画像を組み合わせる、またはグリッチアニメーションを作成します。",
+          "images-to-gif"
+        ]
+      ],
+      "splitRouteTitles": {
+        "resize/by-percentage": "パーセンテージでリサイズ",
+        "resize/by-longest-side": "最長辺でリサイズ",
+        "resize/gif": "GIFをリサイズ",
+        "crop/gif": "GIFをクロップ",
+        "convert/image-to-jpg": "JPGへの画像変換",
+        "convert/image-to-png": "PNGへの画像変換",
+        "compress/svg": "SVGを圧縮"
+      },
+      "content": {
+        "introTitle": "ページを開くだけで、かんたん画像編集",
+        "introBody": "BEST4IMGは一般的な画像作業をまとめます: モバイル写真の変換、アバターの準備、製品画像の標準化、ウェブ資産の圧縮、または複数の画像からアニメーションを作成。それぞれのツールは1つの操作に焦点を当て、ダウンロード前に結果をプレビューします。",
+        "taskTitle": "必要な結果から始めましょう",
+        "taskBody": "より小さいファイルに圧縮したり、正確なピクセル要件に合わせてサイズ変更したり、画像の一部を保持するためにトリミングしたり、HEICの写真をより広い互換性のために変換したりできます。",
+        "directoryTitle": "すべての画像ツール",
+        "directoryBody": "特定の作業向けページを含む、利用可能なすべてのツール。"
+      },
+      "benefits": [
+        [
+          "shield_lock",
+          "ファイルはデバイス上に保存されます",
+          "サポートされる処理はブラウザで実行されるため、プライベートな写真や未公開の作品をアップロードする必要はありません。"
+        ],
+        [
+          "stacks",
+          "複数の画像を処理",
+          "一般的な圧縮、変換、回転、ウォーターマークのツールは最大50ファイルまで対応。"
+        ],
+        [
+          "visibility",
+          "まず結果を確認",
+          "エクスポート前に、トリミング領域、サイズ、ウォーターマーク、アニメーションのタイミング、クリエイティブ効果をプレビューします。"
+        ]
+      ],
+      "categoriesAria": "ツールカテゴリ",
+      "noResults": "一致するツールがありません"
+    }
+  },
+  "image-base64": {
+    "title": "画像 & Base64 コンバーター",
+    "subtitle": "ブラウザ内で画像とBase64をローカルで変換します。",
+    "encode": "画像をBase64に",
+    "decode": "Base64を画像に",
+    "dropTitle": "画像をドロップまたは選択",
+    "dropHint": "JPG、PNG、WebP、GIF、SVG、各最大10MB",
+    "settings": "出力",
+    "output": "Base64の結果",
+    "dataUrl": "Data URL",
+    "raw": "Base64のみ",
+    "cssUrl": "CSS URL()",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "empty": "画像をアップロードし、リストから選択します。",
+    "decodeInput": "Base64コンテンツ",
+    "decodePlaceholder": "Data URL、プレーンBase64、またはCSSのurl()をここに貼り付けてください",
+    "preview": "画像プレビュー",
+    "decodeHint": "画像フォーマットは自動的に検出されます。",
+    "invalid": "有効な画像データが検出されませんでした。",
+    "tooLarge": "デコードされた画像は20MBを超えています。",
+    "download": "画像をダウンロード",
+    "detected": "検出されました",
+    "errors": {
+      "oversize": "10MBの制限を超えています",
+      "unsupported": "サポートされていない画像フォーマット",
+      "read": "ファイルの読み取りに失敗しました"
+    }
+  },
+  "image-merge": {
+    "title": "画像を結合",
+    "subtitle": "背景にオーバーレイ画像を配置し、1つのローカル画像としてエクスポートします。",
+    "preview": "ライブプレビュー",
+    "settings": "マージ設定",
+    "background": "背景",
+    "overlay": "オーバーレイ",
+    "chooseBackground": "背景を選択",
+    "chooseOverlay": "オーバーレイを選択",
+    "output": "出力",
+    "width": "幅",
+    "height": "高さ",
+    "download": "ダウンロード",
+    "empty": "背景画像をアップロードして開始します。",
+    "errors": {
+      "oversize": "ファイルが10MBを超えています",
+      "unsupported": "サポートされていない画像形式です",
+      "load": "この画像を読み取ることができません",
+      "missing": "まず背景画像をアップロードしてください"
+    },
+    "ui": {
+      "previewScale": "プレビュー",
+      "zoomOut": "ズームアウト",
+      "reset": "リセット",
+      "zoomIn": "ズームイン",
+      "remove": "削除"
+    }
+  },
+  "images-to-gif": {
+    "title": "画像をアニメーションに変換",
+    "subtitle": "ブラウザで複数の画像をローカルでGIFに結合します。",
+    "dropTitle": "画像をドロップまたは選択",
+    "dropHint": "JPG, PNG, WebP, SVG、最大50ファイル",
+    "preview": "アニメーションプレビュー",
+    "settings": "アニメーション設定",
+    "width": "幅",
+    "height": "高さ",
+    "delay": "フレーム遅延",
+    "fit": "塗りつぶしモード",
+    "cover": "カバー",
+    "contain": "コンテイン",
+    "colors": "色",
+    "start": "作成 GIF",
+    "download": "ダウンロード GIF",
+    "reset": "画像を選択",
+    "source": "画像",
+    "output": "出力",
+    "frames": "フレーム",
+    "pending": "生成された GIF プレビューはここに表示されます。",
+    "errors": {
+      "oversize": "一部のファイルは10MBを超えています",
+      "unsupported": "一部のファイルはサポートされていません",
+      "load": "一部の画像を読み取れません",
+      "missing": "少なくとも2つの画像をアップロードしてください",
+      "process": "GIF の作成に失敗しました"
+    },
+    "ui": {
+      "upload": "画像をアップロード",
+      "presets": "サイズプリセット",
+      "custom": "カスタム",
+      "loop": "ループ",
+      "infinite": "無限",
+      "times": "再生回数",
+      "quality": "品質",
+      "high": "高",
+      "standard": "標準",
+      "compact": "最大圧縮",
+      "background": "背景",
+      "transparent": "透明",
+      "white": "白",
+      "black": "黒",
+      "colorSuffix": "色",
+      "moveUp": "上に移動",
+      "moveDown": "下に移動",
+      "delete": "削除"
+    }
+  },
+  "pixel-art": {
+    "title": "ドット絵",
+    "subtitle": "ブラウザ上で画像を鮮明なドット絵に変換します。",
+    "dropTitle": "画像をドラッグまたは選択",
+    "dropHint": "JPG、PNG、WebP、最大20MBまで",
+    "preview": "ライブプレビュー",
+    "settings": "ピクセル設定",
+    "pixelSize": "ピクセルサイズ",
+    "pixelHint": "大きなピクセルはより強いブロック効果を生みます。",
+    "scale": "エクスポートサイズ",
+    "colors": "色数",
+    "palette": "パレット",
+    "auto": "自動",
+    "gameboy": "ゲームボーイ",
+    "gray": "グレースケール",
+    "nes": "NESスタイル",
+    "output": "出力",
+    "download": "ダウンロード PNG",
+    "chooseAnother": "別の画像を選択",
+    "invalid": "サポートされていない画像形式",
+    "oversized": "画像が20MBを超えています"
+  },
+  "resize": {
+    "title": "画像のサイズ変更",
+    "subtitle": "ブラウザで JPG、PNG、WebP、およびアニメーション GIF ファイルを一緒にサイズ変更します。",
+    "dropTitle": "画像をドラッグまたは選択",
+    "dropHint": "JPG、PNG、WebP、GIF、最大50ファイル、各ファイル最大10MB",
+    "settings": "サイズ設定",
+    "percent": "パーセントで",
+    "longest": "最長辺",
+    "scale": "スケール",
+    "longestSide": "最長辺",
+    "longestHelp": "横長画像は幅を制限、縦長画像は高さを制限し、アスペクト比は維持されます。",
+    "start": "サイズ変更を開始",
+    "downloadAll": ".ZIPをすべてダウンロード",
+    "waiting": "待機中",
+    "processing": "処理中",
+    "completed": "完了",
+    "download": "ダウンロード",
+    "empty": "ここにプレビュー対象のサイズに合わせる画像を追加してください。",
+    "errors": {
+      "oversize": "10MBの制限を超えています",
+      "unsupported": "サポートされていない形式",
+      "read": "画像サイズを読み取れません",
+      "process": "画像のリサイズに失敗しました"
+    },
+    "ui": {
+      "summaryPercent": "{{count}} 画像は {{percent}}% にスケールされます。",
+      "summaryLongest": "{{count}} 画像は長辺が {{longest}}px 内に収まります。",
+      "gifTitle": "アニメーション GIF をリサイズ",
+      "percentTitle": "パーセンテージで画像をリサイズ",
+      "longestTitle": "長辺で画像をリサイズ",
+      "gifSubtitle": "フレーム、再生速度、ループを保持しつつ GIF のサイズをリサイズ",
+      "percentSubtitle": "JPG、PNG、WebP、そしてアニメーション付きGIFの画像をパーセンテージで拡大縮小します。",
+      "longestSubtitle": "長辺をピクセル単位で設定し、アスペクト比を変更せずに画像のサイズを変更します。",
+      "gifDropTitle": "アニメーション付きGIFをドロップまたは選択します",
+      "gifDropHint": "最大50個のGIFファイル、各ファイルは最大10MB"
+    }
+  },
+  "rotate": {
+    "title": "画像を回転および反転",
+    "subtitle": "ブラウザ上でバッチを回転またはミラーリングします。",
+    "dropTitle": "画像をドロップまたは選択",
+    "dropHint": "JPG、PNG、WebP、最大50ファイル、各ファイルは最大10MB",
+    "settings": "回転設定",
+    "rotate": "回転",
+    "flip": "反転",
+    "left": "左",
+    "right": "右",
+    "reset": "リセット",
+    "horizontal": "水平",
+    "vertical": "垂直",
+    "start": "処理を開始",
+    "downloadAll": ".ZIPをすべてダウンロード",
+    "waiting": "待機中",
+    "processing": "処理中",
+    "completed": "完了",
+    "download": "ダウンロード",
+    "empty": "回転または反転させたい画像をここに追加してください。",
+    "errors": {
+      "oversize": "10MBの制限を超えています",
+      "unsupported": "サポートされていない形式",
+      "read": "画像サイズの読み取りに失敗しました",
+      "process": "画像の処理に失敗しました"
+    },
+    "ui": {
+      "preview": "ライブプレビュー",
+      "add": "さらに画像を追加",
+      "empty": "回転と反転のプレビュー用に画像を追加してください。",
+      "summary": "{{count}} の画像は現在の回転および反転設定を使用します。"
+    }
+  },
+  "watermark": {
+    "title": "画像に透かしを追加",
+    "subtitle": "ブラウザ上でテキストまたは画像の透かしを追加します。",
+    "dropTitle": "画像をドロップするか、選択してください",
+    "dropHint": "JPG、PNG、WebP、最大50ファイル、各ファイル最大10MB",
+    "settings": "透かし設定",
+    "text": "テキスト",
+    "image": "画像",
+    "watermarkText": "透かしテキスト",
+    "chooseMark": "透かし画像を選択",
+    "size": "サイズ",
+    "opacity": "不透明度",
+    "color": "色",
+    "position": "位置",
+    "start": "透かしを追加",
+    "downloadAll": "すべてダウンロード (.ZIP)",
+    "waiting": "待機中",
+    "processing": "処理中",
+    "completed": "完了",
+    "download": "ダウンロード",
+    "empty": "ここに画像を追加して透かしをプレビューします。",
+    "preview": "ライブプレビュー",
+    "addMore": "画像をさらに追加",
+    "errors": {
+      "oversize": "10MBの制限を超えています",
+      "unsupported": "サポートされていない形式",
+      "read": "画像サイズを読み取れません",
+      "process": "透かしの追加に失敗しました",
+      "noWatermark": "まずウォーターマークのテキストまたは画像を追加"
+    },
+    "ui": {
+      "summary": "{{count}} の画像は現在のウォーターマークを使用します。",
+      "layout": "レイアウト",
+      "position": "位置",
+      "tile": "タイル",
+      "gap": "間隔",
+      "angle": "角度"
+    }
+  },
+  "common": {
+    "intensity": {
+      "light": "薄い",
+      "medium": "中",
+      "strong": "強い"
+    },
+    "tryAnother": "別のアイデアを試す",
+    "original": "オリジナル",
+    "originalSize": "オリジナルサイズ",
+    "preview": "ライブプレビュー",
+    "processing": "処理中…",
+    "invalidImages": "対応する画像を1つにつき最大20MBまで選択",
+    "loading": "読み込み中…",
+    "resizeCropBox": "切り抜きボックスをリサイズ"
+  },
+  "layout": {
+    "nav": {
+      "compress": "画像圧縮",
+      "resize": "リサイズ",
+      "crop": "切り抜き",
+      "convert": "変換",
+      "gif": "GIF メーカー",
+      "all": "すべてのツール"
+    },
+    "tools": [
+      "回転＆反転",
+      "HEIC から JPG",
+      "ウォーターマーク",
+      "画像の結合",
+      "GIF を圧縮",
+      "GIF フレームをトリミング",
+      "アバターの切り抜き",
+      "ID写真の切り抜き",
+      "画像 & Base64",
+      "ドット絵",
+      "カラーパレット",
+      "グリッチ画像",
+      "グリッチ GIF",
+      "SVG を圧縮"
+    ]
+  },
+  "svg-compress": {
+    "title": "SVG 圧縮器",
+    "subtitle": "アートワークを保持しながら、コメント、編集者メタデータ、および不要な空白を削除します。",
+    "drop": "SVG ファイルをドロップまたは選択",
+    "hint": "SVG のみ、最大 50 ファイル、各ファイル最大 10MB"
+  },
+  "gif-trim-ui": {
+    "playbackOrder": "再生順序",
+    "forward": "順再生",
+    "reverse": "逆再生",
+    "pingPong": "往復再生"
+  }
+}

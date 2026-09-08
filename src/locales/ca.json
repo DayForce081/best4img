@@ -1,0 +1,1428 @@
+{
+  "info": {
+    "about": {
+      "title": "Qui som",
+      "intro": "BEST4IMG és un conjunt d'eines d'imatge gratuïtes que prioritzen la velocitat, la privadesa i la facilitat d'ús. Volem que les feines habituals amb imatges no depenguin de programari complicat ni obliguin a pujar fotos personals a un servidor remot.",
+      "sections": [
+        {
+          "title": "Què fem",
+          "paragraphs": [
+            "El lloc ofereix eines per comprimir imatges, canviar-ne la mida, retallar-les, convertir formats, afegir marques d'aigua i crear GIF i efectes creatius. La majoria dels processos es fan directament al navegador amb Canvas, WebAssembly i Worker."
+          ]
+        },
+        {
+          "title": "Primer el processament local",
+          "paragraphs": [
+            "Un cop has triat la imatge, la feina es fa normalment al teu dispositiu. Les imatges no s'envien als nostres servidors per dur a terme aquestes operacions. Si tanques o actualitzes la pàgina, les previsualitzacions temporals que el navegador havia creat per a l'operació deixen d'estar disponibles."
+          ]
+        },
+        {
+          "title": "Principis del producte",
+          "paragraphs": [
+            "Prioritzem unes interaccions clares, resultats previsibles i un rendiment raonable. Les funcions noves només s'afegeixen quan funcionen bé en local i realment t'aporten alguna cosa."
+          ]
+        },
+        {
+          "title": "Pensat per a la feina quotidiana amb imatges",
+          "paragraphs": [
+            "Una imatge de perfil s'ha de retallar en cercle, un conjunt de fotos de producte ha de compartir mides, una captura de pantalla s'ha de fer més lleugera, unes quantes fotos s'han de convertir en un sol GIF. Són feines senzilles, però sovint obliguen a obrir programes diferents i a buscar cada vegada l'opció d'exportació. BEST4IMG vol reunir aquestes accions habituals en un lloc que et resulti familiar.",
+            "Pots triar l'eina segons la feina: comprimeix i converteix abans de publicar, ajusta i retalla abans de compondre, afegeix una marca d'aigua abans de compartir, o explora altres registres visuals amb l'art pixelat i els efectes glitch. Cada eina s'articula al voltant d'un resultat concret."
+          ]
+        },
+        {
+          "title": "Tria tu entre qualitat i mida",
+          "paragraphs": [
+            "Un fitxer més petit no sempre és un resultat millor. Les fotos, les captures de pantalla, les imatges amb transparència i els GIF tenen característiques pròpies i no sempre els convé el mateix format de sortida. Oferim les opcions adequades a cada eina i et deixem comprovar la mida, les zones transparents i l'aspecte visual abans de descarregar res.",
+            "El processament local també consumeix memòria i capacitat de càlcul del dispositiu. Les imatges molt grans, els GIF llargs o els lots amb molts fitxers poden trigar més. Treballar per lots, conservar els originals i descarregar els resultats de seguida fa que la feina de cada dia sigui més fiable."
+          ]
+        },
+        {
+          "title": "Millora contínua",
+          "paragraphs": [
+            "Els navegadors, els formats d'imatge i la potència dels dispositius varien, i això es nota en els resultats. Millorem contínuament la compatibilitat, la qualitat de la compressió i l'experiència d'ús, amb atenció als detalls que importen en una feina real: si l'entrada és còmoda, si la previsualització és clara i si el resultat és el que esperaves.",
+            "Fem servir components de codi obert per a part de la codificació i la descodificació d'imatges. Gràcies a ells, el navegador pot assumir tasques que abans requerien programari d'escriptori. Els drets i les llicències de cada component continuen sent dels seus autors."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Condicions del servei",
+      "intro": "Si fas servir BEST4IMG, acceptes aquestes condicions. Conserva una còpia dels fitxers originals abans de processar documents importants.",
+      "updated": "Última actualització: 5 de setembre de 2026",
+      "sections": [
+        {
+          "title": "Abast del servei",
+          "paragraphs": [
+            "BEST4IMG ofereix eines de tractament d'imatges al navegador tal com són. Les funcions, els formats admesos i els límits de processament poden canviar amb les actualitzacions del producte."
+          ]
+        },
+        {
+          "title": "Les teves responsabilitats",
+          "paragraphs": [
+            "Has de tenir dret a tractar i utilitzar les imatges que triïs. No pots fer servir el servei per vulnerar drets d'autor, la privadesa o altres drets legítims, ni per intentar espatllar el lloc web o perjudicar l'ús que en fan els altres."
+          ]
+        },
+        {
+          "title": "Drets sobre les imatges i autorització de tractament",
+          "paragraphs": [
+            "Els drets que tens sobre les imatges originals no es transfereixen a BEST4IMG pel fet de fer servir aquestes eines. No adquirim la titularitat de les imatges quan tries un fitxer, ni et demanem permís per exhibir-les públicament o per utilitzar-les en l'entrenament de models.",
+            "Afegir una marca d'aigua, retallar o canviar el format no et concedeix cap dret nou sobre obres d'altri. Quan hi hagi retrats, marques, obres protegides o dades personals, obtingues tu mateix les autoritzacions necessàries."
+          ]
+        },
+        {
+          "title": "Fitxers i dispositius",
+          "paragraphs": [
+            "Les eines tracten els fitxers al teu navegador: la velocitat i el volum que pots processar depenen de la memòria del dispositiu, del navegador i de la complexitat de la imatge. Les pàgines poden establir límits de quantitat, de mida de fitxer o de dimensions.",
+            "Si actualitzes la pàgina, tanques la pestanya o el navegador falla, pots perdre resultats que encara no hagis descarregat. El lloc web no és un servei d'emmagatzematge ni de còpia de seguretat: conserva els fitxers originals i desa al teu dispositiu els resultats que vulguis guardar."
+          ]
+        },
+        {
+          "title": "Resultats i disponibilitat",
+          "paragraphs": [
+            "Ateses les diferències en la codificació d'imatges, les implementacions dels navegadors i els recursos del dispositiu, no garantim que tots els fitxers es processin correctament ni que el resultat sigui apte per a impressió, arxiu o usos professionals concrets. Revisa el que hagis descarregat abans d'esborrar els originals."
+          ]
+        },
+        {
+          "title": "Formats, color i requisits específics",
+          "paragraphs": [
+            "La compressió amb pèrdua i la recodificació poden alterar detalls, colors, transparències o metadades. En convertir a JPG no s'admet el canal de transparència, i els GIF poden presentar diferències de paleta després del tractament. Les descripcions de qualitat de la pàgina no volen dir que tots els processos siguin sense pèrdua.",
+            "Les mides predefinides i les guies de posició de les eines d'imatge de perfil i de foto de carnet serveixen només per ajudar a compondre: no són cap certificació de la plataforma ni de l'organisme que rep el document. Abans de presentar-lo, comprova els requisits vigents de qui l'ha de rebre i verifica les mides, el fons, l'enquadrament i els límits del fitxer."
+          ]
+        },
+        {
+          "title": "Limitació de responsabilitat",
+          "paragraphs": [
+            "En la mesura que ho permet la llei, no assumim cap responsabilitat per la pèrdua de fitxers, les diferències en el resultat, les interrupcions del servei ni els perjudicis indirectes derivats de l'ús dels resultats obtinguts."
+          ]
+        },
+        {
+          "title": "Canvis en les condicions",
+          "paragraphs": [
+            "Podem actualitzar aquestes condicions per adaptar-les a noves funcions o a requisits legals. La versió vigent es publicarà en aquesta pàgina amb la nova data d'actualització."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Política de privadesa",
+      "intro": "BEST4IMG aposta pel tractament local de les imatges. A continuació t'expliquem com tracta el lloc les teves imatges i la informació tècnica imprescindible quan fas servir les eines.",
+      "updated": "Última actualització: 5 de setembre de 2026",
+      "sections": [
+        {
+          "title": "Com es tracten les imatges",
+          "paragraphs": [
+            "Les imatges que tries, en general, només es llegeixen i es processen a la pestanya actual del navegador. No enviem el contingut de les imatges a cap servidor per dur a terme operacions com comprimir, retallar o convertir."
+          ]
+        },
+        {
+          "title": "Dades temporals al navegador",
+          "paragraphs": [
+            "El lloc pot crear a la memòria previsualitzacions, resultats i adreces d'objectes temporals, i pot desar preferències necessàries —com l'idioma— a l'emmagatzematge local. Aquestes dades les gestiona el teu navegador i poden desaparèixer si actualitzes la pàgina, la tanques o esborres les dades del lloc."
+          ]
+        },
+        {
+          "title": "Preferència d'idioma i fitxers descarregats",
+          "paragraphs": [
+            "Quan canvies d'idioma, el lloc desa la llengua seleccionada a l'emmagatzematge local del navegador per recuperar-la en la propera visita. Aquesta preferència no inclou el teu nom, ni la teva adreça electrònica ni el contingut de les imatges, i pots esborrar-la des de la configuració del navegador.",
+            "Les imatges i els fitxers ZIP descarregats els desa el navegador allà on tu indiquis. Tancar la pàgina o esborrar les dades d'aquest lloc no suprimeix aquests fitxers ni les imatges originals que havies triat."
+          ]
+        },
+        {
+          "title": "Informació tècnica bàsica",
+          "paragraphs": [
+            "El servei d'allotjament pot registrar dades bàsiques com l'hora d'accés, l'adreça sol·licitada, el tipus de navegador, l'adreça de xarxa i els registres d'errors, amb finalitats de seguretat, estabilitat i diagnòstic. Aquests registres no contenen el contingut de les imatges que processis localment."
+          ]
+        },
+        {
+          "title": "Tipus de lletra, recursos del programa i enllaços externs",
+          "paragraphs": [
+            "Aquesta pàgina fa servir tipus de lletra i icones de Google Fonts. En carregar aquests recursos, el navegador fa peticions a dominis de tercers, que poden rebre les dades tècniques necessàries per a la connexió, com l'adreça de xarxa o informació del navegador. Aquestes peticions no inclouen les imatges que hagis triat.",
+            "Els components de codificació d'imatges i altres recursos del programa també s'han de carregar al navegador, i algunes eines els carreguen només quan els fas servir. Per tant, el tractament local no vol dir que el lloc no faci cap petició de xarxa. Els llocs externs són responsables del tractament que fan de les seves pròpies dades."
+          ]
+        },
+        {
+          "title": "Dades personals a les imatges",
+          "paragraphs": [
+            "Les fotos poden contenir cares, adreces, dades de documents oficials o metadades com la data i el lloc de la captura. Que el tractament es faci en local no vol dir que el fitxer descarregat estigui lliure de tota informació sensible: revisa el contingut visible i les dades del fitxer abans de compartir-lo.",
+            "Si fas servir les eines en un dispositiu compartit, vigila també la carpeta de baixades, les extensions del navegador i els permisos del propi dispositiu. Aquesta política explica com tractem les dades en aquest lloc; no podem controlar el comportament de la resta de programes del teu equip."
+          ]
+        },
+        {
+          "title": "Abast de la política i actualitzacions",
+          "paragraphs": [
+            "Aquesta política s'aplica a les eines d'imatge que BEST4IMG ofereix actualment. El termini real de conservació dels registres d'accés del servidor depèn de la configuració de desplegament i allotjament, i aquesta pàgina no promet cap període uniforme que no puguem verificar.",
+            "Si en el futur s'afegeixen comptes d'usuari, estadístiques o funcions que requereixin tractament al servidor, s'explicaran aleshores les finalitats de les dades i les opcions disponibles. Els canvis importants es reflectiran en la data d'actualització d'aquesta pàgina."
+          ]
+        },
+        {
+          "title": "Les teves opcions",
+          "paragraphs": [
+            "Pots deixar de processar, tancar la pàgina o esborrar les dades locals d'aquest lloc des de la configuració del navegador en qualsevol moment. No deixis resultats amb imatges sensibles en dispositius compartits que no siguin de confiança."
+          ]
+        }
+      ]
+    },
+    "ui": {
+      "eyebrow": "Eines d'imatge gratuïtes",
+      "highlights": {
+        "about": [
+          [
+            "devices",
+            "El tractament es queda al dispositiu",
+            "El navegador fa la feina amb les imatges"
+          ],
+          [
+            "photo_library",
+            "Cobreix les tasques habituals",
+            "De la compressió i el retall als efectes creatius"
+          ],
+          [
+            "download",
+            "Els resultats els deses tu",
+            "Quan acaba, decideixes tu si els baixes"
+          ]
+        ],
+        "privacy": [
+          [
+            "image",
+            "Les imatges es tracten en local",
+            "Les eines no exigeixen pujar-les"
+          ],
+          [
+            "language",
+            "La pàgina carrega recursos per xarxa",
+            "Programa, tipus de lletra i icones"
+          ],
+          [
+            "tune",
+            "Les dades locals les gestiones tu",
+            "Pots esborrar l'idioma des del navegador"
+          ]
+        ],
+        "terms": [
+          [
+            "copyright",
+            "Els drets de les imatges són del titular",
+            "Comprova els permisos abans de processar"
+          ],
+          [
+            "verified",
+            "Revisa el resultat abans de baixar-lo",
+            "Verifica'n la mida, els colors i l'ús previst"
+          ],
+          [
+            "save",
+            "Conserva els fitxers originals",
+            "Les eines no fan còpies de seguretat"
+          ]
+        ]
+      },
+      "tagline": "Tractar imatges, tan senzill com hauria de ser.",
+      "explore": "Descobreix les eines d'imatge"
+    }
+  },
+  "site": {
+    "siteName": "BEST4IMG",
+    "seo": {
+      "title": "BEST4IMG | Compressor local d'imatges JPG, PNG, WebP i SVG",
+      "description": "Comprimeix imatges JPG, PNG, WebP i SVG directament al navegador, sense pujar-les a cap servidor. Pensat per a materials web, captures de pantalla, fotografies de comerç electrònic i comparticions quotidianes, amb tractament per lots."
+    },
+    "nav": {
+      "ariaLabel": "Selecciona l'idioma",
+      "current": "Català",
+      "options": [
+        {
+          "code": "en",
+          "label": "English"
+        },
+        {
+          "code": "es",
+          "label": "Español"
+        },
+        {
+          "code": "fr",
+          "label": "Français"
+        },
+        {
+          "code": "de",
+          "label": "Deutsch"
+        },
+        {
+          "code": "it",
+          "label": "Italiano"
+        },
+        {
+          "code": "pt",
+          "label": "Português"
+        },
+        {
+          "code": "ja",
+          "label": "日本語"
+        },
+        {
+          "code": "ru",
+          "label": "Pусский"
+        },
+        {
+          "code": "ko",
+          "label": "한국어"
+        },
+        {
+          "code": "zh",
+          "label": "简体中文"
+        },
+        {
+          "code": "zh-tw",
+          "label": "繁體中文"
+        },
+        {
+          "code": "ar",
+          "label": "العربية"
+        },
+        {
+          "code": "bg",
+          "label": "Български"
+        },
+        {
+          "code": "ca",
+          "label": "Català"
+        },
+        {
+          "code": "nl",
+          "label": "Nederlands"
+        },
+        {
+          "code": "el",
+          "label": "Ελληνικά"
+        },
+        {
+          "code": "hi",
+          "label": "हिन्दी"
+        },
+        {
+          "code": "id",
+          "label": "Bahasa Indonesia"
+        },
+        {
+          "code": "ms",
+          "label": "Bahasa Melayu"
+        },
+        {
+          "code": "pl",
+          "label": "Polski"
+        },
+        {
+          "code": "sv",
+          "label": "Svenska"
+        },
+        {
+          "code": "th",
+          "label": "ภาษาไทย"
+        },
+        {
+          "code": "tr",
+          "label": "Türkçe"
+        },
+        {
+          "code": "uk",
+          "label": "Українська"
+        },
+        {
+          "code": "vi",
+          "label": "Tiếng Việt"
+        },
+        {
+          "code": "sw",
+          "label": "Kiswahili"
+        }
+      ],
+      "tools": {
+        "compressor": "Compressió d'imatges",
+        "heicConverter": "HEIC a JPG"
+      }
+    },
+    "heicConverter": {
+      "heroTitle": "HEIC a JPG",
+      "heroSubtitle": "Converteix per lots les teves fotos HEIC d'Apple directament al navegador",
+      "dropTitle": "Arrossega o tria imatges HEIC",
+      "dropHint": "Fins a 50 imatges, de 50 MB com a màxim cadascuna",
+      "downloadAll": "Descarrega-ho tot en .ZIP",
+      "zipName": "BEST4IMG-converted.zip",
+      "formatJpg": "JPG",
+      "formatPng": "PNG",
+      "statuses": {
+        "converting": "Convertint...",
+        "waiting": "En espera...",
+        "completed": "Fet",
+        "error": "Error"
+      },
+      "errors": {
+        "exceedsLimit": "Error: el fitxer supera els 50 MB",
+        "unsupportedFormat": "Error: format no admès",
+        "failedToProcess": "No s'ha pogut processar"
+      },
+      "actions": {
+        "download": "Descarrega"
+      },
+      "content": {
+        "hero": {
+          "title": "Converteix HEIC en local\nImmediat, privat i sense pujar res",
+          "subtitle": "Sense registre, sense passar per cap servidor i sense els límits de mida d'un sistema extern. Totes les conversions es fan al teu navegador amb WebAssembly."
+        },
+        "featureCards": [
+          {
+            "icon": "lock",
+            "title": "Privadesa total: els fitxers no surten del teu dispositiu",
+            "body": "La descodificació HEIC i la codificació JPG es fan íntegrament dins de la pestanya del navegador. Les fotos no s'envien a cap servidor remot, així que pots tractar àlbums personals, imatges mèdiques o documents sensibles amb tota tranquil·litat."
+          },
+          {
+            "icon": "bolt",
+            "title": "Conversió per lots amb cua seqüencial",
+            "body": "Pots arrossegar fins a 50 fitxers HEIC de cop i el sistema els processa l'un rere l'altre. Aquesta cua ordenada evita que el navegador s'encalli amb les fotos HEIC de gran mida fetes amb l'iPhone o l'iPad."
+          },
+          {
+            "icon": "image",
+            "title": "Sortida amb la resolució original",
+            "body": "El JPG resultant conserva les dimensions en píxels de l'original: no s'escala ni es remostreja. La resolució de sortida és la de la presa, però en un format que qualsevol dispositiu o aplicació pot obrir."
+          }
+        ],
+        "underHood": {
+          "eyebrow": "Detalls tècnics",
+          "title": "Les capacitats que fan possible aquesta conversió d'HEIC a JPG.",
+          "cards": [
+            {
+              "title": "Descodificació amb heic2any i WebAssembly",
+              "body": "Els fitxers HEIC fan servir el contenidor HEIF d'Apple i la codificació HEVC (H.265). La biblioteca heic2any empra un descodificador compilat a WebAssembly dins del navegador per convertir aquest format propietari en dades d'imatge estàndard, sense recórrer a cap interfície nativa del sistema."
+            },
+            {
+              "title": "Processament seqüencial d'un sol fitxer",
+              "body": "Descodificar HEIC consumeix més CPU que descodificar PNG o JPEG. Processant un fitxer a la vegada evitem sobrecarregar el fil principal i mantenim la pàgina fluida durant les conversions per lots."
+            }
+          ]
+        }
+      },
+      "settings": {
+        "title": "Output settings",
+        "quality": "JPG quality",
+        "qualityHint": "Higher quality creates a larger JPG.",
+        "orientation": "Orientation",
+        "orientationAuto": "Correct automatically",
+        "orientationHint": "Uses the displayed shooting orientation.",
+        "metadata": "Metadata",
+        "metadataRemoved": "Removed automatically",
+        "metadataHint": "EXIF and GPS data are not copied to the JPG."
+      }
+    },
+    "compressor": {
+      "heroTitle": "Eina de compressió d'imatges",
+      "heroSubtitle": "Gratuïta per a JPG, PNG, WebP i SVG, perquè cada compressió mantingui la millor qualitat possible",
+      "dropTitle": "Arrossega les imatges o fes clic per triar-les",
+      "dropHint": "Fins a 50 imatges, de 10 MB com a màxim cadascuna",
+      "downloadAll": "Descarrega-ho tot en .ZIP",
+      "zipName": "BEST4IMG-compressed.zip",
+      "statuses": {
+        "compressing": "Comprimint...",
+        "waiting": "En espera...",
+        "completed": "Fet",
+        "error": "Error"
+      },
+      "errors": {
+        "exceedsLimit": "Error: el fitxer supera els 10 MB",
+        "unsupportedFormat": "Error: format no admès",
+        "failedToProcess": "No s'ha pogut processar el fitxer"
+      },
+      "actions": {
+        "download": "Descarrega"
+      }
+    },
+    "hero": {
+      "title": "Compressor d'imatges en local per a\nJPG, PNG, WebP i SVG",
+      "subtitle": "Redueix el pes de les imatges per a llocs web, documents, comerç electrònic i comparticions de cada dia, mantenint un aspecte tan natural com sigui possible."
+    },
+    "featureCards": [
+      {
+        "type": "compare",
+        "title": "Text més nítid i vores transparents més netes",
+        "body": "Molts compressors esborronen la lletra petita i embruten les vores quan tracten captures de pantalla, imatges d'interfície o PNG amb transparència. BEST4IMG té cura d'aquests detalls i, tot i reduir el pes de manera notable, procura mantenir nets el text i les vores."
+      },
+      {
+        "type": "image",
+        "title": "100 % en local, més tranquil·litat",
+        "body": "Tots els tractaments i compressions es fan al teu navegador, sense pujar res a servidors remots. Per a materials interns, documents personals o contingut sensible, aquest enfocament local dóna molta més tranquil·litat."
+      }
+    ],
+    "autopilot": {
+      "title": "Optimització automàtica: no cal endevinar els paràmetres",
+      "body": "Oblida't de moure el control de qualitat una vegada i una altra. BEST4IMG avalua automàticament quina via de compressió convé més i rebaixa el pes del fitxer al màxim sense que la imatge deixi de semblar natural."
+    },
+    "underHood": {
+      "eyebrow": "Detalls tècnics",
+      "title": "Les capacitats que fan possible aquesta compressió.",
+      "cards": [
+        {
+          "title": "Quantització de PNG amb prioritat a les vores",
+          "body": "Basada en una versió personalitzada de libimagequant compilada a WebAssembly, en comprimir PNG dóna prioritat a les vores d'alta freqüència, de manera que es redueixen les taques i el tremolor a les vores de les imatges transparents, les interfícies i les icones."
+        },
+        {
+          "title": "Estratègia més conservadora per a JPEG gràfics",
+          "body": "Quan detecta contingut que s'assembla més a una imatge d'interfície o a una composició de text i gràfics, aplica un tractament de la croma més conservador, per evitar que la compressió pròpia de les fotografies espatlli la lletra petita i les vores nítides."
+        },
+        {
+          "title": "Descodificació amb OffscreenCanvas i Worker",
+          "body": "La descodificació de la imatge i l'extracció de píxels s'han traslladat a un Web Worker mitjançant OffscreenCanvas, per afectar el menys possible la fluïdesa de la interacció al fil principal quan es tracten imatges grans."
+        },
+        {
+          "title": "Control de pes i mecanisme de reculada",
+          "body": "Si el resultat comprimit acaba sent més gran, el sistema no l'emet a cegues: recorre a una via més segura i, si cal, et torna directament la imatge original."
+        }
+      ]
+    },
+    "footer": {
+      "left": [
+        "© 2026 BEST4IMG.COM",
+        "Tractament només al navegador"
+      ],
+      "links": [
+        "Qui som",
+        "Condicions del servei",
+        "Política de privadesa"
+      ]
+    },
+    "compare": {
+      "original": "Original",
+      "compressed": "BEST4IMG",
+      "before": "Abans de comprimir / original",
+      "after": "Després de comprimir / BEST4IMG"
+    }
+  },
+  "crop": {
+    "title": "Retalla una imatge",
+    "subtitle": "Arrossega el marc de retall o introdueix valors exactes en píxels. Tot el procés es fa localment al navegador.",
+    "dropTitle": "Arrossega una imatge o fes clic per triar-la",
+    "dropHint": "S'admeten JPG, PNG, WebP i GIF, fins a 10 MB per imatge",
+    "settings": "Configuració del retall",
+    "cropBox": "Àrea de retall",
+    "width": "Amplada",
+    "height": "Alçada",
+    "ratios": {
+      "original": "Proporció original"
+    },
+    "reset": "Restableix",
+    "crop": "Retalla la imatge",
+    "download": "Descarrega",
+    "replace": "Tria una altra imatge",
+    "ready": "El retall ja està a punt.",
+    "errors": {
+      "oversize": "El fitxer supera els 10 MB",
+      "unsupported": "Format no admès",
+      "read": "No s'ha pogut llegir la imatge",
+      "crop": "No s'ha pogut retallar la imatge"
+    }
+  },
+  "crop-gif": {
+    "title": "Retalla un GIF",
+    "subtitle": "Arrossega el marc de retall per triar quina part del quadre conserves; en exportar, es mantenen els fotogrames i la velocitat de reproducció.",
+    "dropTitle": "Arrossega un GIF o fes clic per triar-ne un",
+    "dropHint": "Només s'admeten GIF, fins a 10 MB cadascun"
+  },
+  "glitch-gif": [
+    "Generador de GIF glitch",
+    "Fes que l'efecte glitch canviï a cada fotograma i obtén un GIF en bucle infinit.",
+    "Arrossega una imatge o fes clic per triar-la",
+    "S'admeten JPG, PNG i WebP, fins a 20 MB per imatge",
+    "Previsualització del GIF",
+    "Tria una altra imatge",
+    "Configuració del GIF",
+    "Tipus d'efecte",
+    "Intensitat",
+    "Velocitat de l'animació",
+    "Durada de l'animació",
+    "Mida de sortida",
+    "Genera el GIF",
+    "Generant…",
+    "Descarrega el GIF",
+    "No s'ha pogut generar: prova amb una mida més petita o una durada més curta."
+  ],
+  "avatar-crop": {
+    "title": "Retall d'imatge de perfil i de foto de carnet",
+    "subtitle": "Enquadra la foto segons els requisits de les xarxes socials o del carnet i exporta un PNG en local.",
+    "dropTitle": "Arrossega un retrat o fes clic per triar una imatge",
+    "dropHint": "S'admeten JPG, PNG i WebP, fins a 20 MB per imatge",
+    "preview": "Previsualització en directe",
+    "replace": "Tria una altra imatge",
+    "presets": "Ús i mida",
+    "guide": "Guia de posició del retrat",
+    "zoom": "Escala de la foto",
+    "reset": "Restableix",
+    "export": "Genera el PNG",
+    "download": "Descarrega el PNG",
+    "ready": "El PNG ja està a punt",
+    "dragHint": "Arrossega la foto per ajustar-ne la posició",
+    "unsupported": "Format d'imatge no admès",
+    "oversize": "El fitxer supera els 20 MB",
+    "ui": {
+      "avatarTitle": "Retall d'imatge de perfil rodona",
+      "idTitle": "Retall de foto de carnet",
+      "avatarSubtitle": "Crea una imatge de perfil rodona en PNG amb el fons transparent.",
+      "idSubtitle": "Ajusta la mida i la posició del retrat segons els requisits del carnet.",
+      "cropSettings": "Configuració del retall",
+      "outputSize": "Mida de sortida",
+      "preset": "Preajust",
+      "createDownload": "Genera i descarrega el PNG",
+      "avatarLabel": "Imatge de perfil",
+      "transparentPng": "PNG transparent",
+      "idPresets": [
+        {
+          "id": "standard-passport",
+          "label": "Foto de passaport",
+          "detail": "35 × 45 mm · 413 × 531 px",
+          "width": 413,
+          "height": 531,
+          "headTop": 0.08,
+          "chin": 0.8
+        },
+        {
+          "id": "us-passport",
+          "label": "U.S. passport",
+          "detail": "2 × 2 in · 600 × 600 px",
+          "width": 600,
+          "height": 600,
+          "headTop": 0.12,
+          "chin": 0.78
+        },
+        {
+          "id": "ca-passport",
+          "label": "Canada passport",
+          "detail": "50 × 70 mm · 591 × 827 px",
+          "width": 591,
+          "height": 827,
+          "headTop": 0.14,
+          "chin": 0.66
+        }
+      ],
+      "resizeCropArea": "Ajusta l'àrea de retall",
+      "avatarPresets": [
+        {
+          "size": 200,
+          "label": "Discord / Slack"
+        },
+        {
+          "size": 300,
+          "label": "Microsoft Teams"
+        },
+        {
+          "size": 400,
+          "label": "Instagram / Facebook / X / LinkedIn"
+        },
+        {
+          "size": 460,
+          "label": "GitHub"
+        },
+        {
+          "size": 480,
+          "label": "YouTube"
+        },
+        {
+          "size": 640,
+          "label": "High-resolution profile"
+        }
+      ],
+      "presetNote": "Sizes are cropping references. Check the latest requirements with the issuing authority before submitting."
+    }
+  },
+  "color-palette": {
+    "title": "Extracció de colors i paleta",
+    "subtitle": "Extreu els colors dominants reutilitzables d'una imatge. Tot el procés es fa localment al navegador.",
+    "dropTitle": "Arrossega o tria una imatge",
+    "dropHint": "S'admeten JPG, PNG i WebP, fins a 20 MB",
+    "preview": "Previsualització de la imatge",
+    "settings": "Configuració de la paleta",
+    "count": "Nombre de colors",
+    "colors": "Colors extrets",
+    "clickToCopy": "Fes clic en una mostra per copiar-ne el valor HEX",
+    "copied": "Copiat",
+    "output": "Sortida de codi",
+    "css": "Variables CSS",
+    "tailwind": "Tailwind",
+    "copyCode": "Copia el codi",
+    "download": "Descarrega la paleta en PNG",
+    "chooseAnother": "Tria una altra imatge",
+    "invalid": "Format d'imatge no admès",
+    "oversized": "La imatge supera els 20 MB"
+  },
+  "format-converter": {
+    "title": "Conversió de formats d'imatge",
+    "subtitle": "Converteix entre JPG, PNG i WebP; tot el procés es fa localment al navegador.",
+    "dropTitle": "Arrossega les imatges o fes clic per triar-les",
+    "dropHint": "S'admeten JPG, PNG i WebP, fins a 50 imatges de 10 MB com a màxim cadascuna",
+    "settings": "Configuració de la conversió",
+    "targetFormat": "Format de destinació",
+    "jpgHelp": "En convertir a JPG, les zones transparents es tornen blanques automàticament.",
+    "start": "Inicia la conversió",
+    "downloadAll": "Descarrega-ho tot en .ZIP",
+    "waiting": "En espera",
+    "processing": "Convertint",
+    "completed": "Fet",
+    "download": "Descarrega",
+    "empty": "Afegeix imatges i podràs convertir-les totes de cop.",
+    "errors": {
+      "oversize": "El fitxer supera els 10 MB",
+      "unsupported": "Format no admès",
+      "read": "No s'han pogut llegir les dimensions de la imatge",
+      "process": "No s'ha pogut convertir la imatge"
+    },
+    "ui": {
+      "summary": "{{count}} imatges es convertiran a {{format}}.",
+      "fixedTitle": "Converteix imatges a {{format}}",
+      "fixedSubtitle": "Puja imatges JPG, PNG o WebP i converteix-les automàticament a {{format}} per lots."
+    }
+  },
+  "gif-compress": {
+    "title": "Compressió de GIF",
+    "subtitle": "Comprimeix GIF al navegador reduint l'escala, els fotogrames i el nombre de colors.",
+    "dropTitle": "Arrossega un GIF o fes clic per triar-lo",
+    "dropHint": "Només s'admeten GIF, fins a 20 MB",
+    "preview": "Previsualització en directe",
+    "settings": "Configuració del GIF",
+    "scale": "Escala",
+    "frames": "Fotogrames per segon",
+    "colors": "Nombre de colors",
+    "start": "Comprimeix el GIF",
+    "download": "Descarrega",
+    "reset": "Tria un altre GIF",
+    "original": "Original",
+    "output": "Comprimit",
+    "ready": "El GIF comprimit ja està a punt.",
+    "pending": "La previsualització apareixerà aquí després de comprimir.",
+    "errors": {
+      "oversize": "El fitxer supera els 20 MB",
+      "unsupported": "Puja un fitxer GIF",
+      "process": "No s'ha pogut comprimir el GIF",
+      "tooManyFrames": "Aquest GIF té massa fotogrames; de moment no es pot processar en aquesta versió"
+    }
+  },
+  "gif-trim": [
+    "Retall de fotogrames del GIF",
+    "Retalla un fragment del GIF indicant el fotograma inicial i el final, conservant les dimensions originals del quadre.",
+    "Arrossega un GIF o fes clic per triar-ne un",
+    "Només s'admeten GIF, fins a 20 MB",
+    "Previsualització dels fotogrames",
+    "Tria un altre GIF",
+    "Configuració del retall",
+    "Fotograma inicial",
+    "Fotograma final",
+    "Fotogrames conservats",
+    "Genera la previsualització",
+    "Descarrega el GIF",
+    "Processant…",
+    "Tria un GIF vàlid (de 20 MB com a màxim) amb un quadre que no superi els 16 milions de píxels.",
+    "No s'ha pogut processar: prova amb un GIF més petit.",
+    "Després del retall",
+    "Fotograma actual",
+    "Durada de la reproducció",
+    "Tots els fotogrames",
+    "mil·lisegons",
+    "Modifica l'interval entre fotogrames per lots",
+    "Aplica-ho als fotogrames conservats"
+  ],
+  "glitch-image": {
+    "title": "Generador d'imatges glitch",
+    "subtitle": "Crea efectes de separació de color, desplaçament de la imatge, soroll i línies d'escaneig.",
+    "dropTitle": "Arrossega o tria diverses imatges",
+    "dropHint": "S'admeten JPG, PNG i WebP, fins a 50 imatges de 20 MB com a màxim cadascuna",
+    "preview": "Previsualització en directe",
+    "replace": "Afegeix imatges",
+    "settings": "Configuració",
+    "effectType": "Tipus d'efecte",
+    "intensity": "Intensitat",
+    "download": "Descarrega la imatge actual",
+    "effects": {
+      "rgb": {
+        "title": "Separació RGB",
+        "body": "Canals de color separats"
+      },
+      "shift": {
+        "title": "Desplaçament de píxels",
+        "body": "Línies aleatòries desplaçades"
+      },
+      "blocks": {
+        "title": "Blocs desplaçats",
+        "body": "Fragments de la imatge desalineats"
+      },
+      "stripes": {
+        "title": "Franges digitals",
+        "body": "Interferències de color"
+      },
+      "noise": {
+        "title": "Soroll simulat",
+        "body": "Soroll de senyal antic"
+      },
+      "wave": {
+        "title": "Distorsió d'ona",
+        "body": "Oscil·lació del senyal"
+      },
+      "mirror": {
+        "title": "Mirall",
+        "body": "Reflexió simètrica"
+      },
+      "scanlines": {
+        "title": "Línies d'escaneig",
+        "body": "Efecte CRT vintage"
+      }
+    }
+  },
+  "home": {
+    "title": "Eines d'imatge gratuïtes i en local",
+    "subtitle": "Processa, converteix i exporta imatges des del navegador.",
+    "tools": [
+      {
+        "title": "Comprimeix imatges",
+        "body": "Comprimeix JPG, PNG, WebP i SVG en local, amb la millor qualitat possible en cada compressió.",
+        "icon": "compress",
+        "href": "compress",
+        "badge": "Disponible"
+      },
+      {
+        "title": "Canvia la mida",
+        "body": "Canvia la mida de JPG, PNG, WebP i GIF per lots i conserva l'animació.",
+        "icon": "photo_size_select_large",
+        "href": "resize",
+        "badge": "Prioritat 1"
+      },
+      {
+        "title": "Retalla imatges",
+        "body": "Pots arrossegar el marc de retall o introduir valors exactes en píxels.",
+        "icon": "crop",
+        "href": "crop",
+        "badge": "Prioritat 1"
+      },
+      {
+        "title": "Retall d'imatge de perfil rodona",
+        "body": "Crea una imatge de perfil rodona en PNG amb el fons transparent i l'amplada que vulguis.",
+        "icon": "account_circle",
+        "href": "avatar-crop",
+        "badge": "Novetat"
+      },
+      {
+        "title": "Retall de foto de carnet",
+        "body": "Ajusta la posició del retrat segons els formats d'una polzada, de dues polzades o de passaport.",
+        "icon": "badge",
+        "href": "id-photo-crop",
+        "badge": "Novetat"
+      },
+      {
+        "title": "Generador d'imatges glitch",
+        "body": "Combina a l'atzar blocs de color, franges, soroll i distorsions: cada recàrrega dóna un resultat diferent.",
+        "icon": "blur_on",
+        "href": "glitch-image",
+        "badge": "Novetat"
+      },
+      {
+        "title": "Generador de GIF glitch",
+        "body": "Fes evolucionar la separació de color, el soroll, les franges i la distorsió per crear un GIF en bucle.",
+        "icon": "movie_filter",
+        "href": "glitch-gif",
+        "badge": "Novetat"
+      },
+      {
+        "title": "Gira / inverteix",
+        "body": "Gira i fes mirall per lots, i exporta els resultats en local.",
+        "icon": "rotate_right",
+        "href": "rotate",
+        "badge": "Prioritat 1"
+      },
+      {
+        "title": "Conversió de formats",
+        "body": "Converteix entre JPG, PNG i WebP amb la mateixa lògica d'exportació local.",
+        "icon": "sync_alt",
+        "href": "convert",
+        "badge": "Prioritat 1"
+      },
+      {
+        "title": "HEIC a JPG",
+        "body": "Descodifica amb WebAssembly en local per passar els HEIC de l'iPhone a JPG.",
+        "icon": "image",
+        "href": "convert-heic",
+        "badge": "Disponible"
+      },
+      {
+        "title": "Afegeix una marca d'aigua",
+        "body": "Afegeix marques d'aigua de text o d'imatge; la posició, l'opacitat i l'exportació es gestionen en local.",
+        "icon": "branding_watermark",
+        "href": "watermark",
+        "badge": "Prioritat 2"
+      },
+      {
+        "title": "Combina imatges",
+        "body": "Puja una imatge de fons i una de superposició i compon una imatge nova en local.",
+        "icon": "layers",
+        "href": "merge-images",
+        "badge": "Disponible"
+      },
+      {
+        "title": "Imatges i Base64",
+        "body": "Converteix imatges a Base64 i a l'inrevés, amb previsualització i descàrrega locals.",
+        "icon": "code_blocks",
+        "href": "base64",
+        "badge": "Prioritat 2"
+      },
+      {
+        "title": "Eina d'art pixelat",
+        "body": "Ajusta la mida del píxel, el factor d'ampliació, el nombre de colors i la paleta fixa.",
+        "icon": "grid_on",
+        "href": "pixel-art",
+        "badge": "Disponible"
+      },
+      {
+        "title": "Extracció de colors i paleta",
+        "body": "Extreu els colors dominants de la imatge i copia'ls com a HEX, variables CSS o configuració de Tailwind.",
+        "icon": "palette",
+        "href": "color-palette",
+        "badge": "Disponible"
+      },
+      {
+        "title": "Compressió de GIF",
+        "body": "Comprimeix GIF en local reduint l'escala, els fotogrames i el nombre de colors.",
+        "icon": "gif",
+        "href": "gif-compress",
+        "badge": "Disponible"
+      },
+      {
+        "title": "Uneix imatges en un GIF",
+        "body": "Uneix diverses imatges en un sol GIF animat, en l'ordre que triïs.",
+        "icon": "burst_mode",
+        "href": "images-to-gif",
+        "badge": "Més endavant"
+      }
+    ],
+    "ui": {
+      "badges": {
+        "smartOptimize": "Optimització automàtica",
+        "newFeature": "Novetat",
+        "supportsAnimation": "Admet animacions",
+        "freshIdea": "Prova una idea nova"
+      },
+      "categories": [
+        [
+          "all",
+          "Totes les eines"
+        ],
+        [
+          "optimize",
+          "Compressió i optimització"
+        ],
+        [
+          "edit",
+          "Mida i retall"
+        ],
+        [
+          "convert",
+          "Conversió de formats"
+        ],
+        [
+          "gif",
+          "GIF"
+        ],
+        [
+          "create",
+          "Creativitat i utilitat"
+        ]
+      ],
+      "gifTrim": {
+        "title": "Retall de fotogrames del GIF",
+        "body": "Retalla un fragment del GIF indicant el fotograma inicial i el final, conservant les dimensions originals del quadre.",
+        "icon": "content_cut",
+        "href": "gif-trim",
+        "badge": "Novetat"
+      },
+      "commonTasks": [
+        [
+          "Redueix el pes dels fitxers",
+          "Comprimeix JPG, PNG, WebP, SVG o GIF per publicar-los al web, adjuntar-los per correu o estalviar espai.",
+          "compress"
+        ],
+        [
+          "Adapta la mida a la plataforma",
+          "Ajusta la mida per píxels, percentatge o costat més llarg, i crea imatges de perfil rodones i fotos de carnet habituals.",
+          "resize"
+        ],
+        [
+          "Converteix formats de mòbil i web",
+          "Unifica les imatges en JPG o PNG, i passa les fotos HEIC de l'iPhone a un JPG universal.",
+          "convert"
+        ],
+        [
+          "Crea imatges en moviment",
+          "Comprimeix GIF, retalla'n un interval de fotogrames, uneix diverses imatges en una animació o genera glitch aleatoris.",
+          "images-to-gif"
+        ]
+      ],
+      "content": {
+        "introTitle": "Obre la pàgina i edita imatges fàcilment",
+        "introBody": "BEST4IMG està pensat per a les feines d'imatge reals de cada dia: passar les fotos del mòbil a un format universal, retallar la imatge de perfil per a una xarxa social, unificar per lots la mida de les fotos de producte, comprimir els materials d'un lloc web o convertir diverses imatges en una animació. Cada eina fa una sola cosa, i els canvis de paràmetres es reflecteixen de seguida a la previsualització.",
+        "taskTitle": "No cal que dominis la terminologia",
+        "taskBody": "Vols un fitxer més petit? Tria la compressió. La plataforma exigeix uns píxels concrets? Canvia la mida. Només t'interessa una part del quadre? Retalla. Les fotos de l'iPhone no s'obren? Passa l'HEIC a JPG.",
+        "directoryTitle": "Com s'estructuren les eines del lloc",
+        "directoryBody": "Aquí tens totes les funcions disponibles ara mateix, incloses les pàgines ràpides que s'han separat de les eines principals."
+      },
+      "benefits": [
+        [
+          "shield_lock",
+          "Els fitxers es queden al teu dispositiu",
+          "Els processos admesos es fan dins del navegador: les fotos personals, els materials de feina i els dissenys sense publicar no s'han de pujar per tornar-los a baixar."
+        ],
+        [
+          "stacks",
+          "Múltiples fitxers de cop",
+          "Les eines més habituals —compressió, conversió, gir, marca d'aigua— admeten la importació per lots de fins a 50 fitxers."
+        ],
+        [
+          "visibility",
+          "Paràmetres i resultats a la vista",
+          "L'àrea de retall, la proporció del llenç, la posició de la marca d'aigua, el ritme de l'animació i els efectes creatius giren al voltant de la previsualització."
+        ]
+      ],
+      "categoriesAria": "Categories d'eines",
+      "noResults": "No s'ha trobat cap eina que hi coincideixi",
+      "directory": [
+        {
+          "title": "Compressió i optimització",
+          "links": [
+            [
+              "Comprimeix imatges",
+              "compress"
+            ],
+            [
+              "Compressió de SVG",
+              "compress/svg"
+            ],
+            [
+              "Compressió de GIF",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "Canvi de mida",
+          "links": [
+            [
+              "Canvia la mida de les imatges",
+              "resize"
+            ],
+            [
+              "Canvia la mida per percentatge",
+              "resize/by-percentage"
+            ],
+            [
+              "Canvia la mida pel costat més llarg",
+              "resize/by-longest-side"
+            ],
+            [
+              "Canvia la mida d'un GIF",
+              "resize/gif"
+            ]
+          ]
+        },
+        {
+          "title": "Retall i orientació",
+          "links": [
+            [
+              "Retalla imatges",
+              "crop"
+            ],
+            [
+              "Retalla un GIF",
+              "crop/gif"
+            ],
+            [
+              "Retall d'imatge de perfil rodona",
+              "avatar-crop"
+            ],
+            [
+              "Retall de foto de carnet",
+              "id-photo-crop"
+            ],
+            [
+              "Gira / inverteix",
+              "rotate"
+            ]
+          ]
+        },
+        {
+          "title": "Conversió de formats",
+          "links": [
+            [
+              "Conversió de formats",
+              "convert"
+            ],
+            [
+              "Imatges a JPG",
+              "convert/image-to-jpg"
+            ],
+            [
+              "Imatges a PNG",
+              "convert/image-to-png"
+            ],
+            [
+              "HEIC a JPG",
+              "convert-heic"
+            ],
+            [
+              "Imatges i Base64",
+              "base64"
+            ]
+          ]
+        },
+        {
+          "title": "GIF i animacions",
+          "links": [
+            [
+              "Uneix imatges en un GIF",
+              "images-to-gif"
+            ],
+            [
+              "Retall de fotogrames del GIF",
+              "gif-trim"
+            ],
+            [
+              "Generador de GIF glitch",
+              "glitch-gif"
+            ],
+            [
+              "Compressió de GIF",
+              "gif-compress"
+            ]
+          ]
+        },
+        {
+          "title": "Creativitat i utilitat",
+          "links": [
+            [
+              "Afegeix una marca d'aigua",
+              "watermark"
+            ],
+            [
+              "Combina imatges",
+              "merge-images"
+            ],
+            [
+              "Eina d'art pixelat",
+              "pixel-art"
+            ],
+            [
+              "Extracció de colors",
+              "color-palette"
+            ],
+            [
+              "Generador d'imatges glitch",
+              "glitch-image"
+            ],
+            [
+              "Generador de GIF glitch",
+              "glitch-gif"
+            ]
+          ]
+        }
+      ],
+      "splitRouteTitles": {
+        "resize/by-percentage": "Canvia la mida per percentatge",
+        "resize/by-longest-side": "Canvia la mida pel costat més llarg",
+        "resize/gif": "Canvia la mida d'un GIF",
+        "crop/gif": "Retalla un GIF",
+        "convert/image-to-jpg": "Imatges a JPG",
+        "convert/image-to-png": "Imatges a PNG",
+        "compress/svg": "Compressió de SVG"
+      }
+    }
+  },
+  "image-base64": {
+    "title": "Imatges i Base64",
+    "subtitle": "Converteix imatges a Base64 i a l'inrevés, tot localment al navegador.",
+    "encode": "Imatge a Base64",
+    "decode": "Base64 a imatge",
+    "dropTitle": "Arrossega o tria una imatge",
+    "dropHint": "S'admeten JPG, PNG, WebP, GIF i SVG, fins a 10 MB per imatge",
+    "settings": "Sortida",
+    "output": "Resultat en Base64",
+    "dataUrl": "Data URL",
+    "raw": "Base64 sense format",
+    "cssUrl": "CSS url()",
+    "copy": "Copia",
+    "copied": "Copiat",
+    "empty": "Puja una imatge i tria-la a la llista de sota per veure'n el resultat.",
+    "decodeInput": "Contingut Base64",
+    "decodePlaceholder": "Enganxa una Data URL, Base64 sense format o contingut CSS url()",
+    "preview": "Previsualització de la imatge",
+    "decodeHint": "El format de la imatge es detecta automàticament i tot el procés es fa en local.",
+    "invalid": "No s'han detectat dades d'imatge vàlides.",
+    "tooLarge": "La imatge recuperada supera els 20 MB.",
+    "download": "Descarrega la imatge",
+    "detected": "Detectat",
+    "errors": {
+      "oversize": "Supera el límit de 10 MB",
+      "unsupported": "Format d'imatge no admès",
+      "read": "No s'ha pogut llegir el fitxer"
+    }
+  },
+  "image-merge": {
+    "title": "Combina imatges",
+    "subtitle": "Puja una imatge de fons i una de superposició i compon una imatge nova localment al navegador.",
+    "preview": "Previsualització en directe",
+    "settings": "Configuració de la combinació",
+    "background": "Imatge de fons",
+    "overlay": "Imatge superposada",
+    "chooseBackground": "Puja la imatge de fons",
+    "chooseOverlay": "Puja la imatge superposada",
+    "output": "Sortida",
+    "width": "Amplada",
+    "height": "Alçada",
+    "download": "Descarrega",
+    "empty": "Puja primer la imatge de fons: la previsualització apareixerà aquí.",
+    "errors": {
+      "oversize": "El fitxer supera els 10 MB",
+      "unsupported": "Format d'imatge no admès",
+      "load": "No s'ha pogut llegir aquesta imatge",
+      "missing": "Primer puja la imatge de fons"
+    },
+    "ui": {
+      "previewScale": "Previsualització",
+      "zoomOut": "Redueix",
+      "reset": "Restableix",
+      "zoomIn": "Amplia",
+      "remove": "Treu"
+    }
+  },
+  "images-to-gif": {
+    "title": "Uneix imatges en un GIF",
+    "subtitle": "Uneix diverses imatges en un GIF animat, en l'ordre que vulguis; tot es fa localment al navegador.",
+    "dropTitle": "Arrossega o tria diverses imatges",
+    "dropHint": "S'admeten JPG, PNG, WebP i SVG, fins a 50 imatges",
+    "preview": "Previsualització del GIF",
+    "settings": "Configuració del GIF",
+    "width": "Amplada",
+    "height": "Alçada",
+    "delay": "Durada de cada fotograma",
+    "fit": "Ajust",
+    "cover": "Omple",
+    "contain": "Mostra-ho sencer",
+    "colors": "Nombre de colors",
+    "start": "Genera el GIF",
+    "download": "Descarrega el GIF",
+    "reset": "Tria les imatges",
+    "source": "Imatges",
+    "output": "Sortida",
+    "frames": "Fotogrames",
+    "pending": "La previsualització del GIF apareixerà aquí un cop generada.",
+    "errors": {
+      "oversize": "Alguns fitxers superen els 10 MB",
+      "unsupported": "Alguns formats de fitxer no s'admeten",
+      "load": "Algunes imatges no s'han pogut llegir",
+      "missing": "Puja com a mínim dues imatges",
+      "process": "No s'ha pogut generar el GIF"
+    },
+    "ui": {
+      "upload": "Pujada d'imatges",
+      "presets": "Mides predefinides",
+      "custom": "Personalitzat",
+      "loop": "Bucle",
+      "infinite": "Bucle infinit",
+      "times": "Repeticions",
+      "quality": "Qualitat",
+      "high": "Alta",
+      "standard": "Estàndard",
+      "compact": "Màxima compressió",
+      "background": "Fons",
+      "transparent": "Transparent",
+      "white": "Blanc",
+      "black": "Negre",
+      "colorSuffix": "colors",
+      "moveUp": "Mou cap amunt",
+      "moveDown": "Mou cap avall",
+      "delete": "Elimina"
+    }
+  },
+  "pixel-art": {
+    "title": "Eina d'art pixelat",
+    "subtitle": "Transforma una imatge en art pixelat ben definit; tot el procés es fa localment al navegador.",
+    "dropTitle": "Arrossega o tria una imatge",
+    "dropHint": "S'admeten JPG, PNG i WebP, fins a 20 MB",
+    "preview": "Previsualització en directe",
+    "settings": "Configuració de l'art pixelat",
+    "pixelSize": "Mida del píxel",
+    "pixelHint": "Com més gran sigui el valor, més visible serà la graella de píxels.",
+    "scale": "Mida d'exportació",
+    "colors": "Nombre de colors",
+    "palette": "Paleta",
+    "auto": "Colors automàtics",
+    "gameboy": "Game Boy",
+    "gray": "Escala de grisos",
+    "nes": "Estil NES",
+    "output": "Mida de sortida",
+    "download": "Descarrega el PNG",
+    "chooseAnother": "Tria una altra imatge",
+    "invalid": "Format d'imatge no admès",
+    "oversized": "La imatge supera els 20 MB"
+  },
+  "resize": {
+    "title": "Canvia la mida de les imatges",
+    "subtitle": "Canvia la mida de JPG, PNG, WebP i GIF per lots i conserva l'animació.",
+    "dropTitle": "Arrossega les imatges o fes clic per triar-les",
+    "dropHint": "S'admeten JPG, PNG, WebP i GIF, fins a 50 imatges de 10 MB com a màxim cadascuna",
+    "settings": "Configuració de la mida",
+    "percent": "Per percentatge",
+    "longest": "Pel costat més llarg",
+    "scale": "Percentatge d'escala",
+    "longestSide": "Costat més llarg",
+    "longestHelp": "A les imatges horitzontals limita l'amplada i a les verticals l'alçada, mantenint sempre la proporció original.",
+    "start": "Inicia el canvi de mida",
+    "downloadAll": "Descarrega-ho tot en .ZIP",
+    "waiting": "En espera",
+    "processing": "Processant",
+    "completed": "Fet",
+    "download": "Descarrega",
+    "empty": "Afegeix imatges i aquí veuràs la mida de destinació de cadascuna.",
+    "errors": {
+      "oversize": "El fitxer supera els 10 MB",
+      "unsupported": "Format no admès",
+      "read": "No s'han pogut llegir les dimensions de la imatge",
+      "process": "No s'ha pogut canviar la mida de la imatge"
+    },
+    "ui": {
+      "summaryPercent": "{{count}} imatges s'escalaran proporcionalment al {{percent}} %.",
+      "summaryLongest": "El costat més llarg de {{count}} imatges quedarà limitat a {{longest}} px.",
+      "gifTitle": "Canvia la mida d'un GIF animat",
+      "percentTitle": "Canvia la mida de les imatges per percentatge",
+      "longestTitle": "Canvia la mida de les imatges pel costat més llarg",
+      "gifSubtitle": "Modifica l'amplada i l'alçada del GIF conservant els fotogrames originals, la velocitat de reproducció i el bucle.",
+      "percentSubtitle": "Indica el percentatge d'escala per ajustar proporcionalment JPG, PNG, WebP i GIF per lots.",
+      "longestSubtitle": "Defineix el costat més llarg en píxels per escalar les imatges per lots sense perdre la proporció.",
+      "gifDropTitle": "Arrossega un GIF o fes clic per triar-ne un",
+      "gifDropHint": "Fins a 50 GIF, de 10 MB com a màxim cadascun"
+    }
+  },
+  "rotate": {
+    "title": "Gira / inverteix imatges",
+    "subtitle": "Gira o fes mirall de les imatges per lots; tot es processa localment al navegador.",
+    "dropTitle": "Arrossega les imatges o fes clic per triar-les",
+    "dropHint": "S'admeten JPG, PNG i WebP, fins a 50 imatges de 10 MB com a màxim cadascuna",
+    "settings": "Configuració del gir",
+    "rotate": "Gira",
+    "flip": "Inverteix",
+    "left": "Cap a l'esquerra",
+    "right": "Cap a la dreta",
+    "reset": "Restableix",
+    "horizontal": "Inversió horitzontal",
+    "vertical": "Inversió vertical",
+    "start": "Inicia el processament",
+    "downloadAll": "Descarrega-ho tot en .ZIP",
+    "waiting": "En espera",
+    "processing": "Processant",
+    "completed": "Fet",
+    "download": "Descarrega",
+    "empty": "Afegeix imatges i podràs girar-les o invertir-les per lots.",
+    "errors": {
+      "oversize": "El fitxer supera els 10 MB",
+      "unsupported": "Format no admès",
+      "read": "No s'han pogut llegir les dimensions de la imatge",
+      "process": "No s'ha pogut processar la imatge"
+    },
+    "ui": {
+      "preview": "Previsualització en directe",
+      "add": "Afegeix més imatges",
+      "empty": "Arrossega una imatge i aquí veuràs l'efecte del gir o de la inversió.",
+      "summary": "S'aplicarà el gir o la inversió actual a {{count}} imatges."
+    }
+  },
+  "watermark": {
+    "title": "Afegeix una marca d'aigua",
+    "subtitle": "Afegeix marques d'aigua de text o d'imatge; tot es processa localment al navegador.",
+    "dropTitle": "Arrossega les imatges o fes clic per triar-les",
+    "dropHint": "S'admeten JPG, PNG i WebP, fins a 50 imatges de 10 MB com a màxim cadascuna",
+    "settings": "Configuració de la marca d'aigua",
+    "text": "Text",
+    "image": "Imatge",
+    "watermarkText": "Text de la marca d'aigua",
+    "chooseMark": "Tria la imatge de la marca d'aigua",
+    "size": "Mida",
+    "opacity": "Opacitat",
+    "color": "Color",
+    "position": "Posició",
+    "start": "Afegeix la marca d'aigua",
+    "downloadAll": "Descarrega-ho tot en .ZIP",
+    "waiting": "En espera",
+    "processing": "Processant",
+    "completed": "Fet",
+    "download": "Descarrega",
+    "empty": "Afegeix imatges i aquí veuràs la previsualització de la marca d'aigua.",
+    "preview": "Previsualització en directe",
+    "addMore": "Afegeix més imatges",
+    "errors": {
+      "oversize": "El fitxer supera els 10 MB",
+      "unsupported": "Format no admès",
+      "read": "No s'han pogut llegir les dimensions de la imatge",
+      "process": "No s'ha pogut afegir la marca d'aigua",
+      "noWatermark": "Primer afegeix el text o la imatge de la marca d'aigua"
+    },
+    "ui": {
+      "summary": "S'afegirà la marca d'aigua actual a {{count}} imatges.",
+      "layout": "Disposició",
+      "position": "Posició",
+      "tile": "En mosaic",
+      "gap": "Espaiat",
+      "angle": "Angle d'inclinació"
+    }
+  },
+  "common": {
+    "intensity": {
+      "light": "Lleu",
+      "medium": "Mitjana",
+      "strong": "Forta"
+    },
+    "tryAnother": "Prova una idea nova",
+    "original": "Mida original",
+    "originalSize": "Mida original",
+    "preview": "Previsualització en directe",
+    "processing": "Processant…",
+    "invalidImages": "Tria imatges admeses, de 20 MB com a màxim cadascuna",
+    "loading": "Carregant…",
+    "resizeCropBox": "Ajusta el marc de retall"
+  },
+  "layout": {
+    "nav": {
+      "compress": "Compressió",
+      "resize": "Canvia la mida",
+      "crop": "Retalla",
+      "convert": "Converteix",
+      "gif": "Crea un GIF",
+      "all": "Totes les eines"
+    },
+    "tools": [
+      "Gira / inverteix",
+      "HEIC a JPG",
+      "Afegeix una marca d'aigua",
+      "Combina imatges",
+      "Compressió de GIF",
+      "Retall de fotogrames del GIF",
+      "Imatge de perfil rodona",
+      "Foto de carnet",
+      "Imatges i Base64",
+      "Art pixelat",
+      "Extracció de colors",
+      "Generador d'imatges glitch",
+      "Generador de GIF glitch",
+      "Compressió de SVG"
+    ]
+  },
+  "svg-compress": {
+    "title": "Eina de compressió de SVG",
+    "subtitle": "Elimina els comentaris, les metadades de l'editor i els espais sobrers del SVG, mantenint els gràfics i la transparència.",
+    "drop": "Arrossega un SVG o fes clic per triar un fitxer",
+    "hint": "Només s'admeten SVG, fins a 50 fitxers de 10 MB com a màxim cadascun"
+  },
+  "gif-trim-ui": {
+    "playbackOrder": "Playback order",
+    "forward": "Forward",
+    "reverse": "Reverse",
+    "pingPong": "Ping-pong"
+  }
+}
