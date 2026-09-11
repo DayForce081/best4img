@@ -339,35 +339,82 @@ export default function ImageCompressor({
           </div>
         )}
 
-        <div className="grid w-full items-start gap-5 lg:grid-cols-[minmax(0,1fr)_22rem]">
-          <DropZone
-            onFilesSelect={addFiles}
-            accept={accept}
-            maxFiles={MAX_FILES}
-            maxFileSize={MAX_FILE_SIZE}
-            isEasy={isEasy}
-            copy={{ dropTitle: copy?.dropTitle, dropHint: copy?.dropHint }}
-          />
-          <aside className="rounded-xl border border-slate-200 bg-white p-5">
-            <h3 className="text-base font-bold text-slate-900">
+        <div className="grid w-full gap-5 lg:grid-cols-[1fr_22rem] lg:items-start">
+          <div className="flex min-w-0 flex-col gap-5">
+            <DropZone
+              onFilesSelect={addFiles}
+              accept={accept}
+              maxFiles={MAX_FILES}
+              maxFileSize={MAX_FILE_SIZE}
+              isEasy={isEasy}
+              copy={{ dropTitle: copy?.dropTitle, dropHint: copy?.dropHint }}
+            />
+
+            {files.length > 0 && (
+              <section className="w-full">
+                <div className={isEasy ? 'space-y-3.5' : 'overflow-hidden rounded-xl border border-blue-100/30 bg-white/60 shadow-sm backdrop-blur-md'}>
+                  {isEasy ? (
+                    files.map((entry, i) => (
+                      <FileRow key={entry.id} entry={entry} index={i} onDownload={handleDownload} variant={variant} copy={copy} />
+                    ))
+                  ) : (
+                    <table className="w-full border-separate border-spacing-0 text-left">
+                      <tbody className="text-xs font-medium">
+                        {files.map((entry, i) => (
+                          <FileRow key={entry.id} entry={entry} index={i} onDownload={handleDownload} variant={variant} copy={copy} />
+                        ))}
+                      </tbody>
+                    </table>
+                  )}
+                </div>
+
+                <div className="mt-8 flex justify-start sm:justify-end">
+                  <button
+                    type="button"
+                    onClick={handleDownloadAll}
+                    disabled={!hasCompleted}
+                    className={`flex items-center gap-2 rounded-lg px-6 py-3 text-sm font-semibold shadow-md transition-all ${
+                      hasCompleted
+                        ? 'cursor-pointer bg-[#3525cd] text-white hover:bg-[#24189d]'
+                        : 'cursor-not-allowed bg-[#3525cd] text-white opacity-50'
+                    }`}
+                  >
+                    <span className="material-symbols-outlined">folder_zip</span>
+                    {copy?.downloadAll ?? 'Download All .ZIP'}
+                  </button>
+                </div>
+              </section>
+            )}
+          </div>
+
+          <aside className="flex flex-col rounded-xl border border-slate-200/70 bg-white/80 p-5 shadow-sm backdrop-blur-[2px]">
+            <h3 className="text-lg font-bold tracking-tight text-slate-900">
               {copy?.settings?.title ?? 'Compression settings'}
             </h3>
-            <label className="mt-5 flex cursor-pointer items-start gap-3 rounded-lg border border-slate-200 bg-slate-50 p-3">
-              <input
-                type="checkbox"
-                checked={useOptimal}
-                onChange={(event) => setUseOptimal(event.target.checked)}
-                className="mt-0.5 h-4 w-4 accent-[#3525cd]"
-              />
-              <span>
-                <span className="block text-sm font-bold text-slate-600">
-                  {copy?.settings?.optimal ?? 'Keep optimal settings'}
-                </span>
-                <span className="mt-1 block text-xs leading-5 text-slate-400">
-                  {copy?.settings?.optimalHint ?? 'Uses the recommended settings tuned for each image type.'}
-                </span>
-              </span>
-            </label>
+            <div className="mt-5 grid grid-cols-2 gap-2">
+              {[
+                [true, copy?.settings?.optimal ?? 'Default optimization'],
+                [false, copy?.settings?.custom ?? 'Custom'],
+              ].map(([optimal, label]) => (
+                <button
+                  key={String(optimal)}
+                  type="button"
+                  onClick={() => setUseOptimal(optimal === true)}
+                  className={`rounded-lg border px-3 py-3 text-sm font-bold transition-colors ${
+                    useOptimal === optimal
+                      ? 'border-[#3525cd] bg-indigo-50 text-[#3525cd]'
+                      : 'border-slate-200 bg-white text-slate-500 hover:text-slate-900'
+                  }`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+            {useOptimal && (
+              <p className="mt-4 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-xs font-medium leading-5 text-slate-500">
+                {copy?.settings?.optimalHint ?? 'Uses the recommended settings tuned for each image type.'}
+              </p>
+            )}
             {!useOptimal && (
               <div className="mt-5">
                 <div className="flex items-center justify-between gap-4">
@@ -392,55 +439,6 @@ export default function ImageCompressor({
           </aside>
         </div>
       </section>
-
-      {/* Results List */}
-      {files.length > 0 && (
-        <section className={`w-full ${isEasy ? 'pt-3 md:pt-5' : ''}`}>
-          <div className={isEasy ? 'space-y-3.5' : 'bg-white/60 backdrop-blur-md rounded-xl overflow-hidden border border-blue-100/30 shadow-sm'}>
-            {isEasy ? (
-              files.map((entry, i) => (
-                <FileRow
-                  key={entry.id}
-                  entry={entry}
-                  index={i}
-                  onDownload={handleDownload}
-                  variant={variant}
-                  copy={copy}
-                />
-              ))
-            ) : (
-              <table className="w-full text-left border-separate border-spacing-0">
-                <tbody className="font-medium text-xs">
-                  {files.map((entry, i) => (
-                    <FileRow
-                      key={entry.id}
-                      entry={entry}
-                      index={i}
-                      onDownload={handleDownload}
-                      variant={variant}
-                      copy={copy}
-                    />
-                  ))}
-                </tbody>
-              </table>
-            )}
-          </div>
-
-          {/* Action Buttons */}
-          <div className={`mt-8 flex ${isEasy ? 'justify-start sm:justify-end' : 'justify-end'}`}>
-            <button
-              onClick={handleDownloadAll}
-              disabled={!hasCompleted}
-              className={`px-6 py-3 text-sm font-semibold rounded-lg shadow-md transition-all flex items-center gap-2 cursor-pointer ${
-                isEasy ? 'bg-[#3525cd] text-white hover:bg-[#24189d]' : 'signature-gradient text-on-primary hover:opacity-90'
-              } ${hasCompleted ? '' : 'opacity-50 cursor-not-allowed'}`}
-            >
-              <span className="material-symbols-outlined">folder_zip</span>
-              {copy?.downloadAll ?? 'Download All .ZIP'}
-            </button>
-          </div>
-        </section>
-      )}
     </>
   );
 }

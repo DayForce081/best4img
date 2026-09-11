@@ -372,9 +372,9 @@
       },
       "settings": {
         "title": "压缩设置",
-        "optimal": "保持最佳状态",
+        "optimal": "默认优化",
         "optimalHint": "根据图片类型使用已经调优的推荐设置。",
-        "custom": "自定义质量",
+        "custom": "自定义",
         "quality": "压缩质量",
         "qualityHint": "质量越高，图片细节越清晰，文件也越大。"
       }

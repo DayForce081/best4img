@@ -323,7 +323,7 @@
       },
       "settings": {
         "title": "Compression settings",
-        "optimal": "Keep optimal settings",
+        "optimal": "Default optimization",
         "optimalHint": "Uses the recommended settings tuned for each image type.",
         "custom": "Custom quality",
         "quality": "Quality",

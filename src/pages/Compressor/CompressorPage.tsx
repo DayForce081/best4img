@@ -197,7 +197,7 @@ export default function CompressorPage() {
   return (
     <>
       <section className="relative min-h-[500px] border-b border-slate-200 bg-[#f9fafc] pt-7 pb-14">
-        <div className="relative mx-auto max-w-[72rem] px-6 flex flex-col items-center">
+        <div className="relative mx-auto max-w-[82rem] px-6 flex flex-col items-center">
           <div className="text-center mb-8">
             <h2 className="font-bold tracking-tighter text-slate-900 text-2xl md:text-3xl">
               {copy.compressor.heroTitle}
