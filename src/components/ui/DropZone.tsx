@@ -56,15 +56,19 @@ export default function DropZone({
   );
 
   return (
-    <div className={isEasy ? 'rounded-xl border border-slate-200/70 bg-white/72 p-10 shadow-sm backdrop-blur-[2px]' : 'bg-white/40 backdrop-blur-sm rounded-xl p-10 shadow-sm'}>
+    <div
+      className={`${isEasy ? 'rounded-xl border border-slate-200/70 bg-white/72 p-10 shadow-sm backdrop-blur-[2px]' : 'rounded-xl bg-white/40 p-10 shadow-sm backdrop-blur-sm'} group cursor-pointer transition-colors duration-300 hover:bg-indigo-50/60 ${isDragOver ? 'bg-indigo-50/80' : ''}`}
+      onDragOver={handleDragOver}
+      onDragLeave={handleDragLeave}
+      onDrop={handleDrop}
+      onClick={(event) => {
+        if (event.target !== inputRef.current) inputRef.current?.click();
+      }}
+    >
       <div
-        className={`border-2 border-dashed rounded-lg p-2 text-center transition-all duration-300 group relative overflow-hidden cursor-pointer ${
-          isEasy ? 'hover:bg-slate-50' : 'hover:bg-white'
-        } ${isDragOver ? 'drop-zone-active border-indigo-300' : isEasy ? 'border-slate-300' : 'border-blue-200/50'}`}
-        onDragOver={handleDragOver}
-        onDragLeave={handleDragLeave}
-        onDrop={handleDrop}
-        onClick={() => inputRef.current?.click()}
+        className={`relative overflow-hidden rounded-lg border-2 border-dashed p-2 text-center transition-all duration-300 group-hover:bg-indigo-50/40 ${
+          isDragOver ? 'drop-zone-active border-indigo-300' : isEasy ? 'border-slate-300' : 'border-blue-200/50'
+        }`}
       >
         <input
           ref={inputRef}
