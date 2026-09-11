@@ -272,15 +272,18 @@ async function robustPngCompress(
   originalBuffer: ArrayBuffer,
   isGraphic: boolean,
   hasTransparency: boolean,
-  quality: number
+  quality: number | null
 ): Promise<ArrayBuffer> {
   // 核心逻辑：尝试有损量化 -> 尝试无损压实 -> 任何失败则退回原图
   try {
     const instance = new Imagequant();
     const image = new ImagequantImage(new Uint8Array(imageData.data.buffer), imageData.width, imageData.height, 0.0);
     
-    const minimumQuality = Math.max(10, quality - (hasTransparency || isGraphic ? 30 : 40));
-    instance.set_quality(minimumQuality, quality);
+    if (quality == null) {
+      instance.set_quality(hasTransparency || isGraphic ? 50 : 35, hasTransparency || isGraphic ? 80 : 70);
+    } else {
+      instance.set_quality(Math.max(10, quality - (hasTransparency || isGraphic ? 30 : 40)), quality);
+    }
     instance.set_speed(3);
 
     const quantizedPng = instance.process(image);
@@ -376,40 +379,29 @@ async function encodeImageAuto(
   isGraphic: boolean,
   hasTransparency: boolean,
   originalBuffer: ArrayBuffer,
-  quality: number,
-  targetBytes: number
+  quality: number | null
 ): Promise<ArrayBuffer> {
-  const encodeAtQuality = async (currentQuality: number): Promise<ArrayBuffer> => {
-    switch (mimeType) {
-      case 'image/webp':
-        return webpEncode(imageData, { quality: currentQuality });
-      case 'image/jpeg':
-      case 'image/jpg':
-        return compressJpegGraphic(imageData, currentQuality);
-      case 'image/png':
-        return robustPngCompress(imageData, originalBuffer, isGraphic, hasTransparency, currentQuality);
-      default:
-        throw new Error(`Unsupported format: ${mimeType}`);
-    }
-  };
-
-  let encodedBuffer = await encodeAtQuality(quality);
-  if (targetBytes > 0 && encodedBuffer.byteLength > targetBytes) {
-    let low = 10;
-    let high = quality - 1;
-    let smallest = encodedBuffer;
-    for (let attempt = 0; attempt < 6 && low <= high; attempt++) {
-      const candidateQuality = Math.floor((low + high) / 2);
-      const candidate = await encodeAtQuality(candidateQuality);
-      if (candidate.byteLength < smallest.byteLength) smallest = candidate;
-      if (candidate.byteLength <= targetBytes) {
-        encodedBuffer = candidate;
-        low = candidateQuality + 1;
-      } else {
-        high = candidateQuality - 1;
-      }
-    }
-    if (encodedBuffer.byteLength > targetBytes) encodedBuffer = smallest;
+  let encodedBuffer: ArrayBuffer;
+  switch (mimeType) {
+    case 'image/webp':
+      encodedBuffer = await webpEncode(imageData, { quality: quality ?? (isGraphic ? 75 : 70) });
+      break;
+    case 'image/jpeg':
+    case 'image/jpg':
+      encodedBuffer = quality == null
+        ? await (isGraphic ? compressJpegGraphic(imageData, 92) : compressJpegPhoto(imageData))
+        : await jpegEncode(imageData, {
+            quality,
+            chroma_subsample: isGraphic ? 1 : 2,
+            auto_subsample: false,
+            smoothing: isGraphic ? 0 : 5,
+          });
+      break;
+    case 'image/png':
+      encodedBuffer = await robustPngCompress(imageData, originalBuffer, isGraphic, hasTransparency, quality);
+      break;
+    default:
+      throw new Error(`Unsupported format: ${mimeType}`);
   }
 
   // 终极防御 [Size Gatekeeper]：如果压缩后的体积 >= 原始体积，则直接返回原图
@@ -423,7 +415,7 @@ async function encodeImageAuto(
 
 // ─── Message Handler ──────────────────────────────────────────────────
 self.onmessage = async (e: MessageEvent<WorkerRequest>) => {
-  const { type, id, buffer, mimeType, quality, targetBytes } = e.data;
+  const { type, id, buffer, mimeType, quality } = e.data;
   if (type !== 'compress') return;
 
   try {
@@ -464,8 +456,7 @@ self.onmessage = async (e: MessageEvent<WorkerRequest>) => {
       imageType === 'graphic',
       hasTransparency,
       buffer,
-      quality,
-      targetBytes
+      quality
     );
 
     self.postMessage({

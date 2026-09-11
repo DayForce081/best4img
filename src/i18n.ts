@@ -105,11 +105,11 @@ export type PageCopy = {
     };
     settings?: {
       title: string;
+      optimal: string;
+      optimalHint: string;
+      custom: string;
       quality: string;
       qualityHint: string;
-      targetSize: string;
-      targetSizeHint: string;
-      unlimited: string;
     };
   };
   hero: {

@@ -323,11 +323,11 @@
       },
       "settings": {
         "title": "Compression settings",
+        "optimal": "Keep optimal settings",
+        "optimalHint": "Uses the recommended settings tuned for each image type.",
+        "custom": "Custom quality",
         "quality": "Quality",
-        "qualityHint": "Higher quality creates a larger file.",
-        "targetSize": "Maximum file size",
-        "targetSizeHint": "The compressor will aim to stay under this size.",
-        "unlimited": "No size limit"
+        "qualityHint": "Higher quality creates a larger file."
       }
     },
     "hero": {
@@ -348,7 +348,7 @@
     ],
     "autopilot": {
       "title": "Intelligent Optimization, Without Guesswork",
-      "body": "Use the 90% default for a balanced result, or set the quality and maximum file size when you need tighter control. BEST4IMG still keeps the image looking natural while aiming for a smaller file."
+      "body": "Keep the recommended settings for an automatically balanced result, or switch to a custom quality when you need tighter control."
     },
     "underHood": {
       "eyebrow": "Under the Hood",

@@ -26,8 +26,7 @@ export interface WorkerRequest {
   mimeType: string;
   fileName: string;
   targetFormat: 'original' | 'webp';
-  quality: number;
-  targetBytes: number;
+  quality: number | null;
 }
 
 /** Messages from worker to main thread */
