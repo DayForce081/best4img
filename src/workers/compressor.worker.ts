@@ -271,18 +271,16 @@ async function robustPngCompress(
   imageData: ImageData,
   originalBuffer: ArrayBuffer,
   isGraphic: boolean,
-  hasTransparency: boolean
+  hasTransparency: boolean,
+  quality: number
 ): Promise<ArrayBuffer> {
   // 核心逻辑：尝试有损量化 -> 尝试无损压实 -> 任何失败则退回原图
   try {
     const instance = new Imagequant();
     const image = new ImagequantImage(new Uint8Array(imageData.data.buffer), imageData.width, imageData.height, 0.0);
     
-    if (hasTransparency || isGraphic) {
-      instance.set_quality(50, 80);
-    } else {
-      instance.set_quality(35, 70);
-    }
+    const minimumQuality = Math.max(10, quality - (hasTransparency || isGraphic ? 30 : 40));
+    instance.set_quality(minimumQuality, quality);
     instance.set_speed(3);
 
     const quantizedPng = instance.process(image);
@@ -311,10 +309,10 @@ async function robustPngCompress(
 }
 
 // ─── Graphic JPEG (static params) ─────────────────────────────────────
-async function compressJpegGraphic(imgData: ImageData): Promise<ArrayBuffer> {
+async function compressJpegGraphic(imgData: ImageData, quality: number): Promise<ArrayBuffer> {
   // jsquash specific options mapping for mozjpeg
   return await jpegEncode(imgData, {
-    quality: 92,
+    quality,
     chroma_subsample: 1, // 4:4:4
     auto_subsample: false,
     smoothing: 0
@@ -377,35 +375,41 @@ async function encodeImageAuto(
   mimeType: string,
   isGraphic: boolean,
   hasTransparency: boolean,
-  originalBuffer: ArrayBuffer
+  originalBuffer: ArrayBuffer,
+  quality: number,
+  targetBytes: number
 ): Promise<ArrayBuffer> {
-  let encodedBuffer: ArrayBuffer;
+  const encodeAtQuality = async (currentQuality: number): Promise<ArrayBuffer> => {
+    switch (mimeType) {
+      case 'image/webp':
+        return webpEncode(imageData, { quality: currentQuality });
+      case 'image/jpeg':
+      case 'image/jpg':
+        return compressJpegGraphic(imageData, currentQuality);
+      case 'image/png':
+        return robustPngCompress(imageData, originalBuffer, isGraphic, hasTransparency, currentQuality);
+      default:
+        throw new Error(`Unsupported format: ${mimeType}`);
+    }
+  };
 
-  switch (mimeType) {
-    // --- 1. WebP Input -> WebP Output ---
-    case 'image/webp':
-      if (isGraphic) {
-        // 图形/UI：有损模式质量 75（足以应付透明边缘）
-        encodedBuffer = await webpEncode(imageData, { quality: 75 });
+  let encodedBuffer = await encodeAtQuality(quality);
+  if (targetBytes > 0 && encodedBuffer.byteLength > targetBytes) {
+    let low = 10;
+    let high = quality - 1;
+    let smallest = encodedBuffer;
+    for (let attempt = 0; attempt < 6 && low <= high; attempt++) {
+      const candidateQuality = Math.floor((low + high) / 2);
+      const candidate = await encodeAtQuality(candidateQuality);
+      if (candidate.byteLength < smallest.byteLength) smallest = candidate;
+      if (candidate.byteLength <= targetBytes) {
+        encodedBuffer = candidate;
+        low = candidateQuality + 1;
       } else {
-        // 照片：有损模式从 80 降至 70
-        encodedBuffer = await webpEncode(imageData, { quality: 70 });
+        high = candidateQuality - 1;
       }
-      break;
-
-    // --- 2. JPEG Input -> JPEG Output ---
-    case 'image/jpeg':
-    case 'image/jpg':
-      encodedBuffer = await (isGraphic ? compressJpegGraphic(imageData) : compressJpegPhoto(imageData));
-      break;
-
-    // --- 3. PNG Input -> PNG Output ---
-    case 'image/png':
-      encodedBuffer = await robustPngCompress(imageData, originalBuffer, isGraphic, hasTransparency);
-      break;
-
-    default:
-      throw new Error(`Unsupported format: ${mimeType}`);
+    }
+    if (encodedBuffer.byteLength > targetBytes) encodedBuffer = smallest;
   }
 
   // 终极防御 [Size Gatekeeper]：如果压缩后的体积 >= 原始体积，则直接返回原图
@@ -419,7 +423,7 @@ async function encodeImageAuto(
 
 // ─── Message Handler ──────────────────────────────────────────────────
 self.onmessage = async (e: MessageEvent<WorkerRequest>) => {
-  const { type, id, buffer, mimeType } = e.data;
+  const { type, id, buffer, mimeType, quality, targetBytes } = e.data;
   if (type !== 'compress') return;
 
   try {
@@ -459,7 +463,9 @@ self.onmessage = async (e: MessageEvent<WorkerRequest>) => {
       mimeType,
       imageType === 'graphic',
       hasTransparency,
-      buffer
+      buffer,
+      quality,
+      targetBytes
     );
 
     self.postMessage({

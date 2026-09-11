@@ -103,6 +103,14 @@ export type PageCopy = {
     actions: {
       download: string;
     };
+    settings?: {
+      title: string;
+      quality: string;
+      qualityHint: string;
+      targetSize: string;
+      targetSizeHint: string;
+      unlimited: string;
+    };
   };
   hero: {
     title: string;

@@ -52,6 +52,8 @@ export default function ImageCompressor({
   svgOnly = false,
 }: ImageCompressorProps) {
   const [files, setFiles] = useState<FileEntry[]>([]);
+  const [quality, setQuality] = useState(90);
+  const [targetSizeKb, setTargetSizeKb] = useState(0);
   const [isDragOver, setIsDragOver] = useState(false);
   const workerRef = useRef<Worker | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -201,6 +203,8 @@ export default function ImageCompressor({
             mimeType: getFileType(nextWaiting.file),
             fileName: nextWaiting.name,
             targetFormat: 'original',
+            quality,
+            targetBytes: targetSizeKb * 1024,
           },
           [buffer] // Transferable
         );
@@ -218,7 +222,7 @@ export default function ImageCompressor({
     };
 
     processNext();
-  }, [files, startPseudoProgress, stopPseudoProgress]);
+  }, [files, quality, targetSizeKb, startPseudoProgress, stopPseudoProgress]);
 
   // ─── Add Files ─────────────────────────────────────────────────────
   const addFiles = useCallback((incoming: File[]) => {
@@ -336,14 +340,58 @@ export default function ImageCompressor({
           </div>
         )}
 
-        <DropZone
-          onFilesSelect={addFiles}
-          accept={accept}
-          maxFiles={MAX_FILES}
-          maxFileSize={MAX_FILE_SIZE}
-          isEasy={isEasy}
-          copy={{ dropTitle: copy?.dropTitle, dropHint: copy?.dropHint }}
-        />
+        <div className="grid gap-5 lg:grid-cols-[17rem_minmax(0,1fr)]">
+          <aside className="rounded-xl border border-slate-200/70 bg-white/72 p-6 shadow-sm backdrop-blur-[2px]">
+            <h3 className="mb-6 text-base font-bold text-slate-900">
+              {copy?.settings?.title ?? 'Compression settings'}
+            </h3>
+            <label className="block text-sm font-semibold text-slate-700">
+              <span className="flex items-center justify-between">
+                <span>{copy?.settings?.quality ?? 'Quality'}</span>
+                <span className="text-[#3525cd]">{quality}%</span>
+              </span>
+              <input
+                type="range"
+                min="10"
+                max="100"
+                value={quality}
+                onChange={(event) => setQuality(Number(event.target.value))}
+                className="mt-3 w-full accent-[#3525cd]"
+              />
+              <span className="mt-2 block text-xs font-normal leading-5 text-slate-400">
+                {copy?.settings?.qualityHint ?? 'Higher quality creates a larger file.'}
+              </span>
+            </label>
+            <label className="mt-7 block text-sm font-semibold text-slate-700">
+              {copy?.settings?.targetSize ?? 'Maximum file size'}
+              <div className="mt-3 flex overflow-hidden rounded-lg border border-slate-200 bg-white focus-within:border-indigo-400">
+                <input
+                  type="number"
+                  min="0"
+                  step="10"
+                  value={targetSizeKb || ''}
+                  placeholder="0"
+                  onChange={(event) => setTargetSizeKb(Math.max(0, Number(event.target.value) || 0))}
+                  className="min-w-0 flex-1 px-3 py-2.5 font-normal outline-none"
+                />
+                <span className="border-l border-slate-200 bg-slate-50 px-3 py-2.5 text-slate-500">KB</span>
+              </div>
+              <span className="mt-2 block text-xs font-normal leading-5 text-slate-400">
+                {targetSizeKb === 0
+                  ? copy?.settings?.unlimited ?? 'No size limit'
+                  : copy?.settings?.targetSizeHint ?? 'The compressor will aim to stay under this size.'}
+              </span>
+            </label>
+          </aside>
+          <DropZone
+            onFilesSelect={addFiles}
+            accept={accept}
+            maxFiles={MAX_FILES}
+            maxFileSize={MAX_FILE_SIZE}
+            isEasy={isEasy}
+            copy={{ dropTitle: copy?.dropTitle, dropHint: copy?.dropHint }}
+          />
+        </div>
       </section>
 
       {/* Results List */}

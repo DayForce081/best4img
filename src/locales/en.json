@@ -320,6 +320,14 @@
       },
       "actions": {
         "download": "Download"
+      },
+      "settings": {
+        "title": "Compression settings",
+        "quality": "Quality",
+        "qualityHint": "Higher quality creates a larger file.",
+        "targetSize": "Maximum file size",
+        "targetSizeHint": "The compressor will aim to stay under this size.",
+        "unlimited": "No size limit"
       }
     },
     "hero": {
@@ -340,7 +348,7 @@
     ],
     "autopilot": {
       "title": "Intelligent Optimization, Without Guesswork",
-      "body": "No need to keep dragging quality sliders back and forth. BEST4IMG automatically evaluates suitable compression paths and aims for a smaller file while keeping the image looking natural."
+      "body": "Use the 90% default for a balanced result, or set the quality and maximum file size when you need tighter control. BEST4IMG still keeps the image looking natural while aiming for a smaller file."
     },
     "underHood": {
       "eyebrow": "Under the Hood",
